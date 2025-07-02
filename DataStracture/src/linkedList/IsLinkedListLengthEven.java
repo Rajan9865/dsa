@@ -14,9 +14,12 @@ public class IsLinkedListLengthEven {
         Node b = new Node(10);
         Node c = new Node(10);
         Node d = new Node(10);
+        Node e = new Node(10);
+
         a.next = b;
         b.next = c;
         c.next = d;
+        d.next = e;
         boolean result = isLengthEven(a);
         System.out.println(" even " + result);
     }
@@ -28,6 +31,7 @@ public class IsLinkedListLengthEven {
             count++;
             current = current.next;
         }
+        System.out.println(count);
         if (count % 2 == 0) {
             return true;
         } else {
