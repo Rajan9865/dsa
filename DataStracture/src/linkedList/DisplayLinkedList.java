@@ -14,10 +14,10 @@ public class DisplayLinkedList {
         Node3 a = new Node3(10);
         Node3 b = new Node3(10);
         Node3 c = new Node3(10);
-        Node3 d = new Node3(10);
+//        Node3 d = new Node3(10);
         a.next = b;
         b.next = c;
-        c.next = d;
+//        c.next = d;
         ArrayList<Integer> result = displayList(a);
         printList(result);
     }
