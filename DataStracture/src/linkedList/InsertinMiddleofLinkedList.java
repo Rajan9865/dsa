@@ -11,10 +11,10 @@ public class InsertinMiddleofLinkedList {
         Node6 a = new Node6(10);
         Node6 b = new Node6(20);
         Node6 c = new Node6(30);
-//        Node6 d = new Node6(40);
+        Node6 d = new Node6(40);
         a.next = b;
         b.next = c;
-//        c.next = d;
+        c.next = d;
         int x = 90;
         Node6 result = insertInMiddle(a, x);
         printlinkedList(result);
