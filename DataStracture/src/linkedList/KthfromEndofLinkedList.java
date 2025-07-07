@@ -33,7 +33,6 @@ public class KthfromEndofLinkedList {
             fast = fast.next;
             slow = slow.next;
         }
-
         return (slow != null) ? slow.data : -1;
     }
 }
