@@ -33,9 +33,9 @@ public class Reverselinkedlist {
     private static Node9 reverseList(Node9 head) {
         Node9 prev = null;
         Node9 current = head;
-        Node9 next;
+//        Node9 next;
         while (current != null) {
-            next = current.next;
+            Node9 next = current.next;
             current.next = prev;
             prev = current;
             current = next;
