@@ -26,6 +26,7 @@ public class DeleteinSinglyLinkedList {
     private static Node13 deleteNode(Node13 head, int number) {
         if (number == 1) {
             return head.next;
+            
         }
         Node13 temp = head;
         int count = 1;
