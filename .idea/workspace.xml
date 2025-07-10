@@ -4,10 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ff3856c1-c1ca-4aca-a6ef-fd33bd67f435" name="Changes" comment="reverse of the linkedlist">
-      <change afterPath="$PROJECT_DIR$/DataStracture/src/linkedList/RemoveDuplicatesfromSortedLinkedList.java" afterDir="false" />
+    <list default="true" id="ff3856c1-c1ca-4aca-a6ef-fd33bd67f435" name="Changes" comment="DeleteinSinglyLinkedList">
+      <change afterPath="$PROJECT_DIR$/DataStracture/src/linkedList/FindlengthofLoop.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/DataStracture/src/linkedList/Removeduplicatesfromunsortedlinkedlist.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataStracture/src/linkedList/DeleteinSinglyLinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/DataStracture/src/linkedList/DeleteinSinglyLinkedList.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,9 +50,12 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.DeleteinSinglyLinkedList.executor": "Run",
+    "Application.FindlengthofLoop.executor": "Run",
     "Application.Hello.executor": "Run",
     "Application.MiddleofLinkedList.executor": "Debug",
     "Application.RemoveDuplicatesfromSortedLinkedList.executor": "Run",
+    "Application.Removeduplicatesfromunsortedlinkedlist.executor": "Run",
     "Application.Reverselinkedlist.executor": "Run",
     "Application.string.Hello.executor": "Run",
     "ModuleVcsDetector.initialDetectionPerformed": "true",
@@ -66,9 +70,22 @@
     "settings.editor.selected.configurable": "actions.on.save"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.Removeduplicatesfromunsortedlinkedlist">
-    <configuration name="MiddleofLinkedList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="linkedList.MiddleofLinkedList" />
+  <component name="RunManager" selected="Application.DeleteinSinglyLinkedList">
+    <configuration name="DeleteinSinglyLinkedList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="linkedList.DeleteinSinglyLinkedList" />
+      <module name="Dsa" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="linkedList.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FindlengthofLoop" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="linkedList.FindlengthofLoop" />
       <module name="Dsa" />
       <extension name="coverage">
         <pattern>
@@ -119,26 +136,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="string.Hello" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="string.Hello" />
-      <module name="Dsa" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="string.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.DeleteinSinglyLinkedList" />
+        <item itemvalue="Application.FindlengthofLoop" />
         <item itemvalue="Application.Removeduplicatesfromunsortedlinkedlist" />
         <item itemvalue="Application.RemoveDuplicatesfromSortedLinkedList" />
         <item itemvalue="Application.Reverselinkedlist" />
-        <item itemvalue="Application.MiddleofLinkedList" />
-        <item itemvalue="Application.string.Hello" />
       </list>
     </recent_temporary>
   </component>
@@ -214,7 +218,23 @@
       <option name="project" value="LOCAL" />
       <updated>1751952063071</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="remove duploicate node from sorted order">
+      <option name="closed" value="true" />
+      <created>1751982036622</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1751982036622</updated>
+    </task>
+    <task id="LOCAL-00010" summary="DeleteinSinglyLinkedList">
+      <option name="closed" value="true" />
+      <created>1752127319909</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1752127319909</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -222,7 +242,9 @@
     <MESSAGE value="kth from end" />
     <MESSAGE value="middle of the linkedlist" />
     <MESSAGE value="reverse of the linkedlist" />
-    <option name="LAST_COMMIT_MESSAGE" value="reverse of the linkedlist" />
+    <MESSAGE value="remove duploicate node from sorted order" />
+    <MESSAGE value="DeleteinSinglyLinkedList" />
+    <option name="LAST_COMMIT_MESSAGE" value="DeleteinSinglyLinkedList" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
