@@ -9,7 +9,7 @@ package linkedList;
 public class DeleteinSinglyLinkedList {
     public static void main(String[] args) {
         Node13 head = createLinkedList();
-        int x = 31;
+        int x = 1;
         Node13 result = deleteNode(head, x);
         printLinkedlist(result);
     }
@@ -26,7 +26,7 @@ public class DeleteinSinglyLinkedList {
     private static Node13 deleteNode(Node13 head, int number) {
         if (number == 1) {
             return head.next;
-            
+
         }
         Node13 temp = head;
         int count = 1;
