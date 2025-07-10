@@ -5,7 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ff3856c1-c1ca-4aca-a6ef-fd33bd67f435" name="Changes" comment="FindlengthofLoop">
-      <change afterPath="$PROJECT_DIR$/DataStracture/src/linkedList/Removeduplicatesfromunsortedlinkedlist.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DataStracture/src/linkedList/Deletewithoutheadpointer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataStracture/src/linkedList/DeleteinSinglyLinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/DataStracture/src/linkedList/DeleteinSinglyLinkedList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Dsa/linkedList/DeleteinSinglyLinkedList.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Dsa/linkedList/DeleteinSinglyLinkedList.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Dsa/linkedList/Node13.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Dsa/linkedList/Node13.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,6 +52,7 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Application.DeleteinSinglyLinkedList.executor": "Run",
+    "Application.Deletewithoutheadpointer.executor": "Run",
     "Application.FindlengthofLoop.executor": "Run",
     "Application.Hello.executor": "Run",
     "Application.MiddleofLinkedList.executor": "Debug",
@@ -67,9 +72,22 @@
     "settings.editor.selected.configurable": "actions.on.save"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.DeleteinSinglyLinkedList">
+  <component name="RunManager" selected="Application.Deletewithoutheadpointer">
     <configuration name="DeleteinSinglyLinkedList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="linkedList.DeleteinSinglyLinkedList" />
+      <module name="Dsa" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="linkedList.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Deletewithoutheadpointer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="linkedList.Deletewithoutheadpointer" />
       <module name="Dsa" />
       <extension name="coverage">
         <pattern>
@@ -120,26 +138,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Reverselinkedlist" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="linkedList.Reverselinkedlist" />
-      <module name="Dsa" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="linkedList.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Deletewithoutheadpointer" />
         <item itemvalue="Application.DeleteinSinglyLinkedList" />
         <item itemvalue="Application.FindlengthofLoop" />
         <item itemvalue="Application.Removeduplicatesfromunsortedlinkedlist" />
         <item itemvalue="Application.RemoveDuplicatesfromSortedLinkedList" />
-        <item itemvalue="Application.Reverselinkedlist" />
       </list>
     </recent_temporary>
   </component>
