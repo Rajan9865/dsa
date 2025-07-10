@@ -4,12 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ff3856c1-c1ca-4aca-a6ef-fd33bd67f435" name="Changes" comment="FindlengthofLoop">
-      <change afterPath="$PROJECT_DIR$/DataStracture/src/linkedList/Deletewithoutheadpointer.java" afterDir="false" />
+    <list default="true" id="ff3856c1-c1ca-4aca-a6ef-fd33bd67f435" name="Changes" comment="Deletewithoutheadpointer">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DataStracture/src/linkedList/DeleteinSinglyLinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/DataStracture/src/linkedList/DeleteinSinglyLinkedList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Dsa/linkedList/DeleteinSinglyLinkedList.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Dsa/linkedList/DeleteinSinglyLinkedList.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Dsa/linkedList/Node13.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Dsa/linkedList/Node13.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -260,7 +256,47 @@
       <option name="project" value="LOCAL" />
       <updated>1752128398163</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="DeleteinSinglyLinkedList">
+      <option name="closed" value="true" />
+      <created>1752140937009</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1752140937009</updated>
+    </task>
+    <task id="LOCAL-00015" summary="DeleteinSinglyLinkedList">
+      <option name="closed" value="true" />
+      <created>1752140952922</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1752140952922</updated>
+    </task>
+    <task id="LOCAL-00016" summary="Deletewithoutheadpointer">
+      <option name="closed" value="true" />
+      <created>1752140968740</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1752140968740</updated>
+    </task>
+    <task id="LOCAL-00017" summary="Deletewithoutheadpointer">
+      <option name="closed" value="true" />
+      <created>1752140977720</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1752140977720</updated>
+    </task>
+    <task id="LOCAL-00018" summary="Deletewithoutheadpointer">
+      <option name="closed" value="true" />
+      <created>1752140987154</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1752140987154</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -269,9 +305,10 @@
     <MESSAGE value="middle of the linkedlist" />
     <MESSAGE value="reverse of the linkedlist" />
     <MESSAGE value="remove duploicate node from sorted order" />
-    <MESSAGE value="DeleteinSinglyLinkedList" />
     <MESSAGE value="FindlengthofLoop" />
-    <option name="LAST_COMMIT_MESSAGE" value="FindlengthofLoop" />
+    <MESSAGE value="DeleteinSinglyLinkedList" />
+    <MESSAGE value="Deletewithoutheadpointer" />
+    <option name="LAST_COMMIT_MESSAGE" value="Deletewithoutheadpointer" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
