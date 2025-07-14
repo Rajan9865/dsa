@@ -5,6 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ff3856c1-c1ca-4aca-a6ef-fd33bd67f435" name="Changes" comment="Deletewithoutheadpointer">
+      <change afterPath="$PROJECT_DIR$/DataStracture/src/linkedList/DeleteFromDoublyList.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -47,6 +48,7 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.DeleteFromDoublyList.executor": "Run",
     "Application.DeleteinSinglyLinkedList.executor": "Run",
     "Application.Deletewithoutheadpointer.executor": "Run",
     "Application.FindlengthofLoop.executor": "Run",
@@ -68,7 +70,20 @@
     "settings.editor.selected.configurable": "actions.on.save"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.Deletewithoutheadpointer">
+  <component name="RunManager" selected="Application.DeleteFromDoublyList">
+    <configuration name="DeleteFromDoublyList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="linkedList.DeleteFromDoublyList" />
+      <module name="Dsa" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="linkedList.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="DeleteinSinglyLinkedList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="linkedList.DeleteinSinglyLinkedList" />
       <module name="Dsa" />
@@ -108,19 +123,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RemoveDuplicatesfromSortedLinkedList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="linkedList.RemoveDuplicatesfromSortedLinkedList" />
-      <module name="Dsa" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="linkedList.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="Removeduplicatesfromunsortedlinkedlist" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="linkedList.Removeduplicatesfromunsortedlinkedlist" />
       <module name="Dsa" />
@@ -136,11 +138,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.DeleteFromDoublyList" />
         <item itemvalue="Application.Deletewithoutheadpointer" />
         <item itemvalue="Application.DeleteinSinglyLinkedList" />
         <item itemvalue="Application.FindlengthofLoop" />
         <item itemvalue="Application.Removeduplicatesfromunsortedlinkedlist" />
-        <item itemvalue="Application.RemoveDuplicatesfromSortedLinkedList" />
       </list>
     </recent_temporary>
   </component>
@@ -296,7 +298,15 @@
       <option name="project" value="LOCAL" />
       <updated>1752140987154</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="Deletewithoutheadpointer">
+      <option name="closed" value="true" />
+      <created>1752154479514</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1752154479514</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
