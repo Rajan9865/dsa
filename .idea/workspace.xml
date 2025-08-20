@@ -4,10 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ff3856c1-c1ca-4aca-a6ef-fd33bd67f435" name="Changes" comment="carryingExample">
-      <change afterPath="$PROJECT_DIR$/DataStracture/src/java8concept/MethodRefExample.java" afterDir="false" />
+    <list default="true" id="ff3856c1-c1ca-4aca-a6ef-fd33bd67f435" name="Changes" comment="MethodRefExample">
+      <change afterPath="$PROJECT_DIR$/DataStracture/src/java8/EvenNumber.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Dsa/java8concept/CurryingExample.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Dsa/java8concept/CurryingExample.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataStracture/src/java8concept/MethodRefExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/DataStracture/src/java8concept/MethodRefExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Dsa/java8concept/MethodRefExample.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Dsa/java8concept/MethodRefExample.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,6 +55,7 @@
     "Application.DeleteFromDoublyList.executor": "Run",
     "Application.DeleteinSinglyLinkedList.executor": "Run",
     "Application.Deletewithoutheadpointer.executor": "Run",
+    "Application.EvenNumber.executor": "Run",
     "Application.FindlengthofLoop.executor": "Run",
     "Application.Hello.executor": "Run",
     "Application.LambdaArgumentExample.executor": "Run",
@@ -81,13 +83,26 @@
     "settings.editor.selected.configurable": "preferences.pluginManager"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.MethodRefExample">
+  <component name="RunManager" selected="Application.EvenNumber">
     <configuration name="CurryingExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="java8concept.CurryingExample" />
       <module name="Dsa" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="java8concept.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EvenNumber" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="java8.EvenNumber" />
+      <module name="Dsa" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="java8.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -121,19 +136,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LambdaFinalExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="java8concept.LambdaFinalExample" />
-      <module name="Dsa" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="java8concept.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="MethodRefExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="java8concept.MethodRefExample" />
       <module name="Dsa" />
@@ -149,11 +151,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.EvenNumber" />
         <item itemvalue="Application.MethodRefExample" />
         <item itemvalue="Application.CurryingExample" />
         <item itemvalue="Application.LambdaComposition" />
         <item itemvalue="Application.LambdaArgumentExample" />
-        <item itemvalue="Application.LambdaFinalExample" />
       </list>
     </recent_temporary>
   </component>
@@ -381,7 +383,23 @@
       <option name="project" value="LOCAL" />
       <updated>1755673030566</updated>
     </task>
-    <option name="localTasksCounter" value="28" />
+    <task id="LOCAL-00028" summary="MethodRefExample">
+      <option name="closed" value="true" />
+      <created>1755673718423</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1755673718423</updated>
+    </task>
+    <task id="LOCAL-00029" summary="MethodRefExample">
+      <option name="closed" value="true" />
+      <created>1755673724932</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1755673724932</updated>
+    </task>
+    <option name="localTasksCounter" value="30" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -398,7 +416,8 @@
     <MESSAGE value="LambdaFinalExample" />
     <MESSAGE value="lamdbaArgument" />
     <MESSAGE value="carryingExample" />
-    <option name="LAST_COMMIT_MESSAGE" value="carryingExample" />
+    <MESSAGE value="MethodRefExample" />
+    <option name="LAST_COMMIT_MESSAGE" value="MethodRefExample" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
