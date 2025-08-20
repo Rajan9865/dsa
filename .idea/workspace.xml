@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ff3856c1-c1ca-4aca-a6ef-fd33bd67f435" name="Changes" comment="LambdaFinalExample">
-      <change afterPath="$PROJECT_DIR$/DataStracture/src/java8concept/LambdaArgumentExample.java" afterDir="false" />
+    <list default="true" id="ff3856c1-c1ca-4aca-a6ef-fd33bd67f435" name="Changes" comment="lamdbaArgument">
+      <change afterPath="$PROJECT_DIR$/DataStracture/src/java8concept/LambdaComposition.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DataStracture/src/java8concept/LambdaFinalExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/DataStracture/src/java8concept/LambdaFinalExample.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,6 +55,7 @@
     "Application.FindlengthofLoop.executor": "Run",
     "Application.Hello.executor": "Run",
     "Application.LambdaArgumentExample.executor": "Run",
+    "Application.LambdaComposition.executor": "Run",
     "Application.LambdaFinalExample.executor": "Run",
     "Application.MiddleofLinkedList.executor": "Debug",
     "Application.RemoveDuplicatesfromSortedLinkedList.executor": "Run",
@@ -78,7 +78,7 @@
     "settings.editor.selected.configurable": "preferences.pluginManager"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.LambdaArgumentExample">
+  <component name="RunManager" selected="Application.LambdaComposition">
     <configuration name="CheckIfCircularLinkedList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="linkedList.CheckIfCircularLinkedList" />
       <module name="Dsa" />
@@ -94,6 +94,19 @@
     </configuration>
     <configuration name="LambdaArgumentExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="java8concept.LambdaArgumentExample" />
+      <module name="Dsa" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="java8concept.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LambdaComposition" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="java8concept.LambdaComposition" />
       <module name="Dsa" />
       <extension name="coverage">
         <pattern>
@@ -131,26 +144,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ReverseDoublyLinkedList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="linkedList.ReverseDoublyLinkedList" />
-      <module name="Dsa" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="linkedList.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.LambdaComposition" />
         <item itemvalue="Application.LambdaArgumentExample" />
         <item itemvalue="Application.LambdaFinalExample" />
         <item itemvalue="Application.CheckIfCircularLinkedList" />
         <item itemvalue="Application.RemoveNodesWithGreaterRight" />
-        <item itemvalue="Application.ReverseDoublyLinkedList" />
       </list>
     </recent_temporary>
   </component>
@@ -354,7 +354,15 @@
       <option name="project" value="LOCAL" />
       <updated>1755671187603</updated>
     </task>
-    <option name="localTasksCounter" value="25" />
+    <task id="LOCAL-00025" summary="lamdbaArgument">
+      <option name="closed" value="true" />
+      <created>1755672077705</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1755672077705</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -369,7 +377,8 @@
     <MESSAGE value="ReverseDoublyLinkedList" />
     <MESSAGE value="CheckIfCircularLinkedList" />
     <MESSAGE value="LambdaFinalExample" />
-    <option name="LAST_COMMIT_MESSAGE" value="LambdaFinalExample" />
+    <MESSAGE value="lamdbaArgument" />
+    <option name="LAST_COMMIT_MESSAGE" value="lamdbaArgument" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
