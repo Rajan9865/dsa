@@ -4,9 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ff3856c1-c1ca-4aca-a6ef-fd33bd67f435" name="Changes" comment="CheckIfCircularLinkedList">
-      <change afterPath="$PROJECT_DIR$/DataStracture/src/java8concept/LambdaFinalExample.java" afterDir="false" />
+    <list default="true" id="ff3856c1-c1ca-4aca-a6ef-fd33bd67f435" name="Changes" comment="LambdaFinalExample">
+      <change afterPath="$PROJECT_DIR$/DataStracture/src/java8concept/LambdaArgumentExample.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataStracture/src/java8concept/LambdaFinalExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/DataStracture/src/java8concept/LambdaFinalExample.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,6 +55,7 @@
     "Application.Deletewithoutheadpointer.executor": "Run",
     "Application.FindlengthofLoop.executor": "Run",
     "Application.Hello.executor": "Run",
+    "Application.LambdaArgumentExample.executor": "Run",
     "Application.LambdaFinalExample.executor": "Run",
     "Application.MiddleofLinkedList.executor": "Debug",
     "Application.RemoveDuplicatesfromSortedLinkedList.executor": "Run",
@@ -64,6 +66,7 @@
     "Application.string.Hello.executor": "Run",
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
     "RunOnceActivity.git.unshallow": "true",
     "SONARLINT_PRECOMMIT_ANALYSIS": "true",
     "git-widget-placeholder": "master",
@@ -75,7 +78,7 @@
     "settings.editor.selected.configurable": "preferences.pluginManager"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.LambdaFinalExample">
+  <component name="RunManager" selected="Application.LambdaArgumentExample">
     <configuration name="CheckIfCircularLinkedList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="linkedList.CheckIfCircularLinkedList" />
       <module name="Dsa" />
@@ -89,12 +92,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DeleteFromDoublyList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="linkedList.DeleteFromDoublyList" />
+    <configuration name="LambdaArgumentExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="java8concept.LambdaArgumentExample" />
       <module name="Dsa" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="linkedList.*" />
+          <option name="PATTERN" value="java8concept.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -143,11 +146,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.LambdaArgumentExample" />
         <item itemvalue="Application.LambdaFinalExample" />
         <item itemvalue="Application.CheckIfCircularLinkedList" />
         <item itemvalue="Application.RemoveNodesWithGreaterRight" />
         <item itemvalue="Application.ReverseDoublyLinkedList" />
-        <item itemvalue="Application.DeleteFromDoublyList" />
       </list>
     </recent_temporary>
   </component>
@@ -343,7 +346,15 @@
       <option name="project" value="LOCAL" />
       <updated>1752759147188</updated>
     </task>
-    <option name="localTasksCounter" value="24" />
+    <task id="LOCAL-00024" summary="LambdaFinalExample">
+      <option name="closed" value="true" />
+      <created>1755671187603</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1755671187603</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -357,7 +368,8 @@
     <MESSAGE value="Deletewithoutheadpointer" />
     <MESSAGE value="ReverseDoublyLinkedList" />
     <MESSAGE value="CheckIfCircularLinkedList" />
-    <option name="LAST_COMMIT_MESSAGE" value="CheckIfCircularLinkedList" />
+    <MESSAGE value="LambdaFinalExample" />
+    <option name="LAST_COMMIT_MESSAGE" value="LambdaFinalExample" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

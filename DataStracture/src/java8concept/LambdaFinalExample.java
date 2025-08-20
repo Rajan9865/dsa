@@ -14,4 +14,5 @@ public class LambdaFinalExample {
         runnable.run();
 //        System.out.println(gretting);
     }
+    
 }
