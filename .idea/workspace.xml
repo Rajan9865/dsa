@@ -5,9 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ff3856c1-c1ca-4aca-a6ef-fd33bd67f435" name="Changes" comment="EvenNumber">
-      <change afterPath="$PROJECT_DIR$/DataStracture/src/java8/GroupLength.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DataStracture/src/java8/MaximumValue.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DataStracture/src/java8/GroupLength1.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataStracture/src/java8/GroupLength.java" beforeDir="false" afterPath="$PROJECT_DIR$/DataStracture/src/java8/GroupLength.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,6 +57,7 @@
     "Application.EvenNumber.executor": "Run",
     "Application.FindlengthofLoop.executor": "Run",
     "Application.GroupLength.executor": "Run",
+    "Application.GroupLength1.executor": "Run",
     "Application.Hello.executor": "Run",
     "Application.LambdaArgumentExample.executor": "Run",
     "Application.LambdaComposition.executor": "Run",
@@ -84,20 +85,7 @@
     "settings.editor.selected.configurable": "preferences.pluginManager"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.GroupLength">
-    <configuration name="CurryingExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="java8concept.CurryingExample" />
-      <module name="Dsa" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="java8concept.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.GroupLength1">
     <configuration name="EvenNumber" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="java8.EvenNumber" />
       <module name="Dsa" />
@@ -113,6 +101,19 @@
     </configuration>
     <configuration name="GroupLength" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="java8.GroupLength" />
+      <module name="Dsa" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="java8.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GroupLength1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="java8.GroupLength1" />
       <module name="Dsa" />
       <extension name="coverage">
         <pattern>
@@ -152,11 +153,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.GroupLength1" />
         <item itemvalue="Application.GroupLength" />
         <item itemvalue="Application.MaximumValue" />
         <item itemvalue="Application.EvenNumber" />
         <item itemvalue="Application.MethodRefExample" />
-        <item itemvalue="Application.CurryingExample" />
       </list>
     </recent_temporary>
   </component>
@@ -424,7 +425,15 @@
       <option name="project" value="LOCAL" />
       <updated>1755681550044</updated>
     </task>
-    <option name="localTasksCounter" value="33" />
+    <task id="LOCAL-00033" summary="EvenNumber">
+      <option name="closed" value="true" />
+      <created>1755685541901</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1755685541901</updated>
+    </task>
+    <option name="localTasksCounter" value="34" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">

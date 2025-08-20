@@ -3,7 +3,6 @@ package java8;
 import java.util.Arrays;
 import java.util.List;
 import java.util.Map;
-import java.util.stream.Collector;
 import java.util.stream.Collectors;
 
 /**
@@ -12,16 +11,16 @@ import java.util.stream.Collectors;
  * Dsa
  * @since 8/20/2025
  */
-public class GroupLength {
+public class GroupLength1 {
     public static void main(String[] args) {
-        List<String> names = Arrays.asList("apple", "banana", "cherry", "date", "fig", "grape");
+        List<String> names = Arrays.asList("rajan", "kumar", "raja", "kumari", "raj", "apple", "banana", "rajanana", "jitesh");
         Map<Integer, List<String>> result = groupByLength(names);
         print(result);
     }
 
     private static void print(Map<Integer, List<String>> result) {
         result.forEach((length, names) -> {
-            System.out.println("Length: " + length + " -> " + names);
+            System.out.println("Length: " + length + " -> Names: " + names);
         });
     }
 
