@@ -15,6 +15,19 @@ public class EvenNumber {
         List<Integer> number = Arrays.asList(1, 2, 3, 4, 5, 6, 7, 8, 9, 10);
         List<Integer> result = evennumber(number);
         print(result);
+        System.out.println("Using method reference:");
+        List<Integer> result1 = number.stream().filter(EvenNumber::isEven).collect(Collectors.toList());
+        print(result1);
+        System.out.println("Using method reference with lambda:");
+        List<Integer> result2 = number.stream().filter(integer -> isEven(integer)).collect(Collectors.toList());
+        print(result2);
+        System.out.println("Using method reference with lambda and method:");
+        List<Integer> result3 = number.stream().filter(EvenNumber::isEven).collect(Collectors.toList());
+        print(result3);
+    }
+
+    private static boolean isEven(Integer integer) {
+        return integer % 2 == 0;
     }
 
     private static void print(List<Integer> result) {
@@ -24,8 +37,6 @@ public class EvenNumber {
     }
 
     private static List<Integer> evennumber(List<Integer> number) {
-//        number.stream().filter(s -> s % 2 == 0).forEach(s -> System.out.print(s + " "));
-//        return number.stream().filter(s -> s % 2 == 0).collect(Collectors.toList());
         return number.stream().filter(num -> num % 2 == 0).collect(Collectors.toList());
     }
 }
