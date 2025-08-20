@@ -24,6 +24,13 @@ public class EvenNumber {
         System.out.println("Using method reference with lambda and method:");
         List<Integer> result3 = number.stream().filter(EvenNumber::isEven).collect(Collectors.toList());
         print(result3);
+
+        int max = maximum(number);
+        System.out.println(max);
+    }
+
+    private static int maximum(List<Integer> number) {
+        return number.stream().max(Integer::compare).orElseThrow(() -> new IllegalArgumentException("List is empty"));
     }
 
     private static boolean isEven(Integer integer) {
