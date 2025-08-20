@@ -5,13 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ff3856c1-c1ca-4aca-a6ef-fd33bd67f435" name="Changes" comment="CheckIfCircularLinkedList">
-      <change afterPath="$PROJECT_DIR$/DataStracture/src/linkedList/RemoveNodesWithGreaterRight.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Dsa/linkedList/CheckIfCircularLinkedList.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Dsa/linkedList/Node16.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Dsa/linkedList/Node17.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Dsa/linkedList/Node18.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Dsa/linkedList/RemoveNodesWithGreaterRight.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Dsa/linkedList/ReverseDoublyLinkedList.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DataStracture/src/java8concept/LambdaFinalExample.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -52,34 +46,36 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Application.CheckIfCircularLinkedList.executor&quot;: &quot;Run&quot;,
-    &quot;Application.DeleteFromDoublyList.executor&quot;: &quot;Run&quot;,
-    &quot;Application.DeleteinSinglyLinkedList.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Deletewithoutheadpointer.executor&quot;: &quot;Run&quot;,
-    &quot;Application.FindlengthofLoop.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Hello.executor&quot;: &quot;Run&quot;,
-    &quot;Application.MiddleofLinkedList.executor&quot;: &quot;Debug&quot;,
-    &quot;Application.RemoveDuplicatesfromSortedLinkedList.executor&quot;: &quot;Run&quot;,
-    &quot;Application.RemoveNodesWithGreaterRight.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Removeduplicatesfromunsortedlinkedlist.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ReverseDoublyLinkedList.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Reverselinkedlist.executor&quot;: &quot;Run&quot;,
-    &quot;Application.string.Hello.executor&quot;: &quot;Run&quot;,
-    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;SONARLINT_PRECOMMIT_ANALYSIS&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/Dsa&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;actions.on.save&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.CheckIfCircularLinkedList.executor": "Run",
+    "Application.DeleteFromDoublyList.executor": "Run",
+    "Application.DeleteinSinglyLinkedList.executor": "Run",
+    "Application.Deletewithoutheadpointer.executor": "Run",
+    "Application.FindlengthofLoop.executor": "Run",
+    "Application.Hello.executor": "Run",
+    "Application.LambdaFinalExample.executor": "Run",
+    "Application.MiddleofLinkedList.executor": "Debug",
+    "Application.RemoveDuplicatesfromSortedLinkedList.executor": "Run",
+    "Application.RemoveNodesWithGreaterRight.executor": "Run",
+    "Application.Removeduplicatesfromunsortedlinkedlist.executor": "Run",
+    "Application.ReverseDoublyLinkedList.executor": "Run",
+    "Application.Reverselinkedlist.executor": "Run",
+    "Application.string.Hello.executor": "Run",
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "SONARLINT_PRECOMMIT_ANALYSIS": "true",
+    "git-widget-placeholder": "master",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "D:/Dsa",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "preferences.pluginManager"
   }
-}</component>
-  <component name="RunManager" selected="Application.RemoveNodesWithGreaterRight">
+}]]></component>
+  <component name="RunManager" selected="Application.LambdaFinalExample">
     <configuration name="CheckIfCircularLinkedList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="linkedList.CheckIfCircularLinkedList" />
       <module name="Dsa" />
@@ -106,12 +102,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Deletewithoutheadpointer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="linkedList.Deletewithoutheadpointer" />
+    <configuration name="LambdaFinalExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="java8concept.LambdaFinalExample" />
       <module name="Dsa" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="linkedList.*" />
+          <option name="PATTERN" value="java8concept.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -147,11 +143,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.RemoveNodesWithGreaterRight" />
+        <item itemvalue="Application.LambdaFinalExample" />
         <item itemvalue="Application.CheckIfCircularLinkedList" />
+        <item itemvalue="Application.RemoveNodesWithGreaterRight" />
         <item itemvalue="Application.ReverseDoublyLinkedList" />
         <item itemvalue="Application.DeleteFromDoublyList" />
-        <item itemvalue="Application.Deletewithoutheadpointer" />
       </list>
     </recent_temporary>
   </component>
@@ -339,7 +335,15 @@
       <option name="project" value="LOCAL" />
       <updated>1752758544910</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="CheckIfCircularLinkedList">
+      <option name="closed" value="true" />
+      <created>1752759147188</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1752759147188</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
