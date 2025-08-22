@@ -15,10 +15,10 @@ public class MethodsReference4 {
         Student result1 = studentFunction.apply("Rajan");
         System.out.println(result1.name);// this is lambda expression
 
-//        BiFunction<String, Integer, Student> studentFunction1 = Student::new;
-//        Student resut = studentFunction1.apply("Rajan", 23);
-//        System.out.println(resut.name + " " + resut.age);
-//        // this is method reference
+        BiFunction<String, Integer, Student> studentFunction1 = Student::new;
+        Student resut = studentFunction1.apply("Rajan", 23);
+        System.out.println(resut.name + " " + resut.age);
+        // this is method reference
     }
 }
 
