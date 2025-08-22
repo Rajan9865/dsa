@@ -17,8 +17,8 @@ public class MethodsReference2 {
         MethodsReference2 methodsReference2 = new MethodsReference2();
         Consumer<String> consumer = (s) -> methodsReference2.printMessage(s);
         consumer.accept("Hello, World!  dear");
-//        Consumer<String> consumer1 = methodsReference2::printMessage;
-//        consumer1.accept("Hello, World!");
+        Consumer<String> consumer1 = methodsReference2::printMessage;
+        consumer1.accept("Hello, World!");
 
     }
 }
