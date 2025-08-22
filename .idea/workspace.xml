@@ -5,8 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ff3856c1-c1ca-4aca-a6ef-fd33bd67f435" name="Changes" comment="SumOfNumber">
+      <change afterPath="$PROJECT_DIR$/DataStracture/src/java8concept/Default1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DataStracture/src/java8concept/Default2.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DataStracture/src/java8concept/MethodsReference4.java" beforeDir="false" afterPath="$PROJECT_DIR$/DataStracture/src/java8concept/MethodsReference4.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,6 +51,7 @@
   "keyToString": {
     "Application.CheckIfCircularLinkedList.executor": "Run",
     "Application.CurryingExample.executor": "Run",
+    "Application.Default1.executor": "Run",
     "Application.DeleteFromDoublyList.executor": "Run",
     "Application.DeleteinSinglyLinkedList.executor": "Run",
     "Application.Deletewithoutheadpointer.executor": "Run",
@@ -89,7 +91,20 @@
     "settings.editor.selected.configurable": "preferences.pluginManager"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.MethodsReference4">
+  <component name="RunManager" selected="Application.Default1">
+    <configuration name="Default1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="java8concept.Default1" />
+      <module name="Dsa" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="java8concept.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="MethodsReference1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="java8concept.MethodsReference1" />
       <module name="Dsa" />
@@ -142,26 +157,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SumOfNumber" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="java8.SumOfNumber" />
-      <module name="Dsa" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="java8.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Default1" />
         <item itemvalue="Application.MethodsReference4" />
         <item itemvalue="Application.MethodsReference3" />
         <item itemvalue="Application.MethodsReference2" />
         <item itemvalue="Application.MethodsReference1" />
-        <item itemvalue="Application.SumOfNumber" />
       </list>
     </recent_temporary>
   </component>
