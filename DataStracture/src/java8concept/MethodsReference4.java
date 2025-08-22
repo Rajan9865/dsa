@@ -19,6 +19,9 @@ public class MethodsReference4 {
         Student resut = studentFunction1.apply("Rajan", 23);
         System.out.println(resut.name + " " + resut.age);
         // this is method reference
+        Function<String, Student> studentFunction2 = Student::new;
+        System.out.println(studentFunction2.apply("Kumar").name);
+
     }
 }
 
@@ -31,4 +34,7 @@ class Student {
         this.age = age;
     }
 
+    Student(String name) {
+        this.name = name;
+    }
 }
