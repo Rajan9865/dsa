@@ -17,8 +17,8 @@ public class SumOfNumber {
     }
 
     private static int sumOfNumber(List<Integer> number) {
-//        return number.stream().reduce(0, (a, b) -> a + b);
-        return number.stream().reduce(0, Integer::sum);
+        return number.stream().reduce(0, (a, b) -> a + b);
+//        return number.stream().reduce(0, Integer::sum);
         // Alternatively, you can use the sum() method directly:
         // return number.stream().mapToInt(Integer::intValue).sum();
     }

@@ -4,9 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ff3856c1-c1ca-4aca-a6ef-fd33bd67f435" name="Changes" comment="GroupLength1">
-      <change afterPath="$PROJECT_DIR$/DataStracture/src/java8/SumOfNumber.java" afterDir="false" />
+    <list default="true" id="ff3856c1-c1ca-4aca-a6ef-fd33bd67f435" name="Changes" comment="SumOfNumber">
+      <change afterPath="$PROJECT_DIR$/DataStracture/src/java8concept/MethodsReference1.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataStracture/src/java8/SumOfNumber.java" beforeDir="false" afterPath="$PROJECT_DIR$/DataStracture/src/java8/SumOfNumber.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,6 +64,7 @@
     "Application.LambdaFinalExample.executor": "Run",
     "Application.MaximumValue.executor": "Run",
     "Application.MethodRefExample.executor": "Run",
+    "Application.MethodsReference1.executor": "Run",
     "Application.MiddleofLinkedList.executor": "Debug",
     "Application.RemoveDuplicatesfromSortedLinkedList.executor": "Run",
     "Application.RemoveNodesWithGreaterRight.executor": "Run",
@@ -85,20 +87,7 @@
     "settings.editor.selected.configurable": "preferences.pluginManager"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.SumOfNumber">
-    <configuration name="EvenNumber" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="java8.EvenNumber" />
-      <module name="Dsa" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="java8.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.MethodsReference1">
     <configuration name="GroupLength" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="java8.GroupLength" />
       <module name="Dsa" />
@@ -138,6 +127,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="MethodsReference1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="java8concept.MethodsReference1" />
+      <module name="Dsa" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="java8concept.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="SumOfNumber" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="java8.SumOfNumber" />
       <module name="Dsa" />
@@ -153,11 +155,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MethodsReference1" />
         <item itemvalue="Application.SumOfNumber" />
         <item itemvalue="Application.GroupLength1" />
         <item itemvalue="Application.GroupLength" />
         <item itemvalue="Application.MaximumValue" />
-        <item itemvalue="Application.EvenNumber" />
       </list>
     </recent_temporary>
   </component>
@@ -441,7 +443,15 @@
       <option name="project" value="LOCAL" />
       <updated>1755689472101</updated>
     </task>
-    <option name="localTasksCounter" value="35" />
+    <task id="LOCAL-00035" summary="SumOfNumber">
+      <option name="closed" value="true" />
+      <created>1755692056345</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1755692056345</updated>
+    </task>
+    <option name="localTasksCounter" value="36" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -461,7 +471,8 @@
     <MESSAGE value="MethodRefExample" />
     <MESSAGE value="EvenNumber" />
     <MESSAGE value="GroupLength1" />
-    <option name="LAST_COMMIT_MESSAGE" value="GroupLength1" />
+    <MESSAGE value="SumOfNumber" />
+    <option name="LAST_COMMIT_MESSAGE" value="SumOfNumber" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
