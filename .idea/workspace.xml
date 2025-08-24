@@ -5,8 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ff3856c1-c1ca-4aca-a6ef-fd33bd67f435" name="Changes" comment="SumOfNumber">
-      <change afterPath="$PROJECT_DIR$/DataStracture/src/string/FrequencyCountAndOrderMaintain.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataStracture/src/string/FrequencyCountAndMaintainTheAscendingOrder1.java" beforeDir="false" afterPath="$PROJECT_DIR$/DataStracture/src/string/FrequencyCountAndMaintainTheAscendingOrder1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Dsa/string/FrequencyCountAndOrderMaintain.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,6 +59,7 @@
     "Application.Deletewithoutheadpointer.executor": "Run",
     "Application.EvenNumber.executor": "Run",
     "Application.FindlengthofLoop.executor": "Run",
+    "Application.FrequencyCountAndMaintainTheAscendingOrder1.executor": "Run",
     "Application.FrequencyCountAndOrderMaintain.executor": "Run",
     "Application.GroupLength.executor": "Run",
     "Application.GroupLength1.executor": "Run",
@@ -93,7 +95,7 @@
     "settings.editor.selected.configurable": "preferences.pluginManager"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.FrequencyCountAndOrderMaintain">
+  <component name="RunManager" selected="Application.FrequencyCountAndMaintainTheAscendingOrder1">
     <configuration name="Default1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="java8concept.Default1" />
       <module name="Dsa" />
@@ -133,8 +135,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FrequencyCountAndOrderMaintain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="string.FrequencyCountAndOrderMaintain" />
+    <configuration name="FrequencyCountAndMaintainTheAscendingOrder" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="string.FrequencyCountAndMaintainTheAscendingOrder" />
       <module name="Dsa" />
       <extension name="coverage">
         <pattern>
@@ -146,12 +148,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MethodsReference4" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="java8concept.MethodsReference4" />
+    <configuration name="FrequencyCountAndMaintainTheAscendingOrder1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="string.FrequencyCountAndMaintainTheAscendingOrder1" />
       <module name="Dsa" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="java8concept.*" />
+          <option name="PATTERN" value="string.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -161,11 +163,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.FrequencyCountAndOrderMaintain" />
+        <item itemvalue="Application.FrequencyCountAndMaintainTheAscendingOrder1" />
+        <item itemvalue="Application.FrequencyCountAndMaintainTheAscendingOrder" />
         <item itemvalue="Application.Default3" />
         <item itemvalue="Application.Default2" />
         <item itemvalue="Application.Default1" />
-        <item itemvalue="Application.MethodsReference4" />
       </list>
     </recent_temporary>
   </component>
