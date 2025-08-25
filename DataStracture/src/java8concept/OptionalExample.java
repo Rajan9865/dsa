@@ -16,8 +16,12 @@ public class OptionalExample {
 //non empty optional
         Optional<String> name1 = Optional.ofNullable(null);
         System.out.println(name1);
-        Optional<String> name2 = Optional.of(null);
-        System.out.println(name2);
+        Optional<String> name2 = Optional.of("Rajan");
+        if (name2.isPresent()) {
+            System.out.println(name2.get());
+        }
+        name2.ifPresent(s -> System.out.println("vaklues is present: " + s));
 
+        
     }
 }
