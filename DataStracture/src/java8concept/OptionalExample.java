@@ -21,7 +21,9 @@ public class OptionalExample {
             System.out.println(name2.get());
         }
         name2.ifPresent(s -> System.out.println("vaklues is present: " + s));
+        String defaultValue = Optional.ofNullable(null).orElse("Default Value").toString();
+        System.out.println(defaultValue);
 
-        
+
     }
 }
