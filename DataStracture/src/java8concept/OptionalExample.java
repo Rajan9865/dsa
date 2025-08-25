@@ -29,8 +29,12 @@ public class OptionalExample {
 
         Optional<String> rajan = Optional.of("rajan");
         Integer i = rajan.map(String::length).orElse(0);
+        Optional<String> s1 = rajan.map(String::toUpperCase);
         System.out.println(i);
 
+        Optional<String> helloDear = Optional.of("hello dear");
+        helloDear.map(String::toUpperCase).ifPresent(s -> System.out.println("Upper case: " + s));
         
+
     }
 }
