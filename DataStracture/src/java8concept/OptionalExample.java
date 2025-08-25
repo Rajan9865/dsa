@@ -24,6 +24,13 @@ public class OptionalExample {
         String defaultValue = Optional.ofNullable(null).orElse("Default Value").toString();
         System.out.println(defaultValue);
 
+//        Object valueNotPresent = Optional.ofNullable(null).orElseThrow(() -> new RuntimeException("Value not present"));
+//        System.out.println(valueNotPresent);
 
+        Optional<String> rajan = Optional.of("rajan");
+        Integer i = rajan.map(String::length).orElse(0);
+        System.out.println(i);
+
+        
     }
 }
