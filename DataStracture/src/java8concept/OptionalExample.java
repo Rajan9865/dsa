@@ -12,11 +12,11 @@ public class OptionalExample {
     public static void main(String[] args) {
         //empty optional
         Optional<String> name = Optional.empty();
+        System.out.println(name);
 //non empty optional
         Optional<String> name1 = Optional.ofNullable(null);
-        Optional<String> name2 = Optional.of("rajan");
-        System.out.println(name);
         System.out.println(name1);
+        Optional<String> name2 = Optional.of(null);
         System.out.println(name2);
 
     }
