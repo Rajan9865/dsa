@@ -1,6 +1,7 @@
 package java8concept;
 
 import java.util.List;
+import java.util.Set;
 import java.util.stream.Collectors;
 import java.util.stream.Stream;
 
@@ -14,5 +15,7 @@ public class CollectorsExammple {
     public static void main(String[] args) {
         List<String> collect = Stream.of("rajan", "kumar", "singh").collect(Collectors.toList());
         collect.forEach(s -> System.out.println(s));
+        Set<String> collect1 = Stream.of("rajan", "kumar", "singh", "rajan").collect(Collectors.toSet());
+        collect1.stream().forEach(s -> System.out.println(s));
     }
 }
