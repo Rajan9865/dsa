@@ -1,5 +1,6 @@
 package java8concept;
 
+import java.util.LinkedList;
 import java.util.List;
 import java.util.Set;
 import java.util.stream.Collectors;
@@ -17,5 +18,7 @@ public class CollectorsExammple {
         collect.forEach(s -> System.out.println(s));
         Set<String> collect1 = Stream.of("rajan", "kumar", "singh", "rajan").collect(Collectors.toSet());
         collect1.stream().forEach(s -> System.out.println(s));
+        LinkedList<String> collect2 = Stream.of("a", "b", "c").collect(Collectors.toCollection(LinkedList::new));
+        collect2.forEach(s -> System.out.println(s));
     }
 }
