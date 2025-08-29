@@ -1,5 +1,7 @@
 package java8concept;
 
+import sun.security.util.Length;
+
 import java.util.LinkedList;
 import java.util.List;
 import java.util.Map;
@@ -27,6 +29,5 @@ public class CollectorsExammple {
 
         Stream.of("a", "bb", "ccc", "dd").collect(Collectors.toMap(String::length, s -> s, (s1, s2) -> s1 + "," + s2))
                 .entrySet().stream().forEach(s -> System.out.println(s));
-
     }
 }

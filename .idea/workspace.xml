@@ -5,6 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ff3856c1-c1ca-4aca-a6ef-fd33bd67f435" name="Changes" comment="SumOfNumber">
+      <change afterPath="$PROJECT_DIR$/DataStracture/src/java8concept/CollectorsExammple1.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/DataStracture/src/java8concept/CollectorsExammple.java" beforeDir="false" afterPath="$PROJECT_DIR$/DataStracture/src/java8concept/CollectorsExammple.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Dsa/java8concept/CollectorsExammple.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Dsa/java8concept/CollectorsExammple.class" afterDir="false" />
@@ -51,6 +52,7 @@
   "keyToString": {
     "Application.CheckIfCircularLinkedList.executor": "Run",
     "Application.CollectorsExammple.executor": "Run",
+    "Application.CollectorsExammple1.executor": "Run",
     "Application.Concatenatestrings.executor": "Run",
     "Application.Countwordoccurrences.executor": "Run",
     "Application.CurryingExample.executor": "Run",
@@ -103,7 +105,7 @@
     "settings.editor.selected.configurable": "preferences.pluginManager"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.CollectorsExammple">
+  <component name="RunManager" selected="Application.CollectorsExammple1">
     <configuration name="CollectorsExammple" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="java8concept.CollectorsExammple" />
       <module name="Dsa" />
@@ -117,12 +119,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Concatenatestrings" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="java8.Concatenatestrings" />
+    <configuration name="CollectorsExammple1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="java8concept.CollectorsExammple1" />
       <module name="Dsa" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="java8.*" />
+          <option name="PATTERN" value="java8concept.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -130,8 +132,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Countwordoccurrences" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="java8.Countwordoccurrences" />
+    <configuration name="Concatenatestrings" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="java8.Concatenatestrings" />
       <module name="Dsa" />
       <extension name="coverage">
         <pattern>
@@ -171,11 +173,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.CollectorsExammple1" />
         <item itemvalue="Application.CollectorsExammple" />
         <item itemvalue="Application.FirstNonRepeatingCharacter" />
         <item itemvalue="Application.Sortemployeesbysalary" />
         <item itemvalue="Application.Concatenatestrings" />
-        <item itemvalue="Application.Countwordoccurrences" />
       </list>
     </recent_temporary>
   </component>
