@@ -17,10 +17,14 @@ public class CollectorsExammple1 {
                 .collect(Collectors.toMap(String::length, s -> s, String::concat));
         Map<Integer, String> collect2 = Stream.of("a", "bb", "ccc", "dd", "eee", "f", "ggg")
                 .collect(Collectors.toMap(String::length, s -> s, (s1, s2) -> s1 + "," + s2));
-        printResult(collect);
-        
+        Map<Integer, String> collect3 = Stream.of("a", "bb", "ccc", "dd", "eee", "f", "ggg").collect(Collectors.toMap(String::length, s -> s));
         printResult(collect1);
         printResult(collect2);
+//        printResult1(collect3);
+    }
+
+    private static void printResult1(Map<Integer, String> collect3) {
+        collect3.entrySet().stream().forEach(s -> System.out.println("Key: " + s.getKey() + " Value: " + s.getValue()));
     }
 
     private static void printResult(Map<Integer, String> collect) {
