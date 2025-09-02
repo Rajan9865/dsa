@@ -49,6 +49,7 @@ public class EmployeeAnalytics {
                 new Employee(5, "Eve", "HR", 68000));
         System.out.println(employees.stream().collect(Collectors.counting()));
         System.out.println(employees.stream().collect(Collectors.summingInt(e -> (int) e.getSalary())));
+        System.out.println(employees.stream().collect(Collectors.averagingInt(avg -> (int) avg.getSalary())));
 
 //                .stream()
 //                .filter(e -> e.getDepartment().equals("IT"))
