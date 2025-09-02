@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ff3856c1-c1ca-4aca-a6ef-fd33bd67f435" name="Changes" comment="SumOfNumber">
-      <change afterPath="$PROJECT_DIR$/DataStracture/src/java8concept/CollectorsExammple2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DataStracture/src/java8concept/EmployeeAnalytics.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -61,6 +61,7 @@
     "Application.DeleteFromDoublyList.executor": "Run",
     "Application.DeleteinSinglyLinkedList.executor": "Run",
     "Application.Deletewithoutheadpointer.executor": "Run",
+    "Application.EmployeeAnalytics.executor": "Run",
     "Application.EvenNumber.executor": "Run",
     "Application.FindlengthofLoop.executor": "Run",
     "Application.FirstNonRepeatingCharacter.executor": "Run",
@@ -104,7 +105,7 @@
     "settings.editor.selected.configurable": "editor.preferences.completion"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.CollectorsExammple2">
+  <component name="RunManager" selected="Application.EmployeeAnalytics">
     <configuration name="CollectorsExammple" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="java8concept.CollectorsExammple" />
       <module name="Dsa" />
@@ -144,6 +145,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="EmployeeAnalytics" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="java8concept.EmployeeAnalytics" />
+      <module name="Dsa" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="java8concept.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="FirstNonRepeatingCharacter" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="java8.FirstNonRepeatingCharacter" />
       <module name="Dsa" />
@@ -157,26 +171,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Sortemployeesbysalary" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="java8.Sortemployeesbysalary" />
-      <module name="Dsa" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="java8.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.EmployeeAnalytics" />
         <item itemvalue="Application.CollectorsExammple2" />
         <item itemvalue="Application.CollectorsExammple1" />
         <item itemvalue="Application.CollectorsExammple" />
         <item itemvalue="Application.FirstNonRepeatingCharacter" />
-        <item itemvalue="Application.Sortemployeesbysalary" />
       </list>
     </recent_temporary>
   </component>
