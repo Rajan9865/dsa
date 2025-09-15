@@ -15,5 +15,8 @@ public class MultipleFilter {
         list.stream().filter(num -> num % 2 == 0)
                 .filter(num -> num > 5)
                 .forEach(System.out::println);
+        Integer reduce = list.stream().reduce(0, Integer::sum);
+        System.out.println(reduce);
+        
     }
 }
