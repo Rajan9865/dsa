@@ -5,8 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ff3856c1-c1ca-4aca-a6ef-fd33bd67f435" name="Changes" comment="MultipleFilter">
+      <change afterPath="$PROJECT_DIR$/DataStracture/src/java8concept/ListIntegerBasedExample.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DataStracture/src/java8concept/ListBasedExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/DataStracture/src/java8concept/ListBasedExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataStracture/src/java8concept/ListBasedExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/DataStracture/src/java8concept/ListStringBasedExample.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Dsa/java8concept/ListBasedExample.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Dsa/java8concept/ListBasedExample.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -110,7 +111,7 @@
     &quot;to.speed.mode.migration.done&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.ListBasedExample">
+  <component name="RunManager" selected="Application.ListStringBasedExample">
     <configuration name="CollectorsExammple1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="java8concept.CollectorsExammple1" />
       <module name="Dsa" />
@@ -150,8 +151,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ListBasedExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="java8concept.ListBasedExample" />
+    <configuration name="ListStringBasedExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="java8concept.ListStringBasedExample" />
       <module name="Dsa" />
       <extension name="coverage">
         <pattern>
@@ -178,7 +179,7 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.ListBasedExample" />
+        <item itemvalue="Application.ListStringBasedExample" />
         <item itemvalue="Application.MultipleFilter" />
         <item itemvalue="Application.EmployeeAnalytics" />
         <item itemvalue="Application.CollectorsExammple2" />

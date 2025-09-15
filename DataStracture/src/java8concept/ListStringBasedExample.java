@@ -1,6 +1,7 @@
 package java8concept;
 
 import java.util.Arrays;
+import java.util.Comparator;
 import java.util.List;
 import java.util.stream.Collectors;
 
@@ -10,7 +11,7 @@ import java.util.stream.Collectors;
  * Dsa
  * @since 9/15/2025
  */
-public class ListBasedExample {
+public class ListStringBasedExample {
     public static void main(String[] args) {
         List<String> names = Arrays.asList("rajan", "kumar", "singh", "apple", "bananan");
         List<String> filteredName = filteredName(names);
@@ -25,8 +26,8 @@ public class ListBasedExample {
 
     private static List<String> reversedOrder(List<String> names) {
 //        return names.stream().sorted((s1, s2) -> s2.compareToIgnoreCase(s1)).collect(Collectors.toList());
-
-        return names.stream().sorted((s1, s2) -> s2.compareToIgnoreCase(s1)).collect(Collectors.toList());
+        return names.stream().sorted(Comparator.reverseOrder()).collect(Collectors.toList());
+//        return names.stream().sorted((s1, s2) -> s2.compareToIgnoreCase(s1)).collect(Collectors.toList());
     }
 
     private static List<String> sortName(List<String> names) {
