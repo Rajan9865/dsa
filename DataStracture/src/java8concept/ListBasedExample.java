@@ -19,12 +19,14 @@ public class ListBasedExample {
 
         printResult(filteredName);
         printResult(sortName);
+        System.out.println("reverse order");
         printResult(revereseOrder);
     }
 
     private static List<String> reversedOrder(List<String> names) {
 //        return names.stream().sorted((s1, s2) -> s2.compareToIgnoreCase(s1)).collect(Collectors.toList());
-        return names
+
+        return names.stream().sorted((s1, s2) -> s2.compareToIgnoreCase(s1)).collect(Collectors.toList());
     }
 
     private static List<String> sortName(List<String> names) {
