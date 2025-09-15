@@ -5,8 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ff3856c1-c1ca-4aca-a6ef-fd33bd67f435" name="Changes" comment="SumOfNumber">
+      <change afterPath="$PROJECT_DIR$/DataStracture/src/java8concept/MultipleFilter.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DataStracture/src/java8concept/EmployeeAnalytics.java" beforeDir="false" afterPath="$PROJECT_DIR$/DataStracture/src/java8concept/EmployeeAnalytics.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -81,6 +81,7 @@
     "Application.MethodsReference3.executor": "Run",
     "Application.MethodsReference4.executor": "Run",
     "Application.MiddleofLinkedList.executor": "Debug",
+    "Application.MultipleFilter.executor": "Run",
     "Application.OptionalExample.executor": "Run",
     "Application.OptionalTest.executor": "Run",
     "Application.RemoveDuplicatesfromSortedLinkedList.executor": "Run",
@@ -97,15 +98,17 @@
     "RunOnceActivity.git.unshallow": "true",
     "SONARLINT_PRECOMMIT_ANALYSIS": "true",
     "git-widget-placeholder": "master",
+    "junie.onboarding.icon.badge.shown": "true",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "D:/Dsa",
     "project.structure.last.edited": "Project",
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.0",
-    "settings.editor.selected.configurable": "editor.preferences.completion"
+    "settings.editor.selected.configurable": "editor.preferences.completion",
+    "to.speed.mode.migration.done": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.EmployeeAnalytics">
+  <component name="RunManager" selected="Application.MultipleFilter">
     <configuration name="CollectorsExammple" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="java8concept.CollectorsExammple" />
       <module name="Dsa" />
@@ -158,12 +161,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FirstNonRepeatingCharacter" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="java8.FirstNonRepeatingCharacter" />
+    <configuration name="MultipleFilter" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="java8concept.MultipleFilter" />
       <module name="Dsa" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="java8.*" />
+          <option name="PATTERN" value="java8concept.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -173,11 +176,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MultipleFilter" />
         <item itemvalue="Application.EmployeeAnalytics" />
         <item itemvalue="Application.CollectorsExammple2" />
         <item itemvalue="Application.CollectorsExammple1" />
         <item itemvalue="Application.CollectorsExammple" />
-        <item itemvalue="Application.FirstNonRepeatingCharacter" />
       </list>
     </recent_temporary>
   </component>
