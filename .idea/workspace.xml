@@ -5,9 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ff3856c1-c1ca-4aca-a6ef-fd33bd67f435" name="Changes" comment="MultipleFilter">
+      <change afterPath="$PROJECT_DIR$/DataStracture/src/java8/Top3highestnumbers.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DataStracture/src/java8concept/PartitionExample.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/DataStracture/src/java8concept/ListIntegerBasedExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/DataStracture/src/java8concept/ListIntegerBasedExample.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Dsa/java8concept/ListBasedExample.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Dsa/java8concept/ListIntegerBasedExample.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Dsa/java8concept/ListIntegerBasedExample.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -87,6 +89,7 @@
     "Application.MultipleFilter.executor": "Run",
     "Application.OptionalExample.executor": "Run",
     "Application.OptionalTest.executor": "Run",
+    "Application.PartitionExample.executor": "Run",
     "Application.RemoveDuplicatesfromSortedLinkedList.executor": "Run",
     "Application.RemoveNodesWithGreaterRight.executor": "Run",
     "Application.Removeduplicatesfromunsortedlinkedlist.executor": "Run",
@@ -111,20 +114,7 @@
     "to.speed.mode.migration.done": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.ListIntegerBasedExample">
-    <configuration name="CollectorsExammple2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="java8concept.CollectorsExammple2" />
-      <module name="Dsa" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="java8concept.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.PartitionExample">
     <configuration name="EmployeeAnalytics" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="java8concept.EmployeeAnalytics" />
       <module name="Dsa" />
@@ -177,13 +167,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="PartitionExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="java8concept.PartitionExample" />
+      <module name="Dsa" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="java8concept.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.PartitionExample" />
         <item itemvalue="Application.ListIntegerBasedExample" />
         <item itemvalue="Application.ListStringBasedExample" />
         <item itemvalue="Application.MultipleFilter" />
         <item itemvalue="Application.EmployeeAnalytics" />
-        <item itemvalue="Application.CollectorsExammple2" />
       </list>
     </recent_temporary>
   </component>
