@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ff3856c1-c1ca-4aca-a6ef-fd33bd67f435" name="Changes" comment="MultipleFilter">
-      <change afterPath="$PROJECT_DIR$/DataStracture/src/java8/EmployeeSalaryAnalyzer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DataStracture/src/java8/KthLargestFinder.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -72,6 +72,7 @@
     "Application.GroupLength.executor": "Run",
     "Application.GroupLength1.executor": "Run",
     "Application.Hello.executor": "Run",
+    "Application.KthLargestFinder.executor": "Run",
     "Application.LambdaArgumentExample.executor": "Run",
     "Application.LambdaComposition.executor": "Run",
     "Application.LambdaFinalExample.executor": "Run",
@@ -113,7 +114,7 @@
     "to.speed.mode.migration.done": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.EmployeeSalaryAnalyzer">
+  <component name="RunManager" selected="Application.KthLargestFinder">
     <configuration name="EmployeeSalaryAnalyzer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="java8.EmployeeSalaryAnalyzer" />
       <module name="Dsa" />
@@ -127,12 +128,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ListIntegerBasedExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="java8concept.ListIntegerBasedExample" />
+    <configuration name="KthLargestFinder" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="java8.KthLargestFinder" />
       <module name="Dsa" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="java8concept.*" />
+          <option name="PATTERN" value="java8.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -140,8 +141,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ListStringBasedExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="java8concept.ListStringBasedExample" />
+    <configuration name="ListIntegerBasedExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="java8concept.ListIntegerBasedExample" />
       <module name="Dsa" />
       <extension name="coverage">
         <pattern>
@@ -181,11 +182,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.KthLargestFinder" />
         <item itemvalue="Application.EmployeeSalaryAnalyzer" />
         <item itemvalue="Application.Top3highestnumbers" />
         <item itemvalue="Application.PartitionExample" />
         <item itemvalue="Application.ListIntegerBasedExample" />
-        <item itemvalue="Application.ListStringBasedExample" />
       </list>
     </recent_temporary>
   </component>
