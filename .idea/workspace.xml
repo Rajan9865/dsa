@@ -5,8 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ff3856c1-c1ca-4aca-a6ef-fd33bd67f435" name="Changes" comment="MultipleFilter">
-      <change afterPath="$PROJECT_DIR$/DataStracture/src/java8/UniqueSortedProducts.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DataStracture/src/java8/FlattenFilterSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DataStracture/src/java8/GroupedProducts.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Dsa/java8/UniqueSortedProducts.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Dsa/java8/UniqueSortedProducts.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,77 +48,78 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.CheckIfCircularLinkedList.executor": "Run",
-    "Application.CollectorsExammple.executor": "Run",
-    "Application.CollectorsExammple1.executor": "Run",
-    "Application.CollectorsExammple2.executor": "Run",
-    "Application.Concatenatestrings.executor": "Run",
-    "Application.Countwordoccurrences.executor": "Run",
-    "Application.CurryingExample.executor": "Run",
-    "Application.Default1.executor": "Run",
-    "Application.Default2.executor": "Run",
-    "Application.Default3.executor": "Run",
-    "Application.DeleteFromDoublyList.executor": "Run",
-    "Application.DeleteinSinglyLinkedList.executor": "Run",
-    "Application.Deletewithoutheadpointer.executor": "Run",
-    "Application.EmployeeAnalytics.executor": "Run",
-    "Application.EmployeeSalaryAnalyzer.executor": "Run",
-    "Application.EvenNumber.executor": "Run",
-    "Application.FindlengthofLoop.executor": "Run",
-    "Application.FirstNonRepeatingCharacter.executor": "Run",
-    "Application.FlatMapExample.executor": "Run",
-    "Application.FlattenMapValues.executor": "Run",
-    "Application.FrequencyCountAndMaintainTheAscendingOrder1.executor": "Run",
-    "Application.FrequencyCountAndOrderMaintain.executor": "Run",
-    "Application.GroupLength.executor": "Run",
-    "Application.GroupLength1.executor": "Run",
-    "Application.Hello.executor": "Run",
-    "Application.KthLargestFinder.executor": "Run",
-    "Application.LambdaArgumentExample.executor": "Run",
-    "Application.LambdaComposition.executor": "Run",
-    "Application.LambdaFinalExample.executor": "Run",
-    "Application.ListBasedExample.executor": "Run",
-    "Application.ListIntegerBasedExample.executor": "Run",
-    "Application.MaximumValue.executor": "Run",
-    "Application.MethodRefExample.executor": "Run",
-    "Application.MethodsReference1.executor": "Run",
-    "Application.MethodsReference2.executor": "Run",
-    "Application.MethodsReference3.executor": "Run",
-    "Application.MethodsReference4.executor": "Run",
-    "Application.MiddleofLinkedList.executor": "Debug",
-    "Application.MultipleFilter.executor": "Run",
-    "Application.OptionalExample.executor": "Run",
-    "Application.OptionalTest.executor": "Run",
-    "Application.PartitionExample.executor": "Run",
-    "Application.RemoveDuplicatesfromSortedLinkedList.executor": "Run",
-    "Application.RemoveNodesWithGreaterRight.executor": "Run",
-    "Application.Removeduplicatesfromunsortedlinkedlist.executor": "Run",
-    "Application.ReverseDoublyLinkedList.executor": "Run",
-    "Application.Reverselinkedlist.executor": "Run",
-    "Application.Sortemployeesbysalary.executor": "Run",
-    "Application.SumOfNumber.executor": "Run",
-    "Application.Top3highestnumbers.executor": "Run",
-    "Application.UniqueSortedProducts.executor": "Run",
-    "Application.string.Hello.executor": "Run",
-    "ModuleVcsDetector.initialDetectionPerformed": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "SONARLINT_PRECOMMIT_ANALYSIS": "true",
-    "git-widget-placeholder": "master",
-    "junie.onboarding.icon.badge.shown": "true",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "D:/Dsa",
-    "project.structure.last.edited": "Project",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0",
-    "settings.editor.selected.configurable": "editor.preferences.completion",
-    "to.speed.mode.migration.done": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.CheckIfCircularLinkedList.executor&quot;: &quot;Run&quot;,
+    &quot;Application.CollectorsExammple.executor&quot;: &quot;Run&quot;,
+    &quot;Application.CollectorsExammple1.executor&quot;: &quot;Run&quot;,
+    &quot;Application.CollectorsExammple2.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Concatenatestrings.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Countwordoccurrences.executor&quot;: &quot;Run&quot;,
+    &quot;Application.CurryingExample.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Default1.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Default2.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Default3.executor&quot;: &quot;Run&quot;,
+    &quot;Application.DeleteFromDoublyList.executor&quot;: &quot;Run&quot;,
+    &quot;Application.DeleteinSinglyLinkedList.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Deletewithoutheadpointer.executor&quot;: &quot;Run&quot;,
+    &quot;Application.EmployeeAnalytics.executor&quot;: &quot;Run&quot;,
+    &quot;Application.EmployeeSalaryAnalyzer.executor&quot;: &quot;Run&quot;,
+    &quot;Application.EvenNumber.executor&quot;: &quot;Run&quot;,
+    &quot;Application.FindlengthofLoop.executor&quot;: &quot;Run&quot;,
+    &quot;Application.FirstNonRepeatingCharacter.executor&quot;: &quot;Run&quot;,
+    &quot;Application.FlatMapExample.executor&quot;: &quot;Run&quot;,
+    &quot;Application.FlattenMapValues.executor&quot;: &quot;Run&quot;,
+    &quot;Application.FrequencyCountAndMaintainTheAscendingOrder1.executor&quot;: &quot;Run&quot;,
+    &quot;Application.FrequencyCountAndOrderMaintain.executor&quot;: &quot;Run&quot;,
+    &quot;Application.GroupLength.executor&quot;: &quot;Run&quot;,
+    &quot;Application.GroupLength1.executor&quot;: &quot;Run&quot;,
+    &quot;Application.GroupedProducts.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Hello.executor&quot;: &quot;Run&quot;,
+    &quot;Application.KthLargestFinder.executor&quot;: &quot;Run&quot;,
+    &quot;Application.LambdaArgumentExample.executor&quot;: &quot;Run&quot;,
+    &quot;Application.LambdaComposition.executor&quot;: &quot;Run&quot;,
+    &quot;Application.LambdaFinalExample.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ListBasedExample.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ListIntegerBasedExample.executor&quot;: &quot;Run&quot;,
+    &quot;Application.MaximumValue.executor&quot;: &quot;Run&quot;,
+    &quot;Application.MethodRefExample.executor&quot;: &quot;Run&quot;,
+    &quot;Application.MethodsReference1.executor&quot;: &quot;Run&quot;,
+    &quot;Application.MethodsReference2.executor&quot;: &quot;Run&quot;,
+    &quot;Application.MethodsReference3.executor&quot;: &quot;Run&quot;,
+    &quot;Application.MethodsReference4.executor&quot;: &quot;Run&quot;,
+    &quot;Application.MiddleofLinkedList.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.MultipleFilter.executor&quot;: &quot;Run&quot;,
+    &quot;Application.OptionalExample.executor&quot;: &quot;Run&quot;,
+    &quot;Application.OptionalTest.executor&quot;: &quot;Run&quot;,
+    &quot;Application.PartitionExample.executor&quot;: &quot;Run&quot;,
+    &quot;Application.RemoveDuplicatesfromSortedLinkedList.executor&quot;: &quot;Run&quot;,
+    &quot;Application.RemoveNodesWithGreaterRight.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Removeduplicatesfromunsortedlinkedlist.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ReverseDoublyLinkedList.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Reverselinkedlist.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Sortemployeesbysalary.executor&quot;: &quot;Run&quot;,
+    &quot;Application.SumOfNumber.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Top3highestnumbers.executor&quot;: &quot;Run&quot;,
+    &quot;Application.UniqueSortedProducts.executor&quot;: &quot;Run&quot;,
+    &quot;Application.string.Hello.executor&quot;: &quot;Run&quot;,
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;SONARLINT_PRECOMMIT_ANALYSIS&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;junie.onboarding.icon.badge.shown&quot;: &quot;true&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/Dsa&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;editor.preferences.completion&quot;,
+    &quot;to.speed.mode.migration.done&quot;: &quot;true&quot;
   }
-}]]></component>
-  <component name="RunManager" selected="Application.UniqueSortedProducts">
+}</component>
+  <component name="RunManager" selected="Application.GroupedProducts">
     <configuration name="EmployeeSalaryAnalyzer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="java8.EmployeeSalaryAnalyzer" />
       <module name="Dsa" />
@@ -143,8 +146,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="KthLargestFinder" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="java8.KthLargestFinder" />
+    <configuration name="GroupedProducts" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="java8.GroupedProducts" />
       <module name="Dsa" />
       <extension name="coverage">
         <pattern>
@@ -156,8 +159,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Top3highestnumbers" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="java8.Top3highestnumbers" />
+    <configuration name="KthLargestFinder" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="java8.KthLargestFinder" />
       <module name="Dsa" />
       <extension name="coverage">
         <pattern>
@@ -184,11 +187,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.GroupedProducts" />
         <item itemvalue="Application.UniqueSortedProducts" />
         <item itemvalue="Application.FlattenMapValues" />
         <item itemvalue="Application.KthLargestFinder" />
         <item itemvalue="Application.EmployeeSalaryAnalyzer" />
-        <item itemvalue="Application.Top3highestnumbers" />
       </list>
     </recent_temporary>
   </component>
