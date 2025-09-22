@@ -5,10 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ff3856c1-c1ca-4aca-a6ef-fd33bd67f435" name="Changes" comment="MultipleFilter">
-      <change afterPath="$PROJECT_DIR$/DataStracture/src/java8/CountLongProductsPerCategory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DataStracture/src/java8/MaxDistinctCategory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DataStracture/src/java8/TopNPerCategory.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DataStracture/src/java8/FlattenFilterSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/DataStracture/src/java8/FlattenFilterSort.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Dsa/java8/GroupedProducts.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Dsa/java8/GroupedProducts.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Dsa/java8/CountLongProductsPerCategory.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Dsa/java8/CountLongProductsPerCategory.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -84,6 +84,7 @@
     "Application.LambdaFinalExample.executor": "Run",
     "Application.ListBasedExample.executor": "Run",
     "Application.ListIntegerBasedExample.executor": "Run",
+    "Application.MaxDistinctCategory.executor": "Run",
     "Application.MaximumValue.executor": "Run",
     "Application.MethodRefExample.executor": "Run",
     "Application.MethodsReference1.executor": "Run",
@@ -103,6 +104,7 @@
     "Application.Sortemployeesbysalary.executor": "Run",
     "Application.SumOfNumber.executor": "Run",
     "Application.Top3highestnumbers.executor": "Run",
+    "Application.TopNPerCategory.executor": "Run",
     "Application.UniqueSortedProducts.executor": "Run",
     "Application.string.Hello.executor": "Run",
     "ModuleVcsDetector.initialDetectionPerformed": "true",
@@ -121,7 +123,7 @@
     "to.speed.mode.migration.done": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.CountLongProductsPerCategory">
+  <component name="RunManager" selected="Application.MaxDistinctCategory">
     <configuration name="CountLongProductsPerCategory" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="java8.CountLongProductsPerCategory" />
       <module name="Dsa" />
@@ -148,19 +150,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FlattenMapValues" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="java8.FlattenMapValues" />
-      <module name="Dsa" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="java8.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="GroupedProducts" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="java8.GroupedProducts" />
       <module name="Dsa" />
@@ -174,8 +163,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="UniqueSortedProducts" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="java8.UniqueSortedProducts" />
+    <configuration name="MaxDistinctCategory" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="java8.MaxDistinctCategory" />
+      <module name="Dsa" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="java8.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TopNPerCategory" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="java8.TopNPerCategory" />
       <module name="Dsa" />
       <extension name="coverage">
         <pattern>
@@ -189,11 +191,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MaxDistinctCategory" />
+        <item itemvalue="Application.TopNPerCategory" />
         <item itemvalue="Application.CountLongProductsPerCategory" />
         <item itemvalue="Application.FlattenFilterSort" />
         <item itemvalue="Application.GroupedProducts" />
-        <item itemvalue="Application.UniqueSortedProducts" />
-        <item itemvalue="Application.FlattenMapValues" />
       </list>
     </recent_temporary>
   </component>
