@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ff3856c1-c1ca-4aca-a6ef-fd33bd67f435" name="Changes" comment="MultipleFilter">
-      <change afterPath="$PROJECT_DIR$/DataStracture/src/java8/FirstNonRepeatedChar.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DataStracture/src/multithreading/MyRunnable1.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -98,6 +98,7 @@
     "Application.MostFrequentProducts.executor": "Run",
     "Application.MultipleFilter.executor": "Run",
     "Application.MyRunnable.executor": "Run",
+    "Application.MyRunnable1.executor": "Run",
     "Application.MyThread.executor": "Run",
     "Application.OptionalExample.executor": "Run",
     "Application.OptionalTest.executor": "Run",
@@ -130,7 +131,7 @@
     "to.speed.mode.migration.done": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.FirstNonRepeatedChar">
+  <component name="RunManager" selected="Application.MyRunnable1">
     <configuration name="FirstNonRepeatedChar" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="java8.FirstNonRepeatedChar" />
       <module name="Dsa" />
@@ -157,12 +158,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MostFrequentProducts" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="java8.MostFrequentProducts" />
+    <configuration name="MyRunnable" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="multithreading.MyRunnable" />
       <module name="Dsa" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="java8.*" />
+          <option name="PATTERN" value="multithreading.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -170,8 +171,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MyRunnable" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="multithreading.MyRunnable" />
+    <configuration name="MyRunnable1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="multithreading.MyRunnable1" />
       <module name="Dsa" />
       <extension name="coverage">
         <pattern>
@@ -198,11 +199,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MyRunnable1" />
         <item itemvalue="Application.FirstNonRepeatedChar" />
         <item itemvalue="Application.GroupByLength" />
         <item itemvalue="Application.MyRunnable" />
         <item itemvalue="Application.MyThread" />
-        <item itemvalue="Application.MostFrequentProducts" />
       </list>
     </recent_temporary>
   </component>
