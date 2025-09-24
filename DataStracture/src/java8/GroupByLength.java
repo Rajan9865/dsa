@@ -2,6 +2,7 @@ package java8;
 
 
 import java.util.*;
+import java.util.stream.Collectors;
 
 import static java.util.stream.Collectors.*;
 
@@ -33,5 +34,9 @@ public class GroupByLength {
 //                        toCollection(() -> new TreeSet<>(String.CASE_INSENSITIVE_ORDER)),
 //                        set -> new ArrayList<>(set)
 //                )));
+        return products.values().stream().flatMap(List::stream).map(String::trim)
+                .distinct().collect(Collectors.groupingBy(String::length, collectingAndThen(
+                        toCollection(() -> new TreeSet<>(String.CASE_INSENSITIVE_ORDER)), set -> new ArrayList<>(set)
+                )));
     }
 }
