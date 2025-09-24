@@ -5,13 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ff3856c1-c1ca-4aca-a6ef-fd33bd67f435" name="Changes" comment="MultipleFilter">
-      <change afterPath="$PROJECT_DIR$/DataStracture/src/multithreading/CallableExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DataStracture/src/multithreading/ExecutorCallable.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DataStracture/src/java8/MaxDistinctCategory.java" beforeDir="false" afterPath="$PROJECT_DIR$/DataStracture/src/java8/MaxDistinctCategory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DataStracture/src/java8/SumOfNumber.java" beforeDir="false" afterPath="$PROJECT_DIR$/DataStracture/src/java8/SumOfNumber.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Dsa/java8/MaxDistinctCategory.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Dsa/java8/MaxDistinctCategory.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Dsa/java8/SumOfNumber.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Dsa/java8/SumOfNumber.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataStracture/src/multithreading/ExecutorCallable.java" beforeDir="false" afterPath="$PROJECT_DIR$/DataStracture/src/multithreading/ExecutorCallable.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -151,6 +146,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ExecutorCallable" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="multithreading.ExecutorCallable" />
+      <module name="Dsa" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="multithreading.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="MaxDistinctCategory" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="java8.MaxDistinctCategory" />
       <module name="Dsa" />
@@ -177,19 +185,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MyRunnable1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="multithreading.MyRunnable1" />
-      <module name="Dsa" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="multithreading.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="SumOfNumber" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="java8.SumOfNumber" />
       <module name="Dsa" />
@@ -206,10 +201,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="Application.CallableExample" />
+        <item itemvalue="Application.ExecutorCallable" />
         <item itemvalue="Application.SumOfNumber" />
         <item itemvalue="Application.MaxDistinctCategory" />
         <item itemvalue="Application.MostFrequentProducts" />
-        <item itemvalue="Application.MyRunnable1" />
       </list>
     </recent_temporary>
   </component>
