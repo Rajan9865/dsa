@@ -19,6 +19,7 @@ public class MaxDistinctCategory {
         products.put("vegetables", Arrays.asList("carrot", "broccoli"));
         products.put("drinks", Arrays.asList("coffee", "tea", "mango"));
         Map<String, Long> result = maxDistinctCategory(products);
+        System.out.println(result);
         Map.Entry<String, Long> result1 = printResult(result);
         System.out.println(result1.getKey() + " = " + result1.getValue());
     }
