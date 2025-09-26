@@ -5,8 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ff3856c1-c1ca-4aca-a6ef-fd33bd67f435" name="Changes" comment="MultipleFilter">
+      <change afterPath="$PROJECT_DIR$/.idea/qaplug_profiles.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DataStracture/src/java8/FindDuplicates.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DataStracture/src/java8/SecondHighest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DataStracture/src/multithreading/ExecutorCallable.java" beforeDir="false" afterPath="$PROJECT_DIR$/DataStracture/src/multithreading/ExecutorCallable.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -69,6 +72,8 @@
     "Application.EmployeeAnalytics.executor": "Run",
     "Application.EmployeeSalaryAnalyzer.executor": "Run",
     "Application.EvenNumber.executor": "Run",
+    "Application.ExecutorCallable.executor": "Run",
+    "Application.FindDuplicates.executor": "Run",
     "Application.FindlengthofLoop.executor": "Run",
     "Application.FirstNonRepeatedChar.executor": "Run",
     "Application.FirstNonRepeatingCharacter.executor": "Run",
@@ -109,6 +114,7 @@
     "Application.Removeduplicatesfromunsortedlinkedlist.executor": "Run",
     "Application.ReverseDoublyLinkedList.executor": "Run",
     "Application.Reverselinkedlist.executor": "Run",
+    "Application.SecondHighest.executor": "Run",
     "Application.Sortemployeesbysalary.executor": "Run",
     "Application.SumOfNumber.executor": "Run",
     "Application.Top3highestnumbers.executor": "Run",
@@ -132,7 +138,7 @@
     "to.speed.mode.migration.done": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.CallableExample">
+  <component name="RunManager" selected="Application.SecondHighest">
     <configuration name="CallableExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="multithreading.CallableExample" />
       <module name="Dsa" />
@@ -159,8 +165,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MaxDistinctCategory" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="java8.MaxDistinctCategory" />
+    <configuration name="FindDuplicates" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="java8.FindDuplicates" />
       <module name="Dsa" />
       <extension name="coverage">
         <pattern>
@@ -172,8 +178,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MostFrequentProducts" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="java8.MostFrequentProducts" />
+    <configuration name="SecondHighest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="java8.SecondHighest" />
       <module name="Dsa" />
       <extension name="coverage">
         <pattern>
@@ -200,11 +206,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.SecondHighest" />
+        <item itemvalue="Application.FindDuplicates" />
         <item itemvalue="Application.CallableExample" />
         <item itemvalue="Application.ExecutorCallable" />
         <item itemvalue="Application.SumOfNumber" />
-        <item itemvalue="Application.MaxDistinctCategory" />
-        <item itemvalue="Application.MostFrequentProducts" />
       </list>
     </recent_temporary>
   </component>
