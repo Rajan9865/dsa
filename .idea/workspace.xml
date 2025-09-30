@@ -5,10 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ff3856c1-c1ca-4aca-a6ef-fd33bd67f435" name="Changes" comment="MultipleFilter">
-      <change afterPath="$PROJECT_DIR$/DataStracture/src/multithreading/BlockedStateDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DataStracture/src/multithreading/ThreadStatesDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DataStracture/src/java8/StringsStartingWith.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Dsa/java8/LongestString.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Dsa/java8/LongestString.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -118,6 +116,7 @@
     "Application.Reverselinkedlist.executor": "Run",
     "Application.SecondHighest.executor": "Run",
     "Application.Sortemployeesbysalary.executor": "Run",
+    "Application.StringsStartingWith.executor": "Run",
     "Application.SumOfNumber.executor": "Run",
     "Application.ThreadStatesDemo.executor": "Debug",
     "Application.Top3highestnumbers.executor": "Run",
@@ -141,7 +140,7 @@
     "to.speed.mode.migration.done": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.BlockedStateDemo">
+  <component name="RunManager" selected="Application.StringsStartingWith">
     <configuration name="AnagramCheck" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="java8.AnagramCheck" />
       <module name="Dsa" />
@@ -181,8 +180,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SecondHighest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="java8.SecondHighest" />
+    <configuration name="StringsStartingWith" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="java8.StringsStartingWith" />
       <module name="Dsa" />
       <extension name="coverage">
         <pattern>
@@ -209,11 +208,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.StringsStartingWith" />
         <item itemvalue="Application.BlockedStateDemo" />
         <item itemvalue="Application.ThreadStatesDemo" />
         <item itemvalue="Application.LongestString" />
         <item itemvalue="Application.AnagramCheck" />
-        <item itemvalue="Application.SecondHighest" />
       </list>
     </recent_temporary>
   </component>
