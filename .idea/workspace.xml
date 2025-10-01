@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ff3856c1-c1ca-4aca-a6ef-fd33bd67f435" name="Changes" comment="MultipleFilter">
-      <change afterPath="$PROJECT_DIR$/DataStracture/src/java8/StringsStartingWith.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DataStracture/src/java8/CharacterFrequency.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -54,6 +54,7 @@
     "Application.AnagramCheck.executor": "Run",
     "Application.BlockedStateDemo.executor": "Run",
     "Application.CallableExample.executor": "Run",
+    "Application.CharacterFrequency.executor": "Run",
     "Application.CheckIfCircularLinkedList.executor": "Run",
     "Application.CollectorsExammple.executor": "Run",
     "Application.CollectorsExammple1.executor": "Run",
@@ -140,13 +141,13 @@
     "to.speed.mode.migration.done": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.StringsStartingWith">
-    <configuration name="AnagramCheck" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="java8.AnagramCheck" />
+  <component name="RunManager" selected="Application.CharacterFrequency">
+    <configuration name="BlockedStateDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="multithreading.BlockedStateDemo" />
       <module name="Dsa" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="java8.*" />
+          <option name="PATTERN" value="multithreading.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -154,12 +155,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="BlockedStateDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="multithreading.BlockedStateDemo" />
+    <configuration name="CharacterFrequency" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="java8.CharacterFrequency" />
       <module name="Dsa" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="multithreading.*" />
+          <option name="PATTERN" value="java8.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -208,11 +209,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.CharacterFrequency" />
         <item itemvalue="Application.StringsStartingWith" />
         <item itemvalue="Application.BlockedStateDemo" />
         <item itemvalue="Application.ThreadStatesDemo" />
         <item itemvalue="Application.LongestString" />
-        <item itemvalue="Application.AnagramCheck" />
       </list>
     </recent_temporary>
   </component>
