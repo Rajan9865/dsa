@@ -5,7 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ff3856c1-c1ca-4aca-a6ef-fd33bd67f435" name="Changes" comment="MultipleFilter">
-      <change afterPath="$PROJECT_DIR$/DataStracture/src/multithreading/OddEvenDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DataStracture/src/java8/MaxMinNumber.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DataStracture/src/multithreading/OddEvenDemoTraditional.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -41,6 +42,31 @@
     &quot;accountId&quot;: &quot;e445a527-f423-4361-aa23-aa2f63fc186c&quot;
   }
 }</component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="jar://C:/Program Files/Java/jdk1.8.0_202/jre/lib/rt.jar!/sun/misc/VM.class" root0="SKIP_INSPECTION" />
+    <setting file="jar://C:/Program Files/Java/jdk1.8.0_202/src.zip!/java/lang/Comparable.java" root0="SKIP_INSPECTION" />
+    <setting file="jar://C:/Program Files/Java/jdk1.8.0_202/src.zip!/java/lang/Integer.java" root0="SKIP_INSPECTION" />
+    <setting file="jar://C:/Program Files/Java/jdk1.8.0_202/src.zip!/java/lang/Iterable.java" root0="SKIP_INSPECTION" />
+    <setting file="jar://C:/Program Files/Java/jdk1.8.0_202/src.zip!/java/lang/Long.java" root0="SKIP_INSPECTION" />
+    <setting file="jar://C:/Program Files/Java/jdk1.8.0_202/src.zip!/java/lang/Runnable.java" root0="SKIP_INSPECTION" />
+    <setting file="jar://C:/Program Files/Java/jdk1.8.0_202/src.zip!/java/lang/Short.java" root0="SKIP_INSPECTION" />
+    <setting file="jar://C:/Program Files/Java/jdk1.8.0_202/src.zip!/java/lang/String.java" root0="SKIP_INSPECTION" />
+    <setting file="jar://C:/Program Files/Java/jdk1.8.0_202/src.zip!/java/lang/Thread.java" root0="SKIP_INSPECTION" />
+    <setting file="jar://C:/Program Files/Java/jdk1.8.0_202/src.zip!/java/util/Comparator.java" root0="SKIP_INSPECTION" />
+    <setting file="jar://C:/Program Files/Java/jdk1.8.0_202/src.zip!/java/util/List.java" root0="SKIP_INSPECTION" />
+    <setting file="jar://C:/Program Files/Java/jdk1.8.0_202/src.zip!/java/util/Map.java" root0="SKIP_INSPECTION" />
+    <setting file="jar://C:/Program Files/Java/jdk1.8.0_202/src.zip!/java/util/Optional.java" root0="SKIP_INSPECTION" />
+    <setting file="jar://C:/Program Files/Java/jdk1.8.0_202/src.zip!/java/util/concurrent/Callable.java" root0="SKIP_INSPECTION" />
+    <setting file="jar://C:/Program Files/Java/jdk1.8.0_202/src.zip!/java/util/concurrent/Executors.java" root0="SKIP_INSPECTION" />
+    <setting file="jar://C:/Program Files/Java/jdk1.8.0_202/src.zip!/java/util/concurrent/FutureTask.java" root0="SKIP_INSPECTION" />
+    <setting file="jar://C:/Program Files/Java/jdk1.8.0_202/src.zip!/java/util/function/Consumer.java" root0="SKIP_INSPECTION" />
+    <setting file="jar://C:/Program Files/Java/jdk1.8.0_202/src.zip!/java/util/function/Function.java" root0="SKIP_INSPECTION" />
+    <setting file="jar://C:/Program Files/Java/jdk1.8.0_202/src.zip!/java/util/function/IntFunction.java" root0="SKIP_INSPECTION" />
+    <setting file="jar://C:/Program Files/Java/jdk1.8.0_202/src.zip!/java/util/stream/BaseStream.java" root0="SKIP_INSPECTION" />
+    <setting file="jar://C:/Program Files/Java/jdk1.8.0_202/src.zip!/java/util/stream/Collectors.java" root0="SKIP_INSPECTION" />
+    <setting file="jar://C:/Program Files/Java/jdk1.8.0_202/src.zip!/java/util/stream/IntStream.java" root0="SKIP_INSPECTION" />
+    <setting file="jar://C:/Program Files/Java/jdk1.8.0_202/src.zip!/java/util/stream/Stream.java" root0="SKIP_INSPECTION" />
+  </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 5
 }</component>
@@ -49,106 +75,109 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Application.AnagramCheck.executor&quot;: &quot;Run&quot;,
-    &quot;Application.BlockedStateDemo.executor&quot;: &quot;Run&quot;,
-    &quot;Application.CallableExample.executor&quot;: &quot;Run&quot;,
-    &quot;Application.CharacterFrequency.executor&quot;: &quot;Run&quot;,
-    &quot;Application.CheckIfCircularLinkedList.executor&quot;: &quot;Run&quot;,
-    &quot;Application.CollectorsExammple.executor&quot;: &quot;Run&quot;,
-    &quot;Application.CollectorsExammple1.executor&quot;: &quot;Run&quot;,
-    &quot;Application.CollectorsExammple2.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Concatenatestrings.executor&quot;: &quot;Run&quot;,
-    &quot;Application.CountLongProductsPerCategory.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Countwordoccurrences.executor&quot;: &quot;Run&quot;,
-    &quot;Application.CurryingExample.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Default1.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Default2.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Default3.executor&quot;: &quot;Run&quot;,
-    &quot;Application.DeleteFromDoublyList.executor&quot;: &quot;Run&quot;,
-    &quot;Application.DeleteinSinglyLinkedList.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Deletewithoutheadpointer.executor&quot;: &quot;Run&quot;,
-    &quot;Application.EmployeeAnalytics.executor&quot;: &quot;Run&quot;,
-    &quot;Application.EmployeeSalaryAnalyzer.executor&quot;: &quot;Run&quot;,
-    &quot;Application.EvenNumber.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ExecutorCallable.executor&quot;: &quot;Run&quot;,
-    &quot;Application.FindDuplicates.executor&quot;: &quot;Run&quot;,
-    &quot;Application.FindlengthofLoop.executor&quot;: &quot;Run&quot;,
-    &quot;Application.FirstNonRepeatedChar.executor&quot;: &quot;Run&quot;,
-    &quot;Application.FirstNonRepeatingCharacter.executor&quot;: &quot;Run&quot;,
-    &quot;Application.FlatMapExample.executor&quot;: &quot;Run&quot;,
-    &quot;Application.FlattenFilterSort.executor&quot;: &quot;Run&quot;,
-    &quot;Application.FlattenMapValues.executor&quot;: &quot;Run&quot;,
-    &quot;Application.FrequencyCountAndMaintainTheAscendingOrder1.executor&quot;: &quot;Run&quot;,
-    &quot;Application.FrequencyCountAndOrderMaintain.executor&quot;: &quot;Run&quot;,
-    &quot;Application.GroupByLength.executor&quot;: &quot;Run&quot;,
-    &quot;Application.GroupLength.executor&quot;: &quot;Run&quot;,
-    &quot;Application.GroupLength1.executor&quot;: &quot;Run&quot;,
-    &quot;Application.GroupedProducts.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Hello.executor&quot;: &quot;Run&quot;,
-    &quot;Application.KthLargestFinder.executor&quot;: &quot;Run&quot;,
-    &quot;Application.LambdaArgumentExample.executor&quot;: &quot;Run&quot;,
-    &quot;Application.LambdaComposition.executor&quot;: &quot;Run&quot;,
-    &quot;Application.LambdaFinalExample.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ListBasedExample.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ListIntegerBasedExample.executor&quot;: &quot;Run&quot;,
-    &quot;Application.LongestString.executor&quot;: &quot;Run&quot;,
-    &quot;Application.MaxDistinctCategory.executor&quot;: &quot;Run&quot;,
-    &quot;Application.MaximumValue.executor&quot;: &quot;Run&quot;,
-    &quot;Application.MethodRefExample.executor&quot;: &quot;Run&quot;,
-    &quot;Application.MethodsReference1.executor&quot;: &quot;Run&quot;,
-    &quot;Application.MethodsReference2.executor&quot;: &quot;Run&quot;,
-    &quot;Application.MethodsReference3.executor&quot;: &quot;Run&quot;,
-    &quot;Application.MethodsReference4.executor&quot;: &quot;Run&quot;,
-    &quot;Application.MiddleofLinkedList.executor&quot;: &quot;Debug&quot;,
-    &quot;Application.MostFrequentProducts.executor&quot;: &quot;Run&quot;,
-    &quot;Application.MultipleFilter.executor&quot;: &quot;Run&quot;,
-    &quot;Application.MyRunnable.executor&quot;: &quot;Run&quot;,
-    &quot;Application.MyRunnable1.executor&quot;: &quot;Run&quot;,
-    &quot;Application.MyThread.executor&quot;: &quot;Run&quot;,
-    &quot;Application.OptionalExample.executor&quot;: &quot;Run&quot;,
-    &quot;Application.OptionalTest.executor&quot;: &quot;Run&quot;,
-    &quot;Application.PartitionExample.executor&quot;: &quot;Run&quot;,
-    &quot;Application.RemoveDuplicatesfromSortedLinkedList.executor&quot;: &quot;Run&quot;,
-    &quot;Application.RemoveNodesWithGreaterRight.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Removeduplicatesfromunsortedlinkedlist.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ReverseDoublyLinkedList.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Reverselinkedlist.executor&quot;: &quot;Run&quot;,
-    &quot;Application.SecondHighest.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Sortemployeesbysalary.executor&quot;: &quot;Run&quot;,
-    &quot;Application.StringsStartingWith.executor&quot;: &quot;Run&quot;,
-    &quot;Application.SumOfNumber.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ThreadStatesDemo.executor&quot;: &quot;Debug&quot;,
-    &quot;Application.Top3highestnumbers.executor&quot;: &quot;Run&quot;,
-    &quot;Application.TopNPerCategory.executor&quot;: &quot;Run&quot;,
-    &quot;Application.UniqueSortedProducts.executor&quot;: &quot;Run&quot;,
-    &quot;Application.WordFrequency.executor&quot;: &quot;Run&quot;,
-    &quot;Application.string.Hello.executor&quot;: &quot;Run&quot;,
-    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;SONARLINT_PRECOMMIT_ANALYSIS&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;junie.onboarding.icon.badge.shown&quot;: &quot;true&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/Dsa&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;editor.preferences.import&quot;,
-    &quot;to.speed.mode.migration.done&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.AnagramCheck.executor": "Run",
+    "Application.BlockedStateDemo.executor": "Run",
+    "Application.CallableExample.executor": "Run",
+    "Application.CharacterFrequency.executor": "Run",
+    "Application.CheckIfCircularLinkedList.executor": "Run",
+    "Application.CollectorsExammple.executor": "Run",
+    "Application.CollectorsExammple1.executor": "Run",
+    "Application.CollectorsExammple2.executor": "Run",
+    "Application.Concatenatestrings.executor": "Run",
+    "Application.CountLongProductsPerCategory.executor": "Run",
+    "Application.Countwordoccurrences.executor": "Run",
+    "Application.CurryingExample.executor": "Run",
+    "Application.Default1.executor": "Run",
+    "Application.Default2.executor": "Run",
+    "Application.Default3.executor": "Run",
+    "Application.DeleteFromDoublyList.executor": "Run",
+    "Application.DeleteinSinglyLinkedList.executor": "Run",
+    "Application.Deletewithoutheadpointer.executor": "Run",
+    "Application.EmployeeAnalytics.executor": "Run",
+    "Application.EmployeeSalaryAnalyzer.executor": "Run",
+    "Application.EvenNumber.executor": "Run",
+    "Application.ExecutorCallable.executor": "Run",
+    "Application.FindDuplicates.executor": "Run",
+    "Application.FindlengthofLoop.executor": "Run",
+    "Application.FirstNonRepeatedChar.executor": "Run",
+    "Application.FirstNonRepeatingCharacter.executor": "Run",
+    "Application.FlatMapExample.executor": "Run",
+    "Application.FlattenFilterSort.executor": "Run",
+    "Application.FlattenMapValues.executor": "Run",
+    "Application.FrequencyCountAndMaintainTheAscendingOrder1.executor": "Run",
+    "Application.FrequencyCountAndOrderMaintain.executor": "Run",
+    "Application.GroupByLength.executor": "Run",
+    "Application.GroupLength.executor": "Run",
+    "Application.GroupLength1.executor": "Run",
+    "Application.GroupedProducts.executor": "Run",
+    "Application.Hello.executor": "Run",
+    "Application.KthLargestFinder.executor": "Run",
+    "Application.LambdaArgumentExample.executor": "Run",
+    "Application.LambdaComposition.executor": "Run",
+    "Application.LambdaFinalExample.executor": "Run",
+    "Application.ListBasedExample.executor": "Run",
+    "Application.ListIntegerBasedExample.executor": "Run",
+    "Application.LongestString.executor": "Run",
+    "Application.MaxDistinctCategory.executor": "Run",
+    "Application.MaxMinNumber.executor": "Run",
+    "Application.MaximumValue.executor": "Run",
+    "Application.MethodRefExample.executor": "Run",
+    "Application.MethodsReference1.executor": "Run",
+    "Application.MethodsReference2.executor": "Run",
+    "Application.MethodsReference3.executor": "Run",
+    "Application.MethodsReference4.executor": "Run",
+    "Application.MiddleofLinkedList.executor": "Debug",
+    "Application.MostFrequentProducts.executor": "Run",
+    "Application.MultipleFilter.executor": "Run",
+    "Application.MyRunnable.executor": "Run",
+    "Application.MyRunnable1.executor": "Run",
+    "Application.MyThread.executor": "Run",
+    "Application.OddEvenDemo.executor": "Run",
+    "Application.OddEvenDemoTraditional.executor": "Run",
+    "Application.OptionalExample.executor": "Run",
+    "Application.OptionalTest.executor": "Run",
+    "Application.PartitionExample.executor": "Run",
+    "Application.RemoveDuplicatesfromSortedLinkedList.executor": "Run",
+    "Application.RemoveNodesWithGreaterRight.executor": "Run",
+    "Application.Removeduplicatesfromunsortedlinkedlist.executor": "Run",
+    "Application.ReverseDoublyLinkedList.executor": "Run",
+    "Application.Reverselinkedlist.executor": "Run",
+    "Application.SecondHighest.executor": "Run",
+    "Application.Sortemployeesbysalary.executor": "Run",
+    "Application.StringsStartingWith.executor": "Run",
+    "Application.SumOfNumber.executor": "Run",
+    "Application.ThreadStatesDemo.executor": "Debug",
+    "Application.Top3highestnumbers.executor": "Run",
+    "Application.TopNPerCategory.executor": "Run",
+    "Application.UniqueSortedProducts.executor": "Run",
+    "Application.WordFrequency.executor": "Run",
+    "Application.string.Hello.executor": "Run",
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "SONARLINT_PRECOMMIT_ANALYSIS": "true",
+    "git-widget-placeholder": "master",
+    "junie.onboarding.icon.badge.shown": "true",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "D:/Dsa",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "editor.preferences.import",
+    "to.speed.mode.migration.done": "true"
   }
-}</component>
-  <component name="RunManager" selected="Application.OddEvenDemo">
-    <configuration name="BlockedStateDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="multithreading.BlockedStateDemo" />
+}]]></component>
+  <component name="RunManager" selected="Application.MaxMinNumber">
+    <configuration name="CharacterFrequency" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="java8.CharacterFrequency" />
       <module name="Dsa" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="multithreading.*" />
+          <option name="PATTERN" value="java8.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -156,8 +185,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CharacterFrequency" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="java8.CharacterFrequency" />
+    <configuration name="MaxMinNumber" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="java8.MaxMinNumber" />
       <module name="Dsa" />
       <extension name="coverage">
         <pattern>
@@ -182,12 +211,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StringsStartingWith" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="java8.StringsStartingWith" />
+    <configuration name="OddEvenDemoTraditional" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="multithreading.OddEvenDemoTraditional" />
       <module name="Dsa" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="java8.*" />
+          <option name="PATTERN" value="multithreading.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -210,11 +239,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MaxMinNumber" />
+        <item itemvalue="Application.OddEvenDemoTraditional" />
         <item itemvalue="Application.OddEvenDemo" />
         <item itemvalue="Application.WordFrequency" />
         <item itemvalue="Application.CharacterFrequency" />
-        <item itemvalue="Application.StringsStartingWith" />
-        <item itemvalue="Application.BlockedStateDemo" />
       </list>
     </recent_temporary>
   </component>
