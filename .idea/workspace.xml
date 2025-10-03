@@ -5,8 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ff3856c1-c1ca-4aca-a6ef-fd33bd67f435" name="Changes" comment="MultipleFilter">
-      <change afterPath="$PROJECT_DIR$/DataStracture/src/java8/MaxMinNumber.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DataStracture/src/multithreading/OddEvenDemoTraditional.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DataStracture/src/java8/CommonElements.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DataStracture/src/multithreading/RaceConditionDemo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -85,6 +85,7 @@
     "Application.CollectorsExammple.executor": "Run",
     "Application.CollectorsExammple1.executor": "Run",
     "Application.CollectorsExammple2.executor": "Run",
+    "Application.CommonElements.executor": "Run",
     "Application.Concatenatestrings.executor": "Run",
     "Application.CountLongProductsPerCategory.executor": "Run",
     "Application.Countwordoccurrences.executor": "Run",
@@ -171,9 +172,9 @@
     "to.speed.mode.migration.done": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.MaxMinNumber">
-    <configuration name="CharacterFrequency" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="java8.CharacterFrequency" />
+  <component name="RunManager" selected="Application.RaceConditionDemo">
+    <configuration name="CommonElements" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="java8.CommonElements" />
       <module name="Dsa" />
       <extension name="coverage">
         <pattern>
@@ -224,12 +225,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="WordFrequency" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="java8.WordFrequency" />
+    <configuration name="RaceConditionDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="multithreading.RaceConditionDemo" />
       <module name="Dsa" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="java8.*" />
+          <option name="PATTERN" value="multithreading.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -239,11 +240,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.RaceConditionDemo" />
+        <item itemvalue="Application.CommonElements" />
         <item itemvalue="Application.MaxMinNumber" />
         <item itemvalue="Application.OddEvenDemoTraditional" />
         <item itemvalue="Application.OddEvenDemo" />
-        <item itemvalue="Application.WordFrequency" />
-        <item itemvalue="Application.CharacterFrequency" />
       </list>
     </recent_temporary>
   </component>
