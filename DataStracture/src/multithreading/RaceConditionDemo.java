@@ -17,7 +17,7 @@ public class RaceConditionDemo {
         RaceConditionDemo raceConditionDemo = new RaceConditionDemo();
         Runnable runnable = () ->
         {
-            for (int i = 0; i < 2000; i++) {
+            for (int i = 0; i < 20000; i++) {
                 raceConditionDemo.increment();
             }
         };
@@ -29,6 +29,6 @@ public class RaceConditionDemo {
 
         thread.join();
         thread1.join();
-        System.out.println("Final count (expected 2000): " + raceConditionDemo.count);
+        System.out.println("Final count (expected 20000): " + raceConditionDemo.count);
     }
 }
