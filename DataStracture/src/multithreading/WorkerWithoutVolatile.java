@@ -15,7 +15,6 @@ public class WorkerWithoutVolatile extends Thread {
         System.out.println("thread is running " + Thread.currentThread().getName());
         System.out.println(Thread.currentThread().getState());
         while (running) {
-
         }
         System.out.println("thread stopped " + Thread.currentThread().getName());
     }
