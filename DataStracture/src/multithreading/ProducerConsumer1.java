@@ -46,7 +46,7 @@ public class ProducerConsumer1 {
             for (int i = 1; i <= 500; i++) {
                 buffer1.consumer();
                 try {
-//                    Thread.sleep(10);
+                    Thread.sleep(10);
                 } catch (Exception e) {
                     throw new RuntimeException(e);
                 }

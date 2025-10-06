@@ -5,8 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ff3856c1-c1ca-4aca-a6ef-fd33bd67f435" name="Changes" comment="MultipleFilter">
-      <change afterPath="$PROJECT_DIR$/DataStracture/src/multithreading/ProducerConsumer1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DataStracture/src/multithreading/WorkerWithoutVolatile.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataStracture/src/multithreading/ProducerConsumer1.java" beforeDir="false" afterPath="$PROJECT_DIR$/DataStracture/src/multithreading/ProducerConsumer1.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -159,6 +160,7 @@
     "Application.TopNPerCategory.executor": "Run",
     "Application.UniqueSortedProducts.executor": "Run",
     "Application.WordFrequency.executor": "Run",
+    "Application.WorkerWithoutVolatile.executor": "Run",
     "Application.string.Hello.executor": "Run",
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
@@ -177,7 +179,7 @@
     "to.speed.mode.migration.done": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.ProducerConsumer1">
+  <component name="RunManager" selected="Application.WorkerWithoutVolatile">
     <configuration name="FindDuplicatesWithoutGroupingBy" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="java8.FindDuplicatesWithoutGroupingBy" />
       <module name="Dsa" />
@@ -230,8 +232,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SynchronizedDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="multithreading.SynchronizedDemo" />
+    <configuration name="WorkerWithoutVolatile" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="multithreading.WorkerWithoutVolatile" />
       <module name="Dsa" />
       <extension name="coverage">
         <pattern>
@@ -245,11 +247,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.WorkerWithoutVolatile" />
         <item itemvalue="Application.ProducerConsumer1" />
         <item itemvalue="Application.ProducerConsumer" />
         <item itemvalue="Application.SumOfEvenNumbers" />
         <item itemvalue="Application.FindDuplicatesWithoutGroupingBy" />
-        <item itemvalue="Application.SynchronizedDemo" />
       </list>
     </recent_temporary>
   </component>
@@ -611,6 +613,16 @@
           <url>file://$PROJECT_DIR$/DataStracture/src/multithreading/ThreadStatesDemo.java</url>
           <line>10</line>
           <option name="timeStamp" value="6" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/DataStracture/src/multithreading/WorkerWithoutVolatile.java</url>
+          <line>27</line>
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/DataStracture/src/multithreading/WorkerWithoutVolatile.java</url>
+          <line>15</line>
+          <option name="timeStamp" value="8" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
