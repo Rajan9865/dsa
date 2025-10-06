@@ -5,10 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ff3856c1-c1ca-4aca-a6ef-fd33bd67f435" name="Changes" comment="MultipleFilter">
-      <change afterPath="$PROJECT_DIR$/DataStracture/src/java8/SumOfEvenNumbers.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DataStracture/src/multithreading/ProducerConsumer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DataStracture/src/multithreading/ProducerConsumer1.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Dsa/java8/FindDuplicatesWithoutGroupingBy.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Dsa/java8/FindDuplicatesWithoutGroupingBy.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -143,6 +141,7 @@
     "Application.OptionalTest.executor": "Run",
     "Application.PartitionExample.executor": "Run",
     "Application.ProducerConsumer.executor": "Run",
+    "Application.ProducerConsumer1.executor": "Run",
     "Application.RaceConditionDemo.executor": "Run",
     "Application.RemoveDuplicatesfromSortedLinkedList.executor": "Run",
     "Application.RemoveNodesWithGreaterRight.executor": "Run",
@@ -178,7 +177,7 @@
     "to.speed.mode.migration.done": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.ProducerConsumer">
+  <component name="RunManager" selected="Application.ProducerConsumer1">
     <configuration name="FindDuplicatesWithoutGroupingBy" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="java8.FindDuplicatesWithoutGroupingBy" />
       <module name="Dsa" />
@@ -205,8 +204,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RaceConditionDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="multithreading.RaceConditionDemo" />
+    <configuration name="ProducerConsumer1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="multithreading.ProducerConsumer1" />
       <module name="Dsa" />
       <extension name="coverage">
         <pattern>
@@ -246,11 +245,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ProducerConsumer1" />
         <item itemvalue="Application.ProducerConsumer" />
         <item itemvalue="Application.SumOfEvenNumbers" />
         <item itemvalue="Application.FindDuplicatesWithoutGroupingBy" />
         <item itemvalue="Application.SynchronizedDemo" />
-        <item itemvalue="Application.RaceConditionDemo" />
       </list>
     </recent_temporary>
   </component>
