@@ -5,9 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ff3856c1-c1ca-4aca-a6ef-fd33bd67f435" name="Changes" comment="MultipleFilter">
-      <change afterPath="$PROJECT_DIR$/DataStracture/src/multithreading/WorkerWithVolatile.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DataStracture/src/java8/SecondSmallest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DataStracture/src/multithreading/WorkerWithoutVolatile.java" beforeDir="false" afterPath="$PROJECT_DIR$/DataStracture/src/multithreading/WorkerWithoutVolatile.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -150,6 +149,7 @@
     "Application.ReverseDoublyLinkedList.executor": "Run",
     "Application.Reverselinkedlist.executor": "Run",
     "Application.SecondHighest.executor": "Run",
+    "Application.SecondSmallest.executor": "Run",
     "Application.Sortemployeesbysalary.executor": "Run",
     "Application.StringsStartingWith.executor": "Run",
     "Application.SumOfEvenNumbers.executor": "Run",
@@ -180,7 +180,7 @@
     "to.speed.mode.migration.done": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.WorkerWithoutVolatile">
+  <component name="RunManager" selected="Application.SecondSmallest">
     <configuration name="ProducerConsumer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="multithreading.ProducerConsumer" />
       <module name="Dsa" />
@@ -207,8 +207,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SumOfEvenNumbers" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="java8.SumOfEvenNumbers" />
+    <configuration name="SecondSmallest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="java8.SecondSmallest" />
       <module name="Dsa" />
       <extension name="coverage">
         <pattern>
@@ -248,11 +248,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.SecondSmallest" />
         <item itemvalue="Application.WorkerWithoutVolatile" />
         <item itemvalue="Application.WorkerWithVolatile" />
         <item itemvalue="Application.ProducerConsumer1" />
         <item itemvalue="Application.ProducerConsumer" />
-        <item itemvalue="Application.SumOfEvenNumbers" />
       </list>
     </recent_temporary>
   </component>
