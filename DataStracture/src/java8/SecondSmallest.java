@@ -1,9 +1,6 @@
 package java8;
 
-import java.util.Arrays;
-import java.util.Collections;
-import java.util.List;
-import java.util.Optional;
+import java.util.*;
 import java.util.stream.Collectors;
 
 /**
@@ -41,6 +38,7 @@ public class SecondSmallest {
     }
 
     private static Optional<Integer> secondSmallestOrderofn(List<Integer> numbers) {
+        Map<String, String> map = new HashMap<>();
         return numbers.stream().distinct().collect(Collectors.collectingAndThen(Collectors.toList(),
                 list -> {
                     Integer min = Collections.min(list);
@@ -50,6 +48,6 @@ public class SecondSmallest {
     }
 
     private static Optional<Integer> secondSmallest(List<Integer> numbers) {
-        return numbers.stream().distinct().sorted().skip(1).findFirst();
+        return numbers.stream().distinct().sorted().skip(1).findFirst(); //nlogn
     }
 }
