@@ -12,42 +12,58 @@ import java.util.stream.Collectors;
 public class SecondSmallest {
     public static void main(String[] args) {
         List<Integer> numbers = Arrays.asList(8, 3, 10, 1, 6, 3, 1);
-        Optional<Integer> output = secondSmallest(numbers);
-        Optional<Integer> output1 = secondSmallestOrderofn(numbers);
+
+        // Approach A: Stream (readable, O(n log n) due to sort)
+        Optional<Integer> secondBySort = secondSmallestBySort(numbers);
+
+        // Approach B: Collections trick (O(n) average for min + removals on small lists)
+        Optional<Integer> secondByCollections = secondSmallestByCollections(numbers);
+
+        // Approach C: Traditional single-pass O(n) (best for large input)
         secondSmallestTraditional(numbers);
-        output.ifPresent(p -> System.out.println(p));
-        output1.ifPresent(p -> System.out.println(p));
+
+        // Print stream results
+        secondBySort.ifPresent(v -> System.out.println("Second smallest (sort): " + v));
+        secondByCollections.ifPresent(v -> System.out.println("Second smallest (collections): " + v));
     }
 
+    // Approach A — Stream: distinct + sort + skip
+    private static Optional<Integer> secondSmallestBySort(List<Integer> numbers) {
+        return numbers.stream()
+                .distinct()
+                .sorted()
+                .skip(1)
+                .findFirst(); // O(n log n)
+    }
+
+    // Approach B — Collections-based: find min, remove, then find min again
+    // Good when distinct count is small; still overall O(n) to find mins
+    private static Optional<Integer> secondSmallestByCollections(List<Integer> numbers) {
+        List<Integer> unique = numbers.stream().distinct().collect(Collectors.toList());
+        if (unique.size() < 2) return Optional.empty();
+        Integer min = Collections.min(unique);
+        unique.remove(min); // removes first occurrence of min
+        return unique.isEmpty() ? Optional.empty() : Optional.of(Collections.min(unique));
+    }
+
+    // Approach C — Traditional single-pass O(n), handles duplicates properly
     private static void secondSmallestTraditional(List<Integer> numbers) {
         int smallest = Integer.MAX_VALUE;
-        int secondsmallest = Integer.MAX_VALUE;
+        int secondSmallest = Integer.MAX_VALUE;
+
         for (int num : numbers) {
             if (num < smallest) {
-                secondsmallest = smallest;
+                secondSmallest = smallest;
                 smallest = num;
-            } else if (num > smallest && num < secondsmallest) {
-                secondsmallest = num;
+            } else if (num > smallest && num < secondSmallest) {
+                secondSmallest = num;
             }
         }
-        if (secondsmallest == Integer.MAX_VALUE) {
-            System.out.println("No second smallest element (all elements may be equal)");
+
+        if (secondSmallest == Integer.MAX_VALUE) {
+            System.out.println("No second smallest element (all elements may be equal or only one unique).");
         } else {
-            System.out.println("2nds smallest number " + secondsmallest);
+            System.out.println("Second smallest (traditional): " + secondSmallest);
         }
-    }
-
-    private static Optional<Integer> secondSmallestOrderofn(List<Integer> numbers) {
-        Map<String, String> map = new HashMap<>();
-        return numbers.stream().distinct().collect(Collectors.collectingAndThen(Collectors.toList(),
-                list -> {
-                    Integer min = Collections.min(list);
-                    list.remove(min);
-                    return list.isEmpty() ? Optional.empty() : Optional.of(Collections.min(list));
-                }));
-    }
-
-    private static Optional<Integer> secondSmallest(List<Integer> numbers) {
-        return numbers.stream().distinct().sorted().skip(1).findFirst(); //nlogn
     }
 }
