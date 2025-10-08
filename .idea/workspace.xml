@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ff3856c1-c1ca-4aca-a6ef-fd33bd67f435" name="Changes" comment="MultipleFilter">
-      <change afterPath="$PROJECT_DIR$/DataStracture/src/java8/VowelCount2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DataStracture/src/java8/DuplicateWords.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -96,6 +96,7 @@
     "Application.DeleteFromDoublyList.executor": "Run",
     "Application.DeleteinSinglyLinkedList.executor": "Run",
     "Application.Deletewithoutheadpointer.executor": "Run",
+    "Application.DuplicateWords.executor": "Run",
     "Application.EmployeeAnalytics.executor": "Run",
     "Application.EmployeeSalaryAnalyzer.executor": "Run",
     "Application.EvenNumber.executor": "Run",
@@ -187,9 +188,9 @@
     "to.speed.mode.migration.done": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.VowelCount2">
-    <configuration name="LongestAndShortestWord" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="java8.LongestAndShortestWord" />
+  <component name="RunManager" selected="Application.DuplicateWords">
+    <configuration name="DuplicateWords" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="java8.DuplicateWords" />
       <module name="Dsa" />
       <extension name="coverage">
         <pattern>
@@ -201,8 +202,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SecondSmallest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="java8.SecondSmallest" />
+    <configuration name="LongestAndShortestWord" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="java8.LongestAndShortestWord" />
       <module name="Dsa" />
       <extension name="coverage">
         <pattern>
@@ -255,11 +256,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.DuplicateWords" />
         <item itemvalue="Application.VowelCount2" />
         <item itemvalue="Application.VowelCount1" />
         <item itemvalue="Application.VowelCount" />
         <item itemvalue="Application.LongestAndShortestWord" />
-        <item itemvalue="Application.SecondSmallest" />
       </list>
     </recent_temporary>
   </component>
