@@ -35,6 +35,7 @@ public class VowelCount {
                 .collect(Collectors.groupingBy(Function.identity(), Collectors.counting()));
     }
 
+
     // Approach 2: Using string indexOf() to check vowels
     private static Map<Character, Long> vowelCountUsingString(String input) {
         return input.toLowerCase()
