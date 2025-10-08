@@ -16,23 +16,31 @@ import java.util.stream.Collectors;
 public class VowelCount {
     public static void main(String[] args) {
         String input = "Beautiful Java Programming";
-        Map<Character, Long> output = vowelCount(input);
-        Map<Character, Long> output1 = vowelCount1(input);
-        System.out.println(output);
-        System.out.println(output1);
+
+        Map<Character, Long> resultSetBased = vowelCountUsingSet(input);
+        Map<Character, Long> resultStringBased = vowelCountUsingString(input);
+
+        System.out.println("Using Set-based filter: " + resultSetBased);
+        System.out.println("Using String-based filter: " + resultStringBased);
     }
 
-    private static Map<Character, Long> vowelCount1(String input) {
-        return input.toLowerCase().chars().mapToObj(c -> (char) c)
-                .filter(p -> "aeiou".indexOf(p) >= 0)
-                .collect(Collectors.groupingBy(Function.identity()
-                        , Collectors.counting()));
-    }
-
-    private static Map<Character, Long> vowelCount(String input) {
+    // Approach 1: Using a Set of vowels (clean & efficient)
+    private static Map<Character, Long> vowelCountUsingSet(String input) {
         Set<Character> vowels = new HashSet<>(Arrays.asList('a', 'e', 'i', 'o', 'u'));
-        return input.toLowerCase().chars().mapToObj(c -> (char) c)
-                .filter(vowels::contains).collect(Collectors.groupingBy(Function.identity(),
-                        Collectors.counting()));
+
+        return input.toLowerCase()
+                .chars()
+                .mapToObj(c -> (char) c)
+                .filter(vowels::contains)
+                .collect(Collectors.groupingBy(Function.identity(), Collectors.counting()));
+    }
+
+    // Approach 2: Using string indexOf() to check vowels
+    private static Map<Character, Long> vowelCountUsingString(String input) {
+        return input.toLowerCase()
+                .chars()
+                .mapToObj(c -> (char) c)
+                .filter(ch -> "aeiou".indexOf(ch) >= 0)
+                .collect(Collectors.groupingBy(Function.identity(), Collectors.counting()));
     }
 }
