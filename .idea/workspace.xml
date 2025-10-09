@@ -5,8 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ff3856c1-c1ca-4aca-a6ef-fd33bd67f435" name="Changes" comment="MultipleFilter">
-      <change afterPath="$PROJECT_DIR$/DataStracture/src/java8/DuplicateWords.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataStracture/src/java8/DuplicateWords.java" beforeDir="false" afterPath="$PROJECT_DIR$/DataStracture/src/java8/DuplicateWords.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataStracture/src/java8/VowelCount2.java" beforeDir="false" afterPath="$PROJECT_DIR$/DataStracture/src/java8/VowelCount2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Dsa/java8/DuplicateWords.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Dsa/java8/DuplicateWords.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Dsa/java8/VowelCount2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Dsa/java8/VowelCount2.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

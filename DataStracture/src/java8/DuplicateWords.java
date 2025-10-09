@@ -1,42 +1,47 @@
 package java8;
 
-import java.util.Arrays;
-import java.util.Map;
+import java.util.*;
 import java.util.function.Function;
 import java.util.stream.Collectors;
 
 /**
- * @author Rajan kumar
+ * @author Rajan Kumar
  * @version 1.0
- * Dsa
+ * DSA
  * @since 10/8/2025
  */
 public class DuplicateWords {
     public static void main(String[] args) {
         String sentence = "Java is great and Java is powerful because Java is platform independent";
-        Map<String, Long> output = duplicateWords(sentence);
-        Map<String, Long> output1 = duplicateWords1(sentence);
-        System.out.println(output1);
-        Map<String, Long> duplicateName1 = duplicateName(output1);
-        System.out.println(duplicateName1);
-        System.out.println(output);
+
+        // Count frequency of all words
+        Map<String, Long> wordFrequency = countWordFrequency(sentence);
+
+        // Extract only duplicate words (occurrences > 1)
+        Map<String, Long> duplicates = findDuplicates(wordFrequency);
+        findDuplicatesReverse(wordFrequency);
+
+        // Print results
+        System.out.println("All word counts: " + wordFrequency);
+        System.out.println("Duplicate words: " + duplicates);
     }
 
-    private static Map<String, Long> duplicateName(Map<String, Long> output1) {
-        return output1.entrySet().stream().filter(p -> p.getValue() > 1)
-                .collect(Collectors.toMap(Map.Entry::getKey, Map.Entry::getValue));
+    private static void findDuplicatesReverse(Map<String, Long> wordFrequency) {
+        wordFrequency.entrySet().stream()
+                .sorted(Map.Entry.<String, Long>comparingByValue().reversed())
+                .forEach(System.out::println);
     }
 
-    private static Map<String, Long> duplicateWords1(String sentence) {
-        return Arrays.stream(sentence.split("\\s+"))
+    // Step 1: Count frequency of each word
+    private static Map<String, Long> countWordFrequency(String sentence) {
+        return Arrays.stream(sentence.toLowerCase().split("\\s+"))
                 .collect(Collectors.groupingBy(Function.identity(), Collectors.counting()));
     }
 
-    private static Map<String, Long> duplicateWords(String sentence) {
-        return Arrays.stream(sentence.split("\\s+"))
-                .collect(Collectors.groupingBy(Function.identity(), Collectors.counting()))
-                .entrySet().stream()
-                .filter(p -> p.getValue() > 1)
+    // Step 2: Extract words that occur more than once
+    private static Map<String, Long> findDuplicates(Map<String, Long> wordFrequency) {
+        return wordFrequency.entrySet().stream()
+                .filter(entry -> entry.getValue() > 1)
                 .collect(Collectors.toMap(Map.Entry::getKey, Map.Entry::getValue));
     }
 }
