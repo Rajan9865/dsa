@@ -26,6 +26,5 @@ public class WithoutVolatile {
         System.out.println("flag set to false");
         System.out.println(thread.getState());
         System.out.println(thread.getName());
-
     }
 }
