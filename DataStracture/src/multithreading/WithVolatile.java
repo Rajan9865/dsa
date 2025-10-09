@@ -20,6 +20,5 @@ public class WithVolatile {
         Thread.sleep(1000);
         running = false;
         System.out.println("flag set to flase ");
-
     }
 }
