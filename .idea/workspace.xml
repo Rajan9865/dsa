@@ -5,7 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ff3856c1-c1ca-4aca-a6ef-fd33bd67f435" name="Changes" comment="MultipleFilter">
+      <change afterPath="$PROJECT_DIR$/DataStracture/src/multithreading/VolatileCounter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DataStracture/src/multithreading/VolatileCounter1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/DataStracture/src/multithreading/WithVolatile.java" beforeDir="false" afterPath="$PROJECT_DIR$/DataStracture/src/multithreading/WithVolatile.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataStracture/src/multithreading/WithoutVolatile.java" beforeDir="false" afterPath="$PROJECT_DIR$/DataStracture/src/multithreading/WithoutVolatile.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -163,6 +167,8 @@
     "Application.Top3highestnumbers.executor": "Run",
     "Application.TopNPerCategory.executor": "Run",
     "Application.UniqueSortedProducts.executor": "Run",
+    "Application.VolatileCounter.executor": "Run",
+    "Application.VolatileCounter1.executor": "Run",
     "Application.VowelCount.executor": "Run",
     "Application.VowelCount1.executor": "Run",
     "Application.VowelCount2.executor": "Run",
@@ -189,13 +195,13 @@
     "to.speed.mode.migration.done": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.WithVolatile">
-    <configuration name="DuplicateWords" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="java8.DuplicateWords" />
+  <component name="RunManager" selected="Application.VolatileCounter">
+    <configuration name="VolatileCounter" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="multithreading.VolatileCounter" />
       <module name="Dsa" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="java8.*" />
+          <option name="PATTERN" value="multithreading.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -203,12 +209,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="VowelCount2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="java8.VowelCount2" />
+    <configuration name="VolatileCounter1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="multithreading.VolatileCounter1" />
       <module name="Dsa" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="java8.*" />
+          <option name="PATTERN" value="multithreading.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -257,11 +263,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.VolatileCounter" />
+        <item itemvalue="Application.VolatileCounter1" />
         <item itemvalue="Application.WithVolatile" />
         <item itemvalue="Application.WithoutVolatile" />
         <item itemvalue="Application.WorkerWithoutVolatile" />
-        <item itemvalue="Application.DuplicateWords" />
-        <item itemvalue="Application.VowelCount2" />
       </list>
     </recent_temporary>
   </component>

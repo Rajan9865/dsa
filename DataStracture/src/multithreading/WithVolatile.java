@@ -12,7 +12,6 @@ public class WithVolatile {
     public static void main(String[] args) throws InterruptedException {
         Thread thread = new Thread(() -> {
             while (running) {
-
             }
             System.out.println("thread stopped");
         });
