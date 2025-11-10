@@ -5,7 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ff3856c1-c1ca-4aca-a6ef-fd33bd67f435" name="Changes" comment="MultipleFilter">
-      <change afterPath="$PROJECT_DIR$/DataStracture/src/multithreading/VolatileCounter2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DataStracture/src/java8/MostFrequentElement.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DataStracture/src/multithreading/VolatileCounter2withAtomic.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -133,6 +134,7 @@
     "Application.MethodsReference3.executor": "Run",
     "Application.MethodsReference4.executor": "Run",
     "Application.MiddleofLinkedList.executor": "Debug",
+    "Application.MostFrequentElement.executor": "Run",
     "Application.MostFrequentProducts.executor": "Run",
     "Application.MultipleFilter.executor": "Run",
     "Application.MyRunnable.executor": "Run",
@@ -168,6 +170,7 @@
     "Application.VolatileCounter.executor": "Run",
     "Application.VolatileCounter1.executor": "Run",
     "Application.VolatileCounter2.executor": "Run",
+    "Application.VolatileCounter2withAtomic.executor": "Run",
     "Application.VowelCount.executor": "Run",
     "Application.VowelCount1.executor": "Run",
     "Application.VowelCount2.executor": "Run",
@@ -183,6 +186,8 @@
     "RunOnceActivity.git.unshallow": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "SONARLINT_PRECOMMIT_ANALYSIS": "true",
+    "com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultAutoModeForALLUsers.v1": "true",
+    "com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1": "true",
     "git-widget-placeholder": "master",
     "junie.onboarding.icon.badge.shown": "true",
     "kotlin-language-version-configured": "true",
@@ -194,7 +199,20 @@
     "to.speed.mode.migration.done": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.VolatileCounter2">
+  <component name="RunManager" selected="Application.MostFrequentElement">
+    <configuration name="MostFrequentElement" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="java8.MostFrequentElement" />
+      <module name="Dsa" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="java8.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="TwoThreadsSafe" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="multithreading.TwoThreadsSafe" />
       <module name="Dsa" />
@@ -221,19 +239,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="VolatileCounter1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="multithreading.VolatileCounter1" />
-      <module name="Dsa" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="multithreading.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="VolatileCounter2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="multithreading.VolatileCounter2" />
       <module name="Dsa" />
@@ -247,8 +252,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="WithVolatile" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="multithreading.WithVolatile" />
+    <configuration name="VolatileCounter2withAtomic" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="multithreading.VolatileCounter2withAtomic" />
       <module name="Dsa" />
       <extension name="coverage">
         <pattern>
@@ -262,11 +267,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MostFrequentElement" />
+        <item itemvalue="Application.VolatileCounter2withAtomic" />
         <item itemvalue="Application.VolatileCounter2" />
         <item itemvalue="Application.TwoThreadsSafe" />
         <item itemvalue="Application.VolatileCounter" />
-        <item itemvalue="Application.VolatileCounter1" />
-        <item itemvalue="Application.WithVolatile" />
       </list>
     </recent_temporary>
   </component>
