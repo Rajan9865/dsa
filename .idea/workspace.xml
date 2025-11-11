@@ -5,8 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ff3856c1-c1ca-4aca-a6ef-fd33bd67f435" name="Changes" comment="MultipleFilter">
-      <change afterPath="$PROJECT_DIR$/DataStracture/src/java8/MostFrequentElement.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DataStracture/src/multithreading/VolatileCounter2withAtomic.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DataStracture/src/java8/SumOfDigits.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -157,6 +156,7 @@
     "Application.SecondSmallest.executor": "Run",
     "Application.Sortemployeesbysalary.executor": "Run",
     "Application.StringsStartingWith.executor": "Run",
+    "Application.SumOfDigits.executor": "Run",
     "Application.SumOfEvenNumbers.executor": "Run",
     "Application.SumOfNumber.executor": "Run",
     "Application.SynchronizedDemo.executor": "Run",
@@ -195,11 +195,11 @@
     "project.structure.last.edited": "Project",
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.0",
-    "settings.editor.selected.configurable": "editor.preferences.import",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
     "to.speed.mode.migration.done": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.MostFrequentElement">
+  <component name="RunManager" selected="Application.SumOfDigits">
     <configuration name="MostFrequentElement" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="java8.MostFrequentElement" />
       <module name="Dsa" />
@@ -213,12 +213,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TwoThreadsSafe" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="multithreading.TwoThreadsSafe" />
+    <configuration name="SumOfDigits" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="java8.SumOfDigits" />
       <module name="Dsa" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="multithreading.*" />
+          <option name="PATTERN" value="java8.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -226,8 +226,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="VolatileCounter" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="multithreading.VolatileCounter" />
+    <configuration name="TwoThreadsSafe" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="multithreading.TwoThreadsSafe" />
       <module name="Dsa" />
       <extension name="coverage">
         <pattern>
@@ -267,11 +267,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.SumOfDigits" />
         <item itemvalue="Application.MostFrequentElement" />
         <item itemvalue="Application.VolatileCounter2withAtomic" />
         <item itemvalue="Application.VolatileCounter2" />
         <item itemvalue="Application.TwoThreadsSafe" />
-        <item itemvalue="Application.VolatileCounter" />
       </list>
     </recent_temporary>
   </component>
@@ -587,7 +587,15 @@
       <option name="project" value="LOCAL" />
       <updated>1757939604424</updated>
     </task>
-    <option name="localTasksCounter" value="39" />
+    <task id="LOCAL-00039" summary="MultipleFilter">
+      <option name="closed" value="true" />
+      <created>1762781679508</created>
+      <option name="number" value="00039" />
+      <option name="presentableId" value="LOCAL-00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1762781679508</updated>
+    </task>
+    <option name="localTasksCounter" value="40" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
