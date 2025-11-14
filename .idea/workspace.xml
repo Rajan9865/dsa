@@ -4,9 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ff3856c1-c1ca-4aca-a6ef-fd33bd67f435" name="Changes" comment="MultipleFilter">
-      <change afterPath="$PROJECT_DIR$/DataStracture/src/java8/PalindromeFinder.java" afterDir="false" />
+    <list default="true" id="ff3856c1-c1ca-4aca-a6ef-fd33bd67f435" name="Changes" comment="PalindromeFinder">
+      <change afterPath="$PROJECT_DIR$/DataStracture/src/java8/PrimeNumbersFinder.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataStracture/src/java8/PalindromeFinder.java" beforeDir="false" afterPath="$PROJECT_DIR$/DataStracture/src/java8/PalindromeFinder.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -74,132 +75,134 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Application.AnagramCheck.executor&quot;: &quot;Run&quot;,
-    &quot;Application.BlockedStateDemo.executor&quot;: &quot;Run&quot;,
-    &quot;Application.CallableExample.executor&quot;: &quot;Run&quot;,
-    &quot;Application.CharacterFrequency.executor&quot;: &quot;Run&quot;,
-    &quot;Application.CheckIfCircularLinkedList.executor&quot;: &quot;Run&quot;,
-    &quot;Application.CollectorsExammple.executor&quot;: &quot;Run&quot;,
-    &quot;Application.CollectorsExammple1.executor&quot;: &quot;Run&quot;,
-    &quot;Application.CollectorsExammple2.executor&quot;: &quot;Run&quot;,
-    &quot;Application.CommonElements.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Concatenatestrings.executor&quot;: &quot;Run&quot;,
-    &quot;Application.CountLongProductsPerCategory.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Countwordoccurrences.executor&quot;: &quot;Run&quot;,
-    &quot;Application.CurryingExample.executor&quot;: &quot;Run&quot;,
-    &quot;Application.DeadlockExample.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Default1.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Default2.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Default3.executor&quot;: &quot;Run&quot;,
-    &quot;Application.DeleteFromDoublyList.executor&quot;: &quot;Run&quot;,
-    &quot;Application.DeleteinSinglyLinkedList.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Deletewithoutheadpointer.executor&quot;: &quot;Run&quot;,
-    &quot;Application.DuplicateWords.executor&quot;: &quot;Run&quot;,
-    &quot;Application.EmployeeAnalytics.executor&quot;: &quot;Run&quot;,
-    &quot;Application.EmployeeSalaryAnalyzer.executor&quot;: &quot;Run&quot;,
-    &quot;Application.EvenNumber.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ExecutorCallable.executor&quot;: &quot;Run&quot;,
-    &quot;Application.FindDuplicates.executor&quot;: &quot;Run&quot;,
-    &quot;Application.FindDuplicatesWithoutGroupingBy.executor&quot;: &quot;Run&quot;,
-    &quot;Application.FindlengthofLoop.executor&quot;: &quot;Run&quot;,
-    &quot;Application.FirstNonRepeatedChar.executor&quot;: &quot;Run&quot;,
-    &quot;Application.FirstNonRepeatingCharacter.executor&quot;: &quot;Run&quot;,
-    &quot;Application.FlatMapExample.executor&quot;: &quot;Run&quot;,
-    &quot;Application.FlattenFilterSort.executor&quot;: &quot;Run&quot;,
-    &quot;Application.FlattenMapValues.executor&quot;: &quot;Run&quot;,
-    &quot;Application.FrequencyCountAndMaintainTheAscendingOrder1.executor&quot;: &quot;Run&quot;,
-    &quot;Application.FrequencyCountAndOrderMaintain.executor&quot;: &quot;Run&quot;,
-    &quot;Application.GroupByLength.executor&quot;: &quot;Run&quot;,
-    &quot;Application.GroupLength.executor&quot;: &quot;Run&quot;,
-    &quot;Application.GroupLength1.executor&quot;: &quot;Run&quot;,
-    &quot;Application.GroupedProducts.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Hello.executor&quot;: &quot;Run&quot;,
-    &quot;Application.KthLargestFinder.executor&quot;: &quot;Run&quot;,
-    &quot;Application.LambdaArgumentExample.executor&quot;: &quot;Run&quot;,
-    &quot;Application.LambdaComposition.executor&quot;: &quot;Run&quot;,
-    &quot;Application.LambdaFinalExample.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ListBasedExample.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ListIntegerBasedExample.executor&quot;: &quot;Run&quot;,
-    &quot;Application.LongestAndShortestWord.executor&quot;: &quot;Run&quot;,
-    &quot;Application.LongestString.executor&quot;: &quot;Run&quot;,
-    &quot;Application.MaxDistinctCategory.executor&quot;: &quot;Run&quot;,
-    &quot;Application.MaxMinNumber.executor&quot;: &quot;Run&quot;,
-    &quot;Application.MaximumValue.executor&quot;: &quot;Run&quot;,
-    &quot;Application.MethodRefExample.executor&quot;: &quot;Run&quot;,
-    &quot;Application.MethodsReference1.executor&quot;: &quot;Run&quot;,
-    &quot;Application.MethodsReference2.executor&quot;: &quot;Run&quot;,
-    &quot;Application.MethodsReference3.executor&quot;: &quot;Run&quot;,
-    &quot;Application.MethodsReference4.executor&quot;: &quot;Run&quot;,
-    &quot;Application.MiddleofLinkedList.executor&quot;: &quot;Debug&quot;,
-    &quot;Application.MostFrequentElement.executor&quot;: &quot;Run&quot;,
-    &quot;Application.MostFrequentProducts.executor&quot;: &quot;Run&quot;,
-    &quot;Application.MultipleFilter.executor&quot;: &quot;Run&quot;,
-    &quot;Application.MyRunnable.executor&quot;: &quot;Run&quot;,
-    &quot;Application.MyRunnable1.executor&quot;: &quot;Run&quot;,
-    &quot;Application.MyThread.executor&quot;: &quot;Run&quot;,
-    &quot;Application.OddEvenDemo.executor&quot;: &quot;Run&quot;,
-    &quot;Application.OddEvenDemoTraditional.executor&quot;: &quot;Run&quot;,
-    &quot;Application.OptionalExample.executor&quot;: &quot;Run&quot;,
-    &quot;Application.OptionalTest.executor&quot;: &quot;Run&quot;,
-    &quot;Application.PartitionExample.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ProducerConsumer.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ProducerConsumer1.executor&quot;: &quot;Run&quot;,
-    &quot;Application.RaceConditionDemo.executor&quot;: &quot;Run&quot;,
-    &quot;Application.RemoveDuplicatesfromSortedLinkedList.executor&quot;: &quot;Run&quot;,
-    &quot;Application.RemoveNodesWithGreaterRight.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Removeduplicatesfromunsortedlinkedlist.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ReverseDoublyLinkedList.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Reverselinkedlist.executor&quot;: &quot;Run&quot;,
-    &quot;Application.SecondHighest.executor&quot;: &quot;Run&quot;,
-    &quot;Application.SecondSmallest.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Sortemployeesbysalary.executor&quot;: &quot;Run&quot;,
-    &quot;Application.StringsStartingWith.executor&quot;: &quot;Run&quot;,
-    &quot;Application.SumOfDigits.executor&quot;: &quot;Run&quot;,
-    &quot;Application.SumOfEvenNumbers.executor&quot;: &quot;Run&quot;,
-    &quot;Application.SumOfNumber.executor&quot;: &quot;Run&quot;,
-    &quot;Application.SynchronizedDemo.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ThreadLifeCycleDemo.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ThreadStatesDemo.executor&quot;: &quot;Debug&quot;,
-    &quot;Application.ThreadStatesDemo1.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Top3highestnumbers.executor&quot;: &quot;Run&quot;,
-    &quot;Application.TopNPerCategory.executor&quot;: &quot;Run&quot;,
-    &quot;Application.TwoThreadsSafe.executor&quot;: &quot;Run&quot;,
-    &quot;Application.UniqueSortedProducts.executor&quot;: &quot;Run&quot;,
-    &quot;Application.VolatileCounter.executor&quot;: &quot;Run&quot;,
-    &quot;Application.VolatileCounter1.executor&quot;: &quot;Run&quot;,
-    &quot;Application.VolatileCounter2.executor&quot;: &quot;Run&quot;,
-    &quot;Application.VolatileCounter2withAtomic.executor&quot;: &quot;Run&quot;,
-    &quot;Application.VowelCount.executor&quot;: &quot;Run&quot;,
-    &quot;Application.VowelCount1.executor&quot;: &quot;Run&quot;,
-    &quot;Application.VowelCount2.executor&quot;: &quot;Run&quot;,
-    &quot;Application.WithVolatile.executor&quot;: &quot;Run&quot;,
-    &quot;Application.WithoutVolatile.executor&quot;: &quot;Run&quot;,
-    &quot;Application.WordFrequency.executor&quot;: &quot;Run&quot;,
-    &quot;Application.WorkerWithVolatile.executor&quot;: &quot;Run&quot;,
-    &quot;Application.WorkerWithoutVolatile.executor&quot;: &quot;Run&quot;,
-    &quot;Application.string.Hello.executor&quot;: &quot;Run&quot;,
-    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;SONARLINT_PRECOMMIT_ANALYSIS&quot;: &quot;true&quot;,
-    &quot;com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultAutoModeForALLUsers.v1&quot;: &quot;true&quot;,
-    &quot;com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;junie.onboarding.icon.badge.shown&quot;: &quot;true&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/Dsa&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
-    &quot;to.speed.mode.migration.done&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.AnagramCheck.executor": "Run",
+    "Application.BlockedStateDemo.executor": "Run",
+    "Application.CallableExample.executor": "Run",
+    "Application.CharacterFrequency.executor": "Run",
+    "Application.CheckIfCircularLinkedList.executor": "Run",
+    "Application.CollectorsExammple.executor": "Run",
+    "Application.CollectorsExammple1.executor": "Run",
+    "Application.CollectorsExammple2.executor": "Run",
+    "Application.CommonElements.executor": "Run",
+    "Application.Concatenatestrings.executor": "Run",
+    "Application.CountLongProductsPerCategory.executor": "Run",
+    "Application.Countwordoccurrences.executor": "Run",
+    "Application.CurryingExample.executor": "Run",
+    "Application.DeadlockExample.executor": "Run",
+    "Application.Default1.executor": "Run",
+    "Application.Default2.executor": "Run",
+    "Application.Default3.executor": "Run",
+    "Application.DeleteFromDoublyList.executor": "Run",
+    "Application.DeleteinSinglyLinkedList.executor": "Run",
+    "Application.Deletewithoutheadpointer.executor": "Run",
+    "Application.DuplicateWords.executor": "Run",
+    "Application.EmployeeAnalytics.executor": "Run",
+    "Application.EmployeeSalaryAnalyzer.executor": "Run",
+    "Application.EvenNumber.executor": "Run",
+    "Application.ExecutorCallable.executor": "Run",
+    "Application.FindDuplicates.executor": "Run",
+    "Application.FindDuplicatesWithoutGroupingBy.executor": "Run",
+    "Application.FindlengthofLoop.executor": "Run",
+    "Application.FirstNonRepeatedChar.executor": "Run",
+    "Application.FirstNonRepeatingCharacter.executor": "Run",
+    "Application.FlatMapExample.executor": "Run",
+    "Application.FlattenFilterSort.executor": "Run",
+    "Application.FlattenMapValues.executor": "Run",
+    "Application.FrequencyCountAndMaintainTheAscendingOrder1.executor": "Run",
+    "Application.FrequencyCountAndOrderMaintain.executor": "Run",
+    "Application.GroupByLength.executor": "Run",
+    "Application.GroupLength.executor": "Run",
+    "Application.GroupLength1.executor": "Run",
+    "Application.GroupedProducts.executor": "Run",
+    "Application.Hello.executor": "Run",
+    "Application.KthLargestFinder.executor": "Run",
+    "Application.LambdaArgumentExample.executor": "Run",
+    "Application.LambdaComposition.executor": "Run",
+    "Application.LambdaFinalExample.executor": "Run",
+    "Application.ListBasedExample.executor": "Run",
+    "Application.ListIntegerBasedExample.executor": "Run",
+    "Application.LongestAndShortestWord.executor": "Run",
+    "Application.LongestString.executor": "Run",
+    "Application.MaxDistinctCategory.executor": "Run",
+    "Application.MaxMinNumber.executor": "Run",
+    "Application.MaximumValue.executor": "Run",
+    "Application.MethodRefExample.executor": "Run",
+    "Application.MethodsReference1.executor": "Run",
+    "Application.MethodsReference2.executor": "Run",
+    "Application.MethodsReference3.executor": "Run",
+    "Application.MethodsReference4.executor": "Run",
+    "Application.MiddleofLinkedList.executor": "Debug",
+    "Application.MostFrequentElement.executor": "Run",
+    "Application.MostFrequentProducts.executor": "Run",
+    "Application.MultipleFilter.executor": "Run",
+    "Application.MyRunnable.executor": "Run",
+    "Application.MyRunnable1.executor": "Run",
+    "Application.MyThread.executor": "Run",
+    "Application.OddEvenDemo.executor": "Run",
+    "Application.OddEvenDemoTraditional.executor": "Run",
+    "Application.OptionalExample.executor": "Run",
+    "Application.OptionalTest.executor": "Run",
+    "Application.PalindromeFinder.executor": "Run",
+    "Application.PartitionExample.executor": "Run",
+    "Application.PrimeNumbersFinder.executor": "Run",
+    "Application.ProducerConsumer.executor": "Run",
+    "Application.ProducerConsumer1.executor": "Run",
+    "Application.RaceConditionDemo.executor": "Run",
+    "Application.RemoveDuplicatesfromSortedLinkedList.executor": "Run",
+    "Application.RemoveNodesWithGreaterRight.executor": "Run",
+    "Application.Removeduplicatesfromunsortedlinkedlist.executor": "Run",
+    "Application.ReverseDoublyLinkedList.executor": "Run",
+    "Application.Reverselinkedlist.executor": "Run",
+    "Application.SecondHighest.executor": "Run",
+    "Application.SecondSmallest.executor": "Run",
+    "Application.Sortemployeesbysalary.executor": "Run",
+    "Application.StringsStartingWith.executor": "Run",
+    "Application.SumOfDigits.executor": "Run",
+    "Application.SumOfEvenNumbers.executor": "Run",
+    "Application.SumOfNumber.executor": "Run",
+    "Application.SynchronizedDemo.executor": "Run",
+    "Application.ThreadLifeCycleDemo.executor": "Run",
+    "Application.ThreadStatesDemo.executor": "Debug",
+    "Application.ThreadStatesDemo1.executor": "Run",
+    "Application.Top3highestnumbers.executor": "Run",
+    "Application.TopNPerCategory.executor": "Run",
+    "Application.TwoThreadsSafe.executor": "Run",
+    "Application.UniqueSortedProducts.executor": "Run",
+    "Application.VolatileCounter.executor": "Run",
+    "Application.VolatileCounter1.executor": "Run",
+    "Application.VolatileCounter2.executor": "Run",
+    "Application.VolatileCounter2withAtomic.executor": "Run",
+    "Application.VowelCount.executor": "Run",
+    "Application.VowelCount1.executor": "Run",
+    "Application.VowelCount2.executor": "Run",
+    "Application.WithVolatile.executor": "Run",
+    "Application.WithoutVolatile.executor": "Run",
+    "Application.WordFrequency.executor": "Run",
+    "Application.WorkerWithVolatile.executor": "Run",
+    "Application.WorkerWithoutVolatile.executor": "Run",
+    "Application.string.Hello.executor": "Run",
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "SONARLINT_PRECOMMIT_ANALYSIS": "true",
+    "com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultAutoModeForALLUsers.v1": "true",
+    "com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1": "true",
+    "git-widget-placeholder": "master",
+    "junie.onboarding.icon.badge.shown": "true",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "D:/Dsa",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "to.speed.mode.migration.done": "true"
   }
-}</component>
-  <component name="RunManager" selected="Application.PalindromeFinder">
+}]]></component>
+  <component name="RunManager" selected="Application.PrimeNumbersFinder">
     <configuration name="MostFrequentElement" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="java8.MostFrequentElement" />
       <module name="Dsa" />
@@ -226,8 +229,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SumOfDigits" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="java8.SumOfDigits" />
+    <configuration name="PrimeNumbersFinder" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="java8.PrimeNumbersFinder" />
       <module name="Dsa" />
       <extension name="coverage">
         <pattern>
@@ -239,12 +242,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="VolatileCounter2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="multithreading.VolatileCounter2" />
+    <configuration name="SumOfDigits" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="java8.SumOfDigits" />
       <module name="Dsa" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="multithreading.*" />
+          <option name="PATTERN" value="java8.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -267,11 +270,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.PrimeNumbersFinder" />
         <item itemvalue="Application.PalindromeFinder" />
         <item itemvalue="Application.SumOfDigits" />
         <item itemvalue="Application.MostFrequentElement" />
         <item itemvalue="Application.VolatileCounter2withAtomic" />
-        <item itemvalue="Application.VolatileCounter2" />
       </list>
     </recent_temporary>
   </component>
@@ -603,7 +606,15 @@
       <option name="project" value="LOCAL" />
       <updated>1762873652015</updated>
     </task>
-    <option name="localTasksCounter" value="41" />
+    <task id="LOCAL-00041" summary="PalindromeFinder">
+      <option name="closed" value="true" />
+      <created>1762874316300</created>
+      <option name="number" value="00041" />
+      <option name="presentableId" value="LOCAL-00041" />
+      <option name="project" value="LOCAL" />
+      <updated>1762874316300</updated>
+    </task>
+    <option name="localTasksCounter" value="42" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -636,7 +647,8 @@
     <MESSAGE value="GroupLength1" />
     <MESSAGE value="SumOfNumber" />
     <MESSAGE value="MultipleFilter" />
-    <option name="LAST_COMMIT_MESSAGE" value="MultipleFilter" />
+    <MESSAGE value="PalindromeFinder" />
+    <option name="LAST_COMMIT_MESSAGE" value="PalindromeFinder" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
