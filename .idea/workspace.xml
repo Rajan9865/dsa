@@ -5,8 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ff3856c1-c1ca-4aca-a6ef-fd33bd67f435" name="Changes" comment="PalindromeFinder">
-      <change afterPath="$PROJECT_DIR$/DataStracture/src/linkedList/RemoveLoopFromLinkedList.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataStracture/src/linkedList/RemoveLoopFromLinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/DataStracture/src/linkedList/RemoveLoopFromLinkedList.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -151,6 +151,7 @@
     "Application.ProducerConsumer1.executor": "Run",
     "Application.RaceConditionDemo.executor": "Run",
     "Application.RemoveDuplicatesfromSortedLinkedList.executor": "Run",
+    "Application.RemoveLoopFromLinkedList.executor": "Run",
     "Application.RemoveNodesWithGreaterRight.executor": "Run",
     "Application.Removeduplicatesfromunsortedlinkedlist.executor": "Run",
     "Application.ReverseDoublyLinkedList.executor": "Run",
@@ -202,7 +203,7 @@
     "to.speed.mode.migration.done": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.DuplicateCharacters">
+  <component name="RunManager" selected="Application.RemoveLoopFromLinkedList">
     <configuration name="DuplicateCharacters" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="java8.DuplicateCharacters" />
       <module name="Dsa" />
@@ -255,12 +256,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SumOfDigits" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="java8.SumOfDigits" />
+    <configuration name="RemoveLoopFromLinkedList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="linkedList.RemoveLoopFromLinkedList" />
       <module name="Dsa" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="java8.*" />
+          <option name="PATTERN" value="linkedList.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -270,11 +271,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.RemoveLoopFromLinkedList" />
         <item itemvalue="Application.DuplicateCharacters" />
         <item itemvalue="Application.PrimeNumbersFinder" />
         <item itemvalue="Application.ExecutorCallable" />
         <item itemvalue="Application.PalindromeFinder" />
-        <item itemvalue="Application.SumOfDigits" />
       </list>
     </recent_temporary>
   </component>
@@ -670,7 +671,15 @@
       <option name="project" value="LOCAL" />
       <updated>1764328742746</updated>
     </task>
-    <option name="localTasksCounter" value="49" />
+    <task id="LOCAL-00049" summary="PalindromeFinder">
+      <option name="closed" value="true" />
+      <created>1764332785143</created>
+      <option name="number" value="00049" />
+      <option name="presentableId" value="LOCAL-00049" />
+      <option name="project" value="LOCAL" />
+      <updated>1764332785143</updated>
+    </task>
+    <option name="localTasksCounter" value="50" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">

@@ -22,7 +22,13 @@ public class RemoveLoopFromLinkedList {
         printLinkedList(a);
     }
 
-    private static void printLinkedList(Node19 a) {
+    private static void printLinkedList(Node19 head) {
+        Node19 temp = head;
+        while (temp != null) {
+            System.out.print(temp.data + "->");
+            temp = temp.next;
+        }
+        System.out.println("null");
     }
 
     private static void removeLoop(Node19 head) {
@@ -35,6 +41,19 @@ public class RemoveLoopFromLinkedList {
             if (slow == fast) break;
         }
         if (fast == null && fast.next == null) return;
+        slow = head;
+        if (slow == fast) {
+            while (fast.next != slow) {
+                fast = fast.next;
+            }
+            fast.next = null;
+            return;
+        }
+        while (slow.next != fast.next) {
+            slow = slow.next;
+            fast = fast.next;
+        }
+        fast.next = null;
     }
 }
 
