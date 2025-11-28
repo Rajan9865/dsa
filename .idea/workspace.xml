@@ -654,7 +654,15 @@
       <option name="project" value="LOCAL" />
       <updated>1764327215051</updated>
     </task>
-    <option name="localTasksCounter" value="47" />
+    <task id="LOCAL-00047" summary="PalindromeFinder">
+      <option name="closed" value="true" />
+      <created>1764327629133</created>
+      <option name="number" value="00047" />
+      <option name="presentableId" value="LOCAL-00047" />
+      <option name="project" value="LOCAL" />
+      <updated>1764327629133</updated>
+    </task>
+    <option name="localTasksCounter" value="48" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">

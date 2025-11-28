@@ -1,5 +1,6 @@
 package java8;
 
+import java.util.HashMap;
 import java.util.Map;
 import java.util.function.Function;
 import java.util.stream.Collectors;
@@ -17,6 +18,16 @@ public class DuplicateCharacters {
         Map<Character, Long> output = duplicateCharacter(countCharacter);
         System.out.println(output);
         duplicateCharacter1(name);
+        duplicateCharacter2(name);
+    }
+
+    private static void duplicateCharacter2(String name) {
+        Map<Character, Integer> map = new HashMap<>();
+        for (char c : name.toLowerCase().toCharArray()) {
+            map.put(c, map.getOrDefault(c, 0) + 1);
+        }
+        map.entrySet().stream().filter(e -> e.getValue() > 1)
+                .forEach(System.out::println);
     }
 
     private static void duplicateCharacter1(String name) {
