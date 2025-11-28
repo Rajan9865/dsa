@@ -5,8 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ff3856c1-c1ca-4aca-a6ef-fd33bd67f435" name="Changes" comment="PalindromeFinder">
-      <change afterPath="$PROJECT_DIR$/DataStracture/src/multithreading/VolatileFlagDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DataStracture/src/java8/DuplicateCharacters.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataStracture/src/java8/PrimeNumbersFinder.java" beforeDir="false" afterPath="$PROJECT_DIR$/DataStracture/src/java8/PrimeNumbersFinder.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -201,7 +202,7 @@
     &quot;to.speed.mode.migration.done&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.ExecutorCallable">
+  <component name="RunManager" selected="Application.PrimeNumbersFinder">
     <configuration name="ExecutorCallable" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="multithreading.ExecutorCallable" />
       <module name="Dsa" />
@@ -269,8 +270,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.ExecutorCallable" />
         <item itemvalue="Application.PrimeNumbersFinder" />
+        <item itemvalue="Application.ExecutorCallable" />
         <item itemvalue="Application.PalindromeFinder" />
         <item itemvalue="Application.SumOfDigits" />
         <item itemvalue="Application.MostFrequentElement" />
@@ -621,7 +622,15 @@
       <option name="project" value="LOCAL" />
       <updated>1763126263262</updated>
     </task>
-    <option name="localTasksCounter" value="43" />
+    <task id="LOCAL-00043" summary="PalindromeFinder">
+      <option name="closed" value="true" />
+      <created>1764322729497</created>
+      <option name="number" value="00043" />
+      <option name="presentableId" value="LOCAL-00043" />
+      <option name="project" value="LOCAL" />
+      <updated>1764322729497</updated>
+    </task>
+    <option name="localTasksCounter" value="44" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
