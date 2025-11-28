@@ -16,6 +16,20 @@ public class DuplicateCharacters {
         Map<Character, Long> countCharacter = countCharacter(name);
         Map<Character, Long> output = duplicateCharacter(countCharacter);
         System.out.println(output);
+        duplicateCharacter1(name);
+    }
+
+    private static void duplicateCharacter1(String name) {
+        name.toLowerCase();
+        int[] freq = new int[256];
+        for (char c : name.toCharArray()) {
+            freq[c]++;
+        }
+        for (int i = 0; i < 256; i++) {
+            if (freq[i] > 1) {
+                System.out.print((char) i + "= " + freq[i] + " ");
+            }
+        }
     }
 
     private static Map<Character, Long> duplicateCharacter(Map<Character, Long> countCharacter) {
