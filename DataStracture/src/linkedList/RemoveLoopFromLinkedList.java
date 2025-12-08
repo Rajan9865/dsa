@@ -40,7 +40,7 @@ public class RemoveLoopFromLinkedList {
             fast = fast.next.next;
             if (slow == fast) break;
         }
-        if (fast == null && fast.next == null) return;
+        if (fast == null || fast.next == null) return;
         slow = head;
         if (slow == fast) {
             while (fast.next != slow) {

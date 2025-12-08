@@ -4,7 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ff3856c1-c1ca-4aca-a6ef-fd33bd67f435" name="Changes" comment="PalindromeFinder">
+    <list default="true" id="ff3856c1-c1ca-4aca-a6ef-fd33bd67f435" name="Changes" comment="RemoveLoopFromLinkedList">
+      <change afterPath="$PROJECT_DIR$/DataStracture/src/java8/FilterEmployees.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DataStracture/src/java8/FlattenList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DataStracture/src/revision/Duplicate.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DataStracture/src/revision/ExampleService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DataStracture/src/revision/LogExecutionTime.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DataStracture/src/revision/MyCustomAnnotation.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/DataStracture/src/linkedList/RemoveLoopFromLinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/DataStracture/src/linkedList/RemoveLoopFromLinkedList.java" afterDir="false" />
     </list>
@@ -96,12 +102,14 @@
     "Application.DeleteFromDoublyList.executor": "Run",
     "Application.DeleteinSinglyLinkedList.executor": "Run",
     "Application.Deletewithoutheadpointer.executor": "Run",
+    "Application.Duplicate.executor": "Run",
     "Application.DuplicateCharacters.executor": "Run",
     "Application.DuplicateWords.executor": "Run",
     "Application.EmployeeAnalytics.executor": "Run",
     "Application.EmployeeSalaryAnalyzer.executor": "Run",
     "Application.EvenNumber.executor": "Run",
     "Application.ExecutorCallable.executor": "Run",
+    "Application.FilterEmployees.executor": "Run",
     "Application.FindDuplicates.executor": "Run",
     "Application.FindDuplicatesWithoutGroupingBy.executor": "Run",
     "Application.FindlengthofLoop.executor": "Run",
@@ -109,6 +117,7 @@
     "Application.FirstNonRepeatingCharacter.executor": "Run",
     "Application.FlatMapExample.executor": "Run",
     "Application.FlattenFilterSort.executor": "Run",
+    "Application.FlattenList.executor": "Run",
     "Application.FlattenMapValues.executor": "Run",
     "Application.FrequencyCountAndMaintainTheAscendingOrder1.executor": "Run",
     "Application.FrequencyCountAndOrderMaintain.executor": "Run",
@@ -203,7 +212,20 @@
     "to.speed.mode.migration.done": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.RemoveLoopFromLinkedList">
+  <component name="RunManager" selected="Application.Duplicate">
+    <configuration name="Duplicate" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="revision.Duplicate" />
+      <module name="Dsa" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="revision.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="DuplicateCharacters" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="java8.DuplicateCharacters" />
       <module name="Dsa" />
@@ -217,21 +239,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ExecutorCallable" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="multithreading.ExecutorCallable" />
-      <module name="Dsa" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="multithreading.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="PalindromeFinder" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="java8.PalindromeFinder" />
+    <configuration name="FilterEmployees" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="java8.FilterEmployees" />
       <module name="Dsa" />
       <extension name="coverage">
         <pattern>
@@ -243,8 +252,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PrimeNumbersFinder" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="java8.PrimeNumbersFinder" />
+    <configuration name="FlattenList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="java8.FlattenList" />
       <module name="Dsa" />
       <extension name="coverage">
         <pattern>
@@ -271,11 +280,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Duplicate" />
+        <item itemvalue="Application.FlattenList" />
+        <item itemvalue="Application.FilterEmployees" />
         <item itemvalue="Application.RemoveLoopFromLinkedList" />
         <item itemvalue="Application.DuplicateCharacters" />
-        <item itemvalue="Application.PrimeNumbersFinder" />
-        <item itemvalue="Application.ExecutorCallable" />
-        <item itemvalue="Application.PalindromeFinder" />
       </list>
     </recent_temporary>
   </component>
@@ -286,14 +295,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1751545643062</updated>
-    </task>
-    <task id="LOCAL-00001" summary="update">
-      <option name="closed" value="true" />
-      <created>1751545717917</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1751545717917</updated>
     </task>
     <task id="LOCAL-00002" summary="update">
       <option name="closed" value="true" />
@@ -679,7 +680,15 @@
       <option name="project" value="LOCAL" />
       <updated>1764332785143</updated>
     </task>
-    <option name="localTasksCounter" value="50" />
+    <task id="LOCAL-00050" summary="RemoveLoopFromLinkedList">
+      <option name="closed" value="true" />
+      <created>1764333254138</created>
+      <option name="number" value="00050" />
+      <option name="presentableId" value="LOCAL-00050" />
+      <option name="project" value="LOCAL" />
+      <updated>1764333254139</updated>
+    </task>
+    <option name="localTasksCounter" value="51" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -713,7 +722,8 @@
     <MESSAGE value="SumOfNumber" />
     <MESSAGE value="MultipleFilter" />
     <MESSAGE value="PalindromeFinder" />
-    <option name="LAST_COMMIT_MESSAGE" value="PalindromeFinder" />
+    <MESSAGE value="RemoveLoopFromLinkedList" />
+    <option name="LAST_COMMIT_MESSAGE" value="RemoveLoopFromLinkedList" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
