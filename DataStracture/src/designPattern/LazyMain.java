@@ -11,6 +11,7 @@ public class LazyMain {
         LazySingleton e1 = LazySingleton.getInstance();
         LazySingleton e2 = LazySingleton.getInstance();
         e1.show();
+        e2.show();
         System.out.println(e1 == e2 ? "same instance " : "different instance");
 
     }
