@@ -11,6 +11,7 @@ public class SingletonEager {
         MySingleton mySingleton = MySingleton.getInstance();
         MySingleton mySingleton1 = MySingleton.getInstance();
         mySingleton.show();
+        mySingleton1.show();
         System.out.println(mySingleton == mySingleton1 ? "same instace " : "differenct instance ");
     }
 }
