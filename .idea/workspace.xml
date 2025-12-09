@@ -5,10 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ff3856c1-c1ca-4aca-a6ef-fd33bd67f435" name="Changes" comment="RemoveLoopFromLinkedList">
-      <change afterPath="$PROJECT_DIR$/DataStracture/src/designPattern/EnumMain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DataStracture/src/designPattern/LazyMain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DataStracture/src/designPattern/ThreadSafeMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DataStracture/src/revision/Duplicate1.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataStracture/src/designPattern/LazyMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/DataStracture/src/designPattern/LazyMain.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataStracture/src/designPattern/SingletonEager.java" beforeDir="false" afterPath="$PROJECT_DIR$/DataStracture/src/designPattern/SingletonEager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataStracture/src/designPattern/ThreadSafeMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/DataStracture/src/designPattern/ThreadSafeMain.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -99,6 +100,7 @@
     "Application.DeleteinSinglyLinkedList.executor": "Run",
     "Application.Deletewithoutheadpointer.executor": "Run",
     "Application.Duplicate.executor": "Run",
+    "Application.Duplicate1.executor": "Run",
     "Application.DuplicateCharacters.executor": "Run",
     "Application.DuplicateWords.executor": "Run",
     "Application.EmployeeAnalytics.executor": "Run",
@@ -173,6 +175,7 @@
     "Application.SumOfNumber.executor": "Run",
     "Application.SynchronizedDemo.executor": "Run",
     "Application.ThreadLifeCycleDemo.executor": "Run",
+    "Application.ThreadSafeMain.executor": "Run",
     "Application.ThreadStatesDemo.executor": "Debug",
     "Application.ThreadStatesDemo1.executor": "Run",
     "Application.Top3highestnumbers.executor": "Run",
@@ -211,9 +214,9 @@
     "to.speed.mode.migration.done": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.EnumMain">
-    <configuration name="Duplicate" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="revision.Duplicate" />
+  <component name="RunManager" selected="Application.Duplicate1">
+    <configuration name="Duplicate1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="revision.Duplicate1" />
       <module name="Dsa" />
       <extension name="coverage">
         <pattern>
@@ -231,19 +234,6 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="designPattern.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="FlattenList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="java8.FlattenList" />
-      <module name="Dsa" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="java8.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -277,13 +267,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ThreadSafeMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="designPattern.ThreadSafeMain" />
+      <module name="Dsa" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="designPattern.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Duplicate1" />
+        <item itemvalue="Application.ThreadSafeMain" />
         <item itemvalue="Application.EnumMain" />
         <item itemvalue="Application.LazyMain" />
         <item itemvalue="Application.SingletonEager" />
-        <item itemvalue="Application.Duplicate" />
-        <item itemvalue="Application.FlattenList" />
       </list>
     </recent_temporary>
   </component>
@@ -294,30 +297,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1751545643062</updated>
-    </task>
-    <task id="LOCAL-00004" summary="kth from end">
-      <option name="closed" value="true" />
-      <created>1751895920242</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1751895920242</updated>
-    </task>
-    <task id="LOCAL-00005" summary="middle of the linkedlist">
-      <option name="closed" value="true" />
-      <created>1751895938984</created>
-      <option name="number" value="00005" />
-      <option name="presentableId" value="LOCAL-00005" />
-      <option name="project" value="LOCAL" />
-      <updated>1751895938984</updated>
-    </task>
-    <task id="LOCAL-00006" summary="reverse of the linkedlist">
-      <option name="closed" value="true" />
-      <created>1751895975244</created>
-      <option name="number" value="00006" />
-      <option name="presentableId" value="LOCAL-00006" />
-      <option name="project" value="LOCAL" />
-      <updated>1751895975244</updated>
     </task>
     <task id="LOCAL-00007" summary="reverse of the linkedlist">
       <option name="closed" value="true" />
@@ -687,7 +666,31 @@
       <option name="project" value="LOCAL" />
       <updated>1765194196406</updated>
     </task>
-    <option name="localTasksCounter" value="53" />
+    <task id="LOCAL-00053" summary="RemoveLoopFromLinkedList">
+      <option name="closed" value="true" />
+      <created>1765199329344</created>
+      <option name="number" value="00053" />
+      <option name="presentableId" value="LOCAL-00053" />
+      <option name="project" value="LOCAL" />
+      <updated>1765199329344</updated>
+    </task>
+    <task id="LOCAL-00054" summary="RemoveLoopFromLinkedList">
+      <option name="closed" value="true" />
+      <created>1765199339500</created>
+      <option name="number" value="00054" />
+      <option name="presentableId" value="LOCAL-00054" />
+      <option name="project" value="LOCAL" />
+      <updated>1765199339500</updated>
+    </task>
+    <task id="LOCAL-00055" summary="RemoveLoopFromLinkedList">
+      <option name="closed" value="true" />
+      <created>1765199350484</created>
+      <option name="number" value="00055" />
+      <option name="presentableId" value="LOCAL-00055" />
+      <option name="project" value="LOCAL" />
+      <updated>1765199350484</updated>
+    </task>
+    <option name="localTasksCounter" value="56" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
