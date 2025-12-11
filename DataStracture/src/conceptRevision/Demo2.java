@@ -24,6 +24,11 @@ public class Demo2 {
         };
         Thread t1 = new Thread(task);
         t1.start();
+        try {
+            t1.join();
+        } catch (InterruptedException e) {
+            throw new RuntimeException(e);
+        }
         System.out.println("main finished");
     }
 }
