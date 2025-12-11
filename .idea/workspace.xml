@@ -5,10 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ff3856c1-c1ca-4aca-a6ef-fd33bd67f435" name="Changes" comment="RemoveLoopFromLinkedList">
-      <change afterPath="$PROJECT_DIR$/DataStracture/src/revision/ThreadSafeMain1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DataStracture/src/conceptRevision/Demo1.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Dsa/designPattern/ThreadSafeMain.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Dsa/designPattern/ThreadSafeMain.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Dsa/designPattern/ThreadSafeSingleton.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Dsa/designPattern/ThreadSafeSingleton.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -217,7 +215,20 @@
     "to.speed.mode.migration.done": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.ThreadSafeMain1">
+  <component name="RunManager" selected="Application.Demo1">
+    <configuration name="Demo1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="conceptRevision.Demo1" />
+      <module name="Dsa" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="conceptRevision.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="SingletonEager" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="revision.SingletonEager" />
       <module name="Dsa" />
@@ -257,19 +268,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="revision.LazyMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="revision.LazyMain" />
-      <module name="Dsa" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="revision.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="revision.ThreadSafeMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="revision.ThreadSafeMain" />
       <module name="Dsa" />
@@ -285,11 +283,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Demo1" />
         <item itemvalue="Application.ThreadSafeMain1" />
         <item itemvalue="Application.ThreadSafeMain (1)" />
         <item itemvalue="Application.revision.ThreadSafeMain" />
         <item itemvalue="Application.SingletonEager" />
-        <item itemvalue="Application.revision.LazyMain" />
       </list>
     </recent_temporary>
   </component>
@@ -307,46 +305,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1751545643062</updated>
-    </task>
-    <task id="LOCAL-00021" summary="ReverseDoublyLinkedList">
-      <option name="closed" value="true" />
-      <created>1752602293340</created>
-      <option name="number" value="00021" />
-      <option name="presentableId" value="LOCAL-00021" />
-      <option name="project" value="LOCAL" />
-      <updated>1752602293340</updated>
-    </task>
-    <task id="LOCAL-00022" summary="CheckIfCircularLinkedList">
-      <option name="closed" value="true" />
-      <created>1752758544910</created>
-      <option name="number" value="00022" />
-      <option name="presentableId" value="LOCAL-00022" />
-      <option name="project" value="LOCAL" />
-      <updated>1752758544910</updated>
-    </task>
-    <task id="LOCAL-00023" summary="CheckIfCircularLinkedList">
-      <option name="closed" value="true" />
-      <created>1752759147188</created>
-      <option name="number" value="00023" />
-      <option name="presentableId" value="LOCAL-00023" />
-      <option name="project" value="LOCAL" />
-      <updated>1752759147188</updated>
-    </task>
-    <task id="LOCAL-00024" summary="LambdaFinalExample">
-      <option name="closed" value="true" />
-      <created>1755671187603</created>
-      <option name="number" value="00024" />
-      <option name="presentableId" value="LOCAL-00024" />
-      <option name="project" value="LOCAL" />
-      <updated>1755671187603</updated>
-    </task>
-    <task id="LOCAL-00025" summary="lamdbaArgument">
-      <option name="closed" value="true" />
-      <created>1755672077705</created>
-      <option name="number" value="00025" />
-      <option name="presentableId" value="LOCAL-00025" />
-      <option name="project" value="LOCAL" />
-      <updated>1755672077705</updated>
     </task>
     <task id="LOCAL-00026" summary="carryingExample">
       <option name="closed" value="true" />
@@ -700,7 +658,47 @@
       <option name="project" value="LOCAL" />
       <updated>1765445541764</updated>
     </task>
-    <option name="localTasksCounter" value="70" />
+    <task id="LOCAL-00070" summary="RemoveLoopFromLinkedList">
+      <option name="closed" value="true" />
+      <created>1765454422591</created>
+      <option name="number" value="00070" />
+      <option name="presentableId" value="LOCAL-00070" />
+      <option name="project" value="LOCAL" />
+      <updated>1765454422591</updated>
+    </task>
+    <task id="LOCAL-00071" summary="RemoveLoopFromLinkedList">
+      <option name="closed" value="true" />
+      <created>1765454430938</created>
+      <option name="number" value="00071" />
+      <option name="presentableId" value="LOCAL-00071" />
+      <option name="project" value="LOCAL" />
+      <updated>1765454430938</updated>
+    </task>
+    <task id="LOCAL-00072" summary="RemoveLoopFromLinkedList">
+      <option name="closed" value="true" />
+      <created>1765454435313</created>
+      <option name="number" value="00072" />
+      <option name="presentableId" value="LOCAL-00072" />
+      <option name="project" value="LOCAL" />
+      <updated>1765454435314</updated>
+    </task>
+    <task id="LOCAL-00073" summary="RemoveLoopFromLinkedList">
+      <option name="closed" value="true" />
+      <created>1765454440193</created>
+      <option name="number" value="00073" />
+      <option name="presentableId" value="LOCAL-00073" />
+      <option name="project" value="LOCAL" />
+      <updated>1765454440193</updated>
+    </task>
+    <task id="LOCAL-00074" summary="RemoveLoopFromLinkedList">
+      <option name="closed" value="true" />
+      <created>1765454445457</created>
+      <option name="number" value="00074" />
+      <option name="presentableId" value="LOCAL-00074" />
+      <option name="project" value="LOCAL" />
+      <updated>1765454445457</updated>
+    </task>
+    <option name="localTasksCounter" value="75" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
