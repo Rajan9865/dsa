@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ff3856c1-c1ca-4aca-a6ef-fd33bd67f435" name="Changes" comment="RemoveLoopFromLinkedList">
+    <list default="true" id="ff3856c1-c1ca-4aca-a6ef-fd33bd67f435" name="Changes" comment="thread">
+      <change afterPath="$PROJECT_DIR$/DataStracture/src/conceptRevision/Demo2.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DataStracture/src/conceptRevision/Demo1.java" beforeDir="false" afterPath="$PROJECT_DIR$/DataStracture/src/conceptRevision/Demo1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Dsa/conceptRevision/Demo1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Dsa/conceptRevision/Demo1.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -217,7 +216,7 @@
     "to.speed.mode.migration.done": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.Demo1">
+  <component name="RunManager" selected="Application.Demo2">
     <configuration name="Demo1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="conceptRevision.Demo1" />
       <module name="Dsa" />
@@ -231,12 +230,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SingletonEager" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="revision.SingletonEager" />
+    <configuration name="Demo2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="conceptRevision.Demo2" />
       <module name="Dsa" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="revision.*" />
+          <option name="PATTERN" value="conceptRevision.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -285,11 +284,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Demo2" />
         <item itemvalue="Application.Demo1" />
         <item itemvalue="Application.ThreadSafeMain1" />
         <item itemvalue="Application.ThreadSafeMain (1)" />
         <item itemvalue="Application.revision.ThreadSafeMain" />
-        <item itemvalue="Application.SingletonEager" />
       </list>
     </recent_temporary>
   </component>
@@ -307,22 +306,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1751545643062</updated>
-    </task>
-    <task id="LOCAL-00028" summary="MethodRefExample">
-      <option name="closed" value="true" />
-      <created>1755673718423</created>
-      <option name="number" value="00028" />
-      <option name="presentableId" value="LOCAL-00028" />
-      <option name="project" value="LOCAL" />
-      <updated>1755673718423</updated>
-    </task>
-    <task id="LOCAL-00029" summary="MethodRefExample">
-      <option name="closed" value="true" />
-      <created>1755673724932</created>
-      <option name="number" value="00029" />
-      <option name="presentableId" value="LOCAL-00029" />
-      <option name="project" value="LOCAL" />
-      <updated>1755673724932</updated>
     </task>
     <task id="LOCAL-00030" summary="EvenNumber">
       <option name="closed" value="true" />
@@ -700,7 +683,23 @@
       <option name="project" value="LOCAL" />
       <updated>1765454902533</updated>
     </task>
-    <option name="localTasksCounter" value="77" />
+    <task id="LOCAL-00077" summary="thread">
+      <option name="closed" value="true" />
+      <created>1765455124339</created>
+      <option name="number" value="00077" />
+      <option name="presentableId" value="LOCAL-00077" />
+      <option name="project" value="LOCAL" />
+      <updated>1765455124339</updated>
+    </task>
+    <task id="LOCAL-00078" summary="thread">
+      <option name="closed" value="true" />
+      <created>1765455131747</created>
+      <option name="number" value="00078" />
+      <option name="presentableId" value="LOCAL-00078" />
+      <option name="project" value="LOCAL" />
+      <updated>1765455131747</updated>
+    </task>
+    <option name="localTasksCounter" value="79" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -735,7 +734,8 @@
     <MESSAGE value="MultipleFilter" />
     <MESSAGE value="PalindromeFinder" />
     <MESSAGE value="RemoveLoopFromLinkedList" />
-    <option name="LAST_COMMIT_MESSAGE" value="RemoveLoopFromLinkedList" />
+    <MESSAGE value="thread" />
+    <option name="LAST_COMMIT_MESSAGE" value="thread" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
