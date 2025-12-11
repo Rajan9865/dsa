@@ -5,8 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ff3856c1-c1ca-4aca-a6ef-fd33bd67f435" name="Changes" comment="RemoveLoopFromLinkedList">
-      <change afterPath="$PROJECT_DIR$/DataStracture/src/conceptRevision/Demo1.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataStracture/src/conceptRevision/Demo1.java" beforeDir="false" afterPath="$PROJECT_DIR$/DataStracture/src/conceptRevision/Demo1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Dsa/conceptRevision/Demo1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Dsa/conceptRevision/Demo1.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -96,6 +97,7 @@
     "Application.DeleteFromDoublyList.executor": "Run",
     "Application.DeleteinSinglyLinkedList.executor": "Run",
     "Application.Deletewithoutheadpointer.executor": "Run",
+    "Application.Demo1.executor": "Run",
     "Application.Duplicate.executor": "Run",
     "Application.Duplicate1.executor": "Run",
     "Application.DuplicateCharacters.executor": "Run",
@@ -305,22 +307,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1751545643062</updated>
-    </task>
-    <task id="LOCAL-00026" summary="carryingExample">
-      <option name="closed" value="true" />
-      <created>1755673022228</created>
-      <option name="number" value="00026" />
-      <option name="presentableId" value="LOCAL-00026" />
-      <option name="project" value="LOCAL" />
-      <updated>1755673022228</updated>
-    </task>
-    <task id="LOCAL-00027" summary="carryingExample">
-      <option name="closed" value="true" />
-      <created>1755673030566</created>
-      <option name="number" value="00027" />
-      <option name="presentableId" value="LOCAL-00027" />
-      <option name="project" value="LOCAL" />
-      <updated>1755673030566</updated>
     </task>
     <task id="LOCAL-00028" summary="MethodRefExample">
       <option name="closed" value="true" />
@@ -698,7 +684,23 @@
       <option name="project" value="LOCAL" />
       <updated>1765454445457</updated>
     </task>
-    <option name="localTasksCounter" value="75" />
+    <task id="LOCAL-00075" summary="RemoveLoopFromLinkedList">
+      <option name="closed" value="true" />
+      <created>1765454895854</created>
+      <option name="number" value="00075" />
+      <option name="presentableId" value="LOCAL-00075" />
+      <option name="project" value="LOCAL" />
+      <updated>1765454895854</updated>
+    </task>
+    <task id="LOCAL-00076" summary="RemoveLoopFromLinkedList">
+      <option name="closed" value="true" />
+      <created>1765454902533</created>
+      <option name="number" value="00076" />
+      <option name="presentableId" value="LOCAL-00076" />
+      <option name="project" value="LOCAL" />
+      <updated>1765454902533</updated>
+    </task>
+    <option name="localTasksCounter" value="77" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
