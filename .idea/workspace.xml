@@ -5,6 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ff3856c1-c1ca-4aca-a6ef-fd33bd67f435" name="Changes" comment="RemoveLoopFromLinkedList">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/DataStracture/src/designPattern/ThreadSafeMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/DataStracture/src/designPattern/ThreadSafeMain.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -302,14 +303,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1751545643062</updated>
-    </task>
-    <task id="LOCAL-00019" summary="Deletewithoutheadpointer">
-      <option name="closed" value="true" />
-      <created>1752154479514</created>
-      <option name="number" value="00019" />
-      <option name="presentableId" value="LOCAL-00019" />
-      <option name="project" value="LOCAL" />
-      <updated>1752154479514</updated>
     </task>
     <task id="LOCAL-00020" summary="Deletewithoutheadpointer">
       <option name="closed" value="true" />
@@ -695,7 +688,15 @@
       <option name="project" value="LOCAL" />
       <updated>1765444371847</updated>
     </task>
-    <option name="localTasksCounter" value="68" />
+    <task id="LOCAL-00068" summary="RemoveLoopFromLinkedList">
+      <option name="closed" value="true" />
+      <created>1765445312941</created>
+      <option name="number" value="00068" />
+      <option name="presentableId" value="LOCAL-00068" />
+      <option name="project" value="LOCAL" />
+      <updated>1765445312941</updated>
+    </task>
+    <option name="localTasksCounter" value="69" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
