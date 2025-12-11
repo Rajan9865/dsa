@@ -48,7 +48,6 @@ class ThreadSafeSingleton {
     private static volatile ThreadSafeSingleton instance;
 
     private ThreadSafeSingleton() {
-        // simulate some work during construction to expose race conditions if any
         try {
             Thread.sleep(50);
         } catch (InterruptedException e) {
