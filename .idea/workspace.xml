@@ -5,8 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ff3856c1-c1ca-4aca-a6ef-fd33bd67f435" name="Changes" comment="thread">
-      <change afterPath="$PROJECT_DIR$/DataStracture/src/conceptRevision/Demo2.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataStracture/src/conceptRevision/Demo2.java" beforeDir="false" afterPath="$PROJECT_DIR$/DataStracture/src/conceptRevision/Demo2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Dsa/conceptRevision/Demo2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Dsa/conceptRevision/Demo2.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -97,6 +98,7 @@
     "Application.DeleteinSinglyLinkedList.executor": "Run",
     "Application.Deletewithoutheadpointer.executor": "Run",
     "Application.Demo1.executor": "Run",
+    "Application.Demo2.executor": "Run",
     "Application.Duplicate.executor": "Run",
     "Application.Duplicate1.executor": "Run",
     "Application.DuplicateCharacters.executor": "Run",
@@ -306,30 +308,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1751545643062</updated>
-    </task>
-    <task id="LOCAL-00030" summary="EvenNumber">
-      <option name="closed" value="true" />
-      <created>1755676062740</created>
-      <option name="number" value="00030" />
-      <option name="presentableId" value="LOCAL-00030" />
-      <option name="project" value="LOCAL" />
-      <updated>1755676062740</updated>
-    </task>
-    <task id="LOCAL-00031" summary="EvenNumber">
-      <option name="closed" value="true" />
-      <created>1755681126734</created>
-      <option name="number" value="00031" />
-      <option name="presentableId" value="LOCAL-00031" />
-      <option name="project" value="LOCAL" />
-      <updated>1755681126734</updated>
-    </task>
-    <task id="LOCAL-00032" summary="EvenNumber">
-      <option name="closed" value="true" />
-      <created>1755681550044</created>
-      <option name="number" value="00032" />
-      <option name="presentableId" value="LOCAL-00032" />
-      <option name="project" value="LOCAL" />
-      <updated>1755681550044</updated>
     </task>
     <task id="LOCAL-00033" summary="EvenNumber">
       <option name="closed" value="true" />
@@ -699,7 +677,31 @@
       <option name="project" value="LOCAL" />
       <updated>1765455131747</updated>
     </task>
-    <option name="localTasksCounter" value="79" />
+    <task id="LOCAL-00079" summary="thread">
+      <option name="closed" value="true" />
+      <created>1765455291450</created>
+      <option name="number" value="00079" />
+      <option name="presentableId" value="LOCAL-00079" />
+      <option name="project" value="LOCAL" />
+      <updated>1765455291450</updated>
+    </task>
+    <task id="LOCAL-00080" summary="thread">
+      <option name="closed" value="true" />
+      <created>1765455296216</created>
+      <option name="number" value="00080" />
+      <option name="presentableId" value="LOCAL-00080" />
+      <option name="project" value="LOCAL" />
+      <updated>1765455296216</updated>
+    </task>
+    <task id="LOCAL-00081" summary="thread">
+      <option name="closed" value="true" />
+      <created>1765455301252</created>
+      <option name="number" value="00081" />
+      <option name="presentableId" value="LOCAL-00081" />
+      <option name="project" value="LOCAL" />
+      <updated>1765455301252</updated>
+    </task>
+    <option name="localTasksCounter" value="82" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
