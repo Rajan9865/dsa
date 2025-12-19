@@ -57,6 +57,9 @@ public class ReverseLinkedList {
     }
 }
 
+/**
+ * create a object of class
+ */
 class Node {
     int data;
     Node next;
