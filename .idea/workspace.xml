@@ -5,8 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ff3856c1-c1ca-4aca-a6ef-fd33bd67f435" name="Changes" comment="ReverseLinkedList">
+      <change afterPath="$PROJECT_DIR$/DataStracture/src/revision/ReverseLinkedListRecursiveApproach.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DataStracture/src/revision/ReverseLinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/DataStracture/src/revision/ReverseLinkedList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Dsa/revision/Node.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Dsa/revision/Node.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -164,6 +165,7 @@
     "Application.Removeduplicatesfromunsortedlinkedlist.executor": "Run",
     "Application.ReverseDoublyLinkedList.executor": "Run",
     "Application.ReverseLinkedList.executor": "Run",
+    "Application.ReverseLinkedListRecursiveApproach.executor": "Debug",
     "Application.Reverselinkedlist.executor": "Run",
     "Application.SecondHighest.executor": "Run",
     "Application.SecondSmallest.executor": "Run",
@@ -218,7 +220,7 @@
     "to.speed.mode.migration.done": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.ReverseLinkedList">
+  <component name="RunManager" selected="Application.ReverseLinkedListRecursiveApproach">
     <configuration name="Demo1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="conceptRevision.Demo1" />
       <module name="Dsa" />
@@ -271,8 +273,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ThreadSafeMain1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="revision.ThreadSafeMain1" />
+    <configuration name="ReverseLinkedListRecursiveApproach" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="revision.ReverseLinkedListRecursiveApproach" />
       <module name="Dsa" />
       <extension name="coverage">
         <pattern>
@@ -286,11 +288,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ReverseLinkedListRecursiveApproach" />
         <item itemvalue="Application.ReverseLinkedList" />
         <item itemvalue="Application.Duplicate" />
         <item itemvalue="Application.Demo2" />
         <item itemvalue="Application.Demo1" />
-        <item itemvalue="Application.ThreadSafeMain1" />
       </list>
     </recent_temporary>
   </component>
@@ -308,14 +310,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1751545643062</updated>
-    </task>
-    <task id="LOCAL-00043" summary="PalindromeFinder">
-      <option name="closed" value="true" />
-      <created>1764322729497</created>
-      <option name="number" value="00043" />
-      <option name="presentableId" value="LOCAL-00043" />
-      <option name="project" value="LOCAL" />
-      <updated>1764322729497</updated>
     </task>
     <task id="LOCAL-00044" summary="PalindromeFinder">
       <option name="closed" value="true" />
@@ -701,7 +695,15 @@
       <option name="project" value="LOCAL" />
       <updated>1766129950578</updated>
     </task>
-    <option name="localTasksCounter" value="92" />
+    <task id="LOCAL-00092" summary="ReverseLinkedList">
+      <option name="closed" value="true" />
+      <created>1766135477569</created>
+      <option name="number" value="00092" />
+      <option name="presentableId" value="LOCAL-00092" />
+      <option name="project" value="LOCAL" />
+      <updated>1766135477569</updated>
+    </task>
+    <option name="localTasksCounter" value="93" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -807,6 +809,11 @@
           <url>file://$PROJECT_DIR$/DataStracture/src/java8/LongestAndShortestWord.java</url>
           <line>33</line>
           <option name="timeStamp" value="15" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/DataStracture/src/revision/ReverseLinkedListRecursiveApproach.java</url>
+          <line>36</line>
+          <option name="timeStamp" value="17" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
