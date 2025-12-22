@@ -5,9 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ff3856c1-c1ca-4aca-a6ef-fd33bd67f435" name="Changes" comment="ReverseLinkedList">
-      <change afterPath="$PROJECT_DIR$/DataStracture/src/revision/ReverseLinkedListRecursiveApproach.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DataStracture/src/revision/ReverseKGroup.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Dsa/revision/Node.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Dsa/revision/Node.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -66,6 +65,10 @@
     <setting file="jar://C:/Program Files/Java/jdk1.8.0_202/src.zip!/java/util/stream/Collectors.java" root0="SKIP_INSPECTION" />
     <setting file="jar://C:/Program Files/Java/jdk1.8.0_202/src.zip!/java/util/stream/IntStream.java" root0="SKIP_INSPECTION" />
     <setting file="jar://C:/Program Files/Java/jdk1.8.0_202/src.zip!/java/util/stream/Stream.java" root0="SKIP_INSPECTION" />
+  </component>
+  <component name="McpProjectServerCommands">
+    <commands />
+    <urls />
   </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 5
@@ -202,6 +205,7 @@
     "Application.revision.ThreadSafeMain.executor": "Run",
     "Application.string.Hello.executor": "Run",
     "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.MCP Project settings loaded": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
     "RunOnceActivity.git.unshallow": "true",
@@ -299,7 +303,7 @@
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-jdk-30f59d01ecdd-cffe25b9f5b3-intellij.indexing.shared.core-IU-253.28294.334" />
+        <option value="bundled-jdk-30f59d01ecdd-26cb7f24e5b0-intellij.indexing.shared.core-IU-253.29346.138" />
       </set>
     </attachedChunks>
   </component>
@@ -310,38 +314,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1751545643062</updated>
-    </task>
-    <task id="LOCAL-00044" summary="PalindromeFinder">
-      <option name="closed" value="true" />
-      <created>1764326093084</created>
-      <option name="number" value="00044" />
-      <option name="presentableId" value="LOCAL-00044" />
-      <option name="project" value="LOCAL" />
-      <updated>1764326093084</updated>
-    </task>
-    <task id="LOCAL-00045" summary="PalindromeFinder">
-      <option name="closed" value="true" />
-      <created>1764326493102</created>
-      <option name="number" value="00045" />
-      <option name="presentableId" value="LOCAL-00045" />
-      <option name="project" value="LOCAL" />
-      <updated>1764326493102</updated>
-    </task>
-    <task id="LOCAL-00046" summary="PalindromeFinder">
-      <option name="closed" value="true" />
-      <created>1764327215051</created>
-      <option name="number" value="00046" />
-      <option name="presentableId" value="LOCAL-00046" />
-      <option name="project" value="LOCAL" />
-      <updated>1764327215051</updated>
-    </task>
-    <task id="LOCAL-00047" summary="PalindromeFinder">
-      <option name="closed" value="true" />
-      <created>1764327629133</created>
-      <option name="number" value="00047" />
-      <option name="presentableId" value="LOCAL-00047" />
-      <option name="project" value="LOCAL" />
-      <updated>1764327629133</updated>
     </task>
     <task id="LOCAL-00048" summary="PalindromeFinder">
       <option name="closed" value="true" />
@@ -703,7 +675,39 @@
       <option name="project" value="LOCAL" />
       <updated>1766135477569</updated>
     </task>
-    <option name="localTasksCounter" value="93" />
+    <task id="LOCAL-00093" summary="ReverseLinkedList">
+      <option name="closed" value="true" />
+      <created>1766138050911</created>
+      <option name="number" value="00093" />
+      <option name="presentableId" value="LOCAL-00093" />
+      <option name="project" value="LOCAL" />
+      <updated>1766138050912</updated>
+    </task>
+    <task id="LOCAL-00094" summary="ReverseLinkedList">
+      <option name="closed" value="true" />
+      <created>1766138058780</created>
+      <option name="number" value="00094" />
+      <option name="presentableId" value="LOCAL-00094" />
+      <option name="project" value="LOCAL" />
+      <updated>1766138058780</updated>
+    </task>
+    <task id="LOCAL-00095" summary="ReverseLinkedList">
+      <option name="closed" value="true" />
+      <created>1766138063748</created>
+      <option name="number" value="00095" />
+      <option name="presentableId" value="LOCAL-00095" />
+      <option name="project" value="LOCAL" />
+      <updated>1766138063748</updated>
+    </task>
+    <task id="LOCAL-00096" summary="ReverseLinkedList">
+      <option name="closed" value="true" />
+      <created>1766138069174</created>
+      <option name="number" value="00096" />
+      <option name="presentableId" value="LOCAL-00096" />
+      <option name="project" value="LOCAL" />
+      <updated>1766138069174</updated>
+    </task>
+    <option name="localTasksCounter" value="97" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
