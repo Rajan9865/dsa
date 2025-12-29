@@ -23,7 +23,12 @@ public class ReverseKGroup {
     }
 
     private static void printlinkedList(Node3 result) {
-
+        Node3 temp = result;
+        while (temp != null) {
+            System.out.print(temp.data + " ->");
+            temp = temp.next;
+        }
+        System.out.print("null");
     }
 
     private static Node3 reverseKGroup(Node3 head, int k) {
@@ -35,8 +40,13 @@ public class ReverseKGroup {
             next = current.next;
             current.next = previous;
             previous = current;
-            
+            current = next;
+            count++;
         }
+        if (next != null) {
+            head.next = reverseKGroup(current, k);
+        }
+        return previous;
     }
 }
 
@@ -46,6 +56,7 @@ class Node3 {
 
     public Node3(int data) {
         this.data = data;
+        this.next = null;
     }
 
 }
