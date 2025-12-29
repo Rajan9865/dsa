@@ -17,8 +17,29 @@ public class ReverseLinkedList {
         b.next = c;
         c.next = d;
         d.next = e;
-        Node result = reverseLinkedList(a);
-        printlinkedList(result);
+//        Node result = reverseLinkedList(a);
+//        printlinkedList(result);
+        int k = 3;
+        Node result1 = reverseLinkedListKGroup(a, k);
+        printlinkedList(result1);
+    }
+
+    private static Node reverseLinkedListKGroup(Node head, int k) {
+        Node current = head;
+        Node prev = null;
+        Node next = null;
+        int count = 0;
+        while (current != null && count < k) {
+            next = current.next;
+            current.next = prev;
+            prev = current;
+            current = next;
+            count++;
+        }
+        if (next != null) {
+            head.next = reverseLinkedListKGroup(current, k);
+        }
+        return prev;
     }
 
     private static void printlinkedList(Node result) {
