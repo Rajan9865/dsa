@@ -10,12 +10,12 @@ public class PalindromeLinkedList {
     public static void main(String[] args) {
         Node21 a = new Node21(1);
         Node21 b = new Node21(2);
-        Node21 c = new Node21(3);
+//        Node21 c = new Node21(3);
         Node21 d = new Node21(2);
         Node21 e = new Node21(1);
         a.next = b;
-        b.next = c;
-        c.next = d;
+        b.next = d;
+//        c.next = d;
         d.next = e;
         printLinkedList(a);
         boolean result = isPalindrome(a);
@@ -38,13 +38,16 @@ public class PalindromeLinkedList {
 
     //
     private static boolean isPalindrome(Node21 head) {
+        if (head == null || head.next == null) {
+            return true;
+        }
         Node21 slow = head;
         Node21 fast = head;
         while (fast != null && fast.next != null) {
             slow = slow.next;
             fast = fast.next.next;
         }
-        Node21 secondHald = reverseSecondHald(slow);
+        Node21 secondHald = reverseSecondHalf(slow);
         Node21 firstHalf = head;
         Node21 tempSecondHalf = secondHald;
         while (tempSecondHalf != null) {
@@ -58,7 +61,7 @@ public class PalindromeLinkedList {
         return true;
     }
 
-    private static Node21 reverseSecondHald(Node21 head) {
+    private static Node21 reverseSecondHalf(Node21 head) {
         Node21 prev = null;
         Node21 curr = head;
         while (curr != null) {
