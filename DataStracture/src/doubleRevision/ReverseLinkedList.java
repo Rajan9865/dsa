@@ -1,5 +1,7 @@
 package doubleRevision;
 
+import linkedList.Node1;
+
 /**
  * @author Rajan kumar
  * @version 1.0
@@ -8,26 +10,27 @@ package doubleRevision;
  */
 public class ReverseLinkedList {
     public static void main(String[] args) {
-        Node a = new Node(1);
-        Node b = new Node(2);
-        Node c = new Node(3);
-        Node d = new Node(4);
-        Node e = new Node(5);
+        Node1 a = new Node1(1);
+        Node1 b = new Node1(2);
+        Node1 c = new Node1(3);
+        Node1 d = new Node1(4);
+        Node1 e = new Node1(5);
+
         a.next = b;
         b.next = c;
         c.next = d;
         d.next = e;
-//        Node result = reverseLinkedList(a);
+//        Node1 result = reverseLinkedList(a);
 //        printlinkedList(result);
         int k = 3;
-        Node result1 = reverseLinkedListKGroup(a, k);
+        Node1 result1 = reverseLinkedListKGroup(a, k);
         printlinkedList(result1);
     }
 
-    private static Node reverseLinkedListKGroup(Node head, int k) {
-        Node current = head;
-        Node prev = null;
-        Node next = null;
+    private static Node1 reverseLinkedListKGroup(Node1 head, int k) {
+        Node1 current = head;
+        Node1 prev = null;
+        Node1 next = null;
         int count = 0;
         while (current != null && count < k) {
             next = current.next;
@@ -42,8 +45,8 @@ public class ReverseLinkedList {
         return prev;
     }
 
-    private static void printlinkedList(Node result) {
-        Node temp = result;
+    private static void printlinkedList(Node1 result) {
+        Node1 temp = result;
         while (temp != null) {
             System.out.print(temp.data + " ->");
             temp = temp.next;
@@ -51,11 +54,11 @@ public class ReverseLinkedList {
         System.out.print("null");
     }
 
-    private static Node reverseLinkedList(Node head) {
-        Node prev = null;
-        Node curr = head;
+    private static Node1 reverseLinkedList(Node1 head) {
+        Node1 prev = null;
+        Node1 curr = head;
         while (curr != null) {
-            Node next = curr.next;
+            Node1 next = curr.next;
             curr.next = prev;
             prev = curr;
             curr = next;
@@ -64,11 +67,13 @@ public class ReverseLinkedList {
     }
 }
 
-class Node {
+/*
+class Node1 {
     int data;
-    Node next;
+    Node1 next;
 
-    public Node(int data) {
+    public Node1(int data) {
         this.data = data;
     }
 }
+*/
