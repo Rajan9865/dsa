@@ -5,8 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ff3856c1-c1ca-4aca-a6ef-fd33bd67f435" name="Changes" comment="ReverseLinkedList">
-      <change afterPath="$PROJECT_DIR$/DataStracture/src/linkedList/PalindromeLinkedList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataStracture/src/doubleRevision/ReverseLinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/DataStracture/src/doubleRevision/ReverseLinkedList.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -78,162 +79,162 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.AnagramCheck.executor": "Run",
-    "Application.BlockedStateDemo.executor": "Run",
-    "Application.CallableExample.executor": "Run",
-    "Application.CharacterFrequency.executor": "Run",
-    "Application.CheckIfCircularLinkedList.executor": "Run",
-    "Application.CollectorsExammple.executor": "Run",
-    "Application.CollectorsExammple1.executor": "Run",
-    "Application.CollectorsExammple2.executor": "Run",
-    "Application.CommonElements.executor": "Run",
-    "Application.Concatenatestrings.executor": "Run",
-    "Application.CountLongProductsPerCategory.executor": "Run",
-    "Application.Countwordoccurrences.executor": "Run",
-    "Application.CurryingExample.executor": "Run",
-    "Application.DeadlockExample.executor": "Run",
-    "Application.Default1.executor": "Run",
-    "Application.Default2.executor": "Run",
-    "Application.Default3.executor": "Run",
-    "Application.DeleteFromDoublyList.executor": "Run",
-    "Application.DeleteinSinglyLinkedList.executor": "Run",
-    "Application.Deletewithoutheadpointer.executor": "Run",
-    "Application.Demo1.executor": "Run",
-    "Application.Demo2.executor": "Run",
-    "Application.Duplicate.executor": "Run",
-    "Application.Duplicate1.executor": "Run",
-    "Application.DuplicateCharacters.executor": "Run",
-    "Application.DuplicateWords.executor": "Run",
-    "Application.EmployeeAnalytics.executor": "Run",
-    "Application.EmployeeSalaryAnalyzer.executor": "Run",
-    "Application.EnumMain.executor": "Run",
-    "Application.EvenNumber.executor": "Run",
-    "Application.ExecutorCallable.executor": "Run",
-    "Application.FilterEmployees.executor": "Run",
-    "Application.FindDuplicates.executor": "Run",
-    "Application.FindDuplicatesWithoutGroupingBy.executor": "Run",
-    "Application.FindlengthofLoop.executor": "Run",
-    "Application.FirstNonRepeatedChar.executor": "Run",
-    "Application.FirstNonRepeatingCharacter.executor": "Run",
-    "Application.FlatMapExample.executor": "Run",
-    "Application.FlattenFilterSort.executor": "Run",
-    "Application.FlattenList.executor": "Run",
-    "Application.FlattenMapValues.executor": "Run",
-    "Application.FrequencyCountAndMaintainTheAscendingOrder1.executor": "Run",
-    "Application.FrequencyCountAndOrderMaintain.executor": "Run",
-    "Application.GroupByLength.executor": "Run",
-    "Application.GroupLength.executor": "Run",
-    "Application.GroupLength1.executor": "Run",
-    "Application.GroupedProducts.executor": "Run",
-    "Application.Hello.executor": "Run",
-    "Application.KthLargestFinder.executor": "Run",
-    "Application.LambdaArgumentExample.executor": "Run",
-    "Application.LambdaComposition.executor": "Run",
-    "Application.LambdaFinalExample.executor": "Run",
-    "Application.LazyMain.executor": "Run",
-    "Application.ListBasedExample.executor": "Run",
-    "Application.ListIntegerBasedExample.executor": "Run",
-    "Application.LongestAndShortestWord.executor": "Run",
-    "Application.LongestString.executor": "Run",
-    "Application.MaxDistinctCategory.executor": "Run",
-    "Application.MaxMinNumber.executor": "Run",
-    "Application.MaximumValue.executor": "Run",
-    "Application.MethodRefExample.executor": "Run",
-    "Application.MethodsReference1.executor": "Run",
-    "Application.MethodsReference2.executor": "Run",
-    "Application.MethodsReference3.executor": "Run",
-    "Application.MethodsReference4.executor": "Run",
-    "Application.MiddleofLinkedList.executor": "Debug",
-    "Application.MostFrequentElement.executor": "Run",
-    "Application.MostFrequentProducts.executor": "Run",
-    "Application.MultipleFilter.executor": "Run",
-    "Application.MyRunnable.executor": "Run",
-    "Application.MyRunnable1.executor": "Run",
-    "Application.MyThread.executor": "Run",
-    "Application.OddEvenDemo.executor": "Run",
-    "Application.OddEvenDemoTraditional.executor": "Run",
-    "Application.OptionalExample.executor": "Run",
-    "Application.OptionalTest.executor": "Run",
-    "Application.PalindromeFinder.executor": "Run",
-    "Application.PalindromeLinkedList.executor": "Run",
-    "Application.PartitionExample.executor": "Run",
-    "Application.PrimeNumbersFinder.executor": "Run",
-    "Application.ProducerConsumer.executor": "Run",
-    "Application.ProducerConsumer1.executor": "Run",
-    "Application.RaceConditionDemo.executor": "Run",
-    "Application.RemoveDuplicatesfromSortedLinkedList.executor": "Run",
-    "Application.RemoveLoopFromLinkedList.executor": "Run",
-    "Application.RemoveNodesWithGreaterRight.executor": "Run",
-    "Application.Removeduplicatesfromunsortedlinkedlist.executor": "Run",
-    "Application.ReverseBetween.executor": "Run",
-    "Application.ReverseDoublyLinkedList.executor": "Run",
-    "Application.ReverseKGroup.executor": "Run",
-    "Application.ReverseLinkedList.executor": "Run",
-    "Application.ReverseLinkedListRecursiveApproach.executor": "Debug",
-    "Application.Reverselinkedlist.executor": "Run",
-    "Application.SecondHighest.executor": "Run",
-    "Application.SecondSmallest.executor": "Run",
-    "Application.SingletonEager.executor": "Run",
-    "Application.Sortemployeesbysalary.executor": "Run",
-    "Application.StringsStartingWith.executor": "Run",
-    "Application.SumOfDigits.executor": "Run",
-    "Application.SumOfEvenNumbers.executor": "Run",
-    "Application.SumOfNumber.executor": "Run",
-    "Application.SynchronizedDemo.executor": "Run",
-    "Application.ThreadLifeCycleDemo.executor": "Run",
-    "Application.ThreadSafeMain (1).executor": "Run",
-    "Application.ThreadSafeMain.executor": "Run",
-    "Application.ThreadSafeMain1.executor": "Run",
-    "Application.ThreadStatesDemo.executor": "Debug",
-    "Application.ThreadStatesDemo1.executor": "Run",
-    "Application.Top3highestnumbers.executor": "Run",
-    "Application.TopNPerCategory.executor": "Run",
-    "Application.TwoThreadsSafe.executor": "Run",
-    "Application.UniqueSortedProducts.executor": "Run",
-    "Application.VolatileCounter.executor": "Run",
-    "Application.VolatileCounter1.executor": "Run",
-    "Application.VolatileCounter2.executor": "Run",
-    "Application.VolatileCounter2withAtomic.executor": "Run",
-    "Application.VowelCount.executor": "Run",
-    "Application.VowelCount1.executor": "Run",
-    "Application.VowelCount2.executor": "Run",
-    "Application.WithVolatile.executor": "Run",
-    "Application.WithoutVolatile.executor": "Run",
-    "Application.WordFrequency.executor": "Run",
-    "Application.WorkerWithVolatile.executor": "Run",
-    "Application.WorkerWithoutVolatile.executor": "Run",
-    "Application.doubleRevision.ReverseLinkedList.executor": "Run",
-    "Application.revision.LazyMain.executor": "Run",
-    "Application.revision.ThreadSafeMain.executor": "Run",
-    "Application.string.Hello.executor": "Run",
-    "ModuleVcsDetector.initialDetectionPerformed": "true",
-    "RunOnceActivity.MCP Project settings loaded": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "SONARLINT_PRECOMMIT_ANALYSIS": "true",
-    "com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultAutoModeForALLUsers.v1": "true",
-    "com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1": "true",
-    "git-widget-placeholder": "master",
-    "junie.onboarding.icon.badge.shown": "true",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "D:/Dsa",
-    "project.structure.last.edited": "Project",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0",
-    "settings.editor.selected.configurable": "preferences.pluginManager",
-    "to.speed.mode.migration.done": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.AnagramCheck.executor&quot;: &quot;Run&quot;,
+    &quot;Application.BlockedStateDemo.executor&quot;: &quot;Run&quot;,
+    &quot;Application.CallableExample.executor&quot;: &quot;Run&quot;,
+    &quot;Application.CharacterFrequency.executor&quot;: &quot;Run&quot;,
+    &quot;Application.CheckIfCircularLinkedList.executor&quot;: &quot;Run&quot;,
+    &quot;Application.CollectorsExammple.executor&quot;: &quot;Run&quot;,
+    &quot;Application.CollectorsExammple1.executor&quot;: &quot;Run&quot;,
+    &quot;Application.CollectorsExammple2.executor&quot;: &quot;Run&quot;,
+    &quot;Application.CommonElements.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Concatenatestrings.executor&quot;: &quot;Run&quot;,
+    &quot;Application.CountLongProductsPerCategory.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Countwordoccurrences.executor&quot;: &quot;Run&quot;,
+    &quot;Application.CurryingExample.executor&quot;: &quot;Run&quot;,
+    &quot;Application.DeadlockExample.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Default1.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Default2.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Default3.executor&quot;: &quot;Run&quot;,
+    &quot;Application.DeleteFromDoublyList.executor&quot;: &quot;Run&quot;,
+    &quot;Application.DeleteinSinglyLinkedList.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Deletewithoutheadpointer.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Demo1.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Demo2.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Duplicate.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Duplicate1.executor&quot;: &quot;Run&quot;,
+    &quot;Application.DuplicateCharacters.executor&quot;: &quot;Run&quot;,
+    &quot;Application.DuplicateWords.executor&quot;: &quot;Run&quot;,
+    &quot;Application.EmployeeAnalytics.executor&quot;: &quot;Run&quot;,
+    &quot;Application.EmployeeSalaryAnalyzer.executor&quot;: &quot;Run&quot;,
+    &quot;Application.EnumMain.executor&quot;: &quot;Run&quot;,
+    &quot;Application.EvenNumber.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ExecutorCallable.executor&quot;: &quot;Run&quot;,
+    &quot;Application.FilterEmployees.executor&quot;: &quot;Run&quot;,
+    &quot;Application.FindDuplicates.executor&quot;: &quot;Run&quot;,
+    &quot;Application.FindDuplicatesWithoutGroupingBy.executor&quot;: &quot;Run&quot;,
+    &quot;Application.FindlengthofLoop.executor&quot;: &quot;Run&quot;,
+    &quot;Application.FirstNonRepeatedChar.executor&quot;: &quot;Run&quot;,
+    &quot;Application.FirstNonRepeatingCharacter.executor&quot;: &quot;Run&quot;,
+    &quot;Application.FlatMapExample.executor&quot;: &quot;Run&quot;,
+    &quot;Application.FlattenFilterSort.executor&quot;: &quot;Run&quot;,
+    &quot;Application.FlattenList.executor&quot;: &quot;Run&quot;,
+    &quot;Application.FlattenMapValues.executor&quot;: &quot;Run&quot;,
+    &quot;Application.FrequencyCountAndMaintainTheAscendingOrder1.executor&quot;: &quot;Run&quot;,
+    &quot;Application.FrequencyCountAndOrderMaintain.executor&quot;: &quot;Run&quot;,
+    &quot;Application.GroupByLength.executor&quot;: &quot;Run&quot;,
+    &quot;Application.GroupLength.executor&quot;: &quot;Run&quot;,
+    &quot;Application.GroupLength1.executor&quot;: &quot;Run&quot;,
+    &quot;Application.GroupedProducts.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Hello.executor&quot;: &quot;Run&quot;,
+    &quot;Application.KthLargestFinder.executor&quot;: &quot;Run&quot;,
+    &quot;Application.LambdaArgumentExample.executor&quot;: &quot;Run&quot;,
+    &quot;Application.LambdaComposition.executor&quot;: &quot;Run&quot;,
+    &quot;Application.LambdaFinalExample.executor&quot;: &quot;Run&quot;,
+    &quot;Application.LazyMain.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ListBasedExample.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ListIntegerBasedExample.executor&quot;: &quot;Run&quot;,
+    &quot;Application.LongestAndShortestWord.executor&quot;: &quot;Run&quot;,
+    &quot;Application.LongestString.executor&quot;: &quot;Run&quot;,
+    &quot;Application.MaxDistinctCategory.executor&quot;: &quot;Run&quot;,
+    &quot;Application.MaxMinNumber.executor&quot;: &quot;Run&quot;,
+    &quot;Application.MaximumValue.executor&quot;: &quot;Run&quot;,
+    &quot;Application.MethodRefExample.executor&quot;: &quot;Run&quot;,
+    &quot;Application.MethodsReference1.executor&quot;: &quot;Run&quot;,
+    &quot;Application.MethodsReference2.executor&quot;: &quot;Run&quot;,
+    &quot;Application.MethodsReference3.executor&quot;: &quot;Run&quot;,
+    &quot;Application.MethodsReference4.executor&quot;: &quot;Run&quot;,
+    &quot;Application.MiddleofLinkedList.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.MostFrequentElement.executor&quot;: &quot;Run&quot;,
+    &quot;Application.MostFrequentProducts.executor&quot;: &quot;Run&quot;,
+    &quot;Application.MultipleFilter.executor&quot;: &quot;Run&quot;,
+    &quot;Application.MyRunnable.executor&quot;: &quot;Run&quot;,
+    &quot;Application.MyRunnable1.executor&quot;: &quot;Run&quot;,
+    &quot;Application.MyThread.executor&quot;: &quot;Run&quot;,
+    &quot;Application.OddEvenDemo.executor&quot;: &quot;Run&quot;,
+    &quot;Application.OddEvenDemoTraditional.executor&quot;: &quot;Run&quot;,
+    &quot;Application.OptionalExample.executor&quot;: &quot;Run&quot;,
+    &quot;Application.OptionalTest.executor&quot;: &quot;Run&quot;,
+    &quot;Application.PalindromeFinder.executor&quot;: &quot;Run&quot;,
+    &quot;Application.PalindromeLinkedList.executor&quot;: &quot;Run&quot;,
+    &quot;Application.PartitionExample.executor&quot;: &quot;Run&quot;,
+    &quot;Application.PrimeNumbersFinder.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ProducerConsumer.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ProducerConsumer1.executor&quot;: &quot;Run&quot;,
+    &quot;Application.RaceConditionDemo.executor&quot;: &quot;Run&quot;,
+    &quot;Application.RemoveDuplicatesfromSortedLinkedList.executor&quot;: &quot;Run&quot;,
+    &quot;Application.RemoveLoopFromLinkedList.executor&quot;: &quot;Run&quot;,
+    &quot;Application.RemoveNodesWithGreaterRight.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Removeduplicatesfromunsortedlinkedlist.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ReverseBetween.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ReverseDoublyLinkedList.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ReverseKGroup.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ReverseLinkedList.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ReverseLinkedListRecursiveApproach.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.Reverselinkedlist.executor&quot;: &quot;Run&quot;,
+    &quot;Application.SecondHighest.executor&quot;: &quot;Run&quot;,
+    &quot;Application.SecondSmallest.executor&quot;: &quot;Run&quot;,
+    &quot;Application.SingletonEager.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Sortemployeesbysalary.executor&quot;: &quot;Run&quot;,
+    &quot;Application.StringsStartingWith.executor&quot;: &quot;Run&quot;,
+    &quot;Application.SumOfDigits.executor&quot;: &quot;Run&quot;,
+    &quot;Application.SumOfEvenNumbers.executor&quot;: &quot;Run&quot;,
+    &quot;Application.SumOfNumber.executor&quot;: &quot;Run&quot;,
+    &quot;Application.SynchronizedDemo.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ThreadLifeCycleDemo.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ThreadSafeMain (1).executor&quot;: &quot;Run&quot;,
+    &quot;Application.ThreadSafeMain.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ThreadSafeMain1.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ThreadStatesDemo.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.ThreadStatesDemo1.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Top3highestnumbers.executor&quot;: &quot;Run&quot;,
+    &quot;Application.TopNPerCategory.executor&quot;: &quot;Run&quot;,
+    &quot;Application.TwoThreadsSafe.executor&quot;: &quot;Run&quot;,
+    &quot;Application.UniqueSortedProducts.executor&quot;: &quot;Run&quot;,
+    &quot;Application.VolatileCounter.executor&quot;: &quot;Run&quot;,
+    &quot;Application.VolatileCounter1.executor&quot;: &quot;Run&quot;,
+    &quot;Application.VolatileCounter2.executor&quot;: &quot;Run&quot;,
+    &quot;Application.VolatileCounter2withAtomic.executor&quot;: &quot;Run&quot;,
+    &quot;Application.VowelCount.executor&quot;: &quot;Run&quot;,
+    &quot;Application.VowelCount1.executor&quot;: &quot;Run&quot;,
+    &quot;Application.VowelCount2.executor&quot;: &quot;Run&quot;,
+    &quot;Application.WithVolatile.executor&quot;: &quot;Run&quot;,
+    &quot;Application.WithoutVolatile.executor&quot;: &quot;Run&quot;,
+    &quot;Application.WordFrequency.executor&quot;: &quot;Run&quot;,
+    &quot;Application.WorkerWithVolatile.executor&quot;: &quot;Run&quot;,
+    &quot;Application.WorkerWithoutVolatile.executor&quot;: &quot;Run&quot;,
+    &quot;Application.doubleRevision.ReverseLinkedList.executor&quot;: &quot;Run&quot;,
+    &quot;Application.revision.LazyMain.executor&quot;: &quot;Run&quot;,
+    &quot;Application.revision.ThreadSafeMain.executor&quot;: &quot;Run&quot;,
+    &quot;Application.string.Hello.executor&quot;: &quot;Run&quot;,
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.MCP Project settings loaded&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;SONARLINT_PRECOMMIT_ANALYSIS&quot;: &quot;true&quot;,
+    &quot;com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultAutoModeForALLUsers.v1&quot;: &quot;true&quot;,
+    &quot;com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;junie.onboarding.icon.badge.shown&quot;: &quot;true&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/Dsa&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
+    &quot;to.speed.mode.migration.done&quot;: &quot;true&quot;
   },
-  "keyToStringList": {
-    "DatabaseDriversLRU": [
-      "mysql"
+  &quot;keyToStringList&quot;: {
+    &quot;DatabaseDriversLRU&quot;: [
+      &quot;mysql&quot;
     ]
   }
-}]]></component>
-  <component name="RunManager" selected="Application.PalindromeLinkedList">
+}</component>
+  <component name="RunManager" selected="Application.doubleRevision.ReverseLinkedList">
     <configuration name="PalindromeLinkedList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="linkedList.PalindromeLinkedList" />
       <module name="Dsa" />
@@ -301,9 +302,9 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.doubleRevision.ReverseLinkedList" />
         <item itemvalue="Application.PalindromeLinkedList" />
         <item itemvalue="Application.ReverseBetween" />
-        <item itemvalue="Application.doubleRevision.ReverseLinkedList" />
         <item itemvalue="Application.ReverseKGroup" />
         <item itemvalue="Application.ReverseLinkedListRecursiveApproach" />
       </list>
@@ -323,118 +324,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1751545643062</updated>
-    </task>
-    <task id="LOCAL-00066" summary="RemoveLoopFromLinkedList">
-      <option name="closed" value="true" />
-      <created>1765444363124</created>
-      <option name="number" value="00066" />
-      <option name="presentableId" value="LOCAL-00066" />
-      <option name="project" value="LOCAL" />
-      <updated>1765444363124</updated>
-    </task>
-    <task id="LOCAL-00067" summary="RemoveLoopFromLinkedList">
-      <option name="closed" value="true" />
-      <created>1765444371847</created>
-      <option name="number" value="00067" />
-      <option name="presentableId" value="LOCAL-00067" />
-      <option name="project" value="LOCAL" />
-      <updated>1765444371847</updated>
-    </task>
-    <task id="LOCAL-00068" summary="RemoveLoopFromLinkedList">
-      <option name="closed" value="true" />
-      <created>1765445312941</created>
-      <option name="number" value="00068" />
-      <option name="presentableId" value="LOCAL-00068" />
-      <option name="project" value="LOCAL" />
-      <updated>1765445312941</updated>
-    </task>
-    <task id="LOCAL-00069" summary="RemoveLoopFromLinkedList">
-      <option name="closed" value="true" />
-      <created>1765445541764</created>
-      <option name="number" value="00069" />
-      <option name="presentableId" value="LOCAL-00069" />
-      <option name="project" value="LOCAL" />
-      <updated>1765445541764</updated>
-    </task>
-    <task id="LOCAL-00070" summary="RemoveLoopFromLinkedList">
-      <option name="closed" value="true" />
-      <created>1765454422591</created>
-      <option name="number" value="00070" />
-      <option name="presentableId" value="LOCAL-00070" />
-      <option name="project" value="LOCAL" />
-      <updated>1765454422591</updated>
-    </task>
-    <task id="LOCAL-00071" summary="RemoveLoopFromLinkedList">
-      <option name="closed" value="true" />
-      <created>1765454430938</created>
-      <option name="number" value="00071" />
-      <option name="presentableId" value="LOCAL-00071" />
-      <option name="project" value="LOCAL" />
-      <updated>1765454430938</updated>
-    </task>
-    <task id="LOCAL-00072" summary="RemoveLoopFromLinkedList">
-      <option name="closed" value="true" />
-      <created>1765454435313</created>
-      <option name="number" value="00072" />
-      <option name="presentableId" value="LOCAL-00072" />
-      <option name="project" value="LOCAL" />
-      <updated>1765454435314</updated>
-    </task>
-    <task id="LOCAL-00073" summary="RemoveLoopFromLinkedList">
-      <option name="closed" value="true" />
-      <created>1765454440193</created>
-      <option name="number" value="00073" />
-      <option name="presentableId" value="LOCAL-00073" />
-      <option name="project" value="LOCAL" />
-      <updated>1765454440193</updated>
-    </task>
-    <task id="LOCAL-00074" summary="RemoveLoopFromLinkedList">
-      <option name="closed" value="true" />
-      <created>1765454445457</created>
-      <option name="number" value="00074" />
-      <option name="presentableId" value="LOCAL-00074" />
-      <option name="project" value="LOCAL" />
-      <updated>1765454445457</updated>
-    </task>
-    <task id="LOCAL-00075" summary="RemoveLoopFromLinkedList">
-      <option name="closed" value="true" />
-      <created>1765454895854</created>
-      <option name="number" value="00075" />
-      <option name="presentableId" value="LOCAL-00075" />
-      <option name="project" value="LOCAL" />
-      <updated>1765454895854</updated>
-    </task>
-    <task id="LOCAL-00076" summary="RemoveLoopFromLinkedList">
-      <option name="closed" value="true" />
-      <created>1765454902533</created>
-      <option name="number" value="00076" />
-      <option name="presentableId" value="LOCAL-00076" />
-      <option name="project" value="LOCAL" />
-      <updated>1765454902533</updated>
-    </task>
-    <task id="LOCAL-00077" summary="thread">
-      <option name="closed" value="true" />
-      <created>1765455124339</created>
-      <option name="number" value="00077" />
-      <option name="presentableId" value="LOCAL-00077" />
-      <option name="project" value="LOCAL" />
-      <updated>1765455124339</updated>
-    </task>
-    <task id="LOCAL-00078" summary="thread">
-      <option name="closed" value="true" />
-      <created>1765455131747</created>
-      <option name="number" value="00078" />
-      <option name="presentableId" value="LOCAL-00078" />
-      <option name="project" value="LOCAL" />
-      <updated>1765455131747</updated>
-    </task>
-    <task id="LOCAL-00079" summary="thread">
-      <option name="closed" value="true" />
-      <created>1765455291450</created>
-      <option name="number" value="00079" />
-      <option name="presentableId" value="LOCAL-00079" />
-      <option name="project" value="LOCAL" />
-      <updated>1765455291450</updated>
     </task>
     <task id="LOCAL-00080" summary="thread">
       <option name="closed" value="true" />
@@ -716,7 +605,119 @@
       <option name="project" value="LOCAL" />
       <updated>1767071051823</updated>
     </task>
-    <option name="localTasksCounter" value="115" />
+    <task id="LOCAL-00115" summary="ReverseLinkedList">
+      <option name="closed" value="true" />
+      <created>1767077749885</created>
+      <option name="number" value="00115" />
+      <option name="presentableId" value="LOCAL-00115" />
+      <option name="project" value="LOCAL" />
+      <updated>1767077749885</updated>
+    </task>
+    <task id="LOCAL-00116" summary="ReverseLinkedList">
+      <option name="closed" value="true" />
+      <created>1767077754982</created>
+      <option name="number" value="00116" />
+      <option name="presentableId" value="LOCAL-00116" />
+      <option name="project" value="LOCAL" />
+      <updated>1767077754982</updated>
+    </task>
+    <task id="LOCAL-00117" summary="ReverseLinkedList">
+      <option name="closed" value="true" />
+      <created>1767077762408</created>
+      <option name="number" value="00117" />
+      <option name="presentableId" value="LOCAL-00117" />
+      <option name="project" value="LOCAL" />
+      <updated>1767077762408</updated>
+    </task>
+    <task id="LOCAL-00118" summary="ReverseLinkedList">
+      <option name="closed" value="true" />
+      <created>1767077767485</created>
+      <option name="number" value="00118" />
+      <option name="presentableId" value="LOCAL-00118" />
+      <option name="project" value="LOCAL" />
+      <updated>1767077767485</updated>
+    </task>
+    <task id="LOCAL-00119" summary="ReverseLinkedList">
+      <option name="closed" value="true" />
+      <created>1767080897936</created>
+      <option name="number" value="00119" />
+      <option name="presentableId" value="LOCAL-00119" />
+      <option name="project" value="LOCAL" />
+      <updated>1767080897936</updated>
+    </task>
+    <task id="LOCAL-00120" summary="ReverseLinkedList">
+      <option name="closed" value="true" />
+      <created>1767080901924</created>
+      <option name="number" value="00120" />
+      <option name="presentableId" value="LOCAL-00120" />
+      <option name="project" value="LOCAL" />
+      <updated>1767080901924</updated>
+    </task>
+    <task id="LOCAL-00121" summary="ReverseLinkedList">
+      <option name="closed" value="true" />
+      <created>1767080906546</created>
+      <option name="number" value="00121" />
+      <option name="presentableId" value="LOCAL-00121" />
+      <option name="project" value="LOCAL" />
+      <updated>1767080906546</updated>
+    </task>
+    <task id="LOCAL-00122" summary="ReverseLinkedList">
+      <option name="closed" value="true" />
+      <created>1767080915640</created>
+      <option name="number" value="00122" />
+      <option name="presentableId" value="LOCAL-00122" />
+      <option name="project" value="LOCAL" />
+      <updated>1767080915640</updated>
+    </task>
+    <task id="LOCAL-00123" summary="ReverseLinkedList">
+      <option name="closed" value="true" />
+      <created>1767080920686</created>
+      <option name="number" value="00123" />
+      <option name="presentableId" value="LOCAL-00123" />
+      <option name="project" value="LOCAL" />
+      <updated>1767080920686</updated>
+    </task>
+    <task id="LOCAL-00124" summary="ReverseLinkedList">
+      <option name="closed" value="true" />
+      <created>1767080931078</created>
+      <option name="number" value="00124" />
+      <option name="presentableId" value="LOCAL-00124" />
+      <option name="project" value="LOCAL" />
+      <updated>1767080931078</updated>
+    </task>
+    <task id="LOCAL-00125" summary="ReverseLinkedList">
+      <option name="closed" value="true" />
+      <created>1767172459150</created>
+      <option name="number" value="00125" />
+      <option name="presentableId" value="LOCAL-00125" />
+      <option name="project" value="LOCAL" />
+      <updated>1767172459150</updated>
+    </task>
+    <task id="LOCAL-00126" summary="ReverseLinkedList">
+      <option name="closed" value="true" />
+      <created>1767172463367</created>
+      <option name="number" value="00126" />
+      <option name="presentableId" value="LOCAL-00126" />
+      <option name="project" value="LOCAL" />
+      <updated>1767172463367</updated>
+    </task>
+    <task id="LOCAL-00127" summary="ReverseLinkedList">
+      <option name="closed" value="true" />
+      <created>1767172469963</created>
+      <option name="number" value="00127" />
+      <option name="presentableId" value="LOCAL-00127" />
+      <option name="project" value="LOCAL" />
+      <updated>1767172469963</updated>
+    </task>
+    <task id="LOCAL-00128" summary="ReverseLinkedList">
+      <option name="closed" value="true" />
+      <created>1767172477057</created>
+      <option name="number" value="00128" />
+      <option name="presentableId" value="LOCAL-00128" />
+      <option name="project" value="LOCAL" />
+      <updated>1767172477057</updated>
+    </task>
+    <option name="localTasksCounter" value="129" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -827,6 +828,21 @@
           <url>file://$PROJECT_DIR$/DataStracture/src/revision/ReverseLinkedListRecursiveApproach.java</url>
           <line>36</line>
           <option name="timeStamp" value="17" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/DataStracture/src/linkedList/PalindromeLinkedList.java</url>
+          <line>44</line>
+          <option name="timeStamp" value="19" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/DataStracture/src/linkedList/PalindromeLinkedList.java</url>
+          <line>49</line>
+          <option name="timeStamp" value="20" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/DataStracture/src/linkedList/PalindromeLinkedList.java</url>
+          <line>65</line>
+          <option name="timeStamp" value="21" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
