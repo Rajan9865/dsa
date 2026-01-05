@@ -19,7 +19,7 @@ public class DetectLoopInLinkedList {
         c.next = d;
         d.next = e;
         e.next = f;
-//        f.next = d;
+        f.next = d;
         boolean result = detectLoopInLinkedList(a);
         System.out.println("is circular linkedlist - " + result);
     }
