@@ -19,7 +19,7 @@ public class RemoveLoopfromLinkedList1 {
         c.next = d;
         d.next = e;
         e.next = f;
-        e.next = c;
+        e.next = a;
         removeLoopfromLinkedList1(a);
         printLinkedList(a);
     }
