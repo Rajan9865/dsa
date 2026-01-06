@@ -5,8 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ff3856c1-c1ca-4aca-a6ef-fd33bd67f435" name="Changes" comment="ReverseLinkedList">
+      <change afterPath="$PROJECT_DIR$/DataStracture/src/revision/RemoveLoopfromLinkedList.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/DataStracture/src/linkedList/RemoveLoopfromLinkedList1.java" beforeDir="false" afterPath="$PROJECT_DIR$/DataStracture/src/linkedList/RemoveLoopfromLinkedList1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Dsa/linkedList/RemoveLoopfromLinkedList1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Dsa/linkedList/RemoveLoopfromLinkedList1.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -167,6 +169,7 @@
     "Application.RemoveDuplicatesfromSortedLinkedList.executor": "Run",
     "Application.RemoveLoopByMethods.executor": "Run",
     "Application.RemoveLoopFromLinkedList.executor": "Run",
+    "Application.RemoveLoopfromLinkedList.executor": "Run",
     "Application.RemoveLoopfromLinkedList1.executor": "Run",
     "Application.RemoveNodesWithGreaterRight.executor": "Run",
     "Application.Removeduplicatesfromunsortedlinkedlist.executor": "Run",
@@ -238,9 +241,9 @@
     ]
   }
 }]]></component>
-  <component name="RunManager" selected="Application.RemoveLoopfromLinkedList1">
-    <configuration name="DetectLoopInLinkedList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="linkedList.DetectLoopInLinkedList" />
+  <component name="RunManager" selected="Application.RemoveLoopfromLinkedList">
+    <configuration name="RemoveLoopByMethods" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="linkedList.RemoveLoopByMethods" />
       <module name="Dsa" />
       <extension name="coverage">
         <pattern>
@@ -252,12 +255,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RemoveLoopByMethods" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="linkedList.RemoveLoopByMethods" />
+    <configuration name="RemoveLoopfromLinkedList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="revision.RemoveLoopfromLinkedList" />
       <module name="Dsa" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="linkedList.*" />
+          <option name="PATTERN" value="revision.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -306,11 +309,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.RemoveLoopfromLinkedList" />
         <item itemvalue="Application.RemoveLoopfromLinkedList1" />
         <item itemvalue="Application.RemoveLoopByMethods" />
         <item itemvalue="Application.ReverseLinkedList1" />
         <item itemvalue="Application.revision.DetectLoopInLinkedList" />
-        <item itemvalue="Application.DetectLoopInLinkedList" />
       </list>
     </recent_temporary>
   </component>
@@ -328,62 +331,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1751545643062</updated>
-    </task>
-    <task id="LOCAL-00099" summary="ReverseLinkedList">
-      <option name="closed" value="true" />
-      <created>1767007196552</created>
-      <option name="number" value="00099" />
-      <option name="presentableId" value="LOCAL-00099" />
-      <option name="project" value="LOCAL" />
-      <updated>1767007196553</updated>
-    </task>
-    <task id="LOCAL-00100" summary="ReverseLinkedList">
-      <option name="closed" value="true" />
-      <created>1767007202821</created>
-      <option name="number" value="00100" />
-      <option name="presentableId" value="LOCAL-00100" />
-      <option name="project" value="LOCAL" />
-      <updated>1767007202821</updated>
-    </task>
-    <task id="LOCAL-00101" summary="ReverseLinkedList">
-      <option name="closed" value="true" />
-      <created>1767007215064</created>
-      <option name="number" value="00101" />
-      <option name="presentableId" value="LOCAL-00101" />
-      <option name="project" value="LOCAL" />
-      <updated>1767007215064</updated>
-    </task>
-    <task id="LOCAL-00102" summary="ReverseLinkedList">
-      <option name="closed" value="true" />
-      <created>1767007222226</created>
-      <option name="number" value="00102" />
-      <option name="presentableId" value="LOCAL-00102" />
-      <option name="project" value="LOCAL" />
-      <updated>1767007222226</updated>
-    </task>
-    <task id="LOCAL-00103" summary="ReverseLinkedList">
-      <option name="closed" value="true" />
-      <created>1767007241976</created>
-      <option name="number" value="00103" />
-      <option name="presentableId" value="LOCAL-00103" />
-      <option name="project" value="LOCAL" />
-      <updated>1767007241977</updated>
-    </task>
-    <task id="LOCAL-00104" summary="ReverseLinkedList">
-      <option name="closed" value="true" />
-      <created>1767009248503</created>
-      <option name="number" value="00104" />
-      <option name="presentableId" value="LOCAL-00104" />
-      <option name="project" value="LOCAL" />
-      <updated>1767009248503</updated>
-    </task>
-    <task id="LOCAL-00105" summary="ReverseLinkedList">
-      <option name="closed" value="true" />
-      <created>1767009253389</created>
-      <option name="number" value="00105" />
-      <option name="presentableId" value="LOCAL-00105" />
-      <option name="project" value="LOCAL" />
-      <updated>1767009253389</updated>
     </task>
     <task id="LOCAL-00106" summary="ReverseLinkedList">
       <option name="closed" value="true" />
@@ -721,7 +668,63 @@
       <option name="project" value="LOCAL" />
       <updated>1767604462295</updated>
     </task>
-    <option name="localTasksCounter" value="148" />
+    <task id="LOCAL-00148" summary="ReverseLinkedList">
+      <option name="closed" value="true" />
+      <created>1767682699314</created>
+      <option name="number" value="00148" />
+      <option name="presentableId" value="LOCAL-00148" />
+      <option name="project" value="LOCAL" />
+      <updated>1767682699314</updated>
+    </task>
+    <task id="LOCAL-00149" summary="ReverseLinkedList">
+      <option name="closed" value="true" />
+      <created>1767682704175</created>
+      <option name="number" value="00149" />
+      <option name="presentableId" value="LOCAL-00149" />
+      <option name="project" value="LOCAL" />
+      <updated>1767682704175</updated>
+    </task>
+    <task id="LOCAL-00150" summary="ReverseLinkedList">
+      <option name="closed" value="true" />
+      <created>1767682709100</created>
+      <option name="number" value="00150" />
+      <option name="presentableId" value="LOCAL-00150" />
+      <option name="project" value="LOCAL" />
+      <updated>1767682709100</updated>
+    </task>
+    <task id="LOCAL-00151" summary="ReverseLinkedList">
+      <option name="closed" value="true" />
+      <created>1767682714190</created>
+      <option name="number" value="00151" />
+      <option name="presentableId" value="LOCAL-00151" />
+      <option name="project" value="LOCAL" />
+      <updated>1767682714190</updated>
+    </task>
+    <task id="LOCAL-00152" summary="ReverseLinkedList">
+      <option name="closed" value="true" />
+      <created>1767682718642</created>
+      <option name="number" value="00152" />
+      <option name="presentableId" value="LOCAL-00152" />
+      <option name="project" value="LOCAL" />
+      <updated>1767682718642</updated>
+    </task>
+    <task id="LOCAL-00153" summary="ReverseLinkedList">
+      <option name="closed" value="true" />
+      <created>1767682723882</created>
+      <option name="number" value="00153" />
+      <option name="presentableId" value="LOCAL-00153" />
+      <option name="project" value="LOCAL" />
+      <updated>1767682723882</updated>
+    </task>
+    <task id="LOCAL-00154" summary="ReverseLinkedList">
+      <option name="closed" value="true" />
+      <created>1767682728441</created>
+      <option name="number" value="00154" />
+      <option name="presentableId" value="LOCAL-00154" />
+      <option name="project" value="LOCAL" />
+      <updated>1767682728441</updated>
+    </task>
+    <option name="localTasksCounter" value="155" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
