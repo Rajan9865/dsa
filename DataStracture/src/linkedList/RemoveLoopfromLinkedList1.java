@@ -27,7 +27,7 @@ public class RemoveLoopfromLinkedList1 {
     private static void printLinkedList(Node22 head) {
         Node22 temp = head;
         while (temp != null) {
-            System.out.print(temp.data + " ");
+            System.out.print(temp.data + " ->");
             temp = temp.next;
         }
         System.out.print("null");
@@ -47,12 +47,15 @@ public class RemoveLoopfromLinkedList1 {
             }
         }
         // no loop detect
-        if (slow != fast) {
+        if (fast == null || fast.next == null) {
             return;
         }
         slow = head;
-        while (slow.next != fast.next) {
+        while (slow != fast) {
             slow = slow.next;
+            fast = fast.next;
+        }
+        while (fast.next != slow) {
             fast = fast.next;
         }
         fast.next = null;
