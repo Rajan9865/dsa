@@ -14,7 +14,7 @@ public class CheckIfCircularLinkedList {
     }
 
     private static boolean isCircularLinkedList(Node17 head) {
-        if (head == null) {
+        if (head == null || head.next == null) {
             return false;
         }
         Node17 slow = head;
