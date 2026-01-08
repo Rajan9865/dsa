@@ -24,10 +24,26 @@ public class ReverseDoublyLinkedList {
     }
 
     private static void printLinkedList(Node23 head) {
-        
+        Node23 temp = head;
+        while (temp != null) {
+            System.out.print(temp.data + " ");
+            temp = temp.next;
+        }
+        System.out.println("null");
     }
 
     private static Node23 reverseDLL(Node23 head) {
-
+        Node23 current = head;
+        Node23 temp = null;
+        while (current != null) {
+            temp = current.prev;
+            current.prev = current.next;
+            current.next = temp;
+            current = current.prev;
+        }
+        if (temp != null) {
+            head = temp.prev;
+        }
+        return head;
     }
 }
