@@ -31,9 +31,9 @@ public class NthNodeFromEnd {
         Node22 first = head;
         Node22 second = head;
         for (int i = 0; i < n; i++) {
-//            if (first == null) {
-//                return -1;
-//            }
+            if (first == null) {
+                return -1;
+            }
             first = first.next;
         }
         while (first != null) {
