@@ -14,7 +14,7 @@ public class ReverseDoublyLinkedList {
         printLinkedList(result);
     }
 
-    private static void printLinkedList(Node16 result) {
+    static void printLinkedList(Node16 result) {
         Node16 temp = result;
         while (temp != null) {
             System.out.print(temp.data + " ");
