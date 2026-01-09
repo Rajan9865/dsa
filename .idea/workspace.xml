@@ -5,8 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ff3856c1-c1ca-4aca-a6ef-fd33bd67f435" name="Changes" comment="ReverseLinkedList">
+      <change afterPath="$PROJECT_DIR$/DataStracture/src/linkedList/RotateLinkedListLeft.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DataStracture/src/linkedList/RotateLinkedListRight.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DataStracture/src/revision/ReverseDoublyLinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/DataStracture/src/revision/ReverseDoublyLinkedList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataStracture/src/linkedList/ReverseDoublyLinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/DataStracture/src/linkedList/ReverseDoublyLinkedList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Dsa/linkedList/ReverseDoublyLinkedList.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Dsa/linkedList/ReverseDoublyLinkedList.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -181,6 +184,9 @@
     "Application.ReverseLinkedList1.executor": "Debug",
     "Application.ReverseLinkedListRecursiveApproach.executor": "Debug",
     "Application.Reverselinkedlist.executor": "Run",
+    "Application.RotateLinkedList.executor": "Run",
+    "Application.RotateLinkedListLeft.executor": "Debug",
+    "Application.RotateLinkedListRight.executor": "Debug",
     "Application.SecondHighest.executor": "Run",
     "Application.SecondSmallest.executor": "Run",
     "Application.SingletonEager.executor": "Run",
@@ -242,35 +248,9 @@
     ]
   }
 }]]></component>
-  <component name="RunManager" selected="Application.ReverseDoublyLinkedList">
-    <configuration name="BlockedStateDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="multithreading.BlockedStateDemo" />
-      <module name="Dsa" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="multithreading.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.RotateLinkedListRight">
     <configuration name="DoublyLinkedListTraversal" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="linkedList.DoublyLinkedListTraversal" />
-      <module name="Dsa" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="linkedList.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="FindFirstNode" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="linkedList.FindFirstNode" />
       <module name="Dsa" />
       <extension name="coverage">
         <pattern>
@@ -308,13 +288,39 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="RotateLinkedListLeft" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="linkedList.RotateLinkedListLeft" />
+      <module name="Dsa" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="linkedList.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RotateLinkedListRight" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="linkedList.RotateLinkedListRight" />
+      <module name="Dsa" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="linkedList.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.RotateLinkedListRight" />
+        <item itemvalue="Application.RotateLinkedListLeft" />
         <item itemvalue="Application.ReverseDoublyLinkedList" />
         <item itemvalue="Application.DoublyLinkedListTraversal" />
         <item itemvalue="Application.MiddleLinkedList" />
-        <item itemvalue="Application.BlockedStateDemo" />
-        <item itemvalue="Application.FindFirstNode" />
       </list>
     </recent_temporary>
   </component>
@@ -332,38 +338,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1751545643062</updated>
-    </task>
-    <task id="LOCAL-00121" summary="ReverseLinkedList">
-      <option name="closed" value="true" />
-      <created>1767080906546</created>
-      <option name="number" value="00121" />
-      <option name="presentableId" value="LOCAL-00121" />
-      <option name="project" value="LOCAL" />
-      <updated>1767080906546</updated>
-    </task>
-    <task id="LOCAL-00122" summary="ReverseLinkedList">
-      <option name="closed" value="true" />
-      <created>1767080915640</created>
-      <option name="number" value="00122" />
-      <option name="presentableId" value="LOCAL-00122" />
-      <option name="project" value="LOCAL" />
-      <updated>1767080915640</updated>
-    </task>
-    <task id="LOCAL-00123" summary="ReverseLinkedList">
-      <option name="closed" value="true" />
-      <created>1767080920686</created>
-      <option name="number" value="00123" />
-      <option name="presentableId" value="LOCAL-00123" />
-      <option name="project" value="LOCAL" />
-      <updated>1767080920686</updated>
-    </task>
-    <task id="LOCAL-00124" summary="ReverseLinkedList">
-      <option name="closed" value="true" />
-      <created>1767080931078</created>
-      <option name="number" value="00124" />
-      <option name="presentableId" value="LOCAL-00124" />
-      <option name="project" value="LOCAL" />
-      <updated>1767080931078</updated>
     </task>
     <task id="LOCAL-00125" summary="ReverseLinkedList">
       <option name="closed" value="true" />
@@ -725,7 +699,39 @@
       <option name="project" value="LOCAL" />
       <updated>1767848760291</updated>
     </task>
-    <option name="localTasksCounter" value="170" />
+    <task id="LOCAL-00170" summary="ReverseLinkedList">
+      <option name="closed" value="true" />
+      <created>1767852264453</created>
+      <option name="number" value="00170" />
+      <option name="presentableId" value="LOCAL-00170" />
+      <option name="project" value="LOCAL" />
+      <updated>1767852264453</updated>
+    </task>
+    <task id="LOCAL-00171" summary="ReverseLinkedList">
+      <option name="closed" value="true" />
+      <created>1767852275360</created>
+      <option name="number" value="00171" />
+      <option name="presentableId" value="LOCAL-00171" />
+      <option name="project" value="LOCAL" />
+      <updated>1767852275360</updated>
+    </task>
+    <task id="LOCAL-00172" summary="ReverseLinkedList">
+      <option name="closed" value="true" />
+      <created>1767852293459</created>
+      <option name="number" value="00172" />
+      <option name="presentableId" value="LOCAL-00172" />
+      <option name="project" value="LOCAL" />
+      <updated>1767852293459</updated>
+    </task>
+    <task id="LOCAL-00173" summary="ReverseLinkedList">
+      <option name="closed" value="true" />
+      <created>1767852300352</created>
+      <option name="number" value="00173" />
+      <option name="presentableId" value="LOCAL-00173" />
+      <option name="project" value="LOCAL" />
+      <updated>1767852300352</updated>
+    </task>
+    <option name="localTasksCounter" value="174" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -866,6 +872,16 @@
           <url>file://$PROJECT_DIR$/DataStracture/src/revision/ReverseLinkedListRecursiveApproach.java</url>
           <line>40</line>
           <option name="timeStamp" value="25" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/DataStracture/src/linkedList/RotateLinkedListRight.java</url>
+          <line>45</line>
+          <option name="timeStamp" value="26" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/DataStracture/src/linkedList/RotateLinkedListLeft.java</url>
+          <line>49</line>
+          <option name="timeStamp" value="27" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
