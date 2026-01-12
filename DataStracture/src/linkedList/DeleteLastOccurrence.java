@@ -37,7 +37,6 @@ public class DeleteLastOccurrence {
         }
         Node22 current = head;
         Node22 previous = null;
-
         Node22 lastNode = null;
         Node22 lastPrevious = null;
         while (current != null) {

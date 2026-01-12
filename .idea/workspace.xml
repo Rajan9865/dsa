@@ -5,9 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ff3856c1-c1ca-4aca-a6ef-fd33bd67f435" name="Changes" comment="ReverseLinkedList">
-      <change afterPath="$PROJECT_DIR$/DataStracture/src/linkedList/DeleteLastOccurrence.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Dsa/linkedList/NthNodeFromEnd.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Dsa/linkedList/NthNodeFromEnd.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataStracture/src/linkedList/DeleteLastOccurrence.java" beforeDir="false" afterPath="$PROJECT_DIR$/DataStracture/src/linkedList/DeleteLastOccurrence.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -338,38 +337,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1751545643062</updated>
-    </task>
-    <task id="LOCAL-00139" summary="ReverseLinkedList">
-      <option name="closed" value="true" />
-      <created>1767591635618</created>
-      <option name="number" value="00139" />
-      <option name="presentableId" value="LOCAL-00139" />
-      <option name="project" value="LOCAL" />
-      <updated>1767591635618</updated>
-    </task>
-    <task id="LOCAL-00140" summary="ReverseLinkedList">
-      <option name="closed" value="true" />
-      <created>1767591643439</created>
-      <option name="number" value="00140" />
-      <option name="presentableId" value="LOCAL-00140" />
-      <option name="project" value="LOCAL" />
-      <updated>1767591643439</updated>
-    </task>
-    <task id="LOCAL-00141" summary="ReverseLinkedList">
-      <option name="closed" value="true" />
-      <created>1767591648099</created>
-      <option name="number" value="00141" />
-      <option name="presentableId" value="LOCAL-00141" />
-      <option name="project" value="LOCAL" />
-      <updated>1767591648099</updated>
-    </task>
-    <task id="LOCAL-00142" summary="ReverseLinkedList">
-      <option name="closed" value="true" />
-      <created>1767604431247</created>
-      <option name="number" value="00142" />
-      <option name="presentableId" value="LOCAL-00142" />
-      <option name="project" value="LOCAL" />
-      <updated>1767604431247</updated>
     </task>
     <task id="LOCAL-00143" summary="ReverseLinkedList">
       <option name="closed" value="true" />
@@ -731,7 +698,39 @@
       <option name="project" value="LOCAL" />
       <updated>1767960765125</updated>
     </task>
-    <option name="localTasksCounter" value="188" />
+    <task id="LOCAL-00188" summary="ReverseLinkedList">
+      <option name="closed" value="true" />
+      <created>1768200043244</created>
+      <option name="number" value="00188" />
+      <option name="presentableId" value="LOCAL-00188" />
+      <option name="project" value="LOCAL" />
+      <updated>1768200043244</updated>
+    </task>
+    <task id="LOCAL-00189" summary="ReverseLinkedList">
+      <option name="closed" value="true" />
+      <created>1768200048069</created>
+      <option name="number" value="00189" />
+      <option name="presentableId" value="LOCAL-00189" />
+      <option name="project" value="LOCAL" />
+      <updated>1768200048069</updated>
+    </task>
+    <task id="LOCAL-00190" summary="ReverseLinkedList">
+      <option name="closed" value="true" />
+      <created>1768200055275</created>
+      <option name="number" value="00190" />
+      <option name="presentableId" value="LOCAL-00190" />
+      <option name="project" value="LOCAL" />
+      <updated>1768200055275</updated>
+    </task>
+    <task id="LOCAL-00191" summary="ReverseLinkedList">
+      <option name="closed" value="true" />
+      <created>1768200063808</created>
+      <option name="number" value="00191" />
+      <option name="presentableId" value="LOCAL-00191" />
+      <option name="project" value="LOCAL" />
+      <updated>1768200063808</updated>
+    </task>
+    <option name="localTasksCounter" value="192" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
