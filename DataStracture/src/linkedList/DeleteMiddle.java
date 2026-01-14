@@ -1,7 +1,7 @@
 package linkedList;
 
 /**
- * @author Rajan kumat
+ * @author Rajan kumar
  * @version 1.0
  * Dsa
  * @since 1/13/2026
