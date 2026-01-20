@@ -5,6 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ff3856c1-c1ca-4aca-a6ef-fd33bd67f435" name="Changes" comment="ReverseLinkedList">
+      <change afterPath="$PROJECT_DIR$/DataStracture/src/revision/FindlengthofLoop.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -254,7 +255,7 @@
     ]
   }
 }</component>
-  <component name="RunManager" selected="Application.CountOccurrences">
+  <component name="RunManager" selected="Application.FindlengthofLoop">
     <configuration name="CircularLinkedListTraversal" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="linkedList.CircularLinkedListTraversal" />
       <module name="Dsa" />
@@ -281,19 +282,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DeleteLastOccurrence" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="linkedList.DeleteLastOccurrence" />
-      <module name="Dsa" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="linkedList.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="DeleteMiddle" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="linkedList.DeleteMiddle" />
       <module name="Dsa" />
@@ -307,12 +295,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DetectLoopInLinkedList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="linkedList.DetectLoopInLinkedList" />
+    <configuration name="FindlengthofLoop" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="revision.FindlengthofLoop" />
       <module name="Dsa" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="linkedList.*" />
+          <option name="PATTERN" value="revision.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SingletonEager" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="designPattern.SingletonEager" />
+      <module name="Dsa" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="designPattern.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -322,11 +323,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.FindlengthofLoop" />
+        <item itemvalue="Application.SingletonEager" />
         <item itemvalue="Application.CountOccurrences" />
         <item itemvalue="Application.CircularLinkedListTraversal" />
         <item itemvalue="Application.DeleteMiddle" />
-        <item itemvalue="Application.DetectLoopInLinkedList" />
-        <item itemvalue="Application.DeleteLastOccurrence" />
       </list>
     </recent_temporary>
   </component>
@@ -344,22 +345,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1751545643062</updated>
-    </task>
-    <task id="LOCAL-00160" summary="ReverseLinkedList">
-      <option name="closed" value="true" />
-      <created>1767783572968</created>
-      <option name="number" value="00160" />
-      <option name="presentableId" value="LOCAL-00160" />
-      <option name="project" value="LOCAL" />
-      <updated>1767783572968</updated>
-    </task>
-    <task id="LOCAL-00161" summary="ReverseLinkedList">
-      <option name="closed" value="true" />
-      <created>1767783580168</created>
-      <option name="number" value="00161" />
-      <option name="presentableId" value="LOCAL-00161" />
-      <option name="project" value="LOCAL" />
-      <updated>1767783580168</updated>
     </task>
     <task id="LOCAL-00162" summary="ReverseLinkedList">
       <option name="closed" value="true" />
@@ -737,7 +722,23 @@
       <option name="project" value="LOCAL" />
       <updated>1768481752396</updated>
     </task>
-    <option name="localTasksCounter" value="209" />
+    <task id="LOCAL-00209" summary="ReverseLinkedList">
+      <option name="closed" value="true" />
+      <created>1768539772089</created>
+      <option name="number" value="00209" />
+      <option name="presentableId" value="LOCAL-00209" />
+      <option name="project" value="LOCAL" />
+      <updated>1768539772089</updated>
+    </task>
+    <task id="LOCAL-00210" summary="ReverseLinkedList">
+      <option name="closed" value="true" />
+      <created>1768539778032</created>
+      <option name="number" value="00210" />
+      <option name="presentableId" value="LOCAL-00210" />
+      <option name="project" value="LOCAL" />
+      <updated>1768539778032</updated>
+    </task>
+    <option name="localTasksCounter" value="211" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
