@@ -40,12 +40,14 @@ public class PairwiseSwap {
             return null;
         }
         Node22 current = head;
-        int temp = 0;
+//        int temp = 0;
         while (current != null && current.next != null) {
-            temp = current.data;
+            // swap the data using third variable
+            int temp = current.data;
             current.data = current.next.data;
             current.next.data = temp;
 
+            //and move the pointer to next two nodes
             current = current.next.next;
         }
         return head;
