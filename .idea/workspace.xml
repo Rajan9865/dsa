@@ -5,8 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ff3856c1-c1ca-4aca-a6ef-fd33bd67f435" name="Changes" comment="ReverseLinkedList">
+      <change afterPath="$PROJECT_DIR$/DataStracture/src/linkedList/IntersectionPoint.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DataStracture/src/linkedList/ReverseInGroups.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DataStracture/src/linkedList/PairwiseSwap.java" beforeDir="false" afterPath="$PROJECT_DIR$/DataStracture/src/linkedList/PairwiseSwap.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Dsa/linkedList/PairwiseSwap.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Dsa/linkedList/PairwiseSwap.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -141,6 +142,7 @@
     "Application.GroupLength1.executor": "Run",
     "Application.GroupedProducts.executor": "Run",
     "Application.Hello.executor": "Run",
+    "Application.IntersectionPoint.executor": "Run",
     "Application.KthLargestFinder.executor": "Run",
     "Application.LambdaArgumentExample.executor": "Run",
     "Application.LambdaComposition.executor": "Run",
@@ -188,6 +190,7 @@
     "Application.Removeduplicatesfromunsortedlinkedlist.executor": "Run",
     "Application.ReverseBetween.executor": "Run",
     "Application.ReverseDoublyLinkedList.executor": "Run",
+    "Application.ReverseInGroups.executor": "Run",
     "Application.ReverseKGroup.executor": "Run",
     "Application.ReverseLinkedList.executor": "Run",
     "Application.ReverseLinkedList1.executor": "Debug",
@@ -257,33 +260,7 @@
     ]
   }
 }]]></component>
-  <component name="RunManager" selected="Application.PairwiseSwap">
-    <configuration name="CircularLinkedListTraversal" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="linkedList.CircularLinkedListTraversal" />
-      <module name="Dsa" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="linkedList.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="CountOccurrences" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="linkedList.CountOccurrences" />
-      <module name="Dsa" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="linkedList.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.IntersectionPoint">
     <configuration name="FindlengthofLoop" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="revision.FindlengthofLoop" />
       <module name="Dsa" />
@@ -297,8 +274,34 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="IntersectionPoint" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="linkedList.IntersectionPoint" />
+      <module name="Dsa" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="linkedList.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="PairwiseSwap" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="linkedList.PairwiseSwap" />
+      <module name="Dsa" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="linkedList.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ReverseInGroups" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="linkedList.ReverseInGroups" />
       <module name="Dsa" />
       <extension name="coverage">
         <pattern>
@@ -325,11 +328,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.IntersectionPoint" />
+        <item itemvalue="Application.ReverseInGroups" />
         <item itemvalue="Application.PairwiseSwap" />
         <item itemvalue="Application.FindlengthofLoop" />
         <item itemvalue="Application.SingletonEager" />
-        <item itemvalue="Application.CountOccurrences" />
-        <item itemvalue="Application.CircularLinkedListTraversal" />
       </list>
     </recent_temporary>
   </component>
@@ -347,30 +350,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1751545643062</updated>
-    </task>
-    <task id="LOCAL-00168" summary="ReverseLinkedList">
-      <option name="closed" value="true" />
-      <created>1767848751306</created>
-      <option name="number" value="00168" />
-      <option name="presentableId" value="LOCAL-00168" />
-      <option name="project" value="LOCAL" />
-      <updated>1767848751306</updated>
-    </task>
-    <task id="LOCAL-00169" summary="ReverseLinkedList">
-      <option name="closed" value="true" />
-      <created>1767848760291</created>
-      <option name="number" value="00169" />
-      <option name="presentableId" value="LOCAL-00169" />
-      <option name="project" value="LOCAL" />
-      <updated>1767848760291</updated>
-    </task>
-    <task id="LOCAL-00170" summary="ReverseLinkedList">
-      <option name="closed" value="true" />
-      <created>1767852264453</created>
-      <option name="number" value="00170" />
-      <option name="presentableId" value="LOCAL-00170" />
-      <option name="project" value="LOCAL" />
-      <updated>1767852264453</updated>
     </task>
     <task id="LOCAL-00171" summary="ReverseLinkedList">
       <option name="closed" value="true" />
@@ -740,7 +719,31 @@
       <option name="project" value="LOCAL" />
       <updated>1768903755099</updated>
     </task>
-    <option name="localTasksCounter" value="217" />
+    <task id="LOCAL-00217" summary="ReverseLinkedList">
+      <option name="closed" value="true" />
+      <created>1768903818197</created>
+      <option name="number" value="00217" />
+      <option name="presentableId" value="LOCAL-00217" />
+      <option name="project" value="LOCAL" />
+      <updated>1768903818197</updated>
+    </task>
+    <task id="LOCAL-00218" summary="ReverseLinkedList">
+      <option name="closed" value="true" />
+      <created>1768903827147</created>
+      <option name="number" value="00218" />
+      <option name="presentableId" value="LOCAL-00218" />
+      <option name="project" value="LOCAL" />
+      <updated>1768903827147</updated>
+    </task>
+    <task id="LOCAL-00219" summary="ReverseLinkedList">
+      <option name="closed" value="true" />
+      <created>1768903831874</created>
+      <option name="number" value="00219" />
+      <option name="presentableId" value="LOCAL-00219" />
+      <option name="project" value="LOCAL" />
+      <updated>1768903831874</updated>
+    </task>
+    <option name="localTasksCounter" value="220" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
