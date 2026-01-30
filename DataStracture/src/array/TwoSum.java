@@ -3,7 +3,7 @@ package array;
 import java.util.HashSet;
 
 /**
- * @author lenovo
+ * @author Rajan kumar
  * @version 1.0
  * Dsa
  * @since 1/30/2026
