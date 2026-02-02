@@ -1,5 +1,8 @@
 package array;
 
+import java.util.Arrays;
+import java.util.Comparator;
+
 /**
  * @author lenovo
  * @version 1.0
@@ -10,6 +13,17 @@ public class SecondLargestElement {
     public static void main(String[] args) {
         int[] num = {1, 5, 7, 5, 9, 6};
         System.out.println(findSecondLargest(num));
+        System.out.println(findSecondLargestUsingStream(num));
+        System.out.println(findSecondLargestUsingStream1(num));
+    }
+
+    private static int findSecondLargestUsingStream1(int[] num) {
+        return a
+    }
+
+    private static int findSecondLargestUsingStream(int[] num) {
+        return Arrays.stream(num).distinct().boxed().sorted(Comparator.reverseOrder()).skip(1).findFirst()
+                .orElse(-1);
     }
 
     private static int findSecondLargest(int[] num) {
