@@ -18,7 +18,7 @@ public class SecondLargestElement {
     }
 
     private static int findSecondLargestUsingStream1(int[] num) {
-        return Arrays.stream(num).distinct().sorted().limit(num.length - 2).findFirst().orElse(-1);
+        return Arrays.stream(num).distinct().sorted().limit(num.length - 1).findFirst().orElse(-1);
     }
 
     private static int findSecondLargestUsingStream(int[] num) {
