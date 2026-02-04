@@ -4,9 +4,18 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ff3856c1-c1ca-4aca-a6ef-fd33bd67f435" name="Changes" comment="ReverseLinkedList">
-      <change afterPath="$PROJECT_DIR$/DataStracture/src/linkedList/DeleteWithoutHead.java" afterDir="false" />
+    <list default="true" id="ff3856c1-c1ca-4aca-a6ef-fd33bd67f435" name="Changes" comment="seconds largest element">
+      <change afterPath="$PROJECT_DIR$/DataStracture/src/linkedList/MergeSortedLists.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DataStracture/src/linkedList/MoveLastToFront.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DataStracture/src/linkedList/ReverseBothParts.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DataStracture/src/linkedList/Segregate012.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DataStracture/src/linkedListRevision/PalindromeLinkedList.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataStracture/src/linkedList/DeleteWithoutHead.java" beforeDir="false" afterPath="$PROJECT_DIR$/DataStracture/src/linkedList/DeleteWithoutHead.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataStracture/src/linkedList/Node22.java" beforeDir="false" afterPath="$PROJECT_DIR$/DataStracture/src/linkedList/Node22.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataStracture/src/linkedList/PalindromeLinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/DataStracture/src/linkedList/PalindromeLinkedList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataStracture/src/revision/Node22.java" beforeDir="false" afterPath="$PROJECT_DIR$/DataStracture/src/revision/Node22.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Dsa/revision/Node22.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Dsa/revision/Node22.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -98,6 +107,7 @@
     "Application.Concatenatestrings.executor": "Run",
     "Application.CountLongProductsPerCategory.executor": "Run",
     "Application.CountOccurrences.executor": "Run",
+    "Application.CountPairs.executor": "Run",
     "Application.Countwordoccurrences.executor": "Run",
     "Application.CurryingExample.executor": "Run",
     "Application.DeadlockExample.executor": "Run",
@@ -154,6 +164,7 @@
     "Application.MaxDistinctCategory.executor": "Run",
     "Application.MaxMinNumber.executor": "Run",
     "Application.MaximumValue.executor": "Run",
+    "Application.MergeSortedLists.executor": "Run",
     "Application.MethodRefExample.executor": "Run",
     "Application.MethodsReference1.executor": "Run",
     "Application.MethodsReference2.executor": "Run",
@@ -163,6 +174,7 @@
     "Application.MiddleofLinkedList.executor": "Debug",
     "Application.MostFrequentElement.executor": "Run",
     "Application.MostFrequentProducts.executor": "Run",
+    "Application.MoveLastToFront.executor": "Run",
     "Application.MultipleFilter.executor": "Run",
     "Application.MyRunnable.executor": "Run",
     "Application.MyRunnable1.executor": "Run",
@@ -186,8 +198,10 @@
     "Application.RemoveLoopfromLinkedList.executor": "Debug",
     "Application.RemoveLoopfromLinkedList1.executor": "Run",
     "Application.RemoveNodesWithGreaterRight.executor": "Run",
+    "Application.RemoveTwoGreatest.executor": "Run",
     "Application.Removeduplicatesfromunsortedlinkedlist.executor": "Run",
     "Application.ReverseBetween.executor": "Run",
+    "Application.ReverseBothParts.executor": "Run",
     "Application.ReverseDoublyLinkedList.executor": "Run",
     "Application.ReverseInGroups.executor": "Run",
     "Application.ReverseKGroup.executor": "Run",
@@ -199,7 +213,9 @@
     "Application.RotateLinkedListLeft.executor": "Debug",
     "Application.RotateLinkedListRight.executor": "Debug",
     "Application.SecondHighest.executor": "Run",
+    "Application.SecondLargestElement.executor": "Run",
     "Application.SecondSmallest.executor": "Run",
+    "Application.Segregate012.executor": "Run",
     "Application.SingletonEager.executor": "Run",
     "Application.Sortemployeesbysalary.executor": "Run",
     "Application.StringsStartingWith.executor": "Run",
@@ -215,6 +231,8 @@
     "Application.ThreadStatesDemo1.executor": "Run",
     "Application.Top3highestnumbers.executor": "Run",
     "Application.TopNPerCategory.executor": "Run",
+    "Application.TwoSum.executor": "Run",
+    "Application.TwoSumIndices.executor": "Run",
     "Application.TwoThreadsSafe.executor": "Run",
     "Application.UniqueSortedProducts.executor": "Run",
     "Application.VolatileCounter.executor": "Run",
@@ -230,6 +248,7 @@
     "Application.WorkerWithVolatile.executor": "Run",
     "Application.WorkerWithoutVolatile.executor": "Run",
     "Application.doubleRevision.ReverseLinkedList.executor": "Run",
+    "Application.linkedList.PalindromeLinkedList.executor": "Run",
     "Application.revision.DetectLoopInLinkedList.executor": "Run",
     "Application.revision.LazyMain.executor": "Run",
     "Application.revision.ThreadSafeMain.executor": "Run",
@@ -259,9 +278,9 @@
     ]
   }
 }]]></component>
-  <component name="RunManager" selected="Application.DeleteWithoutHead">
-    <configuration name="DeleteWithoutHead" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="linkedList.DeleteWithoutHead" />
+  <component name="RunManager" selected="Application.PalindromeLinkedList">
+    <configuration name="MoveLastToFront" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="linkedList.MoveLastToFront" />
       <module name="Dsa" />
       <extension name="coverage">
         <pattern>
@@ -273,12 +292,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FindlengthofLoop" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="revision.FindlengthofLoop" />
+    <configuration name="PalindromeLinkedList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="linkedListRevision.PalindromeLinkedList" />
       <module name="Dsa" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="revision.*" />
+          <option name="PATTERN" value="linkedListRevision.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -286,21 +305,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="IntersectionPoint" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="linkedList.IntersectionPoint" />
-      <module name="Dsa" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="linkedList.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="PairwiseSwap" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="linkedList.PairwiseSwap" />
+    <configuration name="ReverseBothParts" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="linkedList.ReverseBothParts" />
       <module name="Dsa" />
       <extension name="coverage">
         <pattern>
@@ -312,8 +318,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ReverseInGroups" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="linkedList.ReverseInGroups" />
+    <configuration name="Segregate012" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="linkedList.Segregate012" />
+      <module name="Dsa" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="linkedList.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="linkedList.PalindromeLinkedList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="linkedList.PalindromeLinkedList" />
       <module name="Dsa" />
       <extension name="coverage">
         <pattern>
@@ -327,11 +346,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.DeleteWithoutHead" />
-        <item itemvalue="Application.IntersectionPoint" />
-        <item itemvalue="Application.ReverseInGroups" />
-        <item itemvalue="Application.PairwiseSwap" />
-        <item itemvalue="Application.FindlengthofLoop" />
+        <item itemvalue="Application.PalindromeLinkedList" />
+        <item itemvalue="Application.linkedList.PalindromeLinkedList" />
+        <item itemvalue="Application.ReverseBothParts" />
+        <item itemvalue="Application.MoveLastToFront" />
+        <item itemvalue="Application.Segregate012" />
       </list>
     </recent_temporary>
   </component>
@@ -349,126 +368,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1751545643062</updated>
-    </task>
-    <task id="LOCAL-00175" summary="ReverseLinkedList">
-      <option name="closed" value="true" />
-      <created>1767950358330</created>
-      <option name="number" value="00175" />
-      <option name="presentableId" value="LOCAL-00175" />
-      <option name="project" value="LOCAL" />
-      <updated>1767950358331</updated>
-    </task>
-    <task id="LOCAL-00176" summary="ReverseLinkedList">
-      <option name="closed" value="true" />
-      <created>1767950370110</created>
-      <option name="number" value="00176" />
-      <option name="presentableId" value="LOCAL-00176" />
-      <option name="project" value="LOCAL" />
-      <updated>1767950370110</updated>
-    </task>
-    <task id="LOCAL-00177" summary="ReverseLinkedList">
-      <option name="closed" value="true" />
-      <created>1767950381123</created>
-      <option name="number" value="00177" />
-      <option name="presentableId" value="LOCAL-00177" />
-      <option name="project" value="LOCAL" />
-      <updated>1767950381123</updated>
-    </task>
-    <task id="LOCAL-00178" summary="ReverseLinkedList">
-      <option name="closed" value="true" />
-      <created>1767950387868</created>
-      <option name="number" value="00178" />
-      <option name="presentableId" value="LOCAL-00178" />
-      <option name="project" value="LOCAL" />
-      <updated>1767950387868</updated>
-    </task>
-    <task id="LOCAL-00179" summary="ReverseLinkedList">
-      <option name="closed" value="true" />
-      <created>1767950396221</created>
-      <option name="number" value="00179" />
-      <option name="presentableId" value="LOCAL-00179" />
-      <option name="project" value="LOCAL" />
-      <updated>1767950396221</updated>
-    </task>
-    <task id="LOCAL-00180" summary="ReverseLinkedList">
-      <option name="closed" value="true" />
-      <created>1767950400850</created>
-      <option name="number" value="00180" />
-      <option name="presentableId" value="LOCAL-00180" />
-      <option name="project" value="LOCAL" />
-      <updated>1767950400850</updated>
-    </task>
-    <task id="LOCAL-00181" summary="ReverseLinkedList">
-      <option name="closed" value="true" />
-      <created>1767960717172</created>
-      <option name="number" value="00181" />
-      <option name="presentableId" value="LOCAL-00181" />
-      <option name="project" value="LOCAL" />
-      <updated>1767960717172</updated>
-    </task>
-    <task id="LOCAL-00182" summary="ReverseLinkedList">
-      <option name="closed" value="true" />
-      <created>1767960721491</created>
-      <option name="number" value="00182" />
-      <option name="presentableId" value="LOCAL-00182" />
-      <option name="project" value="LOCAL" />
-      <updated>1767960721491</updated>
-    </task>
-    <task id="LOCAL-00183" summary="ReverseLinkedList">
-      <option name="closed" value="true" />
-      <created>1767960736190</created>
-      <option name="number" value="00183" />
-      <option name="presentableId" value="LOCAL-00183" />
-      <option name="project" value="LOCAL" />
-      <updated>1767960736190</updated>
-    </task>
-    <task id="LOCAL-00184" summary="ReverseLinkedList">
-      <option name="closed" value="true" />
-      <created>1767960740363</created>
-      <option name="number" value="00184" />
-      <option name="presentableId" value="LOCAL-00184" />
-      <option name="project" value="LOCAL" />
-      <updated>1767960740363</updated>
-    </task>
-    <task id="LOCAL-00185" summary="ReverseLinkedList">
-      <option name="closed" value="true" />
-      <created>1767960753513</created>
-      <option name="number" value="00185" />
-      <option name="presentableId" value="LOCAL-00185" />
-      <option name="project" value="LOCAL" />
-      <updated>1767960753513</updated>
-    </task>
-    <task id="LOCAL-00186" summary="ReverseLinkedList">
-      <option name="closed" value="true" />
-      <created>1767960757437</created>
-      <option name="number" value="00186" />
-      <option name="presentableId" value="LOCAL-00186" />
-      <option name="project" value="LOCAL" />
-      <updated>1767960757437</updated>
-    </task>
-    <task id="LOCAL-00187" summary="ReverseLinkedList">
-      <option name="closed" value="true" />
-      <created>1767960765125</created>
-      <option name="number" value="00187" />
-      <option name="presentableId" value="LOCAL-00187" />
-      <option name="project" value="LOCAL" />
-      <updated>1767960765125</updated>
-    </task>
-    <task id="LOCAL-00188" summary="ReverseLinkedList">
-      <option name="closed" value="true" />
-      <created>1768200043244</created>
-      <option name="number" value="00188" />
-      <option name="presentableId" value="LOCAL-00188" />
-      <option name="project" value="LOCAL" />
-      <updated>1768200043244</updated>
-    </task>
-    <task id="LOCAL-00189" summary="ReverseLinkedList">
-      <option name="closed" value="true" />
-      <created>1768200048069</created>
-      <option name="number" value="00189" />
-      <option name="presentableId" value="LOCAL-00189" />
-      <option name="project" value="LOCAL" />
-      <updated>1768200048069</updated>
     </task>
     <task id="LOCAL-00190" summary="ReverseLinkedList">
       <option name="closed" value="true" />
@@ -742,7 +641,127 @@
       <option name="project" value="LOCAL" />
       <updated>1768996622673</updated>
     </task>
-    <option name="localTasksCounter" value="224" />
+    <task id="LOCAL-00224" summary="ReverseLinkedList">
+      <option name="closed" value="true" />
+      <created>1769000094013</created>
+      <option name="number" value="00224" />
+      <option name="presentableId" value="LOCAL-00224" />
+      <option name="project" value="LOCAL" />
+      <updated>1769000094013</updated>
+    </task>
+    <task id="LOCAL-00225" summary="ReverseLinkedList">
+      <option name="closed" value="true" />
+      <created>1769000098852</created>
+      <option name="number" value="00225" />
+      <option name="presentableId" value="LOCAL-00225" />
+      <option name="project" value="LOCAL" />
+      <updated>1769000098852</updated>
+    </task>
+    <task id="LOCAL-00226" summary="two sum problem">
+      <option name="closed" value="true" />
+      <created>1769778911872</created>
+      <option name="number" value="00226" />
+      <option name="presentableId" value="LOCAL-00226" />
+      <option name="project" value="LOCAL" />
+      <updated>1769778911872</updated>
+    </task>
+    <task id="LOCAL-00227" summary="two sum problem">
+      <option name="closed" value="true" />
+      <created>1769778937786</created>
+      <option name="number" value="00227" />
+      <option name="presentableId" value="LOCAL-00227" />
+      <option name="project" value="LOCAL" />
+      <updated>1769778937786</updated>
+    </task>
+    <task id="LOCAL-00228" summary="two sum problem with indes">
+      <option name="closed" value="true" />
+      <created>1769779396120</created>
+      <option name="number" value="00228" />
+      <option name="presentableId" value="LOCAL-00228" />
+      <option name="project" value="LOCAL" />
+      <updated>1769779396120</updated>
+    </task>
+    <task id="LOCAL-00229" summary="two sum problem with indes">
+      <option name="closed" value="true" />
+      <created>1769779413114</created>
+      <option name="number" value="00229" />
+      <option name="presentableId" value="LOCAL-00229" />
+      <option name="project" value="LOCAL" />
+      <updated>1769779413114</updated>
+    </task>
+    <task id="LOCAL-00230" summary="two sum problem with indes">
+      <option name="closed" value="true" />
+      <created>1769779429710</created>
+      <option name="number" value="00230" />
+      <option name="presentableId" value="LOCAL-00230" />
+      <option name="project" value="LOCAL" />
+      <updated>1769779429711</updated>
+    </task>
+    <task id="LOCAL-00231" summary="two sum problem with indes">
+      <option name="closed" value="true" />
+      <created>1769965429048</created>
+      <option name="number" value="00231" />
+      <option name="presentableId" value="LOCAL-00231" />
+      <option name="project" value="LOCAL" />
+      <updated>1769965429048</updated>
+    </task>
+    <task id="LOCAL-00232" summary="seconds largest element">
+      <option name="closed" value="true" />
+      <created>1770007540066</created>
+      <option name="number" value="00232" />
+      <option name="presentableId" value="LOCAL-00232" />
+      <option name="project" value="LOCAL" />
+      <updated>1770007540066</updated>
+    </task>
+    <task id="LOCAL-00233" summary="seconds largest element">
+      <option name="closed" value="true" />
+      <created>1770007999785</created>
+      <option name="number" value="00233" />
+      <option name="presentableId" value="LOCAL-00233" />
+      <option name="project" value="LOCAL" />
+      <updated>1770007999785</updated>
+    </task>
+    <task id="LOCAL-00234" summary="seconds largest element">
+      <option name="closed" value="true" />
+      <created>1770008560147</created>
+      <option name="number" value="00234" />
+      <option name="presentableId" value="LOCAL-00234" />
+      <option name="project" value="LOCAL" />
+      <updated>1770008560147</updated>
+    </task>
+    <task id="LOCAL-00235" summary="seconds largest element">
+      <option name="closed" value="true" />
+      <created>1770012240678</created>
+      <option name="number" value="00235" />
+      <option name="presentableId" value="LOCAL-00235" />
+      <option name="project" value="LOCAL" />
+      <updated>1770012240680</updated>
+    </task>
+    <task id="LOCAL-00236" summary="seconds largest element">
+      <option name="closed" value="true" />
+      <created>1770012249944</created>
+      <option name="number" value="00236" />
+      <option name="presentableId" value="LOCAL-00236" />
+      <option name="project" value="LOCAL" />
+      <updated>1770012249944</updated>
+    </task>
+    <task id="LOCAL-00237" summary="seconds largest element">
+      <option name="closed" value="true" />
+      <created>1770012279901</created>
+      <option name="number" value="00237" />
+      <option name="presentableId" value="LOCAL-00237" />
+      <option name="project" value="LOCAL" />
+      <updated>1770012279901</updated>
+    </task>
+    <task id="LOCAL-00238" summary="seconds largest element">
+      <option name="closed" value="true" />
+      <created>1770012294638</created>
+      <option name="number" value="00238" />
+      <option name="presentableId" value="LOCAL-00238" />
+      <option name="project" value="LOCAL" />
+      <updated>1770012294638</updated>
+    </task>
+    <option name="localTasksCounter" value="239" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -779,7 +798,10 @@
     <MESSAGE value="RemoveLoopFromLinkedList" />
     <MESSAGE value="thread" />
     <MESSAGE value="ReverseLinkedList" />
-    <option name="LAST_COMMIT_MESSAGE" value="ReverseLinkedList" />
+    <MESSAGE value="two sum problem" />
+    <MESSAGE value="two sum problem with indes" />
+    <MESSAGE value="seconds largest element" />
+    <option name="LAST_COMMIT_MESSAGE" value="seconds largest element" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -893,6 +915,20 @@
           <url>file://$PROJECT_DIR$/DataStracture/src/linkedList/RotateLinkedListLeft.java</url>
           <line>49</line>
           <option name="timeStamp" value="27" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/DataStracture/src/array/TwoSumIndices.java</url>
+          <line>20</line>
+          <option name="timeStamp" value="29" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/DataStracture/src/linkedList/DeleteWithoutHead.java</url>
+          <line>9</line>
+          <properties class="linkedList.DeleteWithoutHead" method="main">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="28" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
