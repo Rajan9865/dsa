@@ -1,7 +1,7 @@
 package linkedList;
 
 /**
- * @author lenovo
+ * @author Rajan kumar
  * @version 1.0
  * Dsa
  * @since 2/4/2026
