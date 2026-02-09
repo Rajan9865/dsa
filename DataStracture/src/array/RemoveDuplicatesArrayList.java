@@ -3,7 +3,7 @@ package array;
 import java.util.ArrayList;
 
 /**
- * @author lenovo
+ * @author Rajan kumar
  * @version 1.0
  * Dsa
  * @since 2/7/2026
