@@ -36,25 +36,37 @@ public class RotateDLL {
     }
 
     private static NodeDouble rotate(NodeDouble head, int p) {
-        if (head == null || p == 0)
-            return head;
+        if (head == null || p == 0) return head;
+
         NodeDouble curr = head;
-        int count = 1;
-        while (count < p && curr != null) {
+        int length = 1;
+
+        // Find length and tail in one traversal
+        while (curr.next != null) {
             curr = curr.next;
-            count++;
+            length++;
         }
-        if (curr == null) return head;
+
+        NodeDouble tail = curr;
+
+        p = p % length;
+        if (p == 0) return head;
+
+        curr = head;
+        for (int i = 1; i < p; i++) {
+            curr = curr.next;
+        }
+
         NodeDouble newHead = curr.next;
-        if (newHead == null) return head;
-        newHead.prev = null;
+
+        // Break the list
         curr.next = null;
-        NodeDouble tail = newHead;
-        while (tail.next != null) {
-            tail = tail.next;
-        }
+        newHead.prev = null;
+
+        // Connect tail to head
         tail.next = head;
         head.prev = tail;
+
         return newHead;
     }
 }
