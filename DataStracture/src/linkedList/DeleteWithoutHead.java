@@ -17,7 +17,7 @@ public class DeleteWithoutHead {
         b.next = c;
         c.next = d;
         d.next = e;
-        deleteNode(c);
+        deleteNode(b);
         printLinkedList(a);
     }
 
