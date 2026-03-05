@@ -14,13 +14,13 @@ public class RemoveDuplicatesArrayListUnsortedOrder {
     public static void main(String[] args) {
         int[] arr = {3, 1, 4, 2, 1, 4, 2};
 //        ArrayList<Integer> result = removeDuplicates(arr);
-        ArrayList<Integer> result1 = removeDuplicatestradionalWay(arr);
+        ArrayList<Integer> result1 = removeRadioastronomicalWay(arr);
         System.out.println("Array after removing duplicates:");
 //        System.out.println(result);
         System.out.println("Array after removing duplicates:" + result1);
     }
 
-    private static ArrayList<Integer> removeDuplicatestradionalWay(int[] arr) {
+    private static ArrayList<Integer> removeRadioastronomicalWay(int[] arr) {
         ArrayList<Integer> result = new ArrayList<>();
         if (arr == null || arr.length == 0)
             return result;
