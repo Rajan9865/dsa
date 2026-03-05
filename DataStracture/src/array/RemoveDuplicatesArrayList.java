@@ -10,7 +10,7 @@ import java.util.ArrayList;
  */
 public class RemoveDuplicatesArrayList {
     public static void main(String[] args) {
-        int[] arr = {1, 1, 2, 2, 3, 4, 4};
+        int[] arr = {1, 1, 1, 1, 1, 2, 2, 3, 4, 4};
         ArrayList<Integer> result = removeDuplicates(arr);
         System.out.println("Array after removing duplicates:");
         System.out.println(result);
