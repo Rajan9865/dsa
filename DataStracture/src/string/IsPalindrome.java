@@ -14,7 +14,7 @@ public class IsPalindrome {
     }
 
     private static boolean isPalindrome(String input) {
-        for (int i = 0; i < input.length(); i++) {
+        for (int i = 0; i < input.length() / 2; i++) {
             if (input.charAt(i) != input.charAt(input.length() - 1 - i)) {
                 return false;
             }
