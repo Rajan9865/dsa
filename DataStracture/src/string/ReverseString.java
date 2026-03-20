@@ -8,7 +8,8 @@ package string;
  */
 public class ReverseString {
     public static void main(String[] args) {
-        String inputString = "Hello World";
+//        String inputString = "Hello World";
+        String inputString = "java";
         String result = reverseString(inputString);
         System.out.println("Reversed String: " + result);
     }

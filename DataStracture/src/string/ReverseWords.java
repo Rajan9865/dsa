@@ -9,8 +9,20 @@ package string;
 public class ReverseWords {
     public static void main(String[] args) {
         String s = "..i.like.this.program.very.much...";
+        String input = "I love Java";
         String result = reverseWord(s);
-        System.out.println("Reversed String: " + result);
+        String result1 = reverseWord1(input);
+
+        System.out.println("Reversed String: " + result1);
+    }
+
+    private static String reverseWord1(String input) {
+        String[] split = input.split(" ");
+        StringBuilder sb = new StringBuilder();
+        for (int i = split.length - 1; i >= 0; i--) {
+            sb.append(split[i]).append(" ");
+        }
+        return sb.toString().trim();
     }
 
     private static String reverseWord(String s) {
