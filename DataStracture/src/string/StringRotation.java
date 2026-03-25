@@ -16,7 +16,6 @@ public class StringRotation {
     private static boolean areRotation(String s1, String s2) {
         if (s1.length() != s2.length()) return false;
         String temp = s1 + s2;
-        System.out.println(s1 + " " + s2 + " " + temp);
         return temp.contains(s2);
     }
 }
