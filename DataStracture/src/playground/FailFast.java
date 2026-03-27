@@ -24,8 +24,8 @@ public class FailFast {
         Iterator<Integer> iterator = list.iterator();
         for (Iterator<Integer> it = iterator; it.hasNext(); ) {
             Integer i = it.next();
-            i.next();
-            i.remove();
+//            i.next();
+//            i.remove();
         }
         System.out.println(list);
     }
