@@ -9,7 +9,7 @@ package string;
 public class ReversePartialString {
     public static void main(String[] args) {
         String input = "abcdef";
-        int k = 3;
+        int k = 2;
         String result = reverseFirstK(input, k);
         System.out.println(result);
     }
