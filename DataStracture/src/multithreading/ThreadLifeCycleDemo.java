@@ -52,8 +52,8 @@ public class ThreadLifeCycleDemo {
         }
 
         // TERMINATED
-        System.out.println(Thread.currentThread().getName());
-        System.out.println(myThread1.getName());
+        System.out.println("Current thread name  " + Thread.currentThread().getName());
+        System.out.println("current thread name 1 by manually created " + myThread1.getName());
         System.out.println("State after thread finished: " + myThread1.getState());
     }
 }
