@@ -7,10 +7,10 @@ package linkedList;
  * @since 12/30/2025
  */
 public class Node22 {
-    int data;
-    Node22 next;
+    public int data;
+    public Node22 next;
 
-    Node22(int data) {
+    public Node22(int data) {
         this.data = data;
         this.next = null;
     }
