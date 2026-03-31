@@ -1,7 +1,7 @@
 package multithreading.Concept;
 
 /**
- * @author lenovo
+ * @author Rajan kumar
  * @version 1.0
  * Dsa
  * @since 3/30/2026
