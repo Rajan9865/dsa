@@ -11,10 +11,14 @@ import java.util.concurrent.Executors;
  */
 public class ExecutorExample {
     public static void main(String[] args) {
-        ExecutorService executorService = Executors.newSingleThreadExecutor();
-        executorService.submit(() -> {
-            System.out.println("running  in :" + Thread.currentThread().getName());
-        });
-        executorService.shutdown();
+        ExecutorService executor = Executors.newFixedThreadPool(2);
+        Runnable task = () -> {
+            System.out.println("Running in: " + Thread.currentThread().getName());
+        };
+        // Submit multiple tasks
+        for (int i = 0; i < 5; i++) {
+            executor.submit(task);
+        }
+        executor.shutdown();
     }
 }
