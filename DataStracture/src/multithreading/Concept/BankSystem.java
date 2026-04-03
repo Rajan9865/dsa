@@ -4,7 +4,7 @@ import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
 
 /**
- * @author lenovo
+ * @author Rajan kumar
  * @version 1.0
  * Dsa
  * @since 3/31/2026
@@ -12,6 +12,7 @@ import java.util.concurrent.Executors;
 public class BankSystem {
     public static void main(String[] args) {
         ExecutorService executorService = Executors.newFixedThreadPool(6);
+
         for (int i = 1; i <= 11; i++) {
             int userId = i;
             executorService.submit(() -> {
