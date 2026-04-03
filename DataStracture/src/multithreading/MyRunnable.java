@@ -1,7 +1,7 @@
 package multithreading;
 
 /**
- * @author lenovo
+ * @author Rajan kumar
  * @version 1.0
  * Dsa
  * @since 9/23/2025
