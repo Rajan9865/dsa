@@ -7,11 +7,11 @@ package linkedList;
  * @since 2/9/2026
  */
 public class NodeDouble {
-    int value;
+    int data;
     NodeDouble prev;
     NodeDouble next;
 
     public NodeDouble(int value) {
-        this.value = value;
+        this.data = value;
     }
 }
