@@ -10,12 +10,12 @@ public class PalindromeLinkedList {
     public static void main(String[] args) {
         Node21 a = new Node21(1);
         Node21 b = new Node21(2);
-//        Node21 c = new Node21(3);
+        Node21 c = new Node21(3);
         Node21 d = new Node21(2);
         Node21 e = new Node21(1);
         a.next = b;
-        b.next = d;
-//        c.next = d;
+        b.next = c;
+        c.next = d;
         d.next = e;
         printLinkedList(a);
         boolean result = isPalindrome(a);
