@@ -38,11 +38,11 @@ public class PairSumDLL {
             right = right.next;
         }
         while (left != right && left.prev != right) {
-            int sum = left.value + right.value;
+            int sum = left.data + right.data;
             if (sum == target) {
                 ArrayList<Integer> pair = new ArrayList<>();
-                pair.add(left.value);
-                pair.add(right.value);
+                pair.add(left.data);
+                pair.add(right.data);
                 result.add(pair);
                 left = left.next;
                 right = right.prev;
