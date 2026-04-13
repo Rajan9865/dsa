@@ -3,7 +3,7 @@ package multithreading.Concept.ReentrantLockExample;
 import java.util.concurrent.locks.ReentrantLock;
 
 /**
- * @author lenovo
+ * @author Rajan kumar
  * @version 1.0
  * Dsa
  * @since 4/9/2026
@@ -21,7 +21,7 @@ class ReentrantDemo {
         }
     }
 
-    private void inner() {
+    public void inner() {
         lock.lock();
         try {
             System.out.println("inner methods");
