@@ -1,4 +1,4 @@
-package multithreading.Concept.CompletableFuture;
+package multithreading.concept.completablefuture;
 
 import java.util.concurrent.CompletableFuture;
 
