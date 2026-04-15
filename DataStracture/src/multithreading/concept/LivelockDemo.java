@@ -1,4 +1,4 @@
-package multithreading.Concept;
+package multithreading.concept;
 
 /**
  * @author lenovo
