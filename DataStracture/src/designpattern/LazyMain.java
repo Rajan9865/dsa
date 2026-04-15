@@ -1,4 +1,4 @@
-package designPattern;
+package designpattern;
 
 /**
  * @author Rajan main
