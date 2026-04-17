@@ -1,4 +1,4 @@
-package doubleRevision;
+package doublerevision;
 
 /**
  * @author Rajan kumar
