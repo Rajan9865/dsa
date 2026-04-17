@@ -1,4 +1,4 @@
-package multithreading.Concept.deadLockPrevent;
+package multithreading.concept.deadlockprevent;
 
 /**
  * @author lenovo
