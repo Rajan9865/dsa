@@ -1,4 +1,4 @@
-package linkedListRevision;
+package linkedlistrevision;
 
 import linkedList.Node22;
 
