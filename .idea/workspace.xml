@@ -4,13 +4,292 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ff3856c1-c1ca-4aca-a6ef-fd33bd67f435" name="Changes" comment="StarvationDemo">
-      <change afterPath="$PROJECT_DIR$/DataStracture/src/java8/concept/WrongExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DataStracture/src/multithreading/Concept/ReentrantLockExample/BasicLockExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DataStracture/src/multithreading/Concept/ReentrantLockExample/ReentrantExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DataStracture/src/multithreading/Concept/ThreadPoolExecutorDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DataStracture/src/playground/StringPlayground.java" afterDir="false" />
+    <list default="true" id="ff3856c1-c1ca-4aca-a6ef-fd33bd67f435" name="Changes" comment="PreventDeadlockUsingTimeout">
+      <change afterPath="$PROJECT_DIR$/DataStracture/src/multithreading/concept/completablefuture/AsyncVsNonAsyncDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DataStracture/src/multithreading/concept/completablefuture/CombineFuturesDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DataStracture/src/multithreading/concept/completablefuture/CustomExecutorDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DataStracture/src/multithreading/concept/completablefuture/ExceptionHandlingDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DataStracture/src/multithreading/concept/completablefuture/ThenApplyVsCompose.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DataStracture/src/multithreading/concept/completablefuture/TimeoutDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DataStracture/src/multithreading/concept/multithreadingdesgnpattern/ForkJoinPatternDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DataStracture/src/multithreading/concept/multithreadingdesgnpattern/FuturePatternDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DataStracture/src/multithreading/concept/multithreadingdesgnpattern/GuardedSuspensionDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DataStracture/src/multithreading/concept/multithreadingdesgnpattern/ImmutablePatternDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DataStracture/src/multithreading/concept/multithreadingdesgnpattern/ProducerConsumerPatternDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DataStracture/src/multithreading/concept/multithreadingdesgnpattern/Singleton.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DataStracture/src/multithreading/concept/multithreadingdesgnpattern/ThreadLocalPatternDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DataStracture/src/multithreading/concept/multithreadingdesgnpattern/ThreadPoolPatternDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DataStracture/src/multithreading/concept/producerconsumer/ProducerConsumer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DataStracture/src/multithreading/concept/producerconsumer/WithoutSynchronization.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DataStracture/src/multithreading/concept/reentrantlock/TryLockExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DataStracture/src/multithreading/concept/reentrantlock/TryLockTimeoutExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DataStracture/src/multithreading/concept/semaphore/RateLimiterExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DataStracture/src/multithreading/concept/semaphore/TryAcquireExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DataStracture/src/multithreading/concept/threadlocal/ThreadLocalBasic.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DataStracture/src/multithreading/concept/threadlocal/ThreadLocalBug.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DataStracture/src/multithreading/concept/threadlocal/ThreadLocalUserExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DataStracture/src/multithreading/concept/virtualthread/VirtualThreadDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataStracture/src/designPattern/SingletonEager.java" beforeDir="false" afterPath="$PROJECT_DIR$/DataStracture/src/designpattern/SingletonEager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataStracture/src/designPattern/ThreadSafeMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/DataStracture/src/designpattern/ThreadSafeMain.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataStracture/src/doubleRevision/ReverseLinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/DataStracture/src/doublerevision/ReverseLinkedList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataStracture/src/java8concept/CollectorsExammple.java" beforeDir="false" afterPath="$PROJECT_DIR$/DataStracture/src/java8concept/CollectorsExammple.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataStracture/src/linkedList/Removeduplicatesfromunsortedlinkedlist.java" beforeDir="false" afterPath="$PROJECT_DIR$/DataStracture/src/linkedList/Removeduplicatesfromunsortedlinkedlist.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataStracture/src/multithreading/Concept/ProducerConsumer.java" beforeDir="false" afterPath="$PROJECT_DIR$/DataStracture/src/multithreading/concept/ProducerConsumer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataStracture/src/multithreading/Concept/RawThreadExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/DataStracture/src/multithreading/concept/RawThreadExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataStracture/src/multithreading/Concept/ReentrantLockExample/ReentrantExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/DataStracture/src/multithreading/concept/reentrantlock/ReentrantExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataStracture/src/multithreading/Concept/StarvationDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/DataStracture/src/multithreading/concept/StarvationDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataStracture/src/multithreading/Concept/ThreadPoolExecutorDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/DataStracture/src/multithreading/concept/ThreadPoolExecutorDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Dsa/array/CountPairs.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Dsa/array/CountPairs.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Dsa/arrayPractise/CountPairs.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Dsa/arrayPractise/CountPairs.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Dsa/conceptRevision/Demo1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Dsa/conceptRevision/Demo1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Dsa/conceptRevision/Demo2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Dsa/conceptRevision/Demo2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Dsa/designPattern/EnumMain.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Dsa/designPattern/EnumMain.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Dsa/designPattern/EnumSingleton.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Dsa/designPattern/EnumSingleton.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Dsa/designPattern/LazyMain.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Dsa/designPattern/LazyMain.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Dsa/designPattern/LazySingleton.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Dsa/designPattern/LazySingleton.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Dsa/designPattern/MySingleton.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Dsa/designPattern/MySingleton.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Dsa/designPattern/SingletonEager.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Dsa/designPattern/SingletonEager.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Dsa/designPattern/ThreadSafeMain.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Dsa/designPattern/ThreadSafeMain.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Dsa/designPattern/ThreadSafeSingleton.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Dsa/designPattern/ThreadSafeSingleton.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Dsa/doubleRevision/Node1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Dsa/doubleRevision/Node1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Dsa/doubleRevision/ReverseLinkedList.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Dsa/doubleRevision/ReverseLinkedList.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Dsa/java8/AnagramCheck.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Dsa/java8/AnagramCheck.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Dsa/java8/CharacterFrequency.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Dsa/java8/CharacterFrequency.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Dsa/java8/CommonElements.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Dsa/java8/CommonElements.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Dsa/java8/Concatenatestrings.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Dsa/java8/Concatenatestrings.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Dsa/java8/CountLongProductsPerCategory.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Dsa/java8/CountLongProductsPerCategory.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Dsa/java8/Countwordoccurrences.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Dsa/java8/Countwordoccurrences.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Dsa/java8/DuplicateCharacters.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Dsa/java8/DuplicateCharacters.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Dsa/java8/DuplicateWords.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Dsa/java8/DuplicateWords.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Dsa/java8/Employee.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Dsa/java8/Employee.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Dsa/java8/Employee1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Dsa/java8/Employee1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Dsa/java8/Employee2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Dsa/java8/Employee2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Dsa/java8/EmployeeSalaryAnalyzer.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Dsa/java8/EmployeeSalaryAnalyzer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Dsa/java8/EvenNumber.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Dsa/java8/EvenNumber.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Dsa/java8/FilterEmployees.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Dsa/java8/FilterEmployees.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Dsa/java8/FindDuplicates.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Dsa/java8/FindDuplicates.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Dsa/java8/FindDuplicatesWithoutGroupingBy.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Dsa/java8/FindDuplicatesWithoutGroupingBy.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Dsa/java8/FirstNonRepeatedChar.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Dsa/java8/FirstNonRepeatedChar.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Dsa/java8/FirstNonRepeatingCharacter.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Dsa/java8/FirstNonRepeatingCharacter.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Dsa/java8/FlattenFilterSort.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Dsa/java8/FlattenFilterSort.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Dsa/java8/FlattenList.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Dsa/java8/FlattenList.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Dsa/java8/FlattenMapValues.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Dsa/java8/FlattenMapValues.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Dsa/java8/GroupByLength.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Dsa/java8/GroupByLength.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Dsa/java8/GroupLength.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Dsa/java8/GroupLength.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Dsa/java8/GroupLength1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Dsa/java8/GroupLength1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Dsa/java8/GroupedProducts.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Dsa/java8/GroupedProducts.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Dsa/java8/KthLargestFinder.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Dsa/java8/KthLargestFinder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Dsa/java8/LongestAndShortestWord.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Dsa/java8/LongestAndShortestWord.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Dsa/java8/LongestString.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Dsa/java8/LongestString.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Dsa/java8/MaxDistinctCategory.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Dsa/java8/MaxDistinctCategory.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Dsa/java8/MaxMinNumber.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Dsa/java8/MaxMinNumber.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Dsa/java8/MaximumValue.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Dsa/java8/MaximumValue.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Dsa/java8/MostFrequentElement.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Dsa/java8/MostFrequentElement.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Dsa/java8/MostFrequentProducts.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Dsa/java8/MostFrequentProducts.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Dsa/java8/PalindromeFinder.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Dsa/java8/PalindromeFinder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Dsa/java8/PrimeNumbersFinder.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Dsa/java8/PrimeNumbersFinder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Dsa/java8/SecondHighest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Dsa/java8/SecondHighest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Dsa/java8/SecondSmallest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Dsa/java8/SecondSmallest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Dsa/java8/Sortemployeesbysalary.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Dsa/java8/Sortemployeesbysalary.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Dsa/java8/StringsStartingWith.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Dsa/java8/StringsStartingWith.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Dsa/java8/SumOfDigits.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Dsa/java8/SumOfDigits.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Dsa/java8/SumOfEvenNumbers.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Dsa/java8/SumOfEvenNumbers.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Dsa/java8/SumOfNumber.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Dsa/java8/SumOfNumber.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Dsa/java8/Top3highestnumbers.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Dsa/java8/Top3highestnumbers.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Dsa/java8/TopNPerCategory.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Dsa/java8/TopNPerCategory.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Dsa/java8/UniqueSortedProducts.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Dsa/java8/UniqueSortedProducts.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Dsa/java8/VowelCount.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Dsa/java8/VowelCount.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Dsa/java8/VowelCount1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Dsa/java8/VowelCount1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Dsa/java8/VowelCount2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Dsa/java8/VowelCount2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Dsa/java8/WordFrequency.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Dsa/java8/WordFrequency.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Dsa/java8concept/A.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Dsa/java8concept/A.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Dsa/java8concept/B.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Dsa/java8concept/B.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Dsa/java8concept/C.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Dsa/java8concept/C.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Dsa/java8concept/Calculator.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Dsa/java8concept/Calculator.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Dsa/java8concept/Car.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Dsa/java8concept/Car.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Dsa/java8concept/CollectorsExammple.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Dsa/java8concept/CollectorsExammple.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Dsa/java8concept/CollectorsExammple1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Dsa/java8concept/CollectorsExammple1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Dsa/java8concept/CollectorsExammple2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Dsa/java8concept/CollectorsExammple2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Dsa/java8concept/CurryingExample.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Dsa/java8concept/CurryingExample.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Dsa/java8concept/Default1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Dsa/java8concept/Default1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Dsa/java8concept/Default2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Dsa/java8concept/Default2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Dsa/java8concept/Default3.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Dsa/java8concept/Default3.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Dsa/java8concept/Employee.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Dsa/java8concept/Employee.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Dsa/java8concept/EmployeeAnalytics.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Dsa/java8concept/EmployeeAnalytics.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Dsa/java8concept/FlatMapExample.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Dsa/java8concept/FlatMapExample.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Dsa/java8concept/LambdaArgumentExample.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Dsa/java8concept/LambdaArgumentExample.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Dsa/java8concept/LambdaComposition.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Dsa/java8concept/LambdaComposition.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Dsa/java8concept/LambdaFinalExample.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Dsa/java8concept/LambdaFinalExample.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Dsa/java8concept/ListIntegerBasedExample.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Dsa/java8concept/ListIntegerBasedExample.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Dsa/java8concept/ListStringBasedExample.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Dsa/java8concept/ListStringBasedExample.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Dsa/java8concept/MethodRefExample.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Dsa/java8concept/MethodRefExample.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Dsa/java8concept/MethodsReference1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Dsa/java8concept/MethodsReference1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Dsa/java8concept/MethodsReference2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Dsa/java8concept/MethodsReference2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Dsa/java8concept/MethodsReference3.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Dsa/java8concept/MethodsReference3.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Dsa/java8concept/MethodsReference4.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Dsa/java8concept/MethodsReference4.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Dsa/java8concept/MultipleFilter.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Dsa/java8concept/MultipleFilter.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Dsa/java8concept/OptionalExample.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Dsa/java8concept/OptionalExample.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Dsa/java8concept/OptionalTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Dsa/java8concept/OptionalTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Dsa/java8concept/PartitionExample.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Dsa/java8concept/PartitionExample.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Dsa/java8concept/Person.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Dsa/java8concept/Person.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Dsa/java8concept/Something.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Dsa/java8concept/Something.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Dsa/java8concept/Student.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Dsa/java8concept/Student.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Dsa/java8concept/Utils.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Dsa/java8concept/Utils.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Dsa/java8concept/Vehicle.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Dsa/java8concept/Vehicle.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Dsa/linkedList/AddTwoLists.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Dsa/linkedList/AddTwoLists.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Dsa/linkedList/CheckIfCircularLinkedList.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Dsa/linkedList/CheckIfCircularLinkedList.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Dsa/linkedList/CircularLinkedListTraversal.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Dsa/linkedList/CircularLinkedListTraversal.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Dsa/linkedList/CountOccurrences.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Dsa/linkedList/CountOccurrences.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Dsa/linkedList/DeleteAllOccurrences.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Dsa/linkedList/DeleteAllOccurrences.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Dsa/linkedList/DeleteFromDoublyList.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Dsa/linkedList/DeleteFromDoublyList.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Dsa/linkedList/DeleteLastOccurrence.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Dsa/linkedList/DeleteLastOccurrence.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Dsa/linkedList/DeleteMiddle.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Dsa/linkedList/DeleteMiddle.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Dsa/linkedList/DeleteNAfterM.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Dsa/linkedList/DeleteNAfterM.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Dsa/linkedList/DeleteWithoutHead.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Dsa/linkedList/DeleteWithoutHead.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Dsa/linkedList/DeleteinSinglyLinkedList.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Dsa/linkedList/DeleteinSinglyLinkedList.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Dsa/linkedList/Deletewithoutheadpointer.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Dsa/linkedList/Deletewithoutheadpointer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Dsa/linkedList/DetectLoopInLinkedList.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Dsa/linkedList/DetectLoopInLinkedList.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Dsa/linkedList/DisplayLinkedList.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Dsa/linkedList/DisplayLinkedList.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Dsa/linkedList/DoublyLinkedListTraversal.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Dsa/linkedList/DoublyLinkedListTraversal.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Dsa/linkedList/FindFirstNode.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Dsa/linkedList/FindFirstNode.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Dsa/linkedList/FindlengthofLoop.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Dsa/linkedList/FindlengthofLoop.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Dsa/linkedList/IdenticalLinkedLists.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Dsa/linkedList/IdenticalLinkedLists.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Dsa/linkedList/InsertinMiddleofLinkedList.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Dsa/linkedList/InsertinMiddleofLinkedList.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Dsa/linkedList/IntersectionPoint.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Dsa/linkedList/IntersectionPoint.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Dsa/linkedList/IsLinkedListLengthEven.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Dsa/linkedList/IsLinkedListLengthEven.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Dsa/linkedList/KthfromEndofLinkedList.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Dsa/linkedList/KthfromEndofLinkedList.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Dsa/linkedList/MergeSortedLists.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Dsa/linkedList/MergeSortedLists.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Dsa/linkedList/MergeTwoSortedLists.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Dsa/linkedList/MergeTwoSortedLists.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Dsa/linkedList/MiddleofLinkedList.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Dsa/linkedList/MiddleofLinkedList.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Dsa/linkedList/ModularNode.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Dsa/linkedList/ModularNode.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Dsa/linkedList/MoveLastToFront.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Dsa/linkedList/MoveLastToFront.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Dsa/linkedList/MultiplyLinkedLists.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Dsa/linkedList/MultiplyLinkedLists.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Dsa/linkedList/Node.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Dsa/linkedList/Node.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Dsa/linkedList/Node1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Dsa/linkedList/Node1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Dsa/linkedList/Node10.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Dsa/linkedList/Node10.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Dsa/linkedList/Node11.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Dsa/linkedList/Node11.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Dsa/linkedList/Node12.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Dsa/linkedList/Node12.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Dsa/linkedList/Node13.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Dsa/linkedList/Node13.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Dsa/linkedList/Node14.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Dsa/linkedList/Node14.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Dsa/linkedList/Node15.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Dsa/linkedList/Node15.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Dsa/linkedList/Node16.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Dsa/linkedList/Node16.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Dsa/linkedList/Node17.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Dsa/linkedList/Node17.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Dsa/linkedList/Node18.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Dsa/linkedList/Node18.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Dsa/linkedList/Node19.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Dsa/linkedList/Node19.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Dsa/linkedList/Node2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Dsa/linkedList/Node2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Dsa/linkedList/Node20.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Dsa/linkedList/Node20.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Dsa/linkedList/Node21.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Dsa/linkedList/Node21.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Dsa/linkedList/Node22.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Dsa/linkedList/Node22.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Dsa/linkedList/Node3.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Dsa/linkedList/Node3.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Dsa/linkedList/Node4.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Dsa/linkedList/Node4.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Dsa/linkedList/Node5.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Dsa/linkedList/Node5.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Dsa/linkedList/Node6.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Dsa/linkedList/Node6.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Dsa/linkedList/Node7.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Dsa/linkedList/Node7.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Dsa/linkedList/Node8.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Dsa/linkedList/Node8.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Dsa/linkedList/Node9.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Dsa/linkedList/Node9.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Dsa/linkedList/NodeDouble.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Dsa/linkedList/NodeDouble.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Dsa/linkedList/NthNodeFromEnd.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Dsa/linkedList/NthNodeFromEnd.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Dsa/linkedList/PairwiseSwap.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Dsa/linkedList/PairwiseSwap.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Dsa/linkedList/PalindromeLinkedList.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Dsa/linkedList/PalindromeLinkedList.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Dsa/linkedList/RemoveDuplicatesfromSortedLinkedList.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Dsa/linkedList/RemoveDuplicatesfromSortedLinkedList.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Dsa/linkedList/RemoveLoopByMethods.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Dsa/linkedList/RemoveLoopByMethods.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Dsa/linkedList/RemoveLoopFromLinkedList.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Dsa/linkedList/RemoveLoopFromLinkedList.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Dsa/linkedList/RemoveLoopfromLinkedList1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Dsa/linkedList/RemoveLoopfromLinkedList1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Dsa/linkedList/RemoveNodesWithGreaterRight.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Dsa/linkedList/RemoveNodesWithGreaterRight.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Dsa/linkedList/Removeduplicatesfromunsortedlinkedlist.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Dsa/linkedList/Removeduplicatesfromunsortedlinkedlist.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Dsa/linkedList/ReverseBetween.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Dsa/linkedList/ReverseBetween.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Dsa/linkedList/ReverseDoublyLinkedList.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Dsa/linkedList/ReverseDoublyLinkedList.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Dsa/linkedList/Reverselinkedlist.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Dsa/linkedList/Reverselinkedlist.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Dsa/linkedList/RotateLinkedListLeft.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Dsa/linkedList/RotateLinkedListLeft.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Dsa/linkedList/RotateLinkedListRight.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Dsa/linkedList/RotateLinkedListRight.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Dsa/linkedList/SearchInLinkedList.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Dsa/linkedList/SearchInLinkedList.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Dsa/linkedListRevision/PalindromeLinkedList.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Dsa/linkedListRevision/PalindromeLinkedList.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Dsa/multithreading/BlockedStateDemo.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Dsa/multithreading/BlockedStateDemo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Dsa/multithreading/Buffer.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Dsa/multithreading/Buffer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Dsa/multithreading/Buffer1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Dsa/multithreading/Buffer1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Dsa/multithreading/CallableExample.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Dsa/multithreading/CallableExample.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Dsa/multithreading/Concept/AtomicDemo.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Dsa/multithreading/Concept/AtomicDemo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Dsa/multithreading/Concept/AtomicExample.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Dsa/multithreading/Concept/AtomicExample.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Dsa/multithreading/Concept/BankSystem.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Dsa/multithreading/Concept/BankSystem.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Dsa/multithreading/Concept/CFExample.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Dsa/multithreading/Concept/CFExample.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Dsa/multithreading/Concept/CompletableFuture/Example1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Dsa/multithreading/Concept/CompletableFuture/Example1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Dsa/multithreading/Concept/CompletableFuture/Example2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Dsa/multithreading/Concept/CompletableFuture/Example2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Dsa/multithreading/Concept/CompletableFuture/Example3.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Dsa/multithreading/Concept/CompletableFuture/Example3.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Dsa/multithreading/Concept/CompletableFuture/Example4.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Dsa/multithreading/Concept/CompletableFuture/Example4.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Dsa/multithreading/Concept/CompletableFuture/Example5.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Dsa/multithreading/Concept/CompletableFuture/Example5.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Dsa/multithreading/Concept/CompletableFuture/Example6.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Dsa/multithreading/Concept/CompletableFuture/Example6.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Dsa/multithreading/Concept/CompletableFuture/Example7.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Dsa/multithreading/Concept/CompletableFuture/Example7.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Dsa/multithreading/Concept/CompletableFuture/Example8.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Dsa/multithreading/Concept/CompletableFuture/Example8.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Dsa/multithreading/Concept/CompletableFuture/Example9.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Dsa/multithreading/Concept/CompletableFuture/Example9.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Dsa/multithreading/Concept/ConcurrentMapExample.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Dsa/multithreading/Concept/ConcurrentMapExample.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Dsa/multithreading/Concept/ExecutorExample.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Dsa/multithreading/Concept/ExecutorExample.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Dsa/multithreading/Concept/LockExample.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Dsa/multithreading/Concept/LockExample.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Dsa/multithreading/DeadlockExample.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Dsa/multithreading/DeadlockExample.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Dsa/multithreading/ExecutorCallable.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Dsa/multithreading/ExecutorCallable.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Dsa/multithreading/MyRunnable.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Dsa/multithreading/MyRunnable.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Dsa/multithreading/MyRunnable1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Dsa/multithreading/MyRunnable1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Dsa/multithreading/MyThread.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Dsa/multithreading/MyThread.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Dsa/multithreading/MyThread1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Dsa/multithreading/MyThread1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Dsa/multithreading/NumberPrinter.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Dsa/multithreading/NumberPrinter.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Dsa/multithreading/Numberprinter1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Dsa/multithreading/Numberprinter1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Dsa/multithreading/OddEvenDemo.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Dsa/multithreading/OddEvenDemo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Dsa/multithreading/OddEvenDemoTraditional.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Dsa/multithreading/OddEvenDemoTraditional.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Dsa/multithreading/ProducerConsumer.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Dsa/multithreading/ProducerConsumer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Dsa/multithreading/ProducerConsumer1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Dsa/multithreading/ProducerConsumer1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Dsa/multithreading/RaceConditionDemo.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Dsa/multithreading/RaceConditionDemo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Dsa/multithreading/SharedResource.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Dsa/multithreading/SharedResource.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Dsa/multithreading/SynchronizedDemo.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Dsa/multithreading/SynchronizedDemo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Dsa/multithreading/ThreadLifeCycleDemo.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Dsa/multithreading/ThreadLifeCycleDemo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Dsa/multithreading/ThreadStatesDemo.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Dsa/multithreading/ThreadStatesDemo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Dsa/multithreading/ThreadStatesDemo1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Dsa/multithreading/ThreadStatesDemo1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Dsa/multithreading/TwoThreadsSafe.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Dsa/multithreading/TwoThreadsSafe.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Dsa/multithreading/VolatileCounter.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Dsa/multithreading/VolatileCounter.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Dsa/multithreading/VolatileCounter1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Dsa/multithreading/VolatileCounter1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Dsa/multithreading/VolatileCounter2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Dsa/multithreading/VolatileCounter2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Dsa/multithreading/VolatileCounter2withAtomic$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Dsa/multithreading/VolatileCounter2withAtomic$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Dsa/multithreading/VolatileCounter2withAtomic.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Dsa/multithreading/VolatileCounter2withAtomic.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Dsa/multithreading/VolatileFlagDemo.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Dsa/multithreading/VolatileFlagDemo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Dsa/multithreading/WithVolatile.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Dsa/multithreading/WithVolatile.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Dsa/multithreading/WithoutVolatile.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Dsa/multithreading/WithoutVolatile.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Dsa/multithreading/WorkerWithVolatile.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Dsa/multithreading/WorkerWithVolatile.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Dsa/multithreading/WorkerWithoutVolatile.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Dsa/multithreading/WorkerWithoutVolatile.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Dsa/playground/FailFast.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Dsa/playground/FailFast.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Dsa/playground/MyThread.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Dsa/playground/MyThread.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Dsa/playground/MyThread1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Dsa/playground/MyThread1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Dsa/playground/MyThreadMainClass.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Dsa/playground/MyThreadMainClass.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Dsa/playground/MyThreadRunnable.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Dsa/playground/MyThreadRunnable.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Dsa/revision/DetectLoopInLinkedList.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Dsa/revision/DetectLoopInLinkedList.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Dsa/revision/Duplicate.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Dsa/revision/Duplicate.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Dsa/revision/Duplicate1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Dsa/revision/Duplicate1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Dsa/revision/ExampleService.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Dsa/revision/ExampleService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Dsa/revision/FindlengthofLoop.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Dsa/revision/FindlengthofLoop.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Dsa/revision/LazyMain.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Dsa/revision/LazyMain.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Dsa/revision/LazySingleton.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Dsa/revision/LazySingleton.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Dsa/revision/LogExecutionTime.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Dsa/revision/LogExecutionTime.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Dsa/revision/MiddleLinkedList.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Dsa/revision/MiddleLinkedList.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Dsa/revision/MyCustomAnnotation.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Dsa/revision/MyCustomAnnotation.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Dsa/revision/MySingletonEager.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Dsa/revision/MySingletonEager.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Dsa/revision/MySingletonThreadSafe.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Dsa/revision/MySingletonThreadSafe.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Dsa/revision/Node.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Dsa/revision/Node.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Dsa/revision/Node1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Dsa/revision/Node1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Dsa/revision/Node22.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Dsa/revision/Node22.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Dsa/revision/Node23.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Dsa/revision/Node23.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Dsa/revision/Node3.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Dsa/revision/Node3.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Dsa/revision/RemoveLoopfromLinkedList.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Dsa/revision/RemoveLoopfromLinkedList.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Dsa/revision/ReverseDoublyLinkedList.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Dsa/revision/ReverseDoublyLinkedList.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Dsa/revision/ReverseKGroup.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Dsa/revision/ReverseKGroup.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Dsa/revision/ReverseLinkedList.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Dsa/revision/ReverseLinkedList.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Dsa/revision/ReverseLinkedList1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Dsa/revision/ReverseLinkedList1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Dsa/revision/ReverseLinkedListRecursiveApproach.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Dsa/revision/ReverseLinkedListRecursiveApproach.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Dsa/revision/SingletonEager.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Dsa/revision/SingletonEager.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Dsa/revision/ThreadSafeMain.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Dsa/revision/ThreadSafeMain.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Dsa/revision/ThreadSafeMain1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Dsa/revision/ThreadSafeMain1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Dsa/revision/ThreadSafeSingleton1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Dsa/revision/ThreadSafeSingleton1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Dsa/string/FrequencyCountAndMaintainTheAscendingOrder.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Dsa/string/FrequencyCountAndMaintainTheAscendingOrder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Dsa/string/FrequencyCountAndMaintainTheAscendingOrder1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Dsa/string/FrequencyCountAndMaintainTheAscendingOrder1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Dsa/string/IsPalindrome.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Dsa/string/IsPalindrome.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -99,12 +378,15 @@
   "keyToString": {
     "Application.AddTwoLists.executor": "Run",
     "Application.AnagramCheck.executor": "Run",
+    "Application.AsyncVsNonAsyncDemo.executor": "Run",
     "Application.AtomicDemo.executor": "Run",
     "Application.AtomicExample.executor": "Run",
     "Application.BankSystem.executor": "Run",
+    "Application.BarrierExample.executor": "Run",
     "Application.BasicLockExample.executor": "Run",
     "Application.BasicParallelExample.executor": "Run",
     "Application.BlockedStateDemo.executor": "Run",
+    "Application.BlockingQueueExample.executor": "Run",
     "Application.CFExample.executor": "Run",
     "Application.CallableExample.executor": "Run",
     "Application.CharacterFrequency.executor": "Run",
@@ -113,9 +395,12 @@
     "Application.CollectorsExammple.executor": "Run",
     "Application.CollectorsExammple1.executor": "Run",
     "Application.CollectorsExammple2.executor": "Run",
+    "Application.CombineFuturesDemo.executor": "Run",
     "Application.CommonElements.executor": "Run",
     "Application.Concatenatestrings.executor": "Run",
     "Application.ConcurrentMapExample.executor": "Run",
+    "Application.ConditionExample.executor": "Run",
+    "Application.ConnectionPoolExample.executor": "Run",
     "Application.CoreConcept.executor": "Run",
     "Application.CountLongProductsPerCategory.executor": "Run",
     "Application.CountOccurrences.executor": "Run",
@@ -160,9 +445,11 @@
     "Application.Example7.executor": "Run",
     "Application.Example8.executor": "Run",
     "Application.Example9.executor": "Run",
+    "Application.ExceptionHandlingDemo.executor": "Run",
     "Application.ExecutorCallable.executor": "Run",
     "Application.ExecutorExample.executor": "Run",
     "Application.FailFast.executor": "Run",
+    "Application.FairLockExample.executor": "Run",
     "Application.FilterEmployees.executor": "Run",
     "Application.FindDuplicates.executor": "Run",
     "Application.FindDuplicatesWithoutGroupingBy.executor": "Run",
@@ -175,21 +462,27 @@
     "Application.FlattenList.executor": "Run",
     "Application.FlattenMapValues.executor": "Run",
     "Application.ForkJoinDemo.executor": "Run",
+    "Application.ForkJoinPatternDemo.executor": "Run",
     "Application.FrequencyCountAndMaintainTheAscendingOrder.executor": "Run",
     "Application.FrequencyCountAndMaintainTheAscendingOrder1.executor": "Run",
     "Application.FrequencyCountAndOrderMaintain.executor": "Run",
+    "Application.FuturePatternDemo.executor": "Run",
     "Application.GroupByLength.executor": "Run",
     "Application.GroupLength.executor": "Run",
     "Application.GroupLength1.executor": "Run",
     "Application.GroupedProducts.executor": "Run",
+    "Application.GuardedSuspensionDemo.executor": "Run",
     "Application.Hello.executor": "Run",
+    "Application.ImmutablePatternDemo.executor": "Run",
     "Application.IntersectionPoint.executor": "Run",
     "Application.IsPalindrome.executor": "Run",
     "Application.KthLargestFinder.executor": "Run",
     "Application.LambdaArgumentExample.executor": "Run",
     "Application.LambdaComposition.executor": "Run",
     "Application.LambdaFinalExample.executor": "Run",
+    "Application.LatchExample.executor": "Run",
     "Application.LazyMain.executor": "Run",
+    "Application.LimitedAccessExample.executor": "Run",
     "Application.ListBasedExample.executor": "Run",
     "Application.ListIntegerBasedExample.executor": "Run",
     "Application.LivelockDemo.executor": "Run",
@@ -213,6 +506,7 @@
     "Application.MoveLastToFront.executor": "Run",
     "Application.MultipleFilter.executor": "Run",
     "Application.MultiplyLinkedLists.executor": "Run",
+    "Application.MutexExample.executor": "Run",
     "Application.MyRunnable.executor": "Run",
     "Application.MyRunnable1.executor": "Run",
     "Application.MyThread.executor": "Run",
@@ -235,7 +529,9 @@
     "Application.PrimeNumbersFinder.executor": "Run",
     "Application.ProducerConsumer.executor": "Run",
     "Application.ProducerConsumer1.executor": "Run",
+    "Application.ProducerConsumerPatternDemo.executor": "Run",
     "Application.RaceConditionDemo.executor": "Run",
+    "Application.RateLimiterExample.executor": "Run",
     "Application.RawThreadExample.executor": "Run",
     "Application.Rearrange.executor": "Run",
     "Application.ReentrantExample.executor": "Run",
@@ -285,20 +581,31 @@
     "Application.SumOfNumber.executor": "Run",
     "Application.SwapKthNodes.executor": "Run",
     "Application.SynchronizedDemo.executor": "Run",
+    "Application.ThenApplyVsCompose.executor": "Run",
     "Application.ThreadLifeCycleDemo.executor": "Run",
+    "Application.ThreadLocalBasic.executor": "Run",
+    "Application.ThreadLocalBug.executor": "Run",
+    "Application.ThreadLocalPatternDemo.executor": "Run",
+    "Application.ThreadLocalUserExample.executor": "Run",
     "Application.ThreadPoolExecutorDemo.executor": "Run",
+    "Application.ThreadPoolPatternDemo.executor": "Run",
     "Application.ThreadSafeMain (1).executor": "Run",
     "Application.ThreadSafeMain.executor": "Run",
     "Application.ThreadSafeMain1.executor": "Run",
     "Application.ThreadStatesDemo.executor": "Debug",
     "Application.ThreadStatesDemo1.executor": "Run",
+    "Application.TimeoutDemo.executor": "Run",
     "Application.Top3highestnumbers.executor": "Run",
     "Application.TopNPerCategory.executor": "Run",
+    "Application.TryAcquireExample.executor": "Run",
+    "Application.TryLockExample.executor": "Run",
+    "Application.TryLockTimeoutExample.executor": "Run",
     "Application.TwoSum.executor": "Run",
     "Application.TwoSumIndices.executor": "Run",
     "Application.TwoThreadsSafe.executor": "Run",
     "Application.UniqueSortedProducts.executor": "Run",
     "Application.ValidPalindromeWithSpecialCharacter.executor": "Run",
+    "Application.VirtualThreadDemo.executor": "Run",
     "Application.VolatileCounter.executor": "Run",
     "Application.VolatileCounter1.executor": "Run",
     "Application.VolatileCounter2.executor": "Run",
@@ -307,6 +614,7 @@
     "Application.VowelCount1.executor": "Run",
     "Application.VowelCount2.executor": "Run",
     "Application.WithVolatile.executor": "Run",
+    "Application.WithoutSynchronization.executor": "Run",
     "Application.WithoutVolatile.executor": "Run",
     "Application.WordFrequency.executor": "Run",
     "Application.WorkerWithVolatile.executor": "Run",
@@ -341,7 +649,7 @@
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
     "project.structure.last.edited": "Project",
-    "project.structure.proportion": "0.0",
+    "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.0",
     "settings.editor.selected.configurable": "preferences.pluginManager",
     "to.speed.mode.migration.done": "true"
@@ -352,13 +660,13 @@
     ]
   }
 }]]></component>
-  <component name="RunManager" selected="Application.BasicLockExample">
-    <configuration name="BasicLockExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="multithreading.Concept.ReentrantLockExample.BasicLockExample" />
+  <component name="RunManager" selected="Application.Singleton">
+    <configuration name="ForkJoinPatternDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="multithreading.concept.multithreadingdesgnpattern.ForkJoinPatternDemo" />
       <module name="Dsa" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="multithreading.Concept.ReentrantLockExample.*" />
+          <option name="PATTERN" value="multithreading.concept.multithreadingdesgnpattern.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -366,12 +674,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DeadlockPreventUsingTryLock" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="multithreading.Concept.deadLockPrevent.DeadlockPreventUsingTryLock" />
+    <configuration name="GuardedSuspensionDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="multithreading.concept.multithreadingdesgnpattern.GuardedSuspensionDemo" />
       <module name="Dsa" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="multithreading.Concept.deadLockPrevent.*" />
+          <option name="PATTERN" value="multithreading.concept.multithreadingdesgnpattern.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -379,12 +687,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PreventDeadlockUsingSingleLock" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="multithreading.Concept.deadLockPrevent.PreventDeadlockUsingSingleLock" />
+    <configuration name="ImmutablePatternDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="multithreading.concept.multithreadingdesgnpattern.ImmutablePatternDemo" />
       <module name="Dsa" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="multithreading.Concept.deadLockPrevent.*" />
+          <option name="PATTERN" value="multithreading.concept.multithreadingdesgnpattern.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -392,12 +700,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PreventDeadlockUsingTimeout" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="multithreading.Concept.deadLockPrevent.PreventDeadlockUsingTimeout" />
+    <configuration name="Singleton" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="multithreading.concept.multithreadingdesgnpattern.Singleton" />
       <module name="Dsa" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="multithreading.Concept.deadLockPrevent.*" />
+          <option name="PATTERN" value="multithreading.concept.multithreadingdesgnpattern.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -405,12 +713,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ReentrantExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="multithreading.Concept.ReentrantLockExample.ReentrantExample" />
+    <configuration name="ThreadLocalPatternDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="multithreading.concept.multithreadingdesgnpattern.ThreadLocalPatternDemo" />
       <module name="Dsa" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="multithreading.Concept.ReentrantLockExample.*" />
+          <option name="PATTERN" value="multithreading.concept.multithreadingdesgnpattern.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -420,11 +728,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.BasicLockExample" />
-        <item itemvalue="Application.ReentrantExample" />
-        <item itemvalue="Application.DeadlockPreventUsingTryLock" />
-        <item itemvalue="Application.PreventDeadlockUsingSingleLock" />
-        <item itemvalue="Application.PreventDeadlockUsingTimeout" />
+        <item itemvalue="Application.Singleton" />
+        <item itemvalue="Application.ImmutablePatternDemo" />
+        <item itemvalue="Application.ThreadLocalPatternDemo" />
+        <item itemvalue="Application.GuardedSuspensionDemo" />
+        <item itemvalue="Application.ForkJoinPatternDemo" />
       </list>
     </recent_temporary>
   </component>
@@ -443,399 +751,399 @@
       <option name="presentableId" value="Default" />
       <updated>1751545643062</updated>
     </task>
-    <task id="LOCAL-00340" summary="class">
+    <task id="LOCAL-00416" summary="Example3">
       <option name="closed" value="true" />
-      <created>1775468002785</created>
-      <option name="number" value="00340" />
-      <option name="presentableId" value="LOCAL-00340" />
+      <created>1776149703316</created>
+      <option name="number" value="00416" />
+      <option name="presentableId" value="LOCAL-00416" />
       <option name="project" value="LOCAL" />
-      <updated>1775468002785</updated>
+      <updated>1776149703316</updated>
     </task>
-    <task id="LOCAL-00341" summary="class">
+    <task id="LOCAL-00417" summary="Example4">
       <option name="closed" value="true" />
-      <created>1775468008206</created>
-      <option name="number" value="00341" />
-      <option name="presentableId" value="LOCAL-00341" />
+      <created>1776149714665</created>
+      <option name="number" value="00417" />
+      <option name="presentableId" value="LOCAL-00417" />
       <option name="project" value="LOCAL" />
-      <updated>1775468008206</updated>
+      <updated>1776149714665</updated>
     </task>
-    <task id="LOCAL-00342" summary="class">
+    <task id="LOCAL-00418" summary="Example5">
       <option name="closed" value="true" />
-      <created>1775468014734</created>
-      <option name="number" value="00342" />
-      <option name="presentableId" value="LOCAL-00342" />
+      <created>1776149726278</created>
+      <option name="number" value="00418" />
+      <option name="presentableId" value="LOCAL-00418" />
       <option name="project" value="LOCAL" />
-      <updated>1775468014734</updated>
+      <updated>1776149726278</updated>
     </task>
-    <task id="LOCAL-00343" summary="class">
+    <task id="LOCAL-00419" summary="Example6">
       <option name="closed" value="true" />
-      <created>1775468020338</created>
-      <option name="number" value="00343" />
-      <option name="presentableId" value="LOCAL-00343" />
+      <created>1776149737878</created>
+      <option name="number" value="00419" />
+      <option name="presentableId" value="LOCAL-00419" />
       <option name="project" value="LOCAL" />
-      <updated>1775468020338</updated>
+      <updated>1776149737878</updated>
     </task>
-    <task id="LOCAL-00344" summary="class">
+    <task id="LOCAL-00420" summary="AtomicDemo">
       <option name="closed" value="true" />
-      <created>1775468025682</created>
-      <option name="number" value="00344" />
-      <option name="presentableId" value="LOCAL-00344" />
+      <created>1776249817210</created>
+      <option name="number" value="00420" />
+      <option name="presentableId" value="LOCAL-00420" />
       <option name="project" value="LOCAL" />
-      <updated>1775468025682</updated>
+      <updated>1776249817211</updated>
     </task>
-    <task id="LOCAL-00345" summary="class">
+    <task id="LOCAL-00421" summary="AtomicDemo">
       <option name="closed" value="true" />
-      <created>1775468031010</created>
-      <option name="number" value="00345" />
-      <option name="presentableId" value="LOCAL-00345" />
+      <created>1776249826871</created>
+      <option name="number" value="00421" />
+      <option name="presentableId" value="LOCAL-00421" />
       <option name="project" value="LOCAL" />
-      <updated>1775468031011</updated>
+      <updated>1776249826871</updated>
     </task>
-    <task id="LOCAL-00346" summary="class">
+    <task id="LOCAL-00422" summary="AtomicDemo">
       <option name="closed" value="true" />
-      <created>1775468037039</created>
-      <option name="number" value="00346" />
-      <option name="presentableId" value="LOCAL-00346" />
+      <created>1776249834407</created>
+      <option name="number" value="00422" />
+      <option name="presentableId" value="LOCAL-00422" />
       <option name="project" value="LOCAL" />
-      <updated>1775468037039</updated>
+      <updated>1776249834407</updated>
     </task>
-    <task id="LOCAL-00347" summary="class">
+    <task id="LOCAL-00423" summary="BarrierExample">
       <option name="closed" value="true" />
-      <created>1775468042715</created>
-      <option name="number" value="00347" />
-      <option name="presentableId" value="LOCAL-00347" />
+      <created>1776249850618</created>
+      <option name="number" value="00423" />
+      <option name="presentableId" value="LOCAL-00423" />
       <option name="project" value="LOCAL" />
-      <updated>1775468042715</updated>
+      <updated>1776249850618</updated>
     </task>
-    <task id="LOCAL-00348" summary="class">
+    <task id="LOCAL-00424" summary="BlockingQueueExample">
       <option name="closed" value="true" />
-      <created>1775468051401</created>
-      <option name="number" value="00348" />
-      <option name="presentableId" value="LOCAL-00348" />
+      <created>1776249870151</created>
+      <option name="number" value="00424" />
+      <option name="presentableId" value="LOCAL-00424" />
       <option name="project" value="LOCAL" />
-      <updated>1775468051401</updated>
+      <updated>1776249870151</updated>
     </task>
-    <task id="LOCAL-00349" summary="class">
+    <task id="LOCAL-00425" summary="CFExample">
       <option name="closed" value="true" />
-      <created>1775468061424</created>
-      <option name="number" value="00349" />
-      <option name="presentableId" value="LOCAL-00349" />
+      <created>1776249887200</created>
+      <option name="number" value="00425" />
+      <option name="presentableId" value="LOCAL-00425" />
       <option name="project" value="LOCAL" />
-      <updated>1775468061424</updated>
+      <updated>1776249887200</updated>
     </task>
-    <task id="LOCAL-00350" summary="class">
+    <task id="LOCAL-00426" summary="ConcurrentMapExample">
       <option name="closed" value="true" />
-      <created>1775468066969</created>
-      <option name="number" value="00350" />
-      <option name="presentableId" value="LOCAL-00350" />
+      <created>1776249898771</created>
+      <option name="number" value="00426" />
+      <option name="presentableId" value="LOCAL-00426" />
       <option name="project" value="LOCAL" />
-      <updated>1775468066969</updated>
+      <updated>1776249898771</updated>
     </task>
-    <task id="LOCAL-00351" summary="class">
+    <task id="LOCAL-00427" summary="CountPairs">
       <option name="closed" value="true" />
-      <created>1775468075268</created>
-      <option name="number" value="00351" />
-      <option name="presentableId" value="LOCAL-00351" />
+      <created>1776249911196</created>
+      <option name="number" value="00427" />
+      <option name="presentableId" value="LOCAL-00427" />
       <option name="project" value="LOCAL" />
-      <updated>1775468075268</updated>
+      <updated>1776249911196</updated>
     </task>
-    <task id="LOCAL-00352" summary="class">
+    <task id="LOCAL-00428" summary="CountPairs">
       <option name="closed" value="true" />
-      <created>1775468093434</created>
-      <option name="number" value="00352" />
-      <option name="presentableId" value="LOCAL-00352" />
+      <created>1776249917772</created>
+      <option name="number" value="00428" />
+      <option name="presentableId" value="LOCAL-00428" />
       <option name="project" value="LOCAL" />
-      <updated>1775468093434</updated>
+      <updated>1776249917772</updated>
     </task>
-    <task id="LOCAL-00353" summary="class">
+    <task id="LOCAL-00429" summary="CountPairs">
       <option name="closed" value="true" />
-      <created>1775468098443</created>
-      <option name="number" value="00353" />
-      <option name="presentableId" value="LOCAL-00353" />
+      <created>1776249923737</created>
+      <option name="number" value="00429" />
+      <option name="presentableId" value="LOCAL-00429" />
       <option name="project" value="LOCAL" />
-      <updated>1775468098443</updated>
+      <updated>1776249923737</updated>
     </task>
-    <task id="LOCAL-00354" summary="class">
+    <task id="LOCAL-00430" summary="CountPairs">
       <option name="closed" value="true" />
-      <created>1775468104927</created>
-      <option name="number" value="00354" />
-      <option name="presentableId" value="LOCAL-00354" />
+      <created>1776249934312</created>
+      <option name="number" value="00430" />
+      <option name="presentableId" value="LOCAL-00430" />
       <option name="project" value="LOCAL" />
-      <updated>1775468104927</updated>
+      <updated>1776249934312</updated>
     </task>
-    <task id="LOCAL-00355" summary="class">
+    <task id="LOCAL-00431" summary="CountPairs">
       <option name="closed" value="true" />
-      <created>1775468181135</created>
-      <option name="number" value="00355" />
-      <option name="presentableId" value="LOCAL-00355" />
+      <created>1776249940255</created>
+      <option name="number" value="00431" />
+      <option name="presentableId" value="LOCAL-00431" />
       <option name="project" value="LOCAL" />
-      <updated>1775468181135</updated>
+      <updated>1776249940255</updated>
     </task>
-    <task id="LOCAL-00356" summary="class">
+    <task id="LOCAL-00432" summary="CountPairs">
       <option name="closed" value="true" />
-      <created>1775468187822</created>
-      <option name="number" value="00356" />
-      <option name="presentableId" value="LOCAL-00356" />
+      <created>1776249948510</created>
+      <option name="number" value="00432" />
+      <option name="presentableId" value="LOCAL-00432" />
       <option name="project" value="LOCAL" />
-      <updated>1775468187822</updated>
+      <updated>1776249948510</updated>
     </task>
-    <task id="LOCAL-00357" summary="completable fetures example">
+    <task id="LOCAL-00433" summary="CountPairs">
       <option name="closed" value="true" />
-      <created>1775538804304</created>
-      <option name="number" value="00357" />
-      <option name="presentableId" value="LOCAL-00357" />
+      <created>1776249971711</created>
+      <option name="number" value="00433" />
+      <option name="presentableId" value="LOCAL-00433" />
       <option name="project" value="LOCAL" />
-      <updated>1775538804304</updated>
+      <updated>1776249971711</updated>
     </task>
-    <task id="LOCAL-00358" summary="completable fetures example">
+    <task id="LOCAL-00434" summary="CountPairs">
       <option name="closed" value="true" />
-      <created>1775538810154</created>
-      <option name="number" value="00358" />
-      <option name="presentableId" value="LOCAL-00358" />
+      <created>1776249978871</created>
+      <option name="number" value="00434" />
+      <option name="presentableId" value="LOCAL-00434" />
       <option name="project" value="LOCAL" />
-      <updated>1775538810154</updated>
+      <updated>1776249978871</updated>
     </task>
-    <task id="LOCAL-00359" summary="completable fetures example">
+    <task id="LOCAL-00435" summary="CountPairs">
       <option name="closed" value="true" />
-      <created>1775538818681</created>
-      <option name="number" value="00359" />
-      <option name="presentableId" value="LOCAL-00359" />
+      <created>1776249986964</created>
+      <option name="number" value="00435" />
+      <option name="presentableId" value="LOCAL-00435" />
       <option name="project" value="LOCAL" />
-      <updated>1775538818681</updated>
+      <updated>1776249986964</updated>
     </task>
-    <task id="LOCAL-00360" summary="completable fetures example">
+    <task id="LOCAL-00436" summary="CountPairs">
       <option name="closed" value="true" />
-      <created>1775538824659</created>
-      <option name="number" value="00360" />
-      <option name="presentableId" value="LOCAL-00360" />
+      <created>1776249999356</created>
+      <option name="number" value="00436" />
+      <option name="presentableId" value="LOCAL-00436" />
       <option name="project" value="LOCAL" />
-      <updated>1775538824659</updated>
+      <updated>1776249999357</updated>
     </task>
-    <task id="LOCAL-00361" summary="completable fetures example">
+    <task id="LOCAL-00437" summary="CountPairs">
       <option name="closed" value="true" />
-      <created>1775538830997</created>
-      <option name="number" value="00361" />
-      <option name="presentableId" value="LOCAL-00361" />
+      <created>1776250005305</created>
+      <option name="number" value="00437" />
+      <option name="presentableId" value="LOCAL-00437" />
       <option name="project" value="LOCAL" />
-      <updated>1775538830997</updated>
+      <updated>1776250005305</updated>
     </task>
-    <task id="LOCAL-00362" summary="completable fetures example">
+    <task id="LOCAL-00438" summary="CountPairs">
       <option name="closed" value="true" />
-      <created>1775538837069</created>
-      <option name="number" value="00362" />
-      <option name="presentableId" value="LOCAL-00362" />
+      <created>1776250011019</created>
+      <option name="number" value="00438" />
+      <option name="presentableId" value="LOCAL-00438" />
       <option name="project" value="LOCAL" />
-      <updated>1775538837069</updated>
+      <updated>1776250011019</updated>
     </task>
-    <task id="LOCAL-00363" summary="completable fetures example">
+    <task id="LOCAL-00439" summary="CountPairs">
       <option name="closed" value="true" />
-      <created>1775538853337</created>
-      <option name="number" value="00363" />
-      <option name="presentableId" value="LOCAL-00363" />
+      <created>1776250023170</created>
+      <option name="number" value="00439" />
+      <option name="presentableId" value="LOCAL-00439" />
       <option name="project" value="LOCAL" />
-      <updated>1775538853337</updated>
+      <updated>1776250023170</updated>
     </task>
-    <task id="LOCAL-00364" summary="completable fetures example">
+    <task id="LOCAL-00440" summary="CountPairs">
       <option name="closed" value="true" />
-      <created>1775538860327</created>
-      <option name="number" value="00364" />
-      <option name="presentableId" value="LOCAL-00364" />
+      <created>1776250028877</created>
+      <option name="number" value="00440" />
+      <option name="presentableId" value="LOCAL-00440" />
       <option name="project" value="LOCAL" />
-      <updated>1775538860327</updated>
+      <updated>1776250028877</updated>
     </task>
-    <task id="LOCAL-00365" summary="completable fetures example">
+    <task id="LOCAL-00441" summary="CountPairs">
       <option name="closed" value="true" />
-      <created>1775538866641</created>
-      <option name="number" value="00365" />
-      <option name="presentableId" value="LOCAL-00365" />
+      <created>1776250037475</created>
+      <option name="number" value="00441" />
+      <option name="presentableId" value="LOCAL-00441" />
       <option name="project" value="LOCAL" />
-      <updated>1775538866641</updated>
+      <updated>1776250037475</updated>
     </task>
-    <task id="LOCAL-00366" summary="BasicParallelExample">
+    <task id="LOCAL-00442" summary="CountPairs">
       <option name="closed" value="true" />
-      <created>1775565349304</created>
-      <option name="number" value="00366" />
-      <option name="presentableId" value="LOCAL-00366" />
+      <created>1776250043699</created>
+      <option name="number" value="00442" />
+      <option name="presentableId" value="LOCAL-00442" />
       <option name="project" value="LOCAL" />
-      <updated>1775565349305</updated>
+      <updated>1776250043699</updated>
     </task>
-    <task id="LOCAL-00367" summary="CoreConcept">
+    <task id="LOCAL-00443" summary="CountPairs">
       <option name="closed" value="true" />
-      <created>1775565362956</created>
-      <option name="number" value="00367" />
-      <option name="presentableId" value="LOCAL-00367" />
+      <created>1776250051869</created>
+      <option name="number" value="00443" />
+      <option name="presentableId" value="LOCAL-00443" />
       <option name="project" value="LOCAL" />
-      <updated>1775565362957</updated>
+      <updated>1776250051869</updated>
     </task>
-    <task id="LOCAL-00368" summary="CustomPoolExample">
+    <task id="LOCAL-00444" summary="CountPairs">
       <option name="closed" value="true" />
-      <created>1775565376571</created>
-      <option name="number" value="00368" />
-      <option name="presentableId" value="LOCAL-00368" />
+      <created>1776250081688</created>
+      <option name="number" value="00444" />
+      <option name="presentableId" value="LOCAL-00444" />
       <option name="project" value="LOCAL" />
-      <updated>1775565376571</updated>
+      <updated>1776250081688</updated>
     </task>
-    <task id="LOCAL-00369" summary="DeadlockExample">
+    <task id="LOCAL-00445" summary="CountPairs">
       <option name="closed" value="true" />
-      <created>1775565391585</created>
-      <option name="number" value="00369" />
-      <option name="presentableId" value="LOCAL-00369" />
+      <created>1776250093461</created>
+      <option name="number" value="00445" />
+      <option name="presentableId" value="LOCAL-00445" />
       <option name="project" value="LOCAL" />
-      <updated>1775565391585</updated>
+      <updated>1776250093461</updated>
     </task>
-    <task id="LOCAL-00370" summary="DiskSpaceExample">
+    <task id="LOCAL-00446" summary="CountPairs">
       <option name="closed" value="true" />
-      <created>1775565403687</created>
-      <option name="number" value="00370" />
-      <option name="presentableId" value="LOCAL-00370" />
+      <created>1776250100135</created>
+      <option name="number" value="00446" />
+      <option name="presentableId" value="LOCAL-00446" />
       <option name="project" value="LOCAL" />
-      <updated>1775565403687</updated>
+      <updated>1776250100136</updated>
     </task>
-    <task id="LOCAL-00371" summary="ForkJoinDemo">
+    <task id="LOCAL-00447" summary="CountPairs">
       <option name="closed" value="true" />
-      <created>1775565417856</created>
-      <option name="number" value="00371" />
-      <option name="presentableId" value="LOCAL-00371" />
+      <created>1776250107221</created>
+      <option name="number" value="00447" />
+      <option name="presentableId" value="LOCAL-00447" />
       <option name="project" value="LOCAL" />
-      <updated>1775565417856</updated>
+      <updated>1776250107221</updated>
     </task>
-    <task id="LOCAL-00372" summary="LivelockDemo">
+    <task id="LOCAL-00448" summary="CountPairs">
       <option name="closed" value="true" />
-      <created>1775565437745</created>
-      <option name="number" value="00372" />
-      <option name="presentableId" value="LOCAL-00372" />
+      <created>1776250114637</created>
+      <option name="number" value="00448" />
+      <option name="presentableId" value="LOCAL-00448" />
       <option name="project" value="LOCAL" />
-      <updated>1775565437745</updated>
+      <updated>1776250114637</updated>
     </task>
-    <task id="LOCAL-00373" summary="OrderingExample">
+    <task id="LOCAL-00449" summary="CountPairs">
       <option name="closed" value="true" />
-      <created>1775565454612</created>
-      <option name="number" value="00373" />
-      <option name="presentableId" value="LOCAL-00373" />
+      <created>1776250120510</created>
+      <option name="number" value="00449" />
+      <option name="presentableId" value="LOCAL-00449" />
       <option name="project" value="LOCAL" />
-      <updated>1775565454612</updated>
+      <updated>1776250120510</updated>
     </task>
-    <task id="LOCAL-00374" summary="DeadlockDemo1">
+    <task id="LOCAL-00450" summary="CountPairs">
       <option name="closed" value="true" />
-      <created>1775641059483</created>
-      <option name="number" value="00374" />
-      <option name="presentableId" value="LOCAL-00374" />
+      <created>1776250127672</created>
+      <option name="number" value="00450" />
+      <option name="presentableId" value="LOCAL-00450" />
       <option name="project" value="LOCAL" />
-      <updated>1775641059483</updated>
+      <updated>1776250127672</updated>
     </task>
-    <task id="LOCAL-00375" summary="PairSumDLL">
+    <task id="LOCAL-00451" summary="CountPairs">
       <option name="closed" value="true" />
-      <created>1775641082742</created>
-      <option name="number" value="00375" />
-      <option name="presentableId" value="LOCAL-00375" />
+      <created>1776250132226</created>
+      <option name="number" value="00451" />
+      <option name="presentableId" value="LOCAL-00451" />
       <option name="project" value="LOCAL" />
-      <updated>1775641082742</updated>
+      <updated>1776250132227</updated>
     </task>
-    <task id="LOCAL-00376" summary="PalindromeLinkedList">
+    <task id="LOCAL-00452" summary="CountPairs">
       <option name="closed" value="true" />
-      <created>1775641095044</created>
-      <option name="number" value="00376" />
-      <option name="presentableId" value="LOCAL-00376" />
+      <created>1776250151073</created>
+      <option name="number" value="00452" />
+      <option name="presentableId" value="LOCAL-00452" />
       <option name="project" value="LOCAL" />
-      <updated>1775641095044</updated>
+      <updated>1776250151073</updated>
     </task>
-    <task id="LOCAL-00377" summary="PalindromeLinkedList">
+    <task id="LOCAL-00453" summary="CountPairs">
       <option name="closed" value="true" />
-      <created>1775641105628</created>
-      <option name="number" value="00377" />
-      <option name="presentableId" value="LOCAL-00377" />
+      <created>1776250156097</created>
+      <option name="number" value="00453" />
+      <option name="presentableId" value="LOCAL-00453" />
       <option name="project" value="LOCAL" />
-      <updated>1775641105628</updated>
+      <updated>1776250156097</updated>
     </task>
-    <task id="LOCAL-00378" summary="PalindromeLinkedList">
+    <task id="LOCAL-00454" summary="ConnectionPool">
       <option name="closed" value="true" />
-      <created>1775641117419</created>
-      <option name="number" value="00378" />
-      <option name="presentableId" value="LOCAL-00378" />
+      <created>1776419809656</created>
+      <option name="number" value="00454" />
+      <option name="presentableId" value="LOCAL-00454" />
       <option name="project" value="LOCAL" />
-      <updated>1775641117419</updated>
+      <updated>1776419809657</updated>
     </task>
-    <task id="LOCAL-00379" summary="partitionLinkedListGivenData">
+    <task id="LOCAL-00455" summary="LimitedAccessExample">
       <option name="closed" value="true" />
-      <created>1775641135176</created>
-      <option name="number" value="00379" />
-      <option name="presentableId" value="LOCAL-00379" />
+      <created>1776419824156</created>
+      <option name="number" value="00455" />
+      <option name="presentableId" value="LOCAL-00455" />
       <option name="project" value="LOCAL" />
-      <updated>1775641135176</updated>
+      <updated>1776419824156</updated>
     </task>
-    <task id="LOCAL-00380" summary="PerformanceExample">
+    <task id="LOCAL-00456" summary="LockExample">
       <option name="closed" value="true" />
-      <created>1775641148750</created>
-      <option name="number" value="00380" />
-      <option name="presentableId" value="LOCAL-00380" />
+      <created>1776419838198</created>
+      <option name="number" value="00456" />
+      <option name="presentableId" value="LOCAL-00456" />
       <option name="project" value="LOCAL" />
-      <updated>1775641148750</updated>
+      <updated>1776419838198</updated>
     </task>
-    <task id="LOCAL-00381" summary="RemoveAllDuplicates">
+    <task id="LOCAL-00457" summary="MutexExample">
       <option name="closed" value="true" />
-      <created>1775641162324</created>
-      <option name="number" value="00381" />
-      <option name="presentableId" value="LOCAL-00381" />
+      <created>1776419853146</created>
+      <option name="number" value="00457" />
+      <option name="presentableId" value="LOCAL-00457" />
       <option name="project" value="LOCAL" />
-      <updated>1775641162325</updated>
+      <updated>1776419853146</updated>
     </task>
-    <task id="LOCAL-00382" summary="DeadlockPreventUsingSamOrder">
+    <task id="LOCAL-00458" summary="MySingleton">
       <option name="closed" value="true" />
-      <created>1775733293750</created>
-      <option name="number" value="00382" />
-      <option name="presentableId" value="LOCAL-00382" />
+      <created>1776419864442</created>
+      <option name="number" value="00458" />
+      <option name="presentableId" value="LOCAL-00458" />
       <option name="project" value="LOCAL" />
-      <updated>1775733293751</updated>
+      <updated>1776419864442</updated>
     </task>
-    <task id="LOCAL-00383" summary="DeadlockPreventUsingTryLock">
+    <task id="LOCAL-00459" summary="node">
       <option name="closed" value="true" />
-      <created>1775733311024</created>
-      <option name="number" value="00383" />
-      <option name="presentableId" value="LOCAL-00383" />
+      <created>1776419886735</created>
+      <option name="number" value="00459" />
+      <option name="presentableId" value="LOCAL-00459" />
       <option name="project" value="LOCAL" />
-      <updated>1775733311024</updated>
+      <updated>1776419886735</updated>
     </task>
-    <task id="LOCAL-00384" summary="PreventDeadlockUsingSingleLock">
+    <task id="LOCAL-00460" summary="node">
       <option name="closed" value="true" />
-      <created>1775733335531</created>
-      <option name="number" value="00384" />
-      <option name="presentableId" value="LOCAL-00384" />
+      <created>1776419898385</created>
+      <option name="number" value="00460" />
+      <option name="presentableId" value="LOCAL-00460" />
       <option name="project" value="LOCAL" />
-      <updated>1775733335532</updated>
+      <updated>1776419898385</updated>
     </task>
-    <task id="LOCAL-00385" summary="PreventDeadlockUsingTimeout">
+    <task id="LOCAL-00461" summary="PalindromeLinkedList">
       <option name="closed" value="true" />
-      <created>1775733351642</created>
-      <option name="number" value="00385" />
-      <option name="presentableId" value="LOCAL-00385" />
+      <created>1776419912994</created>
+      <option name="number" value="00461" />
+      <option name="presentableId" value="LOCAL-00461" />
       <option name="project" value="LOCAL" />
-      <updated>1775733351642</updated>
+      <updated>1776419912994</updated>
     </task>
-    <task id="LOCAL-00386" summary="RemoveDuplicateVendors">
+    <task id="LOCAL-00462" summary="PalindromeLinkedList">
       <option name="closed" value="true" />
-      <created>1775733369400</created>
-      <option name="number" value="00386" />
-      <option name="presentableId" value="LOCAL-00386" />
+      <created>1776420047292</created>
+      <option name="number" value="00462" />
+      <option name="presentableId" value="LOCAL-00462" />
       <option name="project" value="LOCAL" />
-      <updated>1775733369400</updated>
+      <updated>1776420047292</updated>
     </task>
-    <task id="LOCAL-00387" summary="ReverseBetweenAandB">
+    <task id="LOCAL-00463" summary="PreventDeadlockUsingSingleLock">
       <option name="closed" value="true" />
-      <created>1775733396193</created>
-      <option name="number" value="00387" />
-      <option name="presentableId" value="LOCAL-00387" />
+      <created>1776420066811</created>
+      <option name="number" value="00463" />
+      <option name="presentableId" value="LOCAL-00463" />
       <option name="project" value="LOCAL" />
-      <updated>1775733396196</updated>
+      <updated>1776420066812</updated>
     </task>
-    <task id="LOCAL-00388" summary="StarvationDemo">
+    <task id="LOCAL-00464" summary="PreventDeadlockUsingTimeout">
       <option name="closed" value="true" />
-      <created>1775733414012</created>
-      <option name="number" value="00388" />
-      <option name="presentableId" value="LOCAL-00388" />
+      <created>1776420086155</created>
+      <option name="number" value="00464" />
+      <option name="presentableId" value="LOCAL-00464" />
       <option name="project" value="LOCAL" />
-      <updated>1775733414012</updated>
+      <updated>1776420086155</updated>
     </task>
-    <option name="localTasksCounter" value="389" />
+    <option name="localTasksCounter" value="465" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -853,32 +1161,32 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="MyRunnable" />
-    <MESSAGE value="NodeDouble" />
-    <MESSAGE value="class" />
-    <MESSAGE value="completable fetures example" />
-    <MESSAGE value="BasicParallelExample" />
-    <MESSAGE value="CoreConcept" />
-    <MESSAGE value="CustomPoolExample" />
-    <MESSAGE value="DeadlockExample" />
-    <MESSAGE value="DiskSpaceExample" />
-    <MESSAGE value="ForkJoinDemo" />
-    <MESSAGE value="LivelockDemo" />
-    <MESSAGE value="OrderingExample" />
-    <MESSAGE value="DeadlockDemo1" />
-    <MESSAGE value="PairSumDLL" />
-    <MESSAGE value="PalindromeLinkedList" />
-    <MESSAGE value="partitionLinkedListGivenData" />
-    <MESSAGE value="PerformanceExample" />
-    <MESSAGE value="RemoveAllDuplicates" />
     <MESSAGE value="DeadlockPreventUsingSamOrder" />
     <MESSAGE value="DeadlockPreventUsingTryLock" />
+    <MESSAGE value="Demo1" />
+    <MESSAGE value="EnumMain" />
+    <MESSAGE value="Example1" />
+    <MESSAGE value="Example2" />
+    <MESSAGE value="Example3" />
+    <MESSAGE value="Example4" />
+    <MESSAGE value="Example5" />
+    <MESSAGE value="Example6" />
+    <MESSAGE value="AtomicDemo" />
+    <MESSAGE value="BarrierExample" />
+    <MESSAGE value="BlockingQueueExample" />
+    <MESSAGE value="CFExample" />
+    <MESSAGE value="ConcurrentMapExample" />
+    <MESSAGE value="CountPairs" />
+    <MESSAGE value="ConnectionPool" />
+    <MESSAGE value="LimitedAccessExample" />
+    <MESSAGE value="LockExample" />
+    <MESSAGE value="MutexExample" />
+    <MESSAGE value="MySingleton" />
+    <MESSAGE value="node" />
+    <MESSAGE value="PalindromeLinkedList" />
     <MESSAGE value="PreventDeadlockUsingSingleLock" />
     <MESSAGE value="PreventDeadlockUsingTimeout" />
-    <MESSAGE value="RemoveDuplicateVendors" />
-    <MESSAGE value="ReverseBetweenAandB" />
-    <MESSAGE value="StarvationDemo" />
-    <option name="LAST_COMMIT_MESSAGE" value="StarvationDemo" />
+    <option name="LAST_COMMIT_MESSAGE" value="PreventDeadlockUsingTimeout" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1009,14 +1317,19 @@
           <option name="timeStamp" value="32" />
         </line-breakpoint>
         <line-breakpoint enabled="true" log-message="true" suspend="NONE" type="java-line">
-          <url>file://$PROJECT_DIR$/DataStracture/src/multithreading/Concept/CompletableFuture/Example2.java</url>
+          <url>file://$PROJECT_DIR$/DataStracture/src/multithreading/concept/completablefuture/Example2.java</url>
           <line>10</line>
           <option name="timeStamp" value="33" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/DataStracture/src/multithreading/Concept/LivelockDemo.java</url>
+          <url>file://$PROJECT_DIR$/DataStracture/src/multithreading/concept/LivelockDemo.java</url>
           <line>14</line>
           <option name="timeStamp" value="34" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/DataStracture/src/multithreading/concept/reentrantlock/ConditionExample.java</url>
+          <line>11</line>
+          <option name="timeStamp" value="43" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/DataStracture/src/linkedList/DeleteWithoutHead.java</url>
@@ -1026,6 +1339,21 @@
             <option name="WATCH_EXIT" value="false" />
           </properties>
           <option name="timeStamp" value="28" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/DataStracture/src/multithreading/concept/reentrantlock/ConditionExample.java</url>
+          <line>16</line>
+          <properties class="multithreading.concept.reentrantlock.Shared" method="waitForSignal">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="41" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-field">
+          <url>file://$PROJECT_DIR$/DataStracture/src/multithreading/concept/reentrantlock/ConditionExample.java</url>
+          <line>13</line>
+          <properties field="condition" class="multithreading.concept.reentrantlock.Shared" />
+          <option name="timeStamp" value="45" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

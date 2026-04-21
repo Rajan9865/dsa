@@ -1,6 +1,5 @@
 package java8concept;
 
-import sun.security.util.Length;
 
 import java.util.LinkedList;
 import java.util.List;

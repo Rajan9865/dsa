@@ -1,4 +1,4 @@
-package designPattern;
+package designpattern;
 
 /**
  * Demonstrates the use of a <b>Thread-Safe Lazy Singleton</b> using the

@@ -1,6 +1,5 @@
 package linkedList;
 
-import jdk.nashorn.internal.ir.TernaryNode;
 
 import java.util.HashSet;
 import java.util.Set;
