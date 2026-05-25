@@ -12,7 +12,7 @@ import java.util.stream.Collectors;
  * @since 11/28/2025
  */
 public class DuplicateCharacters {
-    public static void main(String[] args) {
+    static void main() {
         String name = "Programming";
         Map<Character, Long> countCharacter = countCharacter(name);
         Map<Character, Long> output = duplicateCharacter(countCharacter);
