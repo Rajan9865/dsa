@@ -4,7 +4,7 @@ import java.util.HashMap;
 import java.util.Map;
 
 /**
- * @author Rajan kumar
+ * @author Rajan Kumar
  * @version 1.0
  * Dsa
  * @since 1/30/2026
