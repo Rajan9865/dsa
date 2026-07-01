@@ -15,10 +15,11 @@ public class IsPalindrome {
         boolean result2 = isPalindromeApproach2(input1);
         System.out.println(" approach 2nd " + result2);
         boolean result3 = isPalindromeApproach3(input1);
+        System.out.println(" approach 3rd " + result3);
     }
 
     private static boolean isPalindromeApproach3(String input1) {
-        return false;
+        return input1.equals(new StringBuilder(input1).reverse().toString());
     }
 
     private static boolean isPalindromeApproach2(String input) {
