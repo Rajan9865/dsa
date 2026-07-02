@@ -36,7 +36,8 @@ public class ReverseString {
             left++;
             right--;
         }
-        return new String(charArray);
+//        return new String(charArray);
+        return String.valueOf(charArray);
     }
 
     private static String reverseStringApproach2(String input) {
