@@ -3,7 +3,7 @@ package stringrevision;
 import java.util.Scanner;
 
 /**
- * @author lenovo
+ * @author Rajan kumar
  * @version 1.0
  * Dsa
  * @since 7/1/2026
