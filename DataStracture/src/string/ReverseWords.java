@@ -11,9 +11,10 @@ public class ReverseWords {
         String s = "..i.like.this.program.very.much...";
         String input = "I love Java";
         String result = reverseWord(s);
+        System.out.println("Reversed String approach1: " + result);
         String result1 = reverseWord1(input);
+        System.out.println("Reversed String approch2: " + result1);
 
-        System.out.println("Reversed String: " + result1);
     }
 
     private static String reverseWord1(String input) {
