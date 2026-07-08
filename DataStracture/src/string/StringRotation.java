@@ -14,6 +14,7 @@ public class StringRotation {
     }
 
     private static boolean areRotation(String s1, String s2) {
+        // from this code all test cases are not passed
         if (s1.length() != s2.length()) return false;
         String temp = s1 + s2;
         return temp.contains(s2);
