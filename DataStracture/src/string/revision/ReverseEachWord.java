@@ -1,7 +1,7 @@
 package string.revision;
 
 /**
- * @author lenovo
+ * @author Rajan kumar
  * @version 1.0
  * Dsa
  * @since 7/8/2026
