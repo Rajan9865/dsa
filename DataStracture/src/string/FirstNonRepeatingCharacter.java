@@ -13,10 +13,10 @@ public class FirstNonRepeatingCharacter {
         Scanner sc = new Scanner(System.in);
         System.out.println("Enter a string: ");
         String str = sc.nextLine();
-        System.out.println("first non-repeating characters: " + firstNonRepeatingCharacter(str));
+        System.out.println("first non-repeating characters: " + firstNonRepeatingCharacterApparoaach1st(str));
     }
 
-    private static char firstNonRepeatingCharacter(String input) {
+    private static char firstNonRepeatingCharacterApparoaach1st(String input) {
         int[] freq = new int[26];
         for (int i = 0; i < input.length(); i++) {
             freq[input.charAt(i) - 'a']++;
