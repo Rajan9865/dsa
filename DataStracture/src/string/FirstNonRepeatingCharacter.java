@@ -24,9 +24,9 @@ public class FirstNonRepeatingCharacter {
         for (char ch : input.toCharArray()) {
             map.put(ch, map.getOrDefault(ch, 0) + 1);
         }
-        for (Map.Entry<Character, Integer> entry : map.entrySet()) {
-            if (entry.getValue() == 1) {
-                return entry.getKey();
+        for (char ch : input.toCharArray()) {
+            if (map.get(ch) == 1) {
+                return ch;
             }
         }
         return '$';
