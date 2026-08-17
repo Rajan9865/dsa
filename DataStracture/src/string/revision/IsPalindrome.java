@@ -1,4 +1,4 @@
-package stringrevision;
+package string.revision;
 
 
 /**
