@@ -26,7 +26,7 @@ public class BlockedStateDemo {
         t2.start();
 
         Thread.sleep(500);
-        System.out.println("t1 state: " + t1.getState()); // TIMED_WAITING
-        System.out.println("t2 state: " + t2.getState()); // BLOCKED
+        System.out.println(STR."t1 state: \{t1.getState()}"); // TIMED_WAITING
+        System.out.println(STR."t2 state: \{t2.getState()}"); // BLOCKED
     }
 }
