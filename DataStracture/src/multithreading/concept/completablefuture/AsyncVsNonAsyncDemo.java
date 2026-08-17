@@ -9,7 +9,7 @@ import java.util.concurrent.CompletableFuture;
  * @since 4/20/2026
  */
 public class AsyncVsNonAsyncDemo {
-    public static void main(String[] args) {
+    static void main(String[] args) {
         CompletableFuture<Void> future =
                 CompletableFuture.supplyAsync(() -> 10)
                         .thenApply(x -> {
