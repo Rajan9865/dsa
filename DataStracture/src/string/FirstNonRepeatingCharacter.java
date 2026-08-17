@@ -4,6 +4,10 @@ import java.util.HashMap;
 import java.util.Map;
 import java.util.Scanner;
 
+import static java.lang.System.in;
+import static java.lang.System.out;
+
+
 /**
  * @author lenovo
  * @version 1.0
@@ -12,11 +16,11 @@ import java.util.Scanner;
  */
 public class FirstNonRepeatingCharacter {
     static void main() {
-        Scanner sc = new Scanner(System.in);
-        System.out.println("Enter a string: ");
+        Scanner sc = new Scanner(in);
+        out.println("Enter a string: ");
         String str = sc.nextLine();
-        System.out.println("1st approach first non-repeating characters: " + firstNonRepeatingCharacterApparoaach1st(str));
-        System.out.println("2nd approach first non-repeating characters: " + firstNonRepeatingCharacter2ndApproach(str));
+        out.println("1st approach first non-repeating characters: " + firstNonRepeatingCharacterApparoaach1st(str));
+        out.println("2nd approach first non-repeating characters: " + firstNonRepeatingCharacter2ndApproach(str));
     }
 
     private static char firstNonRepeatingCharacter2ndApproach(String input) {
