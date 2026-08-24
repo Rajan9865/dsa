@@ -1,5 +1,7 @@
 package string;
 
+import java.util.HashMap;
+import java.util.Map;
 import java.util.Scanner;
 
 /**
@@ -12,8 +14,30 @@ public class RomanToInteger {
     static void main() {
         Scanner sc = new Scanner(System.in);
         System.out.println("Enter any Roman number: ");
-        String input = sc.nextLine();
+        String input = sc.nextLine().trim().toUpperCase();
         System.out.println("integer " + romantoDecimal(input));
+        System.out.println("2nd approach integer " + romantoDecimal2ndApproach(input));
+    }
+
+    private static int romantoDecimal2ndApproach(String input) {
+        Map<Character, Integer> map = new HashMap<>();
+        map.put('I', 1);
+        map.put('V', 5);
+        map.put('X', 10);
+        map.put('L', 50);
+        map.put('C', 100);
+        map.put('D', 500);
+        map.put('M', 1000);
+        int result = 0;
+        for (int i = 0; i < input.length(); i++) {
+            int current = map.get(input.charAt(i));
+            if (i + 1 < input.length() && current < map.get(input.charAt(i + 1))) {
+                result -= current;
+            } else {
+                result += current;
+            }
+        }
+        return result;
     }
 
     private static int romantoDecimal(String input) {
@@ -52,7 +76,6 @@ public class RomanToInteger {
                 return 1000;
             default:
                 return 0;
-
         }
     }
 }
