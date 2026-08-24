@@ -17,7 +17,7 @@ public class RemoveDuplicatesArrayListUnsortedOrder {
         ArrayList<Integer> result1 = removeRadioastronomicalWay(arr);
         System.out.println("Array after removing duplicates:");
 //        System.out.println(result);
-        System.out.println("Array after removing duplicates:" + result1);
+        System.out.println(STR."Array after removing duplicates:\{result1}");
     }
 
     private static ArrayList<Integer> removeRadioastronomicalWay(int[] arr) {
