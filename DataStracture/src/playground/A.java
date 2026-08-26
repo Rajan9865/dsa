@@ -9,8 +9,8 @@ package playground;
 public class A {
     static void main() {
         String a = "hello";
+//        a.concat("world");
         a = a.concat("world");
         System.out.println(a);
-        System.out.println(a.length());
     }
 }
