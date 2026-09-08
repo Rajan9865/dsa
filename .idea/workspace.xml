@@ -4,10 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ff3856c1-c1ca-4aca-a6ef-fd33bd67f435" name="Changes" comment="workspace.xml">
-      <change afterPath="$PROJECT_DIR$/DataStracture/src/top100dsa/MergeSortedArraysBruteForce.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DataStracture/src/top100dsa/MergeSortedArraysJava8.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
+    <list default="true" id="ff3856c1-c1ca-4aca-a6ef-fd33bd67f435" name="Changes" comment="MergeSortedArraysJava8.java">
+      <change afterPath="$PROJECT_DIR$/DataStracture/src/top100dsa/MergeSortedArraysTwoPointer.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -108,61 +106,61 @@
   </component>
   <component name="NextEditCompletionFeaturesState">
     <decayedCancelled>
-      <entry key="MS100" value="1.14076137181581E-306" />
-      <entry key="MS500" value="6.477970432190709E-62" />
-      <entry key="S2" value="5.06102929713092E-16" />
-      <entry key="S5" value="8.369173196601147E-7" />
-      <entry key="S10" value="0.0011672246003344353" />
-      <entry key="S30" value="0.24239718036685018" />
-      <entry key="S60" value="1.3840488638323447" />
-      <entry key="M2" value="4.253120053741634" />
-      <entry key="M5" value="10.042337210716353" />
-      <entry key="M10" value="13.990275914640689" />
-      <entry key="M15" value="15.729450221644452" />
-      <entry key="M30" value="18.704379392429026" />
-      <entry key="H1" value="28.380282154450583" />
-      <entry key="H2" value="57.52964274513858" />
-      <entry key="H4" value="125.02359484877651" />
-      <entry key="D1" value="412.66779656654705" />
-      <entry key="W1" value="569.2648963077726" />
+      <entry key="MS100" value="1.0" />
+      <entry key="MS500" value="1.0000372087125877" />
+      <entry key="S2" value="1.0781691171987895" />
+      <entry key="S5" value="1.3854157363136401" />
+      <entry key="S10" value="1.822182832761331" />
+      <entry key="S30" value="3.3185000721500977" />
+      <entry key="S60" value="5.129941553816057" />
+      <entry key="M2" value="7.591023579780675" />
+      <entry key="M5" value="11.714508252646906" />
+      <entry key="M10" value="16.98174181995106" />
+      <entry key="M15" value="20.720041673574052" />
+      <entry key="M30" value="27.25129122549728" />
+      <entry key="H1" value="38.568923793750606" />
+      <entry key="H2" value="67.72954340295233" />
+      <entry key="H4" value="134.78171565624763" />
+      <entry key="D1" value="425.23388266341976" />
+      <entry key="W1" value="584.5874514567488" />
     </decayedCancelled>
     <decayedSelected>
-      <entry key="MS100" value="1.0" />
-      <entry key="MS500" value="1.0" />
-      <entry key="S2" value="1.0000052665727288" />
-      <entry key="S5" value="1.0153934677896512" />
-      <entry key="S10" value="1.3098636617625137" />
-      <entry key="S30" value="4.463976164507386" />
-      <entry key="S60" value="8.649728001292411" />
-      <entry key="M2" value="14.045083498092103" />
-      <entry key="M5" value="21.73164272650114" />
-      <entry key="M10" value="26.34596751108273" />
-      <entry key="M15" value="28.313822074413057" />
-      <entry key="M30" value="32.06974652305442" />
-      <entry key="H1" value="46.24435573161742" />
-      <entry key="H2" value="87.77054360267591" />
-      <entry key="H4" value="180.55146486415015" />
-      <entry key="D1" value="564.5875062560182" />
-      <entry key="W1" value="763.4414754800548" />
+      <entry key="MS100" value="7.476439457663168E-162" />
+      <entry key="MS500" value="5.953042240793073E-33" />
+      <entry key="S2" value="8.783846566325515E-9" />
+      <entry key="S5" value="5.99065184449837E-4" />
+      <entry key="S10" value="0.02449174621224281" />
+      <entry key="S30" value="0.3165770292488842" />
+      <entry key="S60" value="0.7334198202408552" />
+      <entry key="M2" value="1.4135300230816614" />
+      <entry key="M5" value="4.604443318857112" />
+      <entry key="M10" value="11.680137960905139" />
+      <entry key="M15" value="17.043199055159626" />
+      <entry key="M30" value="26.55617620603951" />
+      <entry key="H1" value="43.37545962964381" />
+      <entry key="H2" value="85.19109560415778" />
+      <entry key="H4" value="177.65868438337796" />
+      <entry key="D1" value="565.9074978268306" />
+      <entry key="W1" value="768.5354198631014" />
     </decayedSelected>
     <decayedShown>
-      <entry key="MS100" value="6.195449866665063E-11" />
-      <entry key="MS500" value="0.009086875324592587" />
-      <entry key="S2" value="0.308750892552196" />
-      <entry key="S5" value="0.6375838393197961" />
-      <entry key="S10" value="1.0700597392325921" />
-      <entry key="S30" value="4.4993710510676275" />
-      <entry key="S60" value="9.840997254264005" />
-      <entry key="M2" value="18.14156022117288" />
-      <entry key="M5" value="31.677334289262344" />
-      <entry key="M10" value="40.27794743217531" />
-      <entry key="M15" value="44.00159611890776" />
-      <entry key="M30" value="50.7504405707748" />
-      <entry key="H1" value="74.60693297547773" />
-      <entry key="H2" value="145.282127150883" />
-      <entry key="H4" value="305.5548274460144" />
-      <entry key="D1" value="977.2439401862565" />
-      <entry key="W1" value="1332.704169121758" />
+      <entry key="MS100" value="0.0018097423083796302" />
+      <entry key="MS500" value="0.28283787928328596" />
+      <entry key="S2" value="0.7844664174101723" />
+      <entry key="S5" value="1.2158714092365144" />
+      <entry key="S10" value="1.7223834226885415" />
+      <entry key="S30" value="3.5424595055906463" />
+      <entry key="S60" value="5.787683722189054" />
+      <entry key="M2" value="8.947875180719993" />
+      <entry key="M5" value="16.27784454031035" />
+      <entry key="M10" value="28.624932148088817" />
+      <entry key="M15" value="37.73059029821064" />
+      <entry key="M30" value="53.78402136694279" />
+      <entry key="H1" value="81.92592240313326" />
+      <entry key="H2" value="152.90226447446025" />
+      <entry key="H4" value="312.42012355133267" />
+      <entry key="D1" value="991.1299388643142" />
+      <entry key="W1" value="1353.1206465403882" />
     </decayedShown>
   </component>
   <component name="ProjectColorInfo">{
@@ -337,6 +335,7 @@
     "Application.MaximumValue.executor": "Run",
     "Application.MergeSortedArraysBruteForce.executor": "Run",
     "Application.MergeSortedArraysJava8.executor": "Run",
+    "Application.MergeSortedArraysTwoPointer.executor": "Debug",
     "Application.MergeSortedLists.executor": "Run",
     "Application.MergeTwoSortedLists.executor": "Run",
     "Application.MethodRefExample.executor": "Run",
@@ -540,7 +539,7 @@
     ]
   }
 }]]></component>
-  <component name="RunManager" selected="Application.MergeSortedArraysJava8">
+  <component name="RunManager" selected="Application.MergeSortedArraysTwoPointer">
     <configuration name="Immutable1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="top100dsa.Immutable1" />
       <module name="Dsa" />
@@ -580,6 +579,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="MergeSortedArraysTwoPointer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="top100dsa.MergeSortedArraysTwoPointer" />
+      <module name="Dsa" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="top100dsa.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="RemoveDuplicatesArrayListUnsortedOrder" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="array.RemoveDuplicatesArrayListUnsortedOrder" />
       <module name="Dsa" />
@@ -593,26 +605,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RemoveElementTwoPointer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="top100dsa.RemoveElementTwoPointer" />
-      <module name="Dsa" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="top100dsa.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MergeSortedArraysTwoPointer" />
         <item itemvalue="Application.MergeSortedArraysJava8" />
         <item itemvalue="Application.MergeSortedArraysBruteForce" />
         <item itemvalue="Application.Immutable1" />
         <item itemvalue="Application.RemoveDuplicatesArrayListUnsortedOrder" />
-        <item itemvalue="Application.RemoveElementTwoPointer" />
       </list>
     </recent_temporary>
   </component>
@@ -634,38 +633,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1751545643062</updated>
-    </task>
-    <task id="LOCAL-00779" summary="Exception3">
-      <option name="closed" value="true" />
-      <created>1787735162847</created>
-      <option name="number" value="00779" />
-      <option name="presentableId" value="LOCAL-00779" />
-      <option name="project" value="LOCAL" />
-      <updated>1787735162847</updated>
-    </task>
-    <task id="LOCAL-00780" summary="Exception3">
-      <option name="closed" value="true" />
-      <created>1787735181063</created>
-      <option name="number" value="00780" />
-      <option name="presentableId" value="LOCAL-00780" />
-      <option name="project" value="LOCAL" />
-      <updated>1787735181063</updated>
-    </task>
-    <task id="LOCAL-00781" summary="Exception3">
-      <option name="closed" value="true" />
-      <created>1787735191474</created>
-      <option name="number" value="00781" />
-      <option name="presentableId" value="LOCAL-00781" />
-      <option name="project" value="LOCAL" />
-      <updated>1787735191474</updated>
-    </task>
-    <task id="LOCAL-00782" summary="Exception3">
-      <option name="closed" value="true" />
-      <created>1787735201405</created>
-      <option name="number" value="00782" />
-      <option name="presentableId" value="LOCAL-00782" />
-      <option name="project" value="LOCAL" />
-      <updated>1787735201405</updated>
     </task>
     <task id="LOCAL-00783" summary="Exception3">
       <option name="closed" value="true" />
@@ -1027,7 +994,39 @@
       <option name="project" value="LOCAL" />
       <updated>1788860220848</updated>
     </task>
-    <option name="localTasksCounter" value="828" />
+    <task id="LOCAL-00828" summary="MergeSortedArraysBruteForce">
+      <option name="closed" value="true" />
+      <created>1788861137678</created>
+      <option name="number" value="00828" />
+      <option name="presentableId" value="LOCAL-00828" />
+      <option name="project" value="LOCAL" />
+      <updated>1788861137679</updated>
+    </task>
+    <task id="LOCAL-00829" summary="MergeSortedArraysJava8.java">
+      <option name="closed" value="true" />
+      <created>1788861153751</created>
+      <option name="number" value="00829" />
+      <option name="presentableId" value="LOCAL-00829" />
+      <option name="project" value="LOCAL" />
+      <updated>1788861153751</updated>
+    </task>
+    <task id="LOCAL-00830" summary="MergeSortedArraysJava8.java">
+      <option name="closed" value="true" />
+      <created>1788861159926</created>
+      <option name="number" value="00830" />
+      <option name="presentableId" value="LOCAL-00830" />
+      <option name="project" value="LOCAL" />
+      <updated>1788861159926</updated>
+    </task>
+    <task id="LOCAL-00831" summary="MergeSortedArraysJava8.java">
+      <option name="closed" value="true" />
+      <created>1788861166290</created>
+      <option name="number" value="00831" />
+      <option name="presentableId" value="LOCAL-00831" />
+      <option name="project" value="LOCAL" />
+      <updated>1788861166290</updated>
+    </task>
+    <option name="localTasksCounter" value="832" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -1045,8 +1044,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="BlockingVirtualThreadDemo" />
-    <MESSAGE value="ExceptionHandlingDemo" />
     <MESSAGE value="MassiveVirtualThreadDemo" />
     <MESSAGE value="MostFrequentProducts" />
     <MESSAGE value="CountPairs" />
@@ -1070,7 +1067,9 @@
     <MESSAGE value="ValidPalindromeJava8" />
     <MESSAGE value="VirtualThreadBasicDemo" />
     <MESSAGE value="workspace.xml" />
-    <option name="LAST_COMMIT_MESSAGE" value="workspace.xml" />
+    <MESSAGE value="MergeSortedArraysBruteForce" />
+    <MESSAGE value="MergeSortedArraysJava8.java" />
+    <option name="LAST_COMMIT_MESSAGE" value="MergeSortedArraysJava8.java" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1255,6 +1254,11 @@
           <url>file://$PROJECT_DIR$/DataStracture/src/top100dsa/MoveZeroesBruteForce.java</url>
           <line>20</line>
           <option name="timeStamp" value="55" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/DataStracture/src/top100dsa/MergeSortedArraysTwoPointer.java</url>
+          <line>28</line>
+          <option name="timeStamp" value="56" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/DataStracture/src/linkedList/DeleteWithoutHead.java</url>
