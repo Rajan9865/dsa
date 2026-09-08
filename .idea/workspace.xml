@@ -4,19 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ff3856c1-c1ca-4aca-a6ef-fd33bd67f435" name="Changes" comment="RemoveDuplicatesBruteForce.java">
-      <change afterPath="$PROJECT_DIR$/DataStracture/src/multithreading/concept/ThreadPoolTuningDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DataStracture/src/multithreading/concept/completablefuture/TimeoutDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DataStracture/src/multithreading/concept/multithreadingdesgnpattern/ThreadLocalPatternDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DataStracture/src/multithreading/concept/multithreadingdesgnpattern/ThreadPoolPatternDemo.java" afterDir="false" />
+    <list default="true" id="ff3856c1-c1ca-4aca-a6ef-fd33bd67f435" name="Changes" comment="ValidPalindromeJava8">
       <change afterPath="$PROJECT_DIR$/DataStracture/src/multithreading/concept/virtualthread/VirtualThreadBasicDemo.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/DataStracture/src/multithreading/concept/virtualthread/VirtualThreadExecutorDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DataStracture/src/top100dsa/MoveZeroesTwoPointer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DataStracture/src/top100dsa/ValidPalindromeBruteForce.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DataStracture/src/top100dsa/ValidPalindromeJava8.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/DataStracture/src/top100dsa/ValidPalindromeTwoPointer.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DataStracture/src/playground/A.java" beforeDir="false" afterPath="$PROJECT_DIR$/DataStracture/src/playground/A.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -116,61 +108,61 @@
   </component>
   <component name="NextEditCompletionFeaturesState">
     <decayedCancelled>
-      <entry key="MS100" value="0.0" />
-      <entry key="MS500" value="0.0" />
-      <entry key="S2" value="0.0" />
-      <entry key="S5" value="0.0" />
-      <entry key="S10" value="1.7518636360661121E-277" />
-      <entry key="S30" value="1.2474193248463825E-92" />
-      <entry key="S60" value="2.738410081628061E-46" />
-      <entry key="M2" value="5.612404119469525E-23" />
-      <entry key="M5" value="8.420584524738838E-9" />
-      <entry key="M10" value="5.582951739398543E-4" />
-      <entry key="M15" value="0.02458207482805487" />
-      <entry key="M30" value="1.2527364665829284" />
-      <entry key="H1" value="10.697774836149241" />
-      <entry key="H2" value="40.31740696003629" />
-      <entry key="H4" value="108.29991384614625" />
-      <entry key="D1" value="394.5436171955562" />
-      <entry key="W1" value="549.6360539176409" />
+      <entry key="MS100" value="1.0000053575320271" />
+      <entry key="MS500" value="1.0882659002740471" />
+      <entry key="S2" value="1.545064928493304" />
+      <entry key="S5" value="1.7845125013019754" />
+      <entry key="S10" value="1.8918022148523066" />
+      <entry key="S30" value="2.143027725475806" />
+      <entry key="S60" value="2.407382139383171" />
+      <entry key="M2" value="2.6437007244783226" />
+      <entry key="M5" value="2.8396243002909083" />
+      <entry key="M10" value="2.9170026395700592" />
+      <entry key="M15" value="2.9667877899393" />
+      <entry key="M30" value="4.189123689473028" />
+      <entry key="H1" value="13.532859774888637" />
+      <entry key="H2" value="43.02555513641783" />
+      <entry key="H4" value="110.91333991468906" />
+      <entry key="D1" value="397.3101485510998" />
+      <entry key="W1" value="552.5896127263982" />
     </decayedCancelled>
     <decayedSelected>
-      <entry key="MS100" value="1.0" />
-      <entry key="MS500" value="1.0" />
-      <entry key="S2" value="1.0" />
-      <entry key="S5" value="1.0" />
-      <entry key="S10" value="1.0" />
-      <entry key="S30" value="1.0" />
-      <entry key="S60" value="1.0" />
-      <entry key="M2" value="1.0" />
-      <entry key="M5" value="1.0000000130723214" />
-      <entry key="M10" value="1.0008896971448618" />
-      <entry key="M15" value="1.0393284007995403" />
-      <entry key="M30" value="2.9708924753414383" />
-      <entry key="H1" value="17.250239282320727" />
-      <entry key="H2" value="59.59902331212968" />
-      <entry key="H4" value="153.05354457439066" />
-      <entry key="D1" value="535.1129976435705" />
-      <entry key="W1" value="731.9332458111132" />
+      <entry key="MS100" value="2.944529372730271E-222" />
+      <entry key="MS500" value="4.9408671664324735E-45" />
+      <entry key="S2" value="8.38399082838183E-12" />
+      <entry key="S5" value="3.7100547430621566E-5" />
+      <entry key="S10" value="0.006091021870804731" />
+      <entry key="S30" value="0.18262632770532464" />
+      <entry key="S60" value="0.42734801708364656" />
+      <entry key="M2" value="0.6537186069584118" />
+      <entry key="M5" value="0.8436384096178456" />
+      <entry key="M10" value="0.9193150883836497" />
+      <entry key="M15" value="0.9820604951190037" />
+      <entry key="M30" value="2.8878834169070906" />
+      <entry key="H1" value="17.00753937965559" />
+      <entry key="H2" value="59.178277976189804" />
+      <entry key="H4" value="152.5123392163699" />
+      <entry key="D1" value="534.797167390424" />
+      <entry key="W1" value="731.871516484017" />
     </decayedSelected>
     <decayedShown>
-      <entry key="MS100" value="1.5173654246424067E-6" />
-      <entry key="MS500" value="0.06858324609870269" />
-      <entry key="S2" value="0.511746061806976" />
-      <entry key="S5" value="0.7649301932257635" />
-      <entry key="S10" value="0.8746028774396775" />
-      <entry key="S30" value="0.9563208707987204" />
-      <entry key="S60" value="0.9779165970565794" />
-      <entry key="M2" value="0.9888966564088381" />
-      <entry key="M5" value="0.9955438016398825" />
-      <entry key="M10" value="0.9992151978223253" />
-      <entry key="M15" value="1.062357977010941" />
-      <entry key="M30" value="4.221254205476214" />
-      <entry key="H1" value="27.94083924803054" />
-      <entry key="H2" value="99.90341216948048" />
-      <entry key="H4" value="261.3356362944499" />
-      <entry key="D1" value="929.6456885277453" />
-      <entry key="W1" value="1281.5671652909418" />
+      <entry key="MS100" value="0.9395278885022537" />
+      <entry key="MS500" value="1.0751356315008227" />
+      <entry key="S2" value="1.5408183726977098" />
+      <entry key="S5" value="1.7826416949980677" />
+      <entry key="S10" value="1.8961324554751904" />
+      <entry key="S30" value="2.317285406236548" />
+      <entry key="S60" value="2.8250617198870085" />
+      <entry key="M2" value="3.2900292625523746" />
+      <entry key="M5" value="3.6794452797052855" />
+      <entry key="M10" value="3.834236863122582" />
+      <entry key="M15" value="3.9473610515225266" />
+      <entry key="M30" value="7.074688455386724" />
+      <entry key="H1" value="30.53332006426385" />
+      <entry key="H2" value="102.19090432148624" />
+      <entry key="H4" value="263.40791872736" />
+      <entry key="D1" value="932.0963958624345" />
+      <entry key="W1" value="1284.458994921673" />
     </decayedShown>
   </component>
   <component name="ProjectColorInfo">{
@@ -209,359 +201,346 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_MARK_IGNORED_FILES_AS_EXCLUDED": "true",
-    "Application.A.executor": "Run",
-    "Application.AddTwoLists.executor": "Run",
-    "Application.AnagramCheck.executor": "Run",
-    "Application.ApiAggregatorDemo.executor": "Run",
-    "Application.ApiServerDemo.executor": "Run",
-    "Application.AsyncVsNonAsyncDemo.executor": "Run",
-    "Application.AtomicDemo.executor": "Run",
-    "Application.AtomicExample.executor": "Run",
-    "Application.BankSystem.executor": "Run",
-    "Application.BarrierExample.executor": "Run",
-    "Application.BasicLockExample.executor": "Run",
-    "Application.BasicParallelExample.executor": "Run",
-    "Application.BlockedStateDemo.executor": "Run",
-    "Application.BlockingQueueExample.executor": "Run",
-    "Application.BlockingVirtualThreadDemo.executor": "Run",
-    "Application.CFExample.executor": "Run",
-    "Application.CallableExample.executor": "Run",
-    "Application.CharacterFrequency.executor": "Run",
-    "Application.CheckIfCircularLinkedList.executor": "Run",
-    "Application.CircularLinkedListTraversal.executor": "Run",
-    "Application.CollectorsExammple.executor": "Run",
-    "Application.CollectorsExammple1.executor": "Run",
-    "Application.CollectorsExammple2.executor": "Run",
-    "Application.CombineFuturesDemo.executor": "Run",
-    "Application.CommonElements.executor": "Run",
-    "Application.Concatenatestrings.executor": "Run",
-    "Application.ConcurrentMapExample.executor": "Run",
-    "Application.ConditionExample.executor": "Run",
-    "Application.ConnectionPoolExample.executor": "Run",
-    "Application.CoreConcept.executor": "Run",
-    "Application.CountLongProductsPerCategory.executor": "Run",
-    "Application.CountOccurrences.executor": "Run",
-    "Application.CountPairs.executor": "Debug",
-    "Application.Countwordoccurrences.executor": "Run",
-    "Application.CsvToDatabase.executor": "Run",
-    "Application.CurryingExample.executor": "Run",
-    "Application.CustomPoolExample.executor": "Run",
-    "Application.DeadlockDemo1.executor": "Run",
-    "Application.DeadlockExample.executor": "Run",
-    "Application.DeadlockPreventUsingSamOrder.executor": "Run",
-    "Application.DeadlockPreventUsingTryLock.executor": "Run",
-    "Application.Default1.executor": "Run",
-    "Application.Default2.executor": "Run",
-    "Application.Default3.executor": "Run",
-    "Application.DeleteAllOccurrences.executor": "Run",
-    "Application.DeleteFromDoublyList.executor": "Run",
-    "Application.DeleteLastOccurrence.executor": "Run",
-    "Application.DeleteMiddle.executor": "Run",
-    "Application.DeleteNAfterM.executor": "Debug",
-    "Application.DeleteWithoutHead.executor": "Run",
-    "Application.DeleteinSinglyLinkedList.executor": "Run",
-    "Application.Deletewithoutheadpointer.executor": "Run",
-    "Application.Demo.executor": "Run",
-    "Application.Demo1.executor": "Run",
-    "Application.Demo2.executor": "Run",
-    "Application.DetectLoopInLinkedList.executor": "Run",
-    "Application.DiskSpaceExample.executor": "Run",
-    "Application.DoublyLinkedListTraversal.executor": "Run",
-    "Application.Duplicate.executor": "Run",
-    "Application.Duplicate1.executor": "Run",
-    "Application.DuplicateCharacters.executor": "Run",
-    "Application.DuplicateWords.executor": "Run",
-    "Application.EmployeeAnalytics.executor": "Run",
-    "Application.EmployeeSalaryAnalyzer.executor": "Run",
-    "Application.EnumMain.executor": "Run",
-    "Application.EvenNumber.executor": "Run",
-    "Application.Example1.executor": "Run",
-    "Application.Example2.executor": "Run",
-    "Application.Example3.executor": "Run",
-    "Application.Example4.executor": "Run",
-    "Application.Example5.executor": "Run",
-    "Application.Example6.executor": "Run",
-    "Application.Example7.executor": "Run",
-    "Application.Example8.executor": "Run",
-    "Application.Example9.executor": "Run",
-    "Application.Exception1.executor": "Run",
-    "Application.Exception2.executor": "Run",
-    "Application.Exception3.executor": "Debug",
-    "Application.Exception4.executor": "Debug",
-    "Application.ExceptionHandlingDemo.executor": "Run",
-    "Application.ExecutorCallable.executor": "Run",
-    "Application.ExecutorExample.executor": "Run",
-    "Application.FailFast.executor": "Run",
-    "Application.FailFastExample.executor": "Run",
-    "Application.FailSafe.executor": "Run",
-    "Application.FairLockExample.executor": "Run",
-    "Application.FilterEmployees.executor": "Run",
-    "Application.FindDuplicates.executor": "Run",
-    "Application.FindDuplicatesWithoutGroupingBy.executor": "Run",
-    "Application.FindFirstNode.executor": "Run",
-    "Application.FindlengthofLoop.executor": "Run",
-    "Application.FirstNonRepeatedChar.executor": "Run",
-    "Application.FirstNonRepeatingCharacter.executor": "Run",
-    "Application.FlatMapExample.executor": "Run",
-    "Application.FlattenFilterSort.executor": "Run",
-    "Application.FlattenList.executor": "Run",
-    "Application.FlattenMapValues.executor": "Run",
-    "Application.ForkJoinDemo.executor": "Run",
-    "Application.ForkJoinPatternDemo.executor": "Run",
-    "Application.FrequencyCountAndMaintainTheAscendingOrder.executor": "Run",
-    "Application.FrequencyCountAndMaintainTheAscendingOrder1.executor": "Run",
-    "Application.FrequencyCountAndOrderMaintain.executor": "Run",
-    "Application.FuturePatternDemo.executor": "Run",
-    "Application.GroupByLength.executor": "Run",
-    "Application.GroupLength.executor": "Run",
-    "Application.GroupLength1.executor": "Run",
-    "Application.GroupedProducts.executor": "Run",
-    "Application.GuardedSuspensionDemo.executor": "Run",
-    "Application.Hello.executor": "Run",
-    "Application.Immutable1.executor": "Run",
-    "Application.ImmutablePatternDemo.executor": "Run",
-    "Application.IntersectionPoint.executor": "Run",
-    "Application.IsPalindrome.executor": "Run",
-    "Application.KeyGenerator.executor": "Run",
-    "Application.KthLargestFinder.executor": "Run",
-    "Application.LambdaArgumentExample.executor": "Run",
-    "Application.LambdaComposition.executor": "Run",
-    "Application.LambdaFinalExample.executor": "Run",
-    "Application.LatchExample.executor": "Run",
-    "Application.LazyMain.executor": "Run",
-    "Application.LimitedAccessExample.executor": "Run",
-    "Application.ListBasedExample.executor": "Run",
-    "Application.ListIntegerBasedExample.executor": "Run",
-    "Application.LivelockDemo.executor": "Run",
-    "Application.LockExample.executor": "Run",
-    "Application.LongestAndShortestWord.executor": "Run",
-    "Application.LongestString.executor": "Run",
-    "Application.MassiveVirtualThreadDemo.executor": "Run",
-    "Application.MaxDistinctCategory.executor": "Run",
-    "Application.MaxMinNumber.executor": "Run",
-    "Application.MaximumValue.executor": "Run",
-    "Application.MergeSortedLists.executor": "Run",
-    "Application.MergeTwoSortedLists.executor": "Run",
-    "Application.MethodRefExample.executor": "Run",
-    "Application.MethodsReference1.executor": "Run",
-    "Application.MethodsReference2.executor": "Run",
-    "Application.MethodsReference3.executor": "Run",
-    "Application.MethodsReference4.executor": "Run",
-    "Application.MiddleLinkedList.executor": "Run",
-    "Application.MiddleofLinkedList.executor": "Debug",
-    "Application.MostFrequentElement.executor": "Run",
-    "Application.MostFrequentProducts.executor": "Run",
-    "Application.MoveLastToFront.executor": "Run",
-    "Application.MoveZeroesBruteForce.executor": "Run",
-    "Application.MoveZeroesJava8.executor": "Run",
-    "Application.MultipleFilter.executor": "Run",
-    "Application.MultiplyLinkedLists.executor": "Run",
-    "Application.MutexExample.executor": "Run",
-    "Application.MyRunnable.executor": "Run",
-    "Application.MyRunnable1.executor": "Run",
-    "Application.MyThread.executor": "Run",
-    "Application.MyThreadMainClass.executor": "Run",
-    "Application.MyThreadRunnable.executor": "Run",
-    "Application.NthNodeFromEnd.executor": "Run",
-    "Application.OddEvenDemo.executor": "Run",
-    "Application.OddEvenDemoTraditional.executor": "Run",
-    "Application.OptionalExample.executor": "Run",
-    "Application.OptionalTest.executor": "Run",
-    "Application.OrderProcessingSystem.executor": "Run",
-    "Application.OrderingExample.executor": "Run",
-    "Application.PairSumDLL.executor": "Run",
-    "Application.PairwiseSwap.executor": "Run",
-    "Application.PalindromeFinder.executor": "Run",
-    "Application.PalindromeLinkedList.executor": "Run",
-    "Application.PartitionExample.executor": "Run",
-    "Application.PerformanceExample.executor": "Run",
-    "Application.PreventDeadlockUsingSingleLock.executor": "Run",
-    "Application.PreventDeadlockUsingTimeout.executor": "Run",
-    "Application.PrimeNumbersFinder.executor": "Run",
-    "Application.ProducerConsumer.executor": "Run",
-    "Application.ProducerConsumer1.executor": "Run",
-    "Application.ProducerConsumerPatternDemo.executor": "Run",
-    "Application.RaceConditionDemo.executor": "Run",
-    "Application.RateLimiterDemo.executor": "Run",
-    "Application.RateLimiterExample.executor": "Run",
-    "Application.RawThreadExample.executor": "Run",
-    "Application.Rearrange.executor": "Run",
-    "Application.ReentrantExample.executor": "Run",
-    "Application.RemoveAllDuplicates.executor": "Run",
-    "Application.RemoveDuplicateVendors.executor": "Run",
-    "Application.RemoveDuplicates.executor": "Run",
-    "Application.RemoveDuplicatesArrayList.executor": "Run",
-    "Application.RemoveDuplicatesArrayListUnsortedOrder.executor": "Run",
-    "Application.RemoveDuplicatesBruteForce.executor": "Run",
-    "Application.RemoveDuplicatesJava8.executor": "Run",
-    "Application.RemoveDuplicatesfromSortedLinkedList.executor": "Run",
-    "Application.RemoveElementBruteForce.executor": "Run",
-    "Application.RemoveElementJava8.executor": "Run",
-    "Application.RemoveElementTwoPointer.executor": "Debug",
-    "Application.RemoveLoopByMethods.executor": "Run",
-    "Application.RemoveLoopFromLinkedList.executor": "Run",
-    "Application.RemoveLoopfromLinkedList.executor": "Debug",
-    "Application.RemoveLoopfromLinkedList1.executor": "Run",
-    "Application.RemoveNodesWithGreaterRight.executor": "Run",
-    "Application.RemoveTwoGreatest.executor": "Run",
-    "Application.Removeduplicatesfromunsortedlinkedlist.executor": "Run",
-    "Application.RequestContextDemo.executor": "Run",
-    "Application.ReverseArrayBruteForce.executor": "Run",
-    "Application.ReverseArrayJava8.executor": "Run",
-    "Application.ReverseArrayTwoPointer.executor": "Run",
-    "Application.ReverseBetween.executor": "Run",
-    "Application.ReverseBetweenAandB.executor": "Run",
-    "Application.ReverseBothParts.executor": "Run",
-    "Application.ReverseDoublyLinkedList.executor": "Run",
-    "Application.ReverseEachWord.executor": "Run",
-    "Application.ReverseInGroups.executor": "Run",
-    "Application.ReverseKGroup.executor": "Run",
-    "Application.ReverseLinkedList.executor": "Run",
-    "Application.ReverseLinkedList1.executor": "Debug",
-    "Application.ReverseLinkedListRecursiveApproach.executor": "Debug",
-    "Application.ReversePartialString.executor": "Run",
-    "Application.ReverseString.executor": "Run",
-    "Application.ReverseStringBruteForce.executor": "Run",
-    "Application.ReverseStringJava8.executor": "Run",
-    "Application.ReverseStringTwoPointer.executor": "Run",
-    "Application.ReverseWords.executor": "Run",
-    "Application.Reverselinkedlist.executor": "Run",
-    "Application.RomanToInteger.executor": "Run",
-    "Application.RotateDLL.executor": "Run",
-    "Application.RotateLinkedList.executor": "Run",
-    "Application.RotateLinkedListLeft.executor": "Debug",
-    "Application.RotateLinkedListRight.executor": "Debug",
-    "Application.SafeRemovalExample.executor": "Run",
-    "Application.SecondHighest.executor": "Run",
-    "Application.SecondLargestElement.executor": "Run",
-    "Application.SecondSmallest.executor": "Run",
-    "Application.Segregate012.executor": "Run",
-    "Application.Singleton.executor": "Run",
-    "Application.SingletonEager.executor": "Run",
-    "Application.Sortemployeesbysalary.executor": "Run",
-    "Application.StarvationDemo.executor": "Run",
-    "Application.Str8ing2.executor": "Run",
-    "Application.String1.executor": "Debug",
-    "Application.StringPlayground.executor": "Run",
-    "Application.StringRotation.executor": "Run",
-    "Application.StringsStartingWith.executor": "Run",
-    "Application.SumOfDigits.executor": "Run",
-    "Application.SumOfEvenNumbers.executor": "Run",
-    "Application.SumOfNumber.executor": "Run",
-    "Application.SwapKthNodes.executor": "Run",
-    "Application.SynchronizedDemo.executor": "Run",
-    "Application.ThenApplyVsCompose.executor": "Run",
-    "Application.ThreadLifeCycleDemo.executor": "Run",
-    "Application.ThreadLocalBasic.executor": "Run",
-    "Application.ThreadLocalBug.executor": "Run",
-    "Application.ThreadLocalPatternDemo.executor": "Run",
-    "Application.ThreadLocalUserExample.executor": "Run",
-    "Application.ThreadPoolExecutorDemo.executor": "Run",
-    "Application.ThreadPoolPatternDemo.executor": "Run",
-    "Application.ThreadPoolTuningDemo.executor": "Run",
-    "Application.ThreadSafeMain (1).executor": "Run",
-    "Application.ThreadSafeMain.executor": "Run",
-    "Application.ThreadSafeMain1.executor": "Run",
-    "Application.ThreadStatesDemo.executor": "Debug",
-    "Application.ThreadStatesDemo1.executor": "Run",
-    "Application.TimeoutDemo.executor": "Run",
-    "Application.Top3highestnumbers.executor": "Run",
-    "Application.TopNPerCategory.executor": "Run",
-    "Application.TryAcquireExample.executor": "Run",
-    "Application.TryLockExample.executor": "Run",
-    "Application.TryLockTimeoutExample.executor": "Run",
-    "Application.TwoSum.executor": "Run",
-    "Application.TwoSumIndices.executor": "Run",
-    "Application.TwoThreadsSafe.executor": "Run",
-    "Application.UniqueSortedProducts.executor": "Run",
-    "Application.ValidPalindromeBruteForce.executor": "Run",
-    "Application.ValidPalindromeJava8.executor": "Run",
-    "Application.ValidPalindromeTwoPointer.executor": "Run",
-    "Application.ValidPalindromeWithSpecialCharacter.executor": "Run",
-    "Application.VirtualThreadBasicDemo.executor": "Run",
-    "Application.VirtualThreadDemo.executor": "Run",
-    "Application.VirtualThreadExecutorDemo.executor": "Run",
-    "Application.VolatileCounter.executor": "Run",
-    "Application.VolatileCounter1.executor": "Run",
-    "Application.VolatileCounter2.executor": "Run",
-    "Application.VolatileCounter2withAtomic.executor": "Run",
-    "Application.VowelCount.executor": "Run",
-    "Application.VowelCount1.executor": "Run",
-    "Application.VowelCount2.executor": "Run",
-    "Application.WithVolatile.executor": "Run",
-    "Application.WithoutSynchronization.executor": "Run",
-    "Application.WithoutVolatile.executor": "Run",
-    "Application.WordFrequency.executor": "Run",
-    "Application.WorkerWithVolatile.executor": "Run",
-    "Application.WorkerWithoutVolatile.executor": "Run",
-    "Application.WrongExampl.executor": "Run",
-    "Application.WrongExample.executor": "Run",
-    "Application.doubleRevision.ReverseLinkedList.executor": "Run",
-    "Application.failFast1.executor": "Run",
-    "Application.failFast1Solution.executor": "Run",
-    "Application.linkedList.PalindromeLinkedList.executor": "Run",
-    "Application.partitionLinkedListGivenData.executor": "Run",
-    "Application.revision.DetectLoopInLinkedList.executor": "Run",
-    "Application.revision.LazyMain.executor": "Run",
-    "Application.revision.ThreadSafeMain.executor": "Run",
-    "Application.string.Hello.executor": "Run",
-    "Application.string.revision.ReverseEachWord.executor": "Run",
-    "Application.stringrevision.ReverseWords.executor": "Run",
-    "Application.top100dsa.revision.ReverseArrayJava8.executor": "Run",
-    "Application.top100dsa.revision.ReverseArrayTwoPointer.executor": "Run",
-    "Application.top100dsa.revision.ReverseStringBruteForce.executor": "Run",
-    "ModuleVcsDetector.initialDetectionPerformed": "true",
-    "RunOnceActivity.MCP Project settings loaded": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "SONARLINT_PRECOMMIT_ANALYSIS": "true",
-    "codeWithMe.voiceChat.enabledByDefault": "false",
-    "com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultAutoModeForALLUsers.v1": "true",
-    "com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1": "true",
-    "copilot.chat.legacySessionMetadata.migrated": "true",
-    "git-widget-placeholder": "master",
-    "junie.onboarding.icon.badge.shown": "true",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "D:/Dsa",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Problems",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "preferences.pluginManager",
-    "to.speed.mode.migration.done": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_MARK_IGNORED_FILES_AS_EXCLUDED&quot;: &quot;true&quot;,
+    &quot;Application.A.executor&quot;: &quot;Run&quot;,
+    &quot;Application.AddTwoLists.executor&quot;: &quot;Run&quot;,
+    &quot;Application.AnagramCheck.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ApiAggregatorDemo.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ApiServerDemo.executor&quot;: &quot;Run&quot;,
+    &quot;Application.AsyncVsNonAsyncDemo.executor&quot;: &quot;Run&quot;,
+    &quot;Application.AtomicDemo.executor&quot;: &quot;Run&quot;,
+    &quot;Application.AtomicExample.executor&quot;: &quot;Run&quot;,
+    &quot;Application.BankSystem.executor&quot;: &quot;Run&quot;,
+    &quot;Application.BarrierExample.executor&quot;: &quot;Run&quot;,
+    &quot;Application.BasicLockExample.executor&quot;: &quot;Run&quot;,
+    &quot;Application.BasicParallelExample.executor&quot;: &quot;Run&quot;,
+    &quot;Application.BlockedStateDemo.executor&quot;: &quot;Run&quot;,
+    &quot;Application.BlockingQueueExample.executor&quot;: &quot;Run&quot;,
+    &quot;Application.BlockingVirtualThreadDemo.executor&quot;: &quot;Run&quot;,
+    &quot;Application.CFExample.executor&quot;: &quot;Run&quot;,
+    &quot;Application.CallableExample.executor&quot;: &quot;Run&quot;,
+    &quot;Application.CharacterFrequency.executor&quot;: &quot;Run&quot;,
+    &quot;Application.CheckIfCircularLinkedList.executor&quot;: &quot;Run&quot;,
+    &quot;Application.CircularLinkedListTraversal.executor&quot;: &quot;Run&quot;,
+    &quot;Application.CollectorsExammple.executor&quot;: &quot;Run&quot;,
+    &quot;Application.CollectorsExammple1.executor&quot;: &quot;Run&quot;,
+    &quot;Application.CollectorsExammple2.executor&quot;: &quot;Run&quot;,
+    &quot;Application.CombineFuturesDemo.executor&quot;: &quot;Run&quot;,
+    &quot;Application.CommonElements.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Concatenatestrings.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ConcurrentMapExample.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ConditionExample.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ConnectionPoolExample.executor&quot;: &quot;Run&quot;,
+    &quot;Application.CoreConcept.executor&quot;: &quot;Run&quot;,
+    &quot;Application.CountLongProductsPerCategory.executor&quot;: &quot;Run&quot;,
+    &quot;Application.CountOccurrences.executor&quot;: &quot;Run&quot;,
+    &quot;Application.CountPairs.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.Countwordoccurrences.executor&quot;: &quot;Run&quot;,
+    &quot;Application.CsvToDatabase.executor&quot;: &quot;Run&quot;,
+    &quot;Application.CurryingExample.executor&quot;: &quot;Run&quot;,
+    &quot;Application.CustomPoolExample.executor&quot;: &quot;Run&quot;,
+    &quot;Application.DeadlockDemo1.executor&quot;: &quot;Run&quot;,
+    &quot;Application.DeadlockExample.executor&quot;: &quot;Run&quot;,
+    &quot;Application.DeadlockPreventUsingSamOrder.executor&quot;: &quot;Run&quot;,
+    &quot;Application.DeadlockPreventUsingTryLock.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Default1.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Default2.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Default3.executor&quot;: &quot;Run&quot;,
+    &quot;Application.DeleteAllOccurrences.executor&quot;: &quot;Run&quot;,
+    &quot;Application.DeleteFromDoublyList.executor&quot;: &quot;Run&quot;,
+    &quot;Application.DeleteLastOccurrence.executor&quot;: &quot;Run&quot;,
+    &quot;Application.DeleteMiddle.executor&quot;: &quot;Run&quot;,
+    &quot;Application.DeleteNAfterM.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.DeleteWithoutHead.executor&quot;: &quot;Run&quot;,
+    &quot;Application.DeleteinSinglyLinkedList.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Deletewithoutheadpointer.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Demo.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Demo1.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Demo2.executor&quot;: &quot;Run&quot;,
+    &quot;Application.DetectLoopInLinkedList.executor&quot;: &quot;Run&quot;,
+    &quot;Application.DiskSpaceExample.executor&quot;: &quot;Run&quot;,
+    &quot;Application.DoublyLinkedListTraversal.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Duplicate.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Duplicate1.executor&quot;: &quot;Run&quot;,
+    &quot;Application.DuplicateCharacters.executor&quot;: &quot;Run&quot;,
+    &quot;Application.DuplicateWords.executor&quot;: &quot;Run&quot;,
+    &quot;Application.EmployeeAnalytics.executor&quot;: &quot;Run&quot;,
+    &quot;Application.EmployeeSalaryAnalyzer.executor&quot;: &quot;Run&quot;,
+    &quot;Application.EnumMain.executor&quot;: &quot;Run&quot;,
+    &quot;Application.EvenNumber.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Example1.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Example2.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Example3.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Example4.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Example5.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Example6.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Example7.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Example8.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Example9.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Exception1.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Exception2.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Exception3.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.Exception4.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.ExceptionHandlingDemo.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ExecutorCallable.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ExecutorExample.executor&quot;: &quot;Run&quot;,
+    &quot;Application.FailFast.executor&quot;: &quot;Run&quot;,
+    &quot;Application.FailFastExample.executor&quot;: &quot;Run&quot;,
+    &quot;Application.FailSafe.executor&quot;: &quot;Run&quot;,
+    &quot;Application.FairLockExample.executor&quot;: &quot;Run&quot;,
+    &quot;Application.FilterEmployees.executor&quot;: &quot;Run&quot;,
+    &quot;Application.FindDuplicates.executor&quot;: &quot;Run&quot;,
+    &quot;Application.FindDuplicatesWithoutGroupingBy.executor&quot;: &quot;Run&quot;,
+    &quot;Application.FindFirstNode.executor&quot;: &quot;Run&quot;,
+    &quot;Application.FindlengthofLoop.executor&quot;: &quot;Run&quot;,
+    &quot;Application.FirstNonRepeatedChar.executor&quot;: &quot;Run&quot;,
+    &quot;Application.FirstNonRepeatingCharacter.executor&quot;: &quot;Run&quot;,
+    &quot;Application.FlatMapExample.executor&quot;: &quot;Run&quot;,
+    &quot;Application.FlattenFilterSort.executor&quot;: &quot;Run&quot;,
+    &quot;Application.FlattenList.executor&quot;: &quot;Run&quot;,
+    &quot;Application.FlattenMapValues.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ForkJoinDemo.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ForkJoinPatternDemo.executor&quot;: &quot;Run&quot;,
+    &quot;Application.FrequencyCountAndMaintainTheAscendingOrder.executor&quot;: &quot;Run&quot;,
+    &quot;Application.FrequencyCountAndMaintainTheAscendingOrder1.executor&quot;: &quot;Run&quot;,
+    &quot;Application.FrequencyCountAndOrderMaintain.executor&quot;: &quot;Run&quot;,
+    &quot;Application.FuturePatternDemo.executor&quot;: &quot;Run&quot;,
+    &quot;Application.GroupByLength.executor&quot;: &quot;Run&quot;,
+    &quot;Application.GroupLength.executor&quot;: &quot;Run&quot;,
+    &quot;Application.GroupLength1.executor&quot;: &quot;Run&quot;,
+    &quot;Application.GroupedProducts.executor&quot;: &quot;Run&quot;,
+    &quot;Application.GuardedSuspensionDemo.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Hello.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Immutable1.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ImmutablePatternDemo.executor&quot;: &quot;Run&quot;,
+    &quot;Application.IntersectionPoint.executor&quot;: &quot;Run&quot;,
+    &quot;Application.IsPalindrome.executor&quot;: &quot;Run&quot;,
+    &quot;Application.KeyGenerator.executor&quot;: &quot;Run&quot;,
+    &quot;Application.KthLargestFinder.executor&quot;: &quot;Run&quot;,
+    &quot;Application.LambdaArgumentExample.executor&quot;: &quot;Run&quot;,
+    &quot;Application.LambdaComposition.executor&quot;: &quot;Run&quot;,
+    &quot;Application.LambdaFinalExample.executor&quot;: &quot;Run&quot;,
+    &quot;Application.LatchExample.executor&quot;: &quot;Run&quot;,
+    &quot;Application.LazyMain.executor&quot;: &quot;Run&quot;,
+    &quot;Application.LimitedAccessExample.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ListBasedExample.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ListIntegerBasedExample.executor&quot;: &quot;Run&quot;,
+    &quot;Application.LivelockDemo.executor&quot;: &quot;Run&quot;,
+    &quot;Application.LockExample.executor&quot;: &quot;Run&quot;,
+    &quot;Application.LongestAndShortestWord.executor&quot;: &quot;Run&quot;,
+    &quot;Application.LongestString.executor&quot;: &quot;Run&quot;,
+    &quot;Application.MassiveVirtualThreadDemo.executor&quot;: &quot;Run&quot;,
+    &quot;Application.MaxDistinctCategory.executor&quot;: &quot;Run&quot;,
+    &quot;Application.MaxMinNumber.executor&quot;: &quot;Run&quot;,
+    &quot;Application.MaximumValue.executor&quot;: &quot;Run&quot;,
+    &quot;Application.MergeSortedLists.executor&quot;: &quot;Run&quot;,
+    &quot;Application.MergeTwoSortedLists.executor&quot;: &quot;Run&quot;,
+    &quot;Application.MethodRefExample.executor&quot;: &quot;Run&quot;,
+    &quot;Application.MethodsReference1.executor&quot;: &quot;Run&quot;,
+    &quot;Application.MethodsReference2.executor&quot;: &quot;Run&quot;,
+    &quot;Application.MethodsReference3.executor&quot;: &quot;Run&quot;,
+    &quot;Application.MethodsReference4.executor&quot;: &quot;Run&quot;,
+    &quot;Application.MiddleLinkedList.executor&quot;: &quot;Run&quot;,
+    &quot;Application.MiddleofLinkedList.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.MostFrequentElement.executor&quot;: &quot;Run&quot;,
+    &quot;Application.MostFrequentProducts.executor&quot;: &quot;Run&quot;,
+    &quot;Application.MoveLastToFront.executor&quot;: &quot;Run&quot;,
+    &quot;Application.MoveZeroesBruteForce.executor&quot;: &quot;Run&quot;,
+    &quot;Application.MoveZeroesJava8.executor&quot;: &quot;Run&quot;,
+    &quot;Application.MultipleFilter.executor&quot;: &quot;Run&quot;,
+    &quot;Application.MultiplyLinkedLists.executor&quot;: &quot;Run&quot;,
+    &quot;Application.MutexExample.executor&quot;: &quot;Run&quot;,
+    &quot;Application.MyRunnable.executor&quot;: &quot;Run&quot;,
+    &quot;Application.MyRunnable1.executor&quot;: &quot;Run&quot;,
+    &quot;Application.MyThread.executor&quot;: &quot;Run&quot;,
+    &quot;Application.MyThreadMainClass.executor&quot;: &quot;Run&quot;,
+    &quot;Application.MyThreadRunnable.executor&quot;: &quot;Run&quot;,
+    &quot;Application.NthNodeFromEnd.executor&quot;: &quot;Run&quot;,
+    &quot;Application.OddEvenDemo.executor&quot;: &quot;Run&quot;,
+    &quot;Application.OddEvenDemoTraditional.executor&quot;: &quot;Run&quot;,
+    &quot;Application.OptionalExample.executor&quot;: &quot;Run&quot;,
+    &quot;Application.OptionalTest.executor&quot;: &quot;Run&quot;,
+    &quot;Application.OrderProcessingSystem.executor&quot;: &quot;Run&quot;,
+    &quot;Application.OrderingExample.executor&quot;: &quot;Run&quot;,
+    &quot;Application.PairSumDLL.executor&quot;: &quot;Run&quot;,
+    &quot;Application.PairwiseSwap.executor&quot;: &quot;Run&quot;,
+    &quot;Application.PalindromeFinder.executor&quot;: &quot;Run&quot;,
+    &quot;Application.PalindromeLinkedList.executor&quot;: &quot;Run&quot;,
+    &quot;Application.PartitionExample.executor&quot;: &quot;Run&quot;,
+    &quot;Application.PerformanceExample.executor&quot;: &quot;Run&quot;,
+    &quot;Application.PreventDeadlockUsingSingleLock.executor&quot;: &quot;Run&quot;,
+    &quot;Application.PreventDeadlockUsingTimeout.executor&quot;: &quot;Run&quot;,
+    &quot;Application.PrimeNumbersFinder.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ProducerConsumer.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ProducerConsumer1.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ProducerConsumerPatternDemo.executor&quot;: &quot;Run&quot;,
+    &quot;Application.RaceConditionDemo.executor&quot;: &quot;Run&quot;,
+    &quot;Application.RateLimiterDemo.executor&quot;: &quot;Run&quot;,
+    &quot;Application.RateLimiterExample.executor&quot;: &quot;Run&quot;,
+    &quot;Application.RawThreadExample.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Rearrange.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ReentrantExample.executor&quot;: &quot;Run&quot;,
+    &quot;Application.RemoveAllDuplicates.executor&quot;: &quot;Run&quot;,
+    &quot;Application.RemoveDuplicateVendors.executor&quot;: &quot;Run&quot;,
+    &quot;Application.RemoveDuplicates.executor&quot;: &quot;Run&quot;,
+    &quot;Application.RemoveDuplicatesArrayList.executor&quot;: &quot;Run&quot;,
+    &quot;Application.RemoveDuplicatesArrayListUnsortedOrder.executor&quot;: &quot;Run&quot;,
+    &quot;Application.RemoveDuplicatesBruteForce.executor&quot;: &quot;Run&quot;,
+    &quot;Application.RemoveDuplicatesJava8.executor&quot;: &quot;Run&quot;,
+    &quot;Application.RemoveDuplicatesfromSortedLinkedList.executor&quot;: &quot;Run&quot;,
+    &quot;Application.RemoveElementBruteForce.executor&quot;: &quot;Run&quot;,
+    &quot;Application.RemoveElementJava8.executor&quot;: &quot;Run&quot;,
+    &quot;Application.RemoveElementTwoPointer.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.RemoveLoopByMethods.executor&quot;: &quot;Run&quot;,
+    &quot;Application.RemoveLoopFromLinkedList.executor&quot;: &quot;Run&quot;,
+    &quot;Application.RemoveLoopfromLinkedList.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.RemoveLoopfromLinkedList1.executor&quot;: &quot;Run&quot;,
+    &quot;Application.RemoveNodesWithGreaterRight.executor&quot;: &quot;Run&quot;,
+    &quot;Application.RemoveTwoGreatest.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Removeduplicatesfromunsortedlinkedlist.executor&quot;: &quot;Run&quot;,
+    &quot;Application.RequestContextDemo.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ReverseArrayBruteForce.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ReverseArrayJava8.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ReverseArrayTwoPointer.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ReverseBetween.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ReverseBetweenAandB.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ReverseBothParts.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ReverseDoublyLinkedList.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ReverseEachWord.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ReverseInGroups.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ReverseKGroup.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ReverseLinkedList.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ReverseLinkedList1.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.ReverseLinkedListRecursiveApproach.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.ReversePartialString.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ReverseString.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ReverseStringBruteForce.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ReverseStringJava8.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ReverseStringTwoPointer.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ReverseWords.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Reverselinkedlist.executor&quot;: &quot;Run&quot;,
+    &quot;Application.RomanToInteger.executor&quot;: &quot;Run&quot;,
+    &quot;Application.RotateDLL.executor&quot;: &quot;Run&quot;,
+    &quot;Application.RotateLinkedList.executor&quot;: &quot;Run&quot;,
+    &quot;Application.RotateLinkedListLeft.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.RotateLinkedListRight.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.SafeRemovalExample.executor&quot;: &quot;Run&quot;,
+    &quot;Application.SecondHighest.executor&quot;: &quot;Run&quot;,
+    &quot;Application.SecondLargestElement.executor&quot;: &quot;Run&quot;,
+    &quot;Application.SecondSmallest.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Segregate012.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Singleton.executor&quot;: &quot;Run&quot;,
+    &quot;Application.SingletonEager.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Sortemployeesbysalary.executor&quot;: &quot;Run&quot;,
+    &quot;Application.StarvationDemo.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Str8ing2.executor&quot;: &quot;Run&quot;,
+    &quot;Application.String1.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.StringPlayground.executor&quot;: &quot;Run&quot;,
+    &quot;Application.StringRotation.executor&quot;: &quot;Run&quot;,
+    &quot;Application.StringsStartingWith.executor&quot;: &quot;Run&quot;,
+    &quot;Application.SumOfDigits.executor&quot;: &quot;Run&quot;,
+    &quot;Application.SumOfEvenNumbers.executor&quot;: &quot;Run&quot;,
+    &quot;Application.SumOfNumber.executor&quot;: &quot;Run&quot;,
+    &quot;Application.SwapKthNodes.executor&quot;: &quot;Run&quot;,
+    &quot;Application.SynchronizedDemo.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ThenApplyVsCompose.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ThreadLifeCycleDemo.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ThreadLocalBasic.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ThreadLocalBug.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ThreadLocalPatternDemo.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ThreadLocalUserExample.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ThreadPoolExecutorDemo.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ThreadPoolPatternDemo.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ThreadPoolTuningDemo.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ThreadSafeMain (1).executor&quot;: &quot;Run&quot;,
+    &quot;Application.ThreadSafeMain.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ThreadSafeMain1.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ThreadStatesDemo.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.ThreadStatesDemo1.executor&quot;: &quot;Run&quot;,
+    &quot;Application.TimeoutDemo.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Top3highestnumbers.executor&quot;: &quot;Run&quot;,
+    &quot;Application.TopNPerCategory.executor&quot;: &quot;Run&quot;,
+    &quot;Application.TryAcquireExample.executor&quot;: &quot;Run&quot;,
+    &quot;Application.TryLockExample.executor&quot;: &quot;Run&quot;,
+    &quot;Application.TryLockTimeoutExample.executor&quot;: &quot;Run&quot;,
+    &quot;Application.TwoSum.executor&quot;: &quot;Run&quot;,
+    &quot;Application.TwoSumIndices.executor&quot;: &quot;Run&quot;,
+    &quot;Application.TwoThreadsSafe.executor&quot;: &quot;Run&quot;,
+    &quot;Application.UniqueSortedProducts.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ValidPalindromeBruteForce.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ValidPalindromeJava8.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ValidPalindromeTwoPointer.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ValidPalindromeWithSpecialCharacter.executor&quot;: &quot;Run&quot;,
+    &quot;Application.VirtualThreadBasicDemo.executor&quot;: &quot;Run&quot;,
+    &quot;Application.VirtualThreadDemo.executor&quot;: &quot;Run&quot;,
+    &quot;Application.VirtualThreadExecutorDemo.executor&quot;: &quot;Run&quot;,
+    &quot;Application.VolatileCounter.executor&quot;: &quot;Run&quot;,
+    &quot;Application.VolatileCounter1.executor&quot;: &quot;Run&quot;,
+    &quot;Application.VolatileCounter2.executor&quot;: &quot;Run&quot;,
+    &quot;Application.VolatileCounter2withAtomic.executor&quot;: &quot;Run&quot;,
+    &quot;Application.VowelCount.executor&quot;: &quot;Run&quot;,
+    &quot;Application.VowelCount1.executor&quot;: &quot;Run&quot;,
+    &quot;Application.VowelCount2.executor&quot;: &quot;Run&quot;,
+    &quot;Application.WithVolatile.executor&quot;: &quot;Run&quot;,
+    &quot;Application.WithoutSynchronization.executor&quot;: &quot;Run&quot;,
+    &quot;Application.WithoutVolatile.executor&quot;: &quot;Run&quot;,
+    &quot;Application.WordFrequency.executor&quot;: &quot;Run&quot;,
+    &quot;Application.WorkerWithVolatile.executor&quot;: &quot;Run&quot;,
+    &quot;Application.WorkerWithoutVolatile.executor&quot;: &quot;Run&quot;,
+    &quot;Application.WrongExampl.executor&quot;: &quot;Run&quot;,
+    &quot;Application.WrongExample.executor&quot;: &quot;Run&quot;,
+    &quot;Application.doubleRevision.ReverseLinkedList.executor&quot;: &quot;Run&quot;,
+    &quot;Application.failFast1.executor&quot;: &quot;Run&quot;,
+    &quot;Application.failFast1Solution.executor&quot;: &quot;Run&quot;,
+    &quot;Application.linkedList.PalindromeLinkedList.executor&quot;: &quot;Run&quot;,
+    &quot;Application.partitionLinkedListGivenData.executor&quot;: &quot;Run&quot;,
+    &quot;Application.revision.DetectLoopInLinkedList.executor&quot;: &quot;Run&quot;,
+    &quot;Application.revision.LazyMain.executor&quot;: &quot;Run&quot;,
+    &quot;Application.revision.ThreadSafeMain.executor&quot;: &quot;Run&quot;,
+    &quot;Application.string.Hello.executor&quot;: &quot;Run&quot;,
+    &quot;Application.string.revision.ReverseEachWord.executor&quot;: &quot;Run&quot;,
+    &quot;Application.stringrevision.ReverseWords.executor&quot;: &quot;Run&quot;,
+    &quot;Application.top100dsa.revision.ReverseArrayJava8.executor&quot;: &quot;Run&quot;,
+    &quot;Application.top100dsa.revision.ReverseArrayTwoPointer.executor&quot;: &quot;Run&quot;,
+    &quot;Application.top100dsa.revision.ReverseStringBruteForce.executor&quot;: &quot;Run&quot;,
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.MCP Project settings loaded&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.typescript.service.memoryLimit.init&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;SONARLINT_PRECOMMIT_ANALYSIS&quot;: &quot;true&quot;,
+    &quot;codeWithMe.voiceChat.enabledByDefault&quot;: &quot;false&quot;,
+    &quot;com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultAutoModeForALLUsers.v1&quot;: &quot;true&quot;,
+    &quot;com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1&quot;: &quot;true&quot;,
+    &quot;copilot.chat.legacySessionMetadata.migrated&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;junie.onboarding.icon.badge.shown&quot;: &quot;true&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/Dsa&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
+    &quot;to.speed.mode.migration.done&quot;: &quot;true&quot;
   },
-  "keyToStringList": {
-    "DatabaseDriversLRU": [
-      "mysql"
+  &quot;keyToStringList&quot;: {
+    &quot;DatabaseDriversLRU&quot;: [
+      &quot;mysql&quot;
     ]
   }
-}]]></component>
-  <component name="RunManager" selected="Application.A">
-    <configuration name="A" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="playground.A" />
-      <module name="Dsa" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="playground.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MoveZeroesBruteForce" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="top100dsa.MoveZeroesBruteForce" />
+}</component>
+  <component name="RunManager" selected="Application.RemoveDuplicatesArrayListUnsortedOrder">
+    <configuration name="Immutable1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="top100dsa.Immutable1" />
       <module name="Dsa" />
       <extension name="coverage">
         <pattern>
@@ -579,6 +558,19 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="top100dsa.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RemoveDuplicatesArrayListUnsortedOrder" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="array.RemoveDuplicatesArrayListUnsortedOrder" />
+      <module name="Dsa" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="array.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -614,11 +606,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.A" />
-        <item itemvalue="Application.MoveZeroesJava8" />
-        <item itemvalue="Application.MoveZeroesBruteForce" />
+        <item itemvalue="Application.RemoveDuplicatesArrayListUnsortedOrder" />
+        <item itemvalue="Application.Immutable1" />
         <item itemvalue="Application.RemoveElementTwoPointer" />
         <item itemvalue="Application.RemoveElementJava8" />
+        <item itemvalue="Application.MoveZeroesJava8" />
       </list>
     </recent_temporary>
   </component>
@@ -640,214 +632,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1751545643062</updated>
-    </task>
-    <task id="LOCAL-00748" summary="ReverseArrayBruteForce">
-      <option name="closed" value="true" />
-      <created>1787045854206</created>
-      <option name="number" value="00748" />
-      <option name="presentableId" value="LOCAL-00748" />
-      <option name="project" value="LOCAL" />
-      <updated>1787045854206</updated>
-    </task>
-    <task id="LOCAL-00749" summary="ReverseArrayBruteForce">
-      <option name="closed" value="true" />
-      <created>1787045878963</created>
-      <option name="number" value="00749" />
-      <option name="presentableId" value="LOCAL-00749" />
-      <option name="project" value="LOCAL" />
-      <updated>1787045878963</updated>
-    </task>
-    <task id="LOCAL-00750" summary="ReverseArrayBruteForce">
-      <option name="closed" value="true" />
-      <created>1787045884995</created>
-      <option name="number" value="00750" />
-      <option name="presentableId" value="LOCAL-00750" />
-      <option name="project" value="LOCAL" />
-      <updated>1787045884995</updated>
-    </task>
-    <task id="LOCAL-00751" summary="ReverseArrayBruteForce">
-      <option name="closed" value="true" />
-      <created>1787045890569</created>
-      <option name="number" value="00751" />
-      <option name="presentableId" value="LOCAL-00751" />
-      <option name="project" value="LOCAL" />
-      <updated>1787045890570</updated>
-    </task>
-    <task id="LOCAL-00752" summary="ReverseArrayBruteForce">
-      <option name="closed" value="true" />
-      <created>1787045895338</created>
-      <option name="number" value="00752" />
-      <option name="presentableId" value="LOCAL-00752" />
-      <option name="project" value="LOCAL" />
-      <updated>1787045895338</updated>
-    </task>
-    <task id="LOCAL-00753" summary="ReverseArrayBruteForce">
-      <option name="closed" value="true" />
-      <created>1787045899689</created>
-      <option name="number" value="00753" />
-      <option name="presentableId" value="LOCAL-00753" />
-      <option name="project" value="LOCAL" />
-      <updated>1787045899689</updated>
-    </task>
-    <task id="LOCAL-00754" summary="ReverseArrayBruteForce">
-      <option name="closed" value="true" />
-      <created>1787045904719</created>
-      <option name="number" value="00754" />
-      <option name="presentableId" value="LOCAL-00754" />
-      <option name="project" value="LOCAL" />
-      <updated>1787045904719</updated>
-    </task>
-    <task id="LOCAL-00755" summary="ReverseArrayBruteForce">
-      <option name="closed" value="true" />
-      <created>1787045909862</created>
-      <option name="number" value="00755" />
-      <option name="presentableId" value="LOCAL-00755" />
-      <option name="project" value="LOCAL" />
-      <updated>1787045909862</updated>
-    </task>
-    <task id="LOCAL-00756" summary="ReverseArrayBruteForce">
-      <option name="closed" value="true" />
-      <created>1787287931576</created>
-      <option name="number" value="00756" />
-      <option name="presentableId" value="LOCAL-00756" />
-      <option name="project" value="LOCAL" />
-      <updated>1787287931577</updated>
-    </task>
-    <task id="LOCAL-00757" summary="ReverseArrayBruteForce">
-      <option name="closed" value="true" />
-      <created>1787287942392</created>
-      <option name="number" value="00757" />
-      <option name="presentableId" value="LOCAL-00757" />
-      <option name="project" value="LOCAL" />
-      <updated>1787287942392</updated>
-    </task>
-    <task id="LOCAL-00758" summary="ReverseArrayBruteForce">
-      <option name="closed" value="true" />
-      <created>1787287946799</created>
-      <option name="number" value="00758" />
-      <option name="presentableId" value="LOCAL-00758" />
-      <option name="project" value="LOCAL" />
-      <updated>1787287946799</updated>
-    </task>
-    <task id="LOCAL-00759" summary="ReverseArrayBruteForce">
-      <option name="closed" value="true" />
-      <created>1787287950750</created>
-      <option name="number" value="00759" />
-      <option name="presentableId" value="LOCAL-00759" />
-      <option name="project" value="LOCAL" />
-      <updated>1787287950750</updated>
-    </task>
-    <task id="LOCAL-00760" summary="ReverseArrayBruteForce">
-      <option name="closed" value="true" />
-      <created>1787287956187</created>
-      <option name="number" value="00760" />
-      <option name="presentableId" value="LOCAL-00760" />
-      <option name="project" value="LOCAL" />
-      <updated>1787287956188</updated>
-    </task>
-    <task id="LOCAL-00761" summary="ReverseArrayBruteForce">
-      <option name="closed" value="true" />
-      <created>1787287962167</created>
-      <option name="number" value="00761" />
-      <option name="presentableId" value="LOCAL-00761" />
-      <option name="project" value="LOCAL" />
-      <updated>1787287962167</updated>
-    </task>
-    <task id="LOCAL-00762" summary="ReverseArrayBruteForce">
-      <option name="closed" value="true" />
-      <created>1787287967909</created>
-      <option name="number" value="00762" />
-      <option name="presentableId" value="LOCAL-00762" />
-      <option name="project" value="LOCAL" />
-      <updated>1787287967909</updated>
-    </task>
-    <task id="LOCAL-00763" summary="ReverseArrayBruteForce">
-      <option name="closed" value="true" />
-      <created>1787289674390</created>
-      <option name="number" value="00763" />
-      <option name="presentableId" value="LOCAL-00763" />
-      <option name="project" value="LOCAL" />
-      <updated>1787289674390</updated>
-    </task>
-    <task id="LOCAL-00764" summary="ReverseArrayBruteForce">
-      <option name="closed" value="true" />
-      <created>1787289678321</created>
-      <option name="number" value="00764" />
-      <option name="presentableId" value="LOCAL-00764" />
-      <option name="project" value="LOCAL" />
-      <updated>1787289678321</updated>
-    </task>
-    <task id="LOCAL-00765" summary="ReverseArrayBruteForce">
-      <option name="closed" value="true" />
-      <created>1787289682601</created>
-      <option name="number" value="00765" />
-      <option name="presentableId" value="LOCAL-00765" />
-      <option name="project" value="LOCAL" />
-      <updated>1787289682601</updated>
-    </task>
-    <task id="LOCAL-00766" summary="ReverseArrayBruteForce">
-      <option name="closed" value="true" />
-      <created>1787289688058</created>
-      <option name="number" value="00766" />
-      <option name="presentableId" value="LOCAL-00766" />
-      <option name="project" value="LOCAL" />
-      <updated>1787289688058</updated>
-    </task>
-    <task id="LOCAL-00767" summary="ReverseArrayBruteForce">
-      <option name="closed" value="true" />
-      <created>1787289695518</created>
-      <option name="number" value="00767" />
-      <option name="presentableId" value="LOCAL-00767" />
-      <option name="project" value="LOCAL" />
-      <updated>1787289695518</updated>
-    </task>
-    <task id="LOCAL-00768" summary="ReverseArrayBruteForce">
-      <option name="closed" value="true" />
-      <created>1787289699349</created>
-      <option name="number" value="00768" />
-      <option name="presentableId" value="LOCAL-00768" />
-      <option name="project" value="LOCAL" />
-      <updated>1787289699349</updated>
-    </task>
-    <task id="LOCAL-00769" summary="ReverseArrayBruteForce">
-      <option name="closed" value="true" />
-      <created>1787289703530</created>
-      <option name="number" value="00769" />
-      <option name="presentableId" value="LOCAL-00769" />
-      <option name="project" value="LOCAL" />
-      <updated>1787289703530</updated>
-    </task>
-    <task id="LOCAL-00770" summary="ReverseArrayBruteForce">
-      <option name="closed" value="true" />
-      <created>1787289707920</created>
-      <option name="number" value="00770" />
-      <option name="presentableId" value="LOCAL-00770" />
-      <option name="project" value="LOCAL" />
-      <updated>1787289707920</updated>
-    </task>
-    <task id="LOCAL-00771" summary="ReverseArrayBruteForce">
-      <option name="closed" value="true" />
-      <created>1787289730981</created>
-      <option name="number" value="00771" />
-      <option name="presentableId" value="LOCAL-00771" />
-      <option name="project" value="LOCAL" />
-      <updated>1787289730981</updated>
-    </task>
-    <task id="LOCAL-00772" summary="RateLimiterDemo">
-      <option name="closed" value="true" />
-      <created>1787550695206</created>
-      <option name="number" value="00772" />
-      <option name="presentableId" value="LOCAL-00772" />
-      <option name="project" value="LOCAL" />
-      <updated>1787550695206</updated>
-    </task>
-    <task id="LOCAL-00773" summary="RemoveDuplicatesArrayListUnsortedOrder">
-      <option name="closed" value="true" />
-      <created>1787550714244</created>
-      <option name="number" value="00773" />
-      <option name="presentableId" value="LOCAL-00773" />
-      <option name="project" value="LOCAL" />
-      <updated>1787550714244</updated>
     </task>
     <task id="LOCAL-00774" summary="ReverseStringJava8">
       <option name="closed" value="true" />
@@ -1033,7 +817,215 @@
       <option name="project" value="LOCAL" />
       <updated>1787740732504</updated>
     </task>
-    <option name="localTasksCounter" value="797" />
+    <task id="LOCAL-00797" summary="RemoveDuplicatesBruteForce.java">
+      <option name="closed" value="true" />
+      <created>1788330823465</created>
+      <option name="number" value="00797" />
+      <option name="presentableId" value="LOCAL-00797" />
+      <option name="project" value="LOCAL" />
+      <updated>1788330823465</updated>
+    </task>
+    <task id="LOCAL-00798" summary="RemoveDuplicatesBruteForce.java">
+      <option name="closed" value="true" />
+      <created>1788330833870</created>
+      <option name="number" value="00798" />
+      <option name="presentableId" value="LOCAL-00798" />
+      <option name="project" value="LOCAL" />
+      <updated>1788330833870</updated>
+    </task>
+    <task id="LOCAL-00799" summary="A">
+      <option name="closed" value="true" />
+      <created>1788330980543</created>
+      <option name="number" value="00799" />
+      <option name="presentableId" value="LOCAL-00799" />
+      <option name="project" value="LOCAL" />
+      <updated>1788330980543</updated>
+    </task>
+    <task id="LOCAL-00800" summary="A">
+      <option name="closed" value="true" />
+      <created>1788330987663</created>
+      <option name="number" value="00800" />
+      <option name="presentableId" value="LOCAL-00800" />
+      <option name="project" value="LOCAL" />
+      <updated>1788330987664</updated>
+    </task>
+    <task id="LOCAL-00801" summary="A">
+      <option name="closed" value="true" />
+      <created>1788330997389</created>
+      <option name="number" value="00801" />
+      <option name="presentableId" value="LOCAL-00801" />
+      <option name="project" value="LOCAL" />
+      <updated>1788330997389</updated>
+    </task>
+    <task id="LOCAL-00802" summary="A">
+      <option name="closed" value="true" />
+      <created>1788331004961</created>
+      <option name="number" value="00802" />
+      <option name="presentableId" value="LOCAL-00802" />
+      <option name="project" value="LOCAL" />
+      <updated>1788331004961</updated>
+    </task>
+    <task id="LOCAL-00803" summary="A">
+      <option name="closed" value="true" />
+      <created>1788331012360</created>
+      <option name="number" value="00803" />
+      <option name="presentableId" value="LOCAL-00803" />
+      <option name="project" value="LOCAL" />
+      <updated>1788331012360</updated>
+    </task>
+    <task id="LOCAL-00804" summary="A">
+      <option name="closed" value="true" />
+      <created>1788331020168</created>
+      <option name="number" value="00804" />
+      <option name="presentableId" value="LOCAL-00804" />
+      <option name="project" value="LOCAL" />
+      <updated>1788331020168</updated>
+    </task>
+    <task id="LOCAL-00805" summary="A">
+      <option name="closed" value="true" />
+      <created>1788331028441</created>
+      <option name="number" value="00805" />
+      <option name="presentableId" value="LOCAL-00805" />
+      <option name="project" value="LOCAL" />
+      <updated>1788331028441</updated>
+    </task>
+    <task id="LOCAL-00806" summary="A">
+      <option name="closed" value="true" />
+      <created>1788331037185</created>
+      <option name="number" value="00806" />
+      <option name="presentableId" value="LOCAL-00806" />
+      <option name="project" value="LOCAL" />
+      <updated>1788331037185</updated>
+    </task>
+    <task id="LOCAL-00807" summary="blockingqueue">
+      <option name="closed" value="true" />
+      <created>1788331057974</created>
+      <option name="number" value="00807" />
+      <option name="presentableId" value="LOCAL-00807" />
+      <option name="project" value="LOCAL" />
+      <updated>1788331057974</updated>
+    </task>
+    <task id="LOCAL-00808" summary="blockingqueue">
+      <option name="closed" value="true" />
+      <created>1788331066021</created>
+      <option name="number" value="00808" />
+      <option name="presentableId" value="LOCAL-00808" />
+      <option name="project" value="LOCAL" />
+      <updated>1788331066021</updated>
+    </task>
+    <task id="LOCAL-00809" summary="blockingqueue">
+      <option name="closed" value="true" />
+      <created>1788331073727</created>
+      <option name="number" value="00809" />
+      <option name="presentableId" value="LOCAL-00809" />
+      <option name="project" value="LOCAL" />
+      <updated>1788331073727</updated>
+    </task>
+    <task id="LOCAL-00810" summary="blockingqueue">
+      <option name="closed" value="true" />
+      <created>1788331081358</created>
+      <option name="number" value="00810" />
+      <option name="presentableId" value="LOCAL-00810" />
+      <option name="project" value="LOCAL" />
+      <updated>1788331081360</updated>
+    </task>
+    <task id="LOCAL-00811" summary="blockingqueue">
+      <option name="closed" value="true" />
+      <created>1788331089294</created>
+      <option name="number" value="00811" />
+      <option name="presentableId" value="LOCAL-00811" />
+      <option name="project" value="LOCAL" />
+      <updated>1788331089294</updated>
+    </task>
+    <task id="LOCAL-00812" summary="blockingqueue">
+      <option name="closed" value="true" />
+      <created>1788331098900</created>
+      <option name="number" value="00812" />
+      <option name="presentableId" value="LOCAL-00812" />
+      <option name="project" value="LOCAL" />
+      <updated>1788331098900</updated>
+    </task>
+    <task id="LOCAL-00813" summary="blockingqueue">
+      <option name="closed" value="true" />
+      <created>1788331108235</created>
+      <option name="number" value="00813" />
+      <option name="presentableId" value="LOCAL-00813" />
+      <option name="project" value="LOCAL" />
+      <updated>1788331108235</updated>
+    </task>
+    <task id="LOCAL-00814" summary="blockingqueue">
+      <option name="closed" value="true" />
+      <created>1788331117124</created>
+      <option name="number" value="00814" />
+      <option name="presentableId" value="LOCAL-00814" />
+      <option name="project" value="LOCAL" />
+      <updated>1788331117124</updated>
+    </task>
+    <task id="LOCAL-00815" summary="blockingqueue">
+      <option name="closed" value="true" />
+      <created>1788766631381</created>
+      <option name="number" value="00815" />
+      <option name="presentableId" value="LOCAL-00815" />
+      <option name="project" value="LOCAL" />
+      <updated>1788766631381</updated>
+    </task>
+    <task id="LOCAL-00816" summary="blockingqueue">
+      <option name="closed" value="true" />
+      <created>1788766640573</created>
+      <option name="number" value="00816" />
+      <option name="presentableId" value="LOCAL-00816" />
+      <option name="project" value="LOCAL" />
+      <updated>1788766640573</updated>
+    </task>
+    <task id="LOCAL-00817" summary="blockingqueue">
+      <option name="closed" value="true" />
+      <created>1788766650894</created>
+      <option name="number" value="00817" />
+      <option name="presentableId" value="LOCAL-00817" />
+      <option name="project" value="LOCAL" />
+      <updated>1788766650894</updated>
+    </task>
+    <task id="LOCAL-00818" summary="blockingqueue">
+      <option name="closed" value="true" />
+      <created>1788766659742</created>
+      <option name="number" value="00818" />
+      <option name="presentableId" value="LOCAL-00818" />
+      <option name="project" value="LOCAL" />
+      <updated>1788766659742</updated>
+    </task>
+    <task id="LOCAL-00819" summary="blockingqueue">
+      <option name="closed" value="true" />
+      <created>1788766673322</created>
+      <option name="number" value="00819" />
+      <option name="presentableId" value="LOCAL-00819" />
+      <option name="project" value="LOCAL" />
+      <updated>1788766673323</updated>
+    </task>
+    <task id="LOCAL-00820" summary="blockingqueue">
+      <option name="closed" value="true" />
+      <created>1788766684734</created>
+      <option name="number" value="00820" />
+      <option name="presentableId" value="LOCAL-00820" />
+      <option name="project" value="LOCAL" />
+      <updated>1788766684734</updated>
+    </task>
+    <task id="LOCAL-00821" summary="blockingqueue">
+      <option name="closed" value="true" />
+      <created>1788766693929</created>
+      <option name="number" value="00821" />
+      <option name="presentableId" value="LOCAL-00821" />
+      <option name="project" value="LOCAL" />
+      <updated>1788766693929</updated>
+    </task>
+    <task id="LOCAL-00822" summary="ValidPalindromeJava8">
+      <option name="closed" value="true" />
+      <created>1788766882693</created>
+      <option name="number" value="00822" />
+      <option name="presentableId" value="LOCAL-00822" />
+      <option name="project" value="LOCAL" />
+      <updated>1788766882694</updated>
+    </task>
+    <option name="localTasksCounter" value="823" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -1051,9 +1043,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="ImmutablePatternDemo" />
-    <MESSAGE value="ProducerConsumer" />
-    <MESSAGE value="ApiServerDemo" />
     <MESSAGE value="CustomExecutorDemo" />
     <MESSAGE value="DuplicateCharacters" />
     <MESSAGE value="BlockingVirtualThreadDemo" />
@@ -1076,7 +1065,10 @@
     <MESSAGE value="Exception3" />
     <MESSAGE value="Immutable1" />
     <MESSAGE value="RemoveDuplicatesBruteForce.java" />
-    <option name="LAST_COMMIT_MESSAGE" value="RemoveDuplicatesBruteForce.java" />
+    <MESSAGE value="A" />
+    <MESSAGE value="blockingqueue" />
+    <MESSAGE value="ValidPalindromeJava8" />
+    <option name="LAST_COMMIT_MESSAGE" value="ValidPalindromeJava8" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
