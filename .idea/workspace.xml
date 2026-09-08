@@ -4,8 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ff3856c1-c1ca-4aca-a6ef-fd33bd67f435" name="Changes" comment="MergeSortedArraysJava8.java">
-      <change afterPath="$PROJECT_DIR$/DataStracture/src/top100dsa/MergeSortedArraysTwoPointer.java" afterDir="false" />
+    <list default="true" id="ff3856c1-c1ca-4aca-a6ef-fd33bd67f435" name="Changes" comment="TwoSumHashMap">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -106,61 +105,61 @@
   </component>
   <component name="NextEditCompletionFeaturesState">
     <decayedCancelled>
-      <entry key="MS100" value="1.0" />
-      <entry key="MS500" value="1.0000372087125877" />
-      <entry key="S2" value="1.0781691171987895" />
-      <entry key="S5" value="1.3854157363136401" />
-      <entry key="S10" value="1.822182832761331" />
-      <entry key="S30" value="3.3185000721500977" />
-      <entry key="S60" value="5.129941553816057" />
-      <entry key="M2" value="7.591023579780675" />
-      <entry key="M5" value="11.714508252646906" />
-      <entry key="M10" value="16.98174181995106" />
-      <entry key="M15" value="20.720041673574052" />
-      <entry key="M30" value="27.25129122549728" />
-      <entry key="H1" value="38.568923793750606" />
-      <entry key="H2" value="67.72954340295233" />
-      <entry key="H4" value="134.78171565624763" />
-      <entry key="D1" value="425.23388266341976" />
-      <entry key="W1" value="584.5874514567488" />
+      <entry key="MS100" value="2.5027222316905983E-7" />
+      <entry key="MS500" value="0.050875857963886884" />
+      <entry key="S2" value="0.7026117506646141" />
+      <entry key="S5" value="1.2981225479768737" />
+      <entry key="S10" value="1.6075157295946798" />
+      <entry key="S30" value="1.9088493242625082" />
+      <entry key="S60" value="2.4319172855577165" />
+      <entry key="M2" value="3.7664789561294603" />
+      <entry key="M5" value="6.414820095336582" />
+      <entry key="M10" value="11.020990644910587" />
+      <entry key="M15" value="16.46982292139585" />
+      <entry key="M30" value="31.289094162871102" />
+      <entry key="H1" value="52.617573376973624" />
+      <entry key="H2" value="86.91159166839239" />
+      <entry key="H4" value="154.9476568916082" />
+      <entry key="D1" value="463.6392512946516" />
+      <entry key="W1" value="639.5154320284681" />
     </decayedCancelled>
     <decayedSelected>
-      <entry key="MS100" value="7.476439457663168E-162" />
-      <entry key="MS500" value="5.953042240793073E-33" />
-      <entry key="S2" value="8.783846566325515E-9" />
-      <entry key="S5" value="5.99065184449837E-4" />
-      <entry key="S10" value="0.02449174621224281" />
-      <entry key="S30" value="0.3165770292488842" />
-      <entry key="S60" value="0.7334198202408552" />
-      <entry key="M2" value="1.4135300230816614" />
-      <entry key="M5" value="4.604443318857112" />
-      <entry key="M10" value="11.680137960905139" />
-      <entry key="M15" value="17.043199055159626" />
-      <entry key="M30" value="26.55617620603951" />
-      <entry key="H1" value="43.37545962964381" />
-      <entry key="H2" value="85.19109560415778" />
-      <entry key="H4" value="177.65868438337796" />
-      <entry key="D1" value="565.9074978268306" />
-      <entry key="W1" value="768.5354198631014" />
+      <entry key="MS100" value="1.0" />
+      <entry key="MS500" value="1.0" />
+      <entry key="S2" value="1.0" />
+      <entry key="S5" value="1.0000000051146543" />
+      <entry key="S10" value="1.0001218996438344" />
+      <entry key="S30" value="1.1193598675803575" />
+      <entry key="S60" value="1.850584986121972" />
+      <entry key="M2" value="3.6031925834194163" />
+      <entry key="M5" value="6.775410924440935" />
+      <entry key="M10" value="12.251530176734592" />
+      <entry key="M15" value="19.008640283907386" />
+      <entry key="M30" value="37.38455111057753" />
+      <entry key="H1" value="64.02602489793105" />
+      <entry key="H2" value="109.35960976715631" />
+      <entry key="H4" value="201.40362050702828" />
+      <entry key="D1" value="613.4995208010706" />
+      <entry key="W1" value="838.1797429987781" />
     </decayedSelected>
     <decayedShown>
-      <entry key="MS100" value="0.0018097423083796302" />
-      <entry key="MS500" value="0.28283787928328596" />
-      <entry key="S2" value="0.7844664174101723" />
-      <entry key="S5" value="1.2158714092365144" />
-      <entry key="S10" value="1.7223834226885415" />
-      <entry key="S30" value="3.5424595055906463" />
-      <entry key="S60" value="5.787683722189054" />
-      <entry key="M2" value="8.947875180719993" />
-      <entry key="M5" value="16.27784454031035" />
-      <entry key="M10" value="28.624932148088817" />
-      <entry key="M15" value="37.73059029821064" />
-      <entry key="M30" value="53.78402136694279" />
-      <entry key="H1" value="81.92592240313326" />
-      <entry key="H2" value="152.90226447446025" />
-      <entry key="H4" value="312.42012355133267" />
-      <entry key="D1" value="991.1299388643142" />
-      <entry key="W1" value="1353.1206465403882" />
+      <entry key="MS100" value="0.0026313905039055093" />
+      <entry key="MS500" value="0.34541771852745307" />
+      <entry key="S2" value="1.417871301254693" />
+      <entry key="S5" value="2.168129767829139" />
+      <entry key="S10" value="2.539390206053736" />
+      <entry key="S30" value="2.9964671044079556" />
+      <entry key="S60" value="4.240568053395595" />
+      <entry key="M2" value="7.318913879411814" />
+      <entry key="M5" value="13.149805275095447" />
+      <entry key="M10" value="23.236788012408077" />
+      <entry key="M15" value="35.44200686684013" />
+      <entry key="M30" value="68.63828619138272" />
+      <entry key="H1" value="116.61388645337112" />
+      <entry key="H2" value="196.24628982484813" />
+      <entry key="H4" value="356.32798161708547" />
+      <entry key="D1" value="1077.1263999766506" />
+      <entry key="W1" value="1477.692753721542" />
     </decayedShown>
   </component>
   <component name="ProjectColorInfo">{
@@ -467,7 +466,11 @@
     "Application.TryLockExample.executor": "Run",
     "Application.TryLockTimeoutExample.executor": "Run",
     "Application.TwoSum.executor": "Run",
+    "Application.TwoSumBruteForce.executor": "Run",
+    "Application.TwoSumHashMap.executor": "Run",
     "Application.TwoSumIndices.executor": "Run",
+    "Application.TwoSumJava8.executor": "Run",
+    "Application.TwoSumTwoPointer.executor": "Run",
     "Application.TwoThreadsSafe.executor": "Run",
     "Application.UniqueSortedProducts.executor": "Run",
     "Application.ValidPalindromeBruteForce.executor": "Run",
@@ -539,46 +542,7 @@
     ]
   }
 }]]></component>
-  <component name="RunManager" selected="Application.MergeSortedArraysTwoPointer">
-    <configuration name="Immutable1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="top100dsa.Immutable1" />
-      <module name="Dsa" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="top100dsa.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MergeSortedArraysBruteForce" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="top100dsa.MergeSortedArraysBruteForce" />
-      <module name="Dsa" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="top100dsa.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MergeSortedArraysJava8" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="top100dsa.MergeSortedArraysJava8" />
-      <module name="Dsa" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="top100dsa.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.TwoSumTwoPointer">
     <configuration name="MergeSortedArraysTwoPointer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="top100dsa.MergeSortedArraysTwoPointer" />
       <module name="Dsa" />
@@ -592,12 +556,51 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RemoveDuplicatesArrayListUnsortedOrder" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="array.RemoveDuplicatesArrayListUnsortedOrder" />
+    <configuration name="TwoSumBruteForce" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="top100dsa.TwoSumBruteForce" />
       <module name="Dsa" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="array.*" />
+          <option name="PATTERN" value="top100dsa.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TwoSumHashMap" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="top100dsa.TwoSumHashMap" />
+      <module name="Dsa" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="top100dsa.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TwoSumJava8" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="top100dsa.TwoSumJava8" />
+      <module name="Dsa" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="top100dsa.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TwoSumTwoPointer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="top100dsa.TwoSumTwoPointer" />
+      <module name="Dsa" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="top100dsa.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -607,11 +610,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.TwoSumTwoPointer" />
+        <item itemvalue="Application.TwoSumHashMap" />
+        <item itemvalue="Application.TwoSumJava8" />
+        <item itemvalue="Application.TwoSumBruteForce" />
         <item itemvalue="Application.MergeSortedArraysTwoPointer" />
-        <item itemvalue="Application.MergeSortedArraysJava8" />
-        <item itemvalue="Application.MergeSortedArraysBruteForce" />
-        <item itemvalue="Application.Immutable1" />
-        <item itemvalue="Application.RemoveDuplicatesArrayListUnsortedOrder" />
       </list>
     </recent_temporary>
   </component>
@@ -633,54 +636,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1751545643062</updated>
-    </task>
-    <task id="LOCAL-00783" summary="Exception3">
-      <option name="closed" value="true" />
-      <created>1787735210480</created>
-      <option name="number" value="00783" />
-      <option name="presentableId" value="LOCAL-00783" />
-      <option name="project" value="LOCAL" />
-      <updated>1787735210480</updated>
-    </task>
-    <task id="LOCAL-00784" summary="Immutable1">
-      <option name="closed" value="true" />
-      <created>1787735230094</created>
-      <option name="number" value="00784" />
-      <option name="presentableId" value="LOCAL-00784" />
-      <option name="project" value="LOCAL" />
-      <updated>1787735230094</updated>
-    </task>
-    <task id="LOCAL-00785" summary="RemoveDuplicatesBruteForce.java">
-      <option name="closed" value="true" />
-      <created>1787735245888</created>
-      <option name="number" value="00785" />
-      <option name="presentableId" value="LOCAL-00785" />
-      <option name="project" value="LOCAL" />
-      <updated>1787735245888</updated>
-    </task>
-    <task id="LOCAL-00786" summary="RemoveDuplicatesBruteForce.java">
-      <option name="closed" value="true" />
-      <created>1787735254123</created>
-      <option name="number" value="00786" />
-      <option name="presentableId" value="LOCAL-00786" />
-      <option name="project" value="LOCAL" />
-      <updated>1787735254123</updated>
-    </task>
-    <task id="LOCAL-00787" summary="RemoveDuplicatesBruteForce.java">
-      <option name="closed" value="true" />
-      <created>1787735266651</created>
-      <option name="number" value="00787" />
-      <option name="presentableId" value="LOCAL-00787" />
-      <option name="project" value="LOCAL" />
-      <updated>1787735266652</updated>
-    </task>
-    <task id="LOCAL-00788" summary="RemoveDuplicatesBruteForce.java">
-      <option name="closed" value="true" />
-      <created>1787735283793</created>
-      <option name="number" value="00788" />
-      <option name="presentableId" value="LOCAL-00788" />
-      <option name="project" value="LOCAL" />
-      <updated>1787735283793</updated>
     </task>
     <task id="LOCAL-00789" summary="RemoveDuplicatesBruteForce.java">
       <option name="closed" value="true" />
@@ -1026,7 +981,55 @@
       <option name="project" value="LOCAL" />
       <updated>1788861166290</updated>
     </task>
-    <option name="localTasksCounter" value="832" />
+    <task id="LOCAL-00832" summary="MergeSortedArraysTwoPointer">
+      <option name="closed" value="true" />
+      <created>1788864765724</created>
+      <option name="number" value="00832" />
+      <option name="presentableId" value="LOCAL-00832" />
+      <option name="project" value="LOCAL" />
+      <updated>1788864765724</updated>
+    </task>
+    <task id="LOCAL-00833" summary="MergeSortedArraysTwoPointer">
+      <option name="closed" value="true" />
+      <created>1788864776475</created>
+      <option name="number" value="00833" />
+      <option name="presentableId" value="LOCAL-00833" />
+      <option name="project" value="LOCAL" />
+      <updated>1788864776475</updated>
+    </task>
+    <task id="LOCAL-00834" summary="TwoSumBruteForce">
+      <option name="closed" value="true" />
+      <created>1788866019667</created>
+      <option name="number" value="00834" />
+      <option name="presentableId" value="LOCAL-00834" />
+      <option name="project" value="LOCAL" />
+      <updated>1788866019667</updated>
+    </task>
+    <task id="LOCAL-00835" summary="TwoSumJava8">
+      <option name="closed" value="true" />
+      <created>1788866099295</created>
+      <option name="number" value="00835" />
+      <option name="presentableId" value="LOCAL-00835" />
+      <option name="project" value="LOCAL" />
+      <updated>1788866099295</updated>
+    </task>
+    <task id="LOCAL-00836" summary="TwoSumHashMap">
+      <option name="closed" value="true" />
+      <created>1788868023139</created>
+      <option name="number" value="00836" />
+      <option name="presentableId" value="LOCAL-00836" />
+      <option name="project" value="LOCAL" />
+      <updated>1788868023139</updated>
+    </task>
+    <task id="LOCAL-00837" summary="TwoSumHashMap">
+      <option name="closed" value="true" />
+      <created>1788868036880</created>
+      <option name="number" value="00837" />
+      <option name="presentableId" value="LOCAL-00837" />
+      <option name="project" value="LOCAL" />
+      <updated>1788868036880</updated>
+    </task>
+    <option name="localTasksCounter" value="838" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -1044,10 +1047,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="MassiveVirtualThreadDemo" />
-    <MESSAGE value="MostFrequentProducts" />
-    <MESSAGE value="CountPairs" />
-    <MESSAGE value="OrderProcessingSystem" />
     <MESSAGE value="FailFast.java" />
     <MESSAGE value="class" />
     <MESSAGE value="third approach" />
@@ -1069,7 +1068,11 @@
     <MESSAGE value="workspace.xml" />
     <MESSAGE value="MergeSortedArraysBruteForce" />
     <MESSAGE value="MergeSortedArraysJava8.java" />
-    <option name="LAST_COMMIT_MESSAGE" value="MergeSortedArraysJava8.java" />
+    <MESSAGE value="MergeSortedArraysTwoPointer" />
+    <MESSAGE value="TwoSumBruteForce" />
+    <MESSAGE value="TwoSumJava8" />
+    <MESSAGE value="TwoSumHashMap" />
+    <option name="LAST_COMMIT_MESSAGE" value="TwoSumHashMap" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
