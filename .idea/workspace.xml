@@ -5,8 +5,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ff3856c1-c1ca-4aca-a6ef-fd33bd67f435" name="Changes" comment="workspace.xml">
-      <change afterPath="$PROJECT_DIR$/DataStracture/src/top100dsa/ValidPalindromeJava81.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DataStracture/src/top100dsa/ValidPalindromeTwoPointer1.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -107,61 +105,61 @@
   </component>
   <component name="NextEditCompletionFeaturesState">
     <decayedCancelled>
-      <entry key="MS100" value="7.407164736442854E-15" />
-      <entry key="MS500" value="0.0014925551960597331" />
-      <entry key="S2" value="0.196554323762247" />
-      <entry key="S5" value="0.5218877428004435" />
-      <entry key="S10" value="0.7371354481036846" />
-      <entry key="S30" value="1.143129387674918" />
-      <entry key="S60" value="1.4431095975572776" />
-      <entry key="M2" value="1.6774471855723938" />
-      <entry key="M5" value="1.8583287653184777" />
-      <entry key="M10" value="1.9268556560907448" />
-      <entry key="M15" value="1.9507080630924805" />
-      <entry key="M30" value="1.9750853956775138" />
-      <entry key="H1" value="1.9874754424713572" />
-      <entry key="H2" value="1.9974537199605396" />
-      <entry key="H4" value="2.4251602894327897" />
-      <entry key="D1" value="153.23798167058916" />
-      <entry key="W1" value="598.255080676191" />
-    </decayedCancelled>
-    <decayedSelected>
       <entry key="MS100" value="1.0" />
       <entry key="MS500" value="1.0" />
-      <entry key="S2" value="1.000000005057249" />
-      <entry key="S5" value="1.0004803587873572" />
-      <entry key="S10" value="1.0219170889343747" />
-      <entry key="S30" value="1.2798514898436495" />
-      <entry key="S60" value="1.529009914693146" />
-      <entry key="M2" value="1.7273306776791046" />
-      <entry key="M5" value="1.8804258034372756" />
-      <entry key="M10" value="1.9383100785120426" />
-      <entry key="M15" value="1.9584385073269748" />
-      <entry key="M30" value="1.9789987269282283" />
-      <entry key="H1" value="1.9894442407124058" />
-      <entry key="H2" value="1.9983943869485379" />
-      <entry key="H4" value="2.4482599009387753" />
-      <entry key="D1" value="194.22416548751238" />
-      <entry key="W1" value="765.9824471046727" />
+      <entry key="S2" value="1.0" />
+      <entry key="S5" value="1.0" />
+      <entry key="S10" value="1.0" />
+      <entry key="S30" value="1.0" />
+      <entry key="S60" value="1.0" />
+      <entry key="M2" value="1.0" />
+      <entry key="M5" value="1.0" />
+      <entry key="M10" value="1.0" />
+      <entry key="M15" value="1.0" />
+      <entry key="M30" value="1.0000000009107908" />
+      <entry key="H1" value="1.0000633386142006" />
+      <entry key="H2" value="1.0180293984264444" />
+      <entry key="H4" value="1.3351442490181482" />
+      <entry key="D1" value="91.35346087924827" />
+      <entry key="W1" value="557.2769391534626" />
+    </decayedCancelled>
+    <decayedSelected>
+      <entry key="MS100" value="0.0" />
+      <entry key="MS500" value="0.0" />
+      <entry key="S2" value="0.0" />
+      <entry key="S5" value="0.0" />
+      <entry key="S10" value="0.0" />
+      <entry key="S30" value="0.0" />
+      <entry key="S60" value="1.3380110446937507E-289" />
+      <entry key="M2" value="6.298592108848309E-145" />
+      <entry key="M5" value="4.030519927195765E-58" />
+      <entry key="M10" value="3.476485615802059E-29" />
+      <entry key="M15" value="1.536311851373389E-19" />
+      <entry key="M30" value="6.838003818895545E-10" />
+      <entry key="H1" value="4.8275277865988635E-5" />
+      <entry key="H2" value="0.014149033975448016" />
+      <entry key="H4" value="0.27366144696469913" />
+      <entry key="D1" value="113.21686373100707" />
+      <entry key="W1" value="710.2495099257668" />
     </decayedSelected>
     <decayedShown>
-      <entry key="MS100" value="4.762003138402262E-6" />
-      <entry key="MS500" value="0.08768206436180688" />
-      <entry key="S2" value="0.7377372821145532" />
-      <entry key="S5" value="1.304066243844682" />
-      <entry key="S10" value="1.6378010446502873" />
-      <entry key="S30" value="2.3574828272985804" />
-      <entry key="S60" value="2.927346153811258" />
-      <entry key="M2" value="3.377555968962086" />
-      <entry key="M5" value="3.7263624454343542" />
-      <entry key="M10" value="3.8586844197936947" />
-      <entry key="M15" value="3.9047594809895685" />
-      <entry key="M30" value="3.9518567393177046" />
-      <entry key="H1" value="3.9757973917751483" />
-      <entry key="H2" value="3.995283626549754" />
-      <entry key="H4" value="4.87306614133742" />
-      <entry key="D1" value="347.4580843716804" />
-      <entry key="W1" value="1364.2352793636906" />
+      <entry key="MS100" value="0.7120250977985358" />
+      <entry key="MS500" value="0.9343273468831804" />
+      <entry key="S2" value="0.9831612772403993" />
+      <entry key="S5" value="0.993230176832812" />
+      <entry key="S10" value="0.9966093401292264" />
+      <entry key="S30" value="0.9988685002342388" />
+      <entry key="S60" value="0.9994340899900497" />
+      <entry key="M2" value="0.9997170049519263" />
+      <entry key="M5" value="0.999886792368976" />
+      <entry key="M10" value="0.9999433945824013" />
+      <entry key="M15" value="0.9999622626989061" />
+      <entry key="M30" value="0.9999811327653445" />
+      <entry key="H1" value="1.0001021551244458" />
+      <entry key="H2" value="1.0321701000508212" />
+      <entry key="H4" value="1.6087674561372627" />
+      <entry key="D1" value="204.5679561521232" />
+      <entry key="W1" value="1267.5243640964275" />
     </decayedShown>
   </component>
   <component name="ProjectColorInfo">{
@@ -541,7 +539,7 @@
     "project.structure.last.edited": "Project",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "settings.editor.selected.configurable": "configurable.group.editor",
     "to.speed.mode.migration.done": "true"
   },
   "keyToStringList": {
@@ -644,30 +642,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1751545643062</updated>
-    </task>
-    <task id="LOCAL-00797" summary="RemoveDuplicatesBruteForce.java">
-      <option name="closed" value="true" />
-      <created>1788330823465</created>
-      <option name="number" value="00797" />
-      <option name="presentableId" value="LOCAL-00797" />
-      <option name="project" value="LOCAL" />
-      <updated>1788330823465</updated>
-    </task>
-    <task id="LOCAL-00798" summary="RemoveDuplicatesBruteForce.java">
-      <option name="closed" value="true" />
-      <created>1788330833870</created>
-      <option name="number" value="00798" />
-      <option name="presentableId" value="LOCAL-00798" />
-      <option name="project" value="LOCAL" />
-      <updated>1788330833870</updated>
-    </task>
-    <task id="LOCAL-00799" summary="A">
-      <option name="closed" value="true" />
-      <created>1788330980543</created>
-      <option name="number" value="00799" />
-      <option name="presentableId" value="LOCAL-00799" />
-      <option name="project" value="LOCAL" />
-      <updated>1788330980543</updated>
     </task>
     <task id="LOCAL-00800" summary="A">
       <option name="closed" value="true" />
@@ -1037,7 +1011,31 @@
       <option name="project" value="LOCAL" />
       <updated>1789033454034</updated>
     </task>
-    <option name="localTasksCounter" value="846" />
+    <task id="LOCAL-00846" summary="ValidPalindromeJava81">
+      <option name="closed" value="true" />
+      <created>1789045133751</created>
+      <option name="number" value="00846" />
+      <option name="presentableId" value="LOCAL-00846" />
+      <option name="project" value="LOCAL" />
+      <updated>1789045133751</updated>
+    </task>
+    <task id="LOCAL-00847" summary="ValidPalindromeJava81">
+      <option name="closed" value="true" />
+      <created>1789045149628</created>
+      <option name="number" value="00847" />
+      <option name="presentableId" value="LOCAL-00847" />
+      <option name="project" value="LOCAL" />
+      <updated>1789045149628</updated>
+    </task>
+    <task id="LOCAL-00848" summary="workspace.xml">
+      <option name="closed" value="true" />
+      <created>1789045173358</created>
+      <option name="number" value="00848" />
+      <option name="presentableId" value="LOCAL-00848" />
+      <option name="project" value="LOCAL" />
+      <updated>1789045173358</updated>
+    </task>
+    <option name="localTasksCounter" value="849" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -1055,7 +1053,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="third approach" />
     <MESSAGE value="RomanToInteger.java" />
     <MESSAGE value="ReverseArrayBruteForce" />
     <MESSAGE value="RateLimiterDemo" />
@@ -1079,6 +1076,7 @@
     <MESSAGE value="TwoSumHashMap" />
     <MESSAGE value="PairDifferenceBruteForce" />
     <MESSAGE value="ValidPalindromeBruteForce1" />
+    <MESSAGE value="ValidPalindromeJava81" />
     <MESSAGE value="workspace.xml" />
     <option name="LAST_COMMIT_MESSAGE" value="workspace.xml" />
   </component>
