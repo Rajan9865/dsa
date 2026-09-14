@@ -105,23 +105,23 @@
   </component>
   <component name="NextEditCompletionFeaturesState">
     <decayedCancelled>
-      <entry key="MS100" value="1.0" />
-      <entry key="MS500" value="1.0" />
-      <entry key="S2" value="1.0" />
-      <entry key="S5" value="1.0" />
-      <entry key="S10" value="1.0" />
-      <entry key="S30" value="1.0" />
-      <entry key="S60" value="1.0" />
-      <entry key="M2" value="1.0" />
-      <entry key="M5" value="1.0" />
-      <entry key="M10" value="1.0" />
-      <entry key="M15" value="1.0" />
-      <entry key="M30" value="1.0000000009107908" />
-      <entry key="H1" value="1.0000633386142006" />
-      <entry key="H2" value="1.0180293984264444" />
-      <entry key="H4" value="1.3351442490181482" />
-      <entry key="D1" value="91.35346087924827" />
-      <entry key="W1" value="557.2769391534626" />
+      <entry key="MS100" value="1.0003266703501705" />
+      <entry key="MS500" value="1.3794783853054908" />
+      <entry key="S2" value="4.112935185043433" />
+      <entry key="S5" value="6.750877210494009" />
+      <entry key="S10" value="8.168142848056373" />
+      <entry key="S30" value="9.335984539873582" />
+      <entry key="S60" value="9.660797771308735" />
+      <entry key="M2" value="9.828558683365568" />
+      <entry key="M5" value="9.930976388567737" />
+      <entry key="M10" value="9.965413222289168" />
+      <entry key="M15" value="9.976925480243143" />
+      <entry key="M30" value="9.988617430143128" />
+      <entry key="H1" value="10.006995364300776" />
+      <entry key="H2" value="10.112151421193227" />
+      <entry key="H4" value="10.447374978004829" />
+      <entry key="D1" value="86.17529690900848" />
+      <entry key="W1" value="552.9980398114109" />
     </decayedCancelled>
     <decayedSelected>
       <entry key="MS100" value="0.0" />
@@ -130,36 +130,36 @@
       <entry key="S5" value="0.0" />
       <entry key="S10" value="0.0" />
       <entry key="S30" value="0.0" />
-      <entry key="S60" value="1.3380110446937507E-289" />
-      <entry key="M2" value="6.298592108848309E-145" />
-      <entry key="M5" value="4.030519927195765E-58" />
-      <entry key="M10" value="3.476485615802059E-29" />
-      <entry key="M15" value="1.536311851373389E-19" />
-      <entry key="M30" value="6.838003818895545E-10" />
-      <entry key="H1" value="4.8275277865988635E-5" />
-      <entry key="H2" value="0.014149033975448016" />
-      <entry key="H4" value="0.27366144696469913" />
-      <entry key="D1" value="113.21686373100707" />
-      <entry key="W1" value="710.2495099257668" />
+      <entry key="S60" value="0.0" />
+      <entry key="M2" value="9.647615842623579E-202" />
+      <entry key="M5" value="7.575855450114818E-81" />
+      <entry key="M10" value="1.5072168484934216E-40" />
+      <entry key="M15" value="4.0847885781588736E-27" />
+      <entry key="M30" value="1.114998903146265E-13" />
+      <entry key="H1" value="6.164492560172776E-7" />
+      <entry key="H2" value="0.001598869672016" />
+      <entry key="H4" value="0.09199341827079437" />
+      <entry key="D1" value="94.40644479831572" />
+      <entry key="W1" value="692.0510952342104" />
     </decayedSelected>
     <decayedShown>
-      <entry key="MS100" value="0.7120250977985358" />
-      <entry key="MS500" value="0.9343273468831804" />
-      <entry key="S2" value="0.9831612772403993" />
-      <entry key="S5" value="0.993230176832812" />
-      <entry key="S10" value="0.9966093401292264" />
-      <entry key="S30" value="0.9988685002342388" />
-      <entry key="S60" value="0.9994340899900497" />
-      <entry key="M2" value="0.9997170049519263" />
-      <entry key="M5" value="0.999886792368976" />
-      <entry key="M10" value="0.9999433945824013" />
-      <entry key="M15" value="0.9999622626989061" />
-      <entry key="M30" value="0.9999811327653445" />
-      <entry key="H1" value="1.0001021551244458" />
-      <entry key="H2" value="1.0321701000508212" />
-      <entry key="H4" value="1.6087674561372627" />
-      <entry key="D1" value="204.5679561521232" />
-      <entry key="W1" value="1267.5243640964275" />
+      <entry key="MS100" value="0.959577482461969" />
+      <entry key="MS500" value="1.366380628773668" />
+      <entry key="S2" value="4.08314855142394" />
+      <entry key="S5" value="6.726496113980526" />
+      <entry key="S10" value="8.152517386035047" />
+      <entry key="S30" value="9.329825995759515" />
+      <entry key="S60" value="9.65758602729431" />
+      <entry key="M2" value="9.826918577696569" />
+      <entry key="M5" value="9.930311983523374" />
+      <entry key="M10" value="9.965079613580347" />
+      <entry key="M15" value="9.976702761026552" />
+      <entry key="M30" value="9.98850591052233" />
+      <entry key="H1" value="10.006940062417026" />
+      <entry key="H2" value="10.113721440692942" />
+      <entry key="H4" value="10.539341584898175" />
+      <entry key="D1" value="180.57976443026598" />
+      <entry key="W1" value="1245.0471031530672" />
     </decayedShown>
   </component>
   <component name="ProjectColorInfo">{
@@ -536,7 +536,7 @@
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Project",
+    "project.structure.last.edited": "Artifacts",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
     "settings.editor.selected.configurable": "configurable.group.editor",
@@ -642,118 +642,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1751545643062</updated>
-    </task>
-    <task id="LOCAL-00800" summary="A">
-      <option name="closed" value="true" />
-      <created>1788330987663</created>
-      <option name="number" value="00800" />
-      <option name="presentableId" value="LOCAL-00800" />
-      <option name="project" value="LOCAL" />
-      <updated>1788330987664</updated>
-    </task>
-    <task id="LOCAL-00801" summary="A">
-      <option name="closed" value="true" />
-      <created>1788330997389</created>
-      <option name="number" value="00801" />
-      <option name="presentableId" value="LOCAL-00801" />
-      <option name="project" value="LOCAL" />
-      <updated>1788330997389</updated>
-    </task>
-    <task id="LOCAL-00802" summary="A">
-      <option name="closed" value="true" />
-      <created>1788331004961</created>
-      <option name="number" value="00802" />
-      <option name="presentableId" value="LOCAL-00802" />
-      <option name="project" value="LOCAL" />
-      <updated>1788331004961</updated>
-    </task>
-    <task id="LOCAL-00803" summary="A">
-      <option name="closed" value="true" />
-      <created>1788331012360</created>
-      <option name="number" value="00803" />
-      <option name="presentableId" value="LOCAL-00803" />
-      <option name="project" value="LOCAL" />
-      <updated>1788331012360</updated>
-    </task>
-    <task id="LOCAL-00804" summary="A">
-      <option name="closed" value="true" />
-      <created>1788331020168</created>
-      <option name="number" value="00804" />
-      <option name="presentableId" value="LOCAL-00804" />
-      <option name="project" value="LOCAL" />
-      <updated>1788331020168</updated>
-    </task>
-    <task id="LOCAL-00805" summary="A">
-      <option name="closed" value="true" />
-      <created>1788331028441</created>
-      <option name="number" value="00805" />
-      <option name="presentableId" value="LOCAL-00805" />
-      <option name="project" value="LOCAL" />
-      <updated>1788331028441</updated>
-    </task>
-    <task id="LOCAL-00806" summary="A">
-      <option name="closed" value="true" />
-      <created>1788331037185</created>
-      <option name="number" value="00806" />
-      <option name="presentableId" value="LOCAL-00806" />
-      <option name="project" value="LOCAL" />
-      <updated>1788331037185</updated>
-    </task>
-    <task id="LOCAL-00807" summary="blockingqueue">
-      <option name="closed" value="true" />
-      <created>1788331057974</created>
-      <option name="number" value="00807" />
-      <option name="presentableId" value="LOCAL-00807" />
-      <option name="project" value="LOCAL" />
-      <updated>1788331057974</updated>
-    </task>
-    <task id="LOCAL-00808" summary="blockingqueue">
-      <option name="closed" value="true" />
-      <created>1788331066021</created>
-      <option name="number" value="00808" />
-      <option name="presentableId" value="LOCAL-00808" />
-      <option name="project" value="LOCAL" />
-      <updated>1788331066021</updated>
-    </task>
-    <task id="LOCAL-00809" summary="blockingqueue">
-      <option name="closed" value="true" />
-      <created>1788331073727</created>
-      <option name="number" value="00809" />
-      <option name="presentableId" value="LOCAL-00809" />
-      <option name="project" value="LOCAL" />
-      <updated>1788331073727</updated>
-    </task>
-    <task id="LOCAL-00810" summary="blockingqueue">
-      <option name="closed" value="true" />
-      <created>1788331081358</created>
-      <option name="number" value="00810" />
-      <option name="presentableId" value="LOCAL-00810" />
-      <option name="project" value="LOCAL" />
-      <updated>1788331081360</updated>
-    </task>
-    <task id="LOCAL-00811" summary="blockingqueue">
-      <option name="closed" value="true" />
-      <created>1788331089294</created>
-      <option name="number" value="00811" />
-      <option name="presentableId" value="LOCAL-00811" />
-      <option name="project" value="LOCAL" />
-      <updated>1788331089294</updated>
-    </task>
-    <task id="LOCAL-00812" summary="blockingqueue">
-      <option name="closed" value="true" />
-      <created>1788331098900</created>
-      <option name="number" value="00812" />
-      <option name="presentableId" value="LOCAL-00812" />
-      <option name="project" value="LOCAL" />
-      <updated>1788331098900</updated>
-    </task>
-    <task id="LOCAL-00813" summary="blockingqueue">
-      <option name="closed" value="true" />
-      <created>1788331108235</created>
-      <option name="number" value="00813" />
-      <option name="presentableId" value="LOCAL-00813" />
-      <option name="project" value="LOCAL" />
-      <updated>1788331108235</updated>
     </task>
     <task id="LOCAL-00814" summary="blockingqueue">
       <option name="closed" value="true" />
@@ -1035,7 +923,119 @@
       <option name="project" value="LOCAL" />
       <updated>1789045173358</updated>
     </task>
-    <option name="localTasksCounter" value="849" />
+    <task id="LOCAL-00849" summary="workspace.xml">
+      <option name="closed" value="true" />
+      <created>1789125051248</created>
+      <option name="number" value="00849" />
+      <option name="presentableId" value="LOCAL-00849" />
+      <option name="project" value="LOCAL" />
+      <updated>1789125051248</updated>
+    </task>
+    <task id="LOCAL-00850" summary="workspace.xml">
+      <option name="closed" value="true" />
+      <created>1789125065286</created>
+      <option name="number" value="00850" />
+      <option name="presentableId" value="LOCAL-00850" />
+      <option name="project" value="LOCAL" />
+      <updated>1789125065286</updated>
+    </task>
+    <task id="LOCAL-00851" summary="workspace.xml">
+      <option name="closed" value="true" />
+      <created>1789125073155</created>
+      <option name="number" value="00851" />
+      <option name="presentableId" value="LOCAL-00851" />
+      <option name="project" value="LOCAL" />
+      <updated>1789125073155</updated>
+    </task>
+    <task id="LOCAL-00852" summary="workspace.xml">
+      <option name="closed" value="true" />
+      <created>1789125081116</created>
+      <option name="number" value="00852" />
+      <option name="presentableId" value="LOCAL-00852" />
+      <option name="project" value="LOCAL" />
+      <updated>1789125081116</updated>
+    </task>
+    <task id="LOCAL-00853" summary="workspace.xml">
+      <option name="closed" value="true" />
+      <created>1789125088358</created>
+      <option name="number" value="00853" />
+      <option name="presentableId" value="LOCAL-00853" />
+      <option name="project" value="LOCAL" />
+      <updated>1789125088358</updated>
+    </task>
+    <task id="LOCAL-00854" summary="workspace.xml">
+      <option name="closed" value="true" />
+      <created>1789125096120</created>
+      <option name="number" value="00854" />
+      <option name="presentableId" value="LOCAL-00854" />
+      <option name="project" value="LOCAL" />
+      <updated>1789125096120</updated>
+    </task>
+    <task id="LOCAL-00855" summary="workspace.xml">
+      <option name="closed" value="true" />
+      <created>1789125103290</created>
+      <option name="number" value="00855" />
+      <option name="presentableId" value="LOCAL-00855" />
+      <option name="project" value="LOCAL" />
+      <updated>1789125103290</updated>
+    </task>
+    <task id="LOCAL-00856" summary="workspace.xml">
+      <option name="closed" value="true" />
+      <created>1789125113704</created>
+      <option name="number" value="00856" />
+      <option name="presentableId" value="LOCAL-00856" />
+      <option name="project" value="LOCAL" />
+      <updated>1789125113704</updated>
+    </task>
+    <task id="LOCAL-00857" summary="workspace.xml">
+      <option name="closed" value="true" />
+      <created>1789125124620</created>
+      <option name="number" value="00857" />
+      <option name="presentableId" value="LOCAL-00857" />
+      <option name="project" value="LOCAL" />
+      <updated>1789125124620</updated>
+    </task>
+    <task id="LOCAL-00858" summary="workspace.xml">
+      <option name="closed" value="true" />
+      <created>1789125132510</created>
+      <option name="number" value="00858" />
+      <option name="presentableId" value="LOCAL-00858" />
+      <option name="project" value="LOCAL" />
+      <updated>1789125132510</updated>
+    </task>
+    <task id="LOCAL-00859" summary="workspace.xml">
+      <option name="closed" value="true" />
+      <created>1789125140074</created>
+      <option name="number" value="00859" />
+      <option name="presentableId" value="LOCAL-00859" />
+      <option name="project" value="LOCAL" />
+      <updated>1789125140074</updated>
+    </task>
+    <task id="LOCAL-00860" summary="workspace.xml">
+      <option name="closed" value="true" />
+      <created>1789125149290</created>
+      <option name="number" value="00860" />
+      <option name="presentableId" value="LOCAL-00860" />
+      <option name="project" value="LOCAL" />
+      <updated>1789125149290</updated>
+    </task>
+    <task id="LOCAL-00861" summary="workspace.xml">
+      <option name="closed" value="true" />
+      <created>1789125157467</created>
+      <option name="number" value="00861" />
+      <option name="presentableId" value="LOCAL-00861" />
+      <option name="project" value="LOCAL" />
+      <updated>1789125157468</updated>
+    </task>
+    <task id="LOCAL-00862" summary="workspace.xml">
+      <option name="closed" value="true" />
+      <created>1789125166012</created>
+      <option name="number" value="00862" />
+      <option name="presentableId" value="LOCAL-00862" />
+      <option name="project" value="LOCAL" />
+      <updated>1789125166012</updated>
+    </task>
+    <option name="localTasksCounter" value="863" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
