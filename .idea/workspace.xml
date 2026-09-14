@@ -539,7 +539,7 @@
     "project.structure.last.edited": "Artifacts",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "configurable.group.editor",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
     "to.speed.mode.migration.done": "true"
   },
   "keyToStringList": {
@@ -642,14 +642,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1751545643062</updated>
-    </task>
-    <task id="LOCAL-00814" summary="blockingqueue">
-      <option name="closed" value="true" />
-      <created>1788331117124</created>
-      <option name="number" value="00814" />
-      <option name="presentableId" value="LOCAL-00814" />
-      <option name="project" value="LOCAL" />
-      <updated>1788331117124</updated>
     </task>
     <task id="LOCAL-00815" summary="blockingqueue">
       <option name="closed" value="true" />
@@ -1035,7 +1027,15 @@
       <option name="project" value="LOCAL" />
       <updated>1789125166012</updated>
     </task>
-    <option name="localTasksCounter" value="863" />
+    <task id="LOCAL-00863" summary="workspace.xml">
+      <option name="closed" value="true" />
+      <created>1789361568467</created>
+      <option name="number" value="00863" />
+      <option name="presentableId" value="LOCAL-00863" />
+      <option name="project" value="LOCAL" />
+      <updated>1789361568467</updated>
+    </task>
+    <option name="localTasksCounter" value="864" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
