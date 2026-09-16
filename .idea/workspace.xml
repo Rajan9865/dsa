@@ -5,6 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ff3856c1-c1ca-4aca-a6ef-fd33bd67f435" name="Changes" comment="workspace.xml">
+      <change afterPath="$PROJECT_DIR$/DataStracture/src/top100dsa/SquaresOfSortedArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DataStracture/src/top100dsa/SquaresOfSortedArrayUsingJava8.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DataStracture/src/top100dsa/SquaresOfSortedArrayUsingTwoPointer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DataStracture/src/top100dsa/TwoSumII.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DataStracture/src/top100dsa/TwoSumIIHashmap.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -105,61 +110,61 @@
   </component>
   <component name="NextEditCompletionFeaturesState">
     <decayedCancelled>
-      <entry key="MS100" value="1.0003266703501705" />
-      <entry key="MS500" value="1.3794783853054908" />
-      <entry key="S2" value="4.112935185043433" />
-      <entry key="S5" value="6.750877210494009" />
-      <entry key="S10" value="8.168142848056373" />
-      <entry key="S30" value="9.335984539873582" />
-      <entry key="S60" value="9.660797771308735" />
-      <entry key="M2" value="9.828558683365568" />
-      <entry key="M5" value="9.930976388567737" />
-      <entry key="M10" value="9.965413222289168" />
-      <entry key="M15" value="9.976925480243143" />
-      <entry key="M30" value="9.988617430143128" />
-      <entry key="H1" value="10.006995364300776" />
-      <entry key="H2" value="10.112151421193227" />
-      <entry key="H4" value="10.447374978004829" />
-      <entry key="D1" value="86.17529690900848" />
-      <entry key="W1" value="552.9980398114109" />
+      <entry key="MS100" value="2.368625982682955E-194" />
+      <entry key="MS500" value="1.8832123682417666E-39" />
+      <entry key="S2" value="2.0831705379957866E-10" />
+      <entry key="S5" value="1.341567941987113E-4" />
+      <entry key="S10" value="0.011875586533299046" />
+      <entry key="S30" value="0.36476299160749515" />
+      <entry key="S60" value="1.328410718390843" />
+      <entry key="M2" value="3.7296444585312316" />
+      <entry key="M5" value="9.319488877430755" />
+      <entry key="M10" value="14.947612282716978" />
+      <entry key="M15" value="18.671023728689043" />
+      <entry key="M30" value="24.668115596099565" />
+      <entry key="H1" value="29.099933923458774" />
+      <entry key="H2" value="31.83438487680675" />
+      <entry key="H4" value="33.358689815406116" />
+      <entry key="D1" value="45.753215130417345" />
+      <entry key="W1" value="447.25603153107096" />
     </decayedCancelled>
     <decayedSelected>
-      <entry key="MS100" value="0.0" />
-      <entry key="MS500" value="0.0" />
-      <entry key="S2" value="0.0" />
-      <entry key="S5" value="0.0" />
-      <entry key="S10" value="0.0" />
-      <entry key="S30" value="0.0" />
-      <entry key="S60" value="0.0" />
-      <entry key="M2" value="9.647615842623579E-202" />
-      <entry key="M5" value="7.575855450114818E-81" />
-      <entry key="M10" value="1.5072168484934216E-40" />
-      <entry key="M15" value="4.0847885781588736E-27" />
-      <entry key="M30" value="1.114998903146265E-13" />
-      <entry key="H1" value="6.164492560172776E-7" />
-      <entry key="H2" value="0.001598869672016" />
-      <entry key="H4" value="0.09199341827079437" />
-      <entry key="D1" value="94.40644479831572" />
-      <entry key="W1" value="692.0510952342104" />
+      <entry key="MS100" value="1.0000018423773365" />
+      <entry key="MS500" value="1.0712977322417765" />
+      <entry key="S2" value="1.516736249949596" />
+      <entry key="S5" value="1.7679074459332416" />
+      <entry key="S10" value="1.877822206126904" />
+      <entry key="S30" value="2.0776259835871222" />
+      <entry key="S60" value="2.5160752018168013" />
+      <entry key="M2" value="3.933716420586565" />
+      <entry key="M5" value="7.797031893137779" />
+      <entry key="M10" value="12.579936419859123" />
+      <entry key="M15" value="16.386352236811362" />
+      <entry key="M30" value="23.356002276578668" />
+      <entry key="H1" value="29.001422534402057" />
+      <entry key="H2" value="32.64770241748798" />
+      <entry key="H4" value="34.726912480510435" />
+      <entry key="D1" value="48.69626954415602" />
+      <entry key="W1" value="552.9132629357485" />
     </decayedSelected>
     <decayedShown>
-      <entry key="MS100" value="0.959577482461969" />
-      <entry key="MS500" value="1.366380628773668" />
-      <entry key="S2" value="4.08314855142394" />
-      <entry key="S5" value="6.726496113980526" />
-      <entry key="S10" value="8.152517386035047" />
-      <entry key="S30" value="9.329825995759515" />
-      <entry key="S60" value="9.65758602729431" />
-      <entry key="M2" value="9.826918577696569" />
-      <entry key="M5" value="9.930311983523374" />
-      <entry key="M10" value="9.965079613580347" />
-      <entry key="M15" value="9.976702761026552" />
-      <entry key="M30" value="9.98850591052233" />
-      <entry key="H1" value="10.006940062417026" />
-      <entry key="H2" value="10.113721440692942" />
-      <entry key="H4" value="10.539341584898175" />
-      <entry key="D1" value="180.57976443026598" />
-      <entry key="W1" value="1245.0471031530672" />
+      <entry key="MS100" value="0.001169412801405632" />
+      <entry key="MS500" value="0.26440880495191393" />
+      <entry key="S2" value="0.9824740513181603" />
+      <entry key="S5" value="1.4652271309882372" />
+      <entry key="S10" value="1.7169159661682403" />
+      <entry key="S30" value="2.371830603900015" />
+      <entry key="S60" value="3.793035431842579" />
+      <entry key="M2" value="7.611340881743098" />
+      <entry key="M5" value="17.06784257202749" />
+      <entry key="M10" value="27.487663217302728" />
+      <entry key="M15" value="35.023300099859675" />
+      <entry key="M30" value="48.00064533134534" />
+      <entry key="H1" value="58.087122865490436" />
+      <entry key="H2" value="64.47418035029658" />
+      <entry key="H4" value="68.0814257768353" />
+      <entry key="D1" value="94.4485019738708" />
+      <entry key="W1" value="1000.1676744910415" />
     </decayedShown>
   </component>
   <component name="ProjectColorInfo">{
@@ -437,6 +442,9 @@
     "Application.Singleton.executor": "Run",
     "Application.SingletonEager.executor": "Run",
     "Application.Sortemployeesbysalary.executor": "Run",
+    "Application.SquaresOfSortedArray.executor": "Run",
+    "Application.SquaresOfSortedArrayUsingJava8.executor": "Run",
+    "Application.SquaresOfSortedArrayUsingTwoPointer.executor": "Run",
     "Application.StarvationDemo.executor": "Run",
     "Application.Str8ing2.executor": "Run",
     "Application.String1.executor": "Debug",
@@ -471,6 +479,8 @@
     "Application.TwoSum.executor": "Run",
     "Application.TwoSumBruteForce.executor": "Run",
     "Application.TwoSumHashMap.executor": "Run",
+    "Application.TwoSumII.executor": "Run",
+    "Application.TwoSumIIHashmap.executor": "Run",
     "Application.TwoSumIndices.executor": "Run",
     "Application.TwoSumJava8.executor": "Run",
     "Application.TwoSumTwoPointer.executor": "Run",
@@ -548,9 +558,9 @@
     ]
   }
 }]]></component>
-  <component name="RunManager" selected="Application.ValidPalindromeTwoPointer1">
-    <configuration name="PairDifferenceJava8" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="top100dsa.PairDifferenceJava8" />
+  <component name="RunManager" selected="Application.TwoSumIIHashmap">
+    <configuration name="SquaresOfSortedArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="top100dsa.SquaresOfSortedArray" />
       <module name="Dsa" />
       <extension name="coverage">
         <pattern>
@@ -562,8 +572,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PairDifferenceTwoPointer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="top100dsa.PairDifferenceTwoPointer" />
+    <configuration name="SquaresOfSortedArrayUsingJava8" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="top100dsa.SquaresOfSortedArrayUsingJava8" />
       <module name="Dsa" />
       <extension name="coverage">
         <pattern>
@@ -575,8 +585,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ValidPalindromeBruteForce1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="top100dsa.ValidPalindromeBruteForce1" />
+    <configuration name="SquaresOfSortedArrayUsingTwoPointer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="top100dsa.SquaresOfSortedArrayUsingTwoPointer" />
       <module name="Dsa" />
       <extension name="coverage">
         <pattern>
@@ -588,8 +598,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ValidPalindromeJava81" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="top100dsa.ValidPalindromeJava81" />
+    <configuration name="TwoSumII" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="top100dsa.TwoSumII" />
       <module name="Dsa" />
       <extension name="coverage">
         <pattern>
@@ -601,8 +611,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ValidPalindromeTwoPointer1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="top100dsa.ValidPalindromeTwoPointer1" />
+    <configuration name="TwoSumIIHashmap" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="top100dsa.TwoSumIIHashmap" />
       <module name="Dsa" />
       <extension name="coverage">
         <pattern>
@@ -616,11 +626,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.ValidPalindromeTwoPointer1" />
-        <item itemvalue="Application.ValidPalindromeJava81" />
-        <item itemvalue="Application.ValidPalindromeBruteForce1" />
-        <item itemvalue="Application.PairDifferenceTwoPointer" />
-        <item itemvalue="Application.PairDifferenceJava8" />
+        <item itemvalue="Application.TwoSumIIHashmap" />
+        <item itemvalue="Application.TwoSumII" />
+        <item itemvalue="Application.SquaresOfSortedArrayUsingTwoPointer" />
+        <item itemvalue="Application.SquaresOfSortedArrayUsingJava8" />
+        <item itemvalue="Application.SquaresOfSortedArray" />
       </list>
     </recent_temporary>
   </component>
@@ -642,14 +652,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1751545643062</updated>
-    </task>
-    <task id="LOCAL-00815" summary="blockingqueue">
-      <option name="closed" value="true" />
-      <created>1788766631381</created>
-      <option name="number" value="00815" />
-      <option name="presentableId" value="LOCAL-00815" />
-      <option name="project" value="LOCAL" />
-      <updated>1788766631381</updated>
     </task>
     <task id="LOCAL-00816" summary="blockingqueue">
       <option name="closed" value="true" />
@@ -1035,7 +1037,15 @@
       <option name="project" value="LOCAL" />
       <updated>1789361568467</updated>
     </task>
-    <option name="localTasksCounter" value="864" />
+    <task id="LOCAL-00864" summary="workspace.xml">
+      <option name="closed" value="true" />
+      <created>1789377630759</created>
+      <option name="number" value="00864" />
+      <option name="presentableId" value="LOCAL-00864" />
+      <option name="project" value="LOCAL" />
+      <updated>1789377630759</updated>
+    </task>
+    <option name="localTasksCounter" value="865" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
