@@ -19,8 +19,37 @@ public class MergeSortedLinkedListsUsingTwoPointer {
         a1.next = b1;
         b1.next = c1;
         Node result = mergeLinkedList(a, a1);
+        Node resultForDuplicate = mergeLinkedListAndRemoveDuplicate(a, a1);
         System.out.println("merged linked list");
         printlinkedList(result);
+        System.out.println("merged linked list and remove duplicate");
+        printlinkedList(resultForDuplicate);
+    }
+
+    private static Node mergeLinkedListAndRemoveDuplicate(Node head1, Node head2) {
+        Node dummy = new Node(0);
+        Node current = dummy;
+        while (head1 != null && head2 != null) {
+            if (head1.data < head2.data) {
+                current.next = head1;
+                head1 = head1.next;
+            } else if (head2.data < head1.data) {
+                current.next = head2;
+                head2 = head2.next;
+            } else {
+                current.next = head1;
+                head1 = head1.next;
+                head2 = head2.next;
+            }
+            current = current.next;
+        }
+        if (head1 != null) {
+            current.next = head1;
+        }
+        if (head2 != null) {
+            current.next = head2;
+        }
+        return dummy.next;
     }
 
     private static void printlinkedList(Node head) {
