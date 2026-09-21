@@ -4,13 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ff3856c1-c1ca-4aca-a6ef-fd33bd67f435" name="Changes" comment="workspace.xml">
-      <change afterPath="$PROJECT_DIR$/DataStracture/src/top100dsa/SquaresOfSortedArray.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DataStracture/src/top100dsa/SquaresOfSortedArrayUsingJava8.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DataStracture/src/top100dsa/SquaresOfSortedArrayUsingTwoPointer.java" afterDir="false" />
+    <list default="true" id="ff3856c1-c1ca-4aca-a6ef-fd33bd67f435" name="Changes" comment="MiddleOfLinkedList brute force using java 8 and taking complexity O(n) , space O(1) if node is even number , i want to expect 1st middle number">
+      <change afterPath="$PROJECT_DIR$/DataStracture/src/top100dsa/DetectLinkedListCycle.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/DataStracture/src/top100dsa/TwoSumII.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/DataStracture/src/top100dsa/TwoSumIIHashmap.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataStracture/src/top100dsa/MergeSortedLinkedListsUsingTwoPointer.java" beforeDir="false" afterPath="$PROJECT_DIR$/DataStracture/src/top100dsa/MergeSortedLinkedListsUsingTwoPointer.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -110,61 +110,61 @@
   </component>
   <component name="NextEditCompletionFeaturesState">
     <decayedCancelled>
-      <entry key="MS100" value="2.368625982682955E-194" />
-      <entry key="MS500" value="1.8832123682417666E-39" />
-      <entry key="S2" value="2.0831705379957866E-10" />
-      <entry key="S5" value="1.341567941987113E-4" />
-      <entry key="S10" value="0.011875586533299046" />
-      <entry key="S30" value="0.36476299160749515" />
-      <entry key="S60" value="1.328410718390843" />
-      <entry key="M2" value="3.7296444585312316" />
-      <entry key="M5" value="9.319488877430755" />
-      <entry key="M10" value="14.947612282716978" />
-      <entry key="M15" value="18.671023728689043" />
-      <entry key="M30" value="24.668115596099565" />
-      <entry key="H1" value="29.099933923458774" />
-      <entry key="H2" value="31.83438487680675" />
-      <entry key="H4" value="33.358689815406116" />
-      <entry key="D1" value="45.753215130417345" />
-      <entry key="W1" value="447.25603153107096" />
+      <entry key="MS100" value="1.0" />
+      <entry key="MS500" value="1.0004600250360864" />
+      <entry key="S2" value="1.1464521744078826" />
+      <entry key="S5" value="1.4671643967823038" />
+      <entry key="S10" value="1.8010542189309602" />
+      <entry key="S30" value="4.111556495066328" />
+      <entry key="S60" value="8.251152838025723" />
+      <entry key="M2" value="16.51046521679839" />
+      <entry key="M5" value="36.20454101268458" />
+      <entry key="M10" value="58.26314462060815" />
+      <entry key="M15" value="74.35303017275582" />
+      <entry key="M30" value="102.63682175932472" />
+      <entry key="H1" value="125.17126150490058" />
+      <entry key="H2" value="139.7076025654721" />
+      <entry key="H4" value="149.73718367914157" />
+      <entry key="D1" value="219.10343084043612" />
+      <entry key="W1" value="635.3341338844389" />
     </decayedCancelled>
     <decayedSelected>
-      <entry key="MS100" value="1.0000018423773365" />
-      <entry key="MS500" value="1.0712977322417765" />
-      <entry key="S2" value="1.516736249949596" />
-      <entry key="S5" value="1.7679074459332416" />
-      <entry key="S10" value="1.877822206126904" />
-      <entry key="S30" value="2.0776259835871222" />
-      <entry key="S60" value="2.5160752018168013" />
-      <entry key="M2" value="3.933716420586565" />
-      <entry key="M5" value="7.797031893137779" />
-      <entry key="M10" value="12.579936419859123" />
-      <entry key="M15" value="16.386352236811362" />
-      <entry key="M30" value="23.356002276578668" />
-      <entry key="H1" value="29.001422534402057" />
-      <entry key="H2" value="32.64770241748798" />
-      <entry key="H4" value="34.726912480510435" />
-      <entry key="D1" value="48.69626954415602" />
-      <entry key="W1" value="552.9132629357485" />
+      <entry key="MS100" value="1.4429805865805398E-41" />
+      <entry key="MS500" value="6.789740966124005E-9" />
+      <entry key="S2" value="0.009444066238141846" />
+      <entry key="S5" value="0.20543772027612836" />
+      <entry key="S10" value="0.7770178108687424" />
+      <entry key="S30" value="3.1456555589336714" />
+      <entry key="S60" value="5.856880258110601" />
+      <entry key="M2" value="9.981777080827912" />
+      <entry key="M5" value="19.524364017624976" />
+      <entry key="M10" value="31.554782484707314" />
+      <entry key="M15" value="40.82446597868723" />
+      <entry key="M30" value="57.34207477302287" />
+      <entry key="H1" value="70.50309154396017" />
+      <entry key="H2" value="78.97582030898054" />
+      <entry key="H4" value="85.46253644733714" />
+      <entry key="D1" value="150.61959834501087" />
+      <entry key="W1" value="658.3765220519159" />
     </decayedSelected>
     <decayedShown>
-      <entry key="MS100" value="0.001169412801405632" />
-      <entry key="MS500" value="0.26440880495191393" />
-      <entry key="S2" value="0.9824740513181603" />
-      <entry key="S5" value="1.4652271309882372" />
-      <entry key="S10" value="1.7169159661682403" />
-      <entry key="S30" value="2.371830603900015" />
-      <entry key="S60" value="3.793035431842579" />
-      <entry key="M2" value="7.611340881743098" />
-      <entry key="M5" value="17.06784257202749" />
-      <entry key="M10" value="27.487663217302728" />
-      <entry key="M15" value="35.023300099859675" />
-      <entry key="M30" value="48.00064533134534" />
-      <entry key="H1" value="58.087122865490436" />
-      <entry key="H2" value="64.47418035029658" />
-      <entry key="H4" value="68.0814257768353" />
-      <entry key="D1" value="94.4485019738708" />
-      <entry key="W1" value="1000.1676744910415" />
+      <entry key="MS100" value="0.01698023222696966" />
+      <entry key="MS500" value="0.44266562696014533" />
+      <entry key="S2" value="0.9188486494469474" />
+      <entry key="S5" value="1.490219366620381" />
+      <entry key="S10" value="2.4055720487998427" />
+      <entry key="S30" value="7.054863189682" />
+      <entry key="S60" value="13.916625647183501" />
+      <entry key="M2" value="26.33375056731543" />
+      <entry key="M5" value="55.612749442277156" />
+      <entry key="M10" value="89.72800325864597" />
+      <entry key="M15" value="115.1014484211592" />
+      <entry key="M30" value="159.92666737684848" />
+      <entry key="H1" value="195.64261829992952" />
+      <entry key="H2" value="218.6657522023288" />
+      <entry key="H4" value="235.19017443451395" />
+      <entry key="D1" value="369.72015060617474" />
+      <entry key="W1" value="1293.7087596747995" />
     </decayedShown>
   </component>
   <component name="ProjectColorInfo">{
@@ -181,8 +181,7 @@
             <option name="modelValue" value="auto" />
           </model>
         </option>
-        <option name="targetType" value="BACKGROUND" />
-        <option name="worktreeMode" value="WORKSPACE" />
+        <option name="targetType" value="LOCAL" />
       </template>
     </option>
     <option name="panelTemplate">
@@ -261,6 +260,7 @@
     "Application.Demo.executor": "Run",
     "Application.Demo1.executor": "Run",
     "Application.Demo2.executor": "Run",
+    "Application.DetectLinkedListCycle.executor": "Run",
     "Application.DetectLoopInLinkedList.executor": "Run",
     "Application.DiskSpaceExample.executor": "Run",
     "Application.DoublyLinkedListTraversal.executor": "Run",
@@ -340,6 +340,8 @@
     "Application.MergeSortedArraysBruteForce.executor": "Run",
     "Application.MergeSortedArraysJava8.executor": "Run",
     "Application.MergeSortedArraysTwoPointer.executor": "Debug",
+    "Application.MergeSortedLinkedListsBruteForce.executor": "Run",
+    "Application.MergeSortedLinkedListsUsingTwoPointer.executor": "Run",
     "Application.MergeSortedLists.executor": "Run",
     "Application.MergeTwoSortedLists.executor": "Run",
     "Application.MethodRefExample.executor": "Run",
@@ -348,6 +350,9 @@
     "Application.MethodsReference3.executor": "Run",
     "Application.MethodsReference4.executor": "Run",
     "Application.MiddleLinkedList.executor": "Run",
+    "Application.MiddleOfLinkedList.executor": "Run",
+    "Application.MiddleOfLinkedListUdingJava8.executor": "Run",
+    "Application.MiddleOfLinkedListUsingFastAndSlowPointer.executor": "Run",
     "Application.MiddleofLinkedList.executor": "Debug",
     "Application.MostFrequentElement.executor": "Run",
     "Application.MostFrequentProducts.executor": "Run",
@@ -514,6 +519,8 @@
     "Application.doubleRevision.ReverseLinkedList.executor": "Run",
     "Application.failFast1.executor": "Run",
     "Application.failFast1Solution.executor": "Run",
+    "Application.findMiddleIfEvenNode.executor": "Run",
+    "Application.findMiddleIfEvenNode1.executor": "Run",
     "Application.linkedList.PalindromeLinkedList.executor": "Run",
     "Application.partitionLinkedListGivenData.executor": "Run",
     "Application.revision.DetectLoopInLinkedList.executor": "Run",
@@ -558,9 +565,9 @@
     ]
   }
 }]]></component>
-  <component name="RunManager" selected="Application.TwoSumIIHashmap">
-    <configuration name="SquaresOfSortedArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="top100dsa.SquaresOfSortedArray" />
+  <component name="RunManager" selected="Application.DetectLinkedListCycle">
+    <configuration name="DetectLinkedListCycle" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="top100dsa.DetectLinkedListCycle" />
       <module name="Dsa" />
       <extension name="coverage">
         <pattern>
@@ -572,8 +579,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SquaresOfSortedArrayUsingJava8" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="top100dsa.SquaresOfSortedArrayUsingJava8" />
+    <configuration name="MiddleOfLinkedListUdingJava8" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="top100dsa.MiddleOfLinkedListUdingJava8" />
       <module name="Dsa" />
       <extension name="coverage">
         <pattern>
@@ -585,8 +592,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SquaresOfSortedArrayUsingTwoPointer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="top100dsa.SquaresOfSortedArrayUsingTwoPointer" />
+    <configuration name="MiddleOfLinkedListUsingFastAndSlowPointer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="top100dsa.MiddleOfLinkedListUsingFastAndSlowPointer" />
       <module name="Dsa" />
       <extension name="coverage">
         <pattern>
@@ -598,12 +605,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TwoSumII" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="top100dsa.TwoSumII" />
+    <configuration name="findMiddleIfEvenNode" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="top100dsa.revision.findMiddleIfEvenNode" />
       <module name="Dsa" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="top100dsa.*" />
+          <option name="PATTERN" value="top100dsa.revision.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -611,12 +618,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TwoSumIIHashmap" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="top100dsa.TwoSumIIHashmap" />
+    <configuration name="findMiddleIfEvenNode1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="top100dsa.revision.findMiddleIfEvenNode1" />
       <module name="Dsa" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="top100dsa.*" />
+          <option name="PATTERN" value="top100dsa.revision.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -626,19 +633,19 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.TwoSumIIHashmap" />
-        <item itemvalue="Application.TwoSumII" />
-        <item itemvalue="Application.SquaresOfSortedArrayUsingTwoPointer" />
-        <item itemvalue="Application.SquaresOfSortedArrayUsingJava8" />
-        <item itemvalue="Application.SquaresOfSortedArray" />
+        <item itemvalue="Application.DetectLinkedListCycle" />
+        <item itemvalue="Application.findMiddleIfEvenNode1" />
+        <item itemvalue="Application.findMiddleIfEvenNode" />
+        <item itemvalue="Application.MiddleOfLinkedListUsingFastAndSlowPointer" />
+        <item itemvalue="Application.MiddleOfLinkedListUdingJava8" />
       </list>
     </recent_temporary>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-jdk-30f59d01ecdd-a203e0a19954-intellij.indexing.shared.core-IU-262.10315.125" />
-        <option value="bundled-js-predefined-d6986cc7102b-4abd2a77f808-JavaScript-IU-262.10315.125" />
+        <option value="bundled-jdk-30f59d01ecdd-a203e0a19954-intellij.indexing.shared.core-IU-262.10968.63" />
+        <option value="bundled-js-predefined-d6986cc7102b-4abd2a77f808-JavaScript-IU-262.10968.63" />
       </set>
     </attachedChunks>
   </component>
@@ -652,110 +659,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1751545643062</updated>
-    </task>
-    <task id="LOCAL-00816" summary="blockingqueue">
-      <option name="closed" value="true" />
-      <created>1788766640573</created>
-      <option name="number" value="00816" />
-      <option name="presentableId" value="LOCAL-00816" />
-      <option name="project" value="LOCAL" />
-      <updated>1788766640573</updated>
-    </task>
-    <task id="LOCAL-00817" summary="blockingqueue">
-      <option name="closed" value="true" />
-      <created>1788766650894</created>
-      <option name="number" value="00817" />
-      <option name="presentableId" value="LOCAL-00817" />
-      <option name="project" value="LOCAL" />
-      <updated>1788766650894</updated>
-    </task>
-    <task id="LOCAL-00818" summary="blockingqueue">
-      <option name="closed" value="true" />
-      <created>1788766659742</created>
-      <option name="number" value="00818" />
-      <option name="presentableId" value="LOCAL-00818" />
-      <option name="project" value="LOCAL" />
-      <updated>1788766659742</updated>
-    </task>
-    <task id="LOCAL-00819" summary="blockingqueue">
-      <option name="closed" value="true" />
-      <created>1788766673322</created>
-      <option name="number" value="00819" />
-      <option name="presentableId" value="LOCAL-00819" />
-      <option name="project" value="LOCAL" />
-      <updated>1788766673323</updated>
-    </task>
-    <task id="LOCAL-00820" summary="blockingqueue">
-      <option name="closed" value="true" />
-      <created>1788766684734</created>
-      <option name="number" value="00820" />
-      <option name="presentableId" value="LOCAL-00820" />
-      <option name="project" value="LOCAL" />
-      <updated>1788766684734</updated>
-    </task>
-    <task id="LOCAL-00821" summary="blockingqueue">
-      <option name="closed" value="true" />
-      <created>1788766693929</created>
-      <option name="number" value="00821" />
-      <option name="presentableId" value="LOCAL-00821" />
-      <option name="project" value="LOCAL" />
-      <updated>1788766693929</updated>
-    </task>
-    <task id="LOCAL-00822" summary="ValidPalindromeJava8">
-      <option name="closed" value="true" />
-      <created>1788766882693</created>
-      <option name="number" value="00822" />
-      <option name="presentableId" value="LOCAL-00822" />
-      <option name="project" value="LOCAL" />
-      <updated>1788766882694</updated>
-    </task>
-    <task id="LOCAL-00823" summary="ValidPalindromeJava8">
-      <option name="closed" value="true" />
-      <created>1788859589099</created>
-      <option name="number" value="00823" />
-      <option name="presentableId" value="LOCAL-00823" />
-      <option name="project" value="LOCAL" />
-      <updated>1788859589099</updated>
-    </task>
-    <task id="LOCAL-00824" summary="VirtualThreadBasicDemo">
-      <option name="closed" value="true" />
-      <created>1788859606867</created>
-      <option name="number" value="00824" />
-      <option name="presentableId" value="LOCAL-00824" />
-      <option name="project" value="LOCAL" />
-      <updated>1788859606867</updated>
-    </task>
-    <task id="LOCAL-00825" summary="VirtualThreadBasicDemo">
-      <option name="closed" value="true" />
-      <created>1788859620925</created>
-      <option name="number" value="00825" />
-      <option name="presentableId" value="LOCAL-00825" />
-      <option name="project" value="LOCAL" />
-      <updated>1788859620925</updated>
-    </task>
-    <task id="LOCAL-00826" summary="workspace.xml">
-      <option name="closed" value="true" />
-      <created>1788859636130</created>
-      <option name="number" value="00826" />
-      <option name="presentableId" value="LOCAL-00826" />
-      <option name="project" value="LOCAL" />
-      <updated>1788859636130</updated>
-    </task>
-    <task id="LOCAL-00827" summary="workspace.xml">
-      <option name="closed" value="true" />
-      <created>1788860220848</created>
-      <option name="number" value="00827" />
-      <option name="presentableId" value="LOCAL-00827" />
-      <option name="project" value="LOCAL" />
-      <updated>1788860220848</updated>
-    </task>
-    <task id="LOCAL-00828" summary="MergeSortedArraysBruteForce">
-      <option name="closed" value="true" />
-      <created>1788861137678</created>
-      <option name="number" value="00828" />
-      <option name="presentableId" value="LOCAL-00828" />
-      <option name="project" value="LOCAL" />
-      <updated>1788861137679</updated>
     </task>
     <task id="LOCAL-00829" summary="MergeSortedArraysJava8.java">
       <option name="closed" value="true" />
@@ -1045,7 +948,111 @@
       <option name="project" value="LOCAL" />
       <updated>1789377630759</updated>
     </task>
-    <option name="localTasksCounter" value="865" />
+    <task id="LOCAL-00865" summary="SquaresOfSortedArray">
+      <option name="closed" value="true" />
+      <created>1789537368347</created>
+      <option name="number" value="00865" />
+      <option name="presentableId" value="LOCAL-00865" />
+      <option name="project" value="LOCAL" />
+      <updated>1789537368348</updated>
+    </task>
+    <task id="LOCAL-00866" summary="SquaresOfSortedArrayUsingJava8">
+      <option name="closed" value="true" />
+      <created>1789537383493</created>
+      <option name="number" value="00866" />
+      <option name="presentableId" value="LOCAL-00866" />
+      <option name="project" value="LOCAL" />
+      <updated>1789537383493</updated>
+    </task>
+    <task id="LOCAL-00867" summary="SquaresOfSortedArrayUsingTwoPointer">
+      <option name="closed" value="true" />
+      <created>1789537400907</created>
+      <option name="number" value="00867" />
+      <option name="presentableId" value="LOCAL-00867" />
+      <option name="project" value="LOCAL" />
+      <updated>1789537400907</updated>
+    </task>
+    <task id="LOCAL-00868" summary="workspace.xml">
+      <option name="closed" value="true" />
+      <created>1789537418875</created>
+      <option name="number" value="00868" />
+      <option name="presentableId" value="LOCAL-00868" />
+      <option name="project" value="LOCAL" />
+      <updated>1789537418875</updated>
+    </task>
+    <task id="LOCAL-00869" summary="node">
+      <option name="closed" value="true" />
+      <created>1789537733889</created>
+      <option name="number" value="00869" />
+      <option name="presentableId" value="LOCAL-00869" />
+      <option name="project" value="LOCAL" />
+      <updated>1789537733889</updated>
+    </task>
+    <task id="LOCAL-00870" summary="MergeSortedLinkedListsUsingTwoPointer">
+      <option name="closed" value="true" />
+      <created>1789541803482</created>
+      <option name="number" value="00870" />
+      <option name="presentableId" value="LOCAL-00870" />
+      <option name="project" value="LOCAL" />
+      <updated>1789541803482</updated>
+    </task>
+    <task id="LOCAL-00871" summary="MergeSortedLinkedListsUsingTwoPointer">
+      <option name="closed" value="true" />
+      <created>1789620406296</created>
+      <option name="number" value="00871" />
+      <option name="presentableId" value="LOCAL-00871" />
+      <option name="project" value="LOCAL" />
+      <updated>1789620406296</updated>
+    </task>
+    <task id="LOCAL-00872" summary="MergeSortedLinkedListsUsingTwoPointer">
+      <option name="closed" value="true" />
+      <created>1789620414656</created>
+      <option name="number" value="00872" />
+      <option name="presentableId" value="LOCAL-00872" />
+      <option name="project" value="LOCAL" />
+      <updated>1789620414656</updated>
+    </task>
+    <task id="LOCAL-00873" summary="MiddleOfLinkedList brute force using middle check">
+      <option name="closed" value="true" />
+      <created>1789623212029</created>
+      <option name="number" value="00873" />
+      <option name="presentableId" value="LOCAL-00873" />
+      <option name="project" value="LOCAL" />
+      <updated>1789623212029</updated>
+    </task>
+    <task id="LOCAL-00874" summary="MiddleOfLinkedList brute force using java 8 and taking O(n) , space O(n)">
+      <option name="closed" value="true" />
+      <created>1789623909752</created>
+      <option name="number" value="00874" />
+      <option name="presentableId" value="LOCAL-00874" />
+      <option name="project" value="LOCAL" />
+      <updated>1789623909752</updated>
+    </task>
+    <task id="LOCAL-00875" summary="MiddleOfLinkedList brute force using java 8 and taking complexity O(n) , space O(1)">
+      <option name="closed" value="true" />
+      <created>1789624263781</created>
+      <option name="number" value="00875" />
+      <option name="presentableId" value="LOCAL-00875" />
+      <option name="project" value="LOCAL" />
+      <updated>1789624263781</updated>
+    </task>
+    <task id="LOCAL-00876" summary="MiddleOfLinkedList brute force using java 8 and taking complexity O(n) , space O(1) if node is even number">
+      <option name="closed" value="true" />
+      <created>1789625056439</created>
+      <option name="number" value="00876" />
+      <option name="presentableId" value="LOCAL-00876" />
+      <option name="project" value="LOCAL" />
+      <updated>1789625056439</updated>
+    </task>
+    <task id="LOCAL-00877" summary="MiddleOfLinkedList brute force using java 8 and taking complexity O(n) , space O(1) if node is even number , i want to expect 1st middle number">
+      <option name="closed" value="true" />
+      <created>1789625258012</created>
+      <option name="number" value="00877" />
+      <option name="presentableId" value="LOCAL-00877" />
+      <option name="project" value="LOCAL" />
+      <updated>1789625258012</updated>
+    </task>
+    <option name="localTasksCounter" value="878" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -1063,16 +1070,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="RomanToInteger.java" />
-    <MESSAGE value="ReverseArrayBruteForce" />
-    <MESSAGE value="RateLimiterDemo" />
-    <MESSAGE value="RemoveDuplicatesArrayListUnsortedOrder" />
-    <MESSAGE value="ReverseStringJava8" />
-    <MESSAGE value="ReverseStringTwoPointer" />
-    <MESSAGE value="RomanToInteger" />
-    <MESSAGE value="Singleton" />
-    <MESSAGE value="Exception3" />
-    <MESSAGE value="Immutable1" />
     <MESSAGE value="RemoveDuplicatesBruteForce.java" />
     <MESSAGE value="A" />
     <MESSAGE value="blockingqueue" />
@@ -1087,8 +1084,18 @@
     <MESSAGE value="PairDifferenceBruteForce" />
     <MESSAGE value="ValidPalindromeBruteForce1" />
     <MESSAGE value="ValidPalindromeJava81" />
+    <MESSAGE value="SquaresOfSortedArray" />
+    <MESSAGE value="SquaresOfSortedArrayUsingJava8" />
+    <MESSAGE value="SquaresOfSortedArrayUsingTwoPointer" />
     <MESSAGE value="workspace.xml" />
-    <option name="LAST_COMMIT_MESSAGE" value="workspace.xml" />
+    <MESSAGE value="node" />
+    <MESSAGE value="MergeSortedLinkedListsUsingTwoPointer" />
+    <MESSAGE value="MiddleOfLinkedList brute force using middle check" />
+    <MESSAGE value="MiddleOfLinkedList brute force using java 8 and taking O(n) , space O(n)" />
+    <MESSAGE value="MiddleOfLinkedList brute force using java 8 and taking complexity O(n) , space O(1)" />
+    <MESSAGE value="MiddleOfLinkedList brute force using java 8 and taking complexity O(n) , space O(1) if node is even number" />
+    <MESSAGE value="MiddleOfLinkedList brute force using java 8 and taking complexity O(n) , space O(1) if node is even number , i want to expect 1st middle number" />
+    <option name="LAST_COMMIT_MESSAGE" value="MiddleOfLinkedList brute force using java 8 and taking complexity O(n) , space O(1) if node is even number , i want to expect 1st middle number" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1279,10 +1286,15 @@
           <line>28</line>
           <option name="timeStamp" value="56" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/DataStracture/src/top100dsa/MergeSortedLinkedListsBruteForce.java</url>
+          <line>12</line>
+          <option name="timeStamp" value="57" />
+        </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/DataStracture/src/linkedList/DeleteWithoutHead.java</url>
           <line>9</line>
-          <properties class="linkedList.DeleteWithoutHead" method="main">
+          <properties class="linkedList.DeleteWithoutHead">
             <option name="EMULATED" value="true" />
             <option name="WATCH_EXIT" value="false" />
           </properties>
