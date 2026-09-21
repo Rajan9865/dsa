@@ -4,13 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ff3856c1-c1ca-4aca-a6ef-fd33bd67f435" name="Changes" comment="MiddleOfLinkedList brute force using java 8 and taking complexity O(n) , space O(1) if node is even number , i want to expect 1st middle number">
-      <change afterPath="$PROJECT_DIR$/DataStracture/src/top100dsa/DetectLinkedListCycle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DataStracture/src/top100dsa/TwoSumII.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DataStracture/src/top100dsa/TwoSumIIHashmap.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
+    <list default="true" id="ff3856c1-c1ca-4aca-a6ef-fd33bd67f435" name="Changes" comment="workspace.xml">
+      <change afterPath="$PROJECT_DIR$/DataStracture/src/top100dsa/detectCycleFindtheStartingNodeofCycle.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DataStracture/src/top100dsa/MergeSortedLinkedListsUsingTwoPointer.java" beforeDir="false" afterPath="$PROJECT_DIR$/DataStracture/src/top100dsa/MergeSortedLinkedListsUsingTwoPointer.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -110,61 +106,61 @@
   </component>
   <component name="NextEditCompletionFeaturesState">
     <decayedCancelled>
-      <entry key="MS100" value="1.0" />
-      <entry key="MS500" value="1.0004600250360864" />
-      <entry key="S2" value="1.1464521744078826" />
-      <entry key="S5" value="1.4671643967823038" />
-      <entry key="S10" value="1.8010542189309602" />
-      <entry key="S30" value="4.111556495066328" />
-      <entry key="S60" value="8.251152838025723" />
-      <entry key="M2" value="16.51046521679839" />
-      <entry key="M5" value="36.20454101268458" />
-      <entry key="M10" value="58.26314462060815" />
-      <entry key="M15" value="74.35303017275582" />
-      <entry key="M30" value="102.63682175932472" />
-      <entry key="H1" value="125.17126150490058" />
-      <entry key="H2" value="139.7076025654721" />
-      <entry key="H4" value="149.73718367914157" />
-      <entry key="D1" value="219.10343084043612" />
-      <entry key="W1" value="635.3341338844389" />
+      <entry key="MS100" value="1.0798639176326887E-16" />
+      <entry key="MS500" value="6.407281516562307E-4" />
+      <entry key="S2" value="0.15910652496915853" />
+      <entry key="S5" value="0.488114357267102" />
+      <entry key="S10" value="0.785894494299207" />
+      <entry key="S30" value="1.3386008250305217" />
+      <entry key="S60" value="1.6233577268132373" />
+      <entry key="M2" value="2.138002459418632" />
+      <entry key="M5" value="6.148434148747716" />
+      <entry key="M10" value="17.860072951348695" />
+      <entry key="M15" value="32.690300221359735" />
+      <entry key="M30" value="72.35023972490731" />
+      <entry key="H1" value="116.5140258090329" />
+      <entry key="H2" value="150.90305376861855" />
+      <entry key="H4" value="174.17378175175588" />
+      <entry key="D1" value="256.09279358071353" />
+      <entry key="W1" value="674.7744417913127" />
     </decayedCancelled>
     <decayedSelected>
-      <entry key="MS100" value="1.4429805865805398E-41" />
-      <entry key="MS500" value="6.789740966124005E-9" />
-      <entry key="S2" value="0.009444066238141846" />
-      <entry key="S5" value="0.20543772027612836" />
-      <entry key="S10" value="0.7770178108687424" />
-      <entry key="S30" value="3.1456555589336714" />
-      <entry key="S60" value="5.856880258110601" />
-      <entry key="M2" value="9.981777080827912" />
-      <entry key="M5" value="19.524364017624976" />
-      <entry key="M10" value="31.554782484707314" />
-      <entry key="M15" value="40.82446597868723" />
-      <entry key="M30" value="57.34207477302287" />
-      <entry key="H1" value="70.50309154396017" />
-      <entry key="H2" value="78.97582030898054" />
-      <entry key="H4" value="85.46253644733714" />
-      <entry key="D1" value="150.61959834501087" />
-      <entry key="W1" value="658.3765220519159" />
+      <entry key="MS100" value="1.0000542506519268" />
+      <entry key="MS500" value="1.1402429350663106" />
+      <entry key="S2" value="1.6120116024729723" />
+      <entry key="S5" value="1.8469642923663887" />
+      <entry key="S10" value="2.1503318242361713" />
+      <entry key="S30" value="3.228819591032681" />
+      <entry key="S60" value="3.924725929870658" />
+      <entry key="M2" value="4.557869962404028" />
+      <entry key="M5" value="6.881577048074235" />
+      <entry key="M10" value="12.871548170526118" />
+      <entry key="M15" value="20.47957763725034" />
+      <entry key="M30" value="41.43231535985639" />
+      <entry key="H1" value="65.30840205605726" />
+      <entry key="H2" value="84.10897412450122" />
+      <entry key="H4" value="97.5362493764767" />
+      <entry key="D1" value="169.00234668020025" />
+      <entry key="W1" value="677.8011524598502" />
     </decayedSelected>
     <decayedShown>
-      <entry key="MS100" value="0.01698023222696966" />
-      <entry key="MS500" value="0.44266562696014533" />
-      <entry key="S2" value="0.9188486494469474" />
-      <entry key="S5" value="1.490219366620381" />
-      <entry key="S10" value="2.4055720487998427" />
-      <entry key="S30" value="7.054863189682" />
-      <entry key="S60" value="13.916625647183501" />
-      <entry key="M2" value="26.33375056731543" />
-      <entry key="M5" value="55.612749442277156" />
-      <entry key="M10" value="89.72800325864597" />
-      <entry key="M15" value="115.1014484211592" />
-      <entry key="M30" value="159.92666737684848" />
-      <entry key="H1" value="195.64261829992952" />
-      <entry key="H2" value="218.6657522023288" />
-      <entry key="H4" value="235.19017443451395" />
-      <entry key="D1" value="369.72015060617474" />
-      <entry key="W1" value="1293.7087596747995" />
+      <entry key="MS100" value="0.005190179945739297" />
+      <entry key="MS500" value="0.3654878764086464" />
+      <entry key="S2" value="1.2742198808558596" />
+      <entry key="S5" value="2.058482142048828" />
+      <entry key="S10" value="2.75252796444451" />
+      <entry key="S30" value="4.455748320679974" />
+      <entry key="S60" value="5.476206149625535" />
+      <entry key="M2" value="6.651106370718069" />
+      <entry key="M5" value="12.996711240695623" />
+      <entry key="M10" value="30.697446021699484" />
+      <entry key="M15" value="53.133173235801316" />
+      <entry key="M30" value="113.74557353429925" />
+      <entry key="H1" value="181.79348092635573" />
+      <entry key="H2" value="234.9934645496677" />
+      <entry key="H4" value="271.69927761101167" />
+      <entry key="D1" value="425.0919466847352" />
+      <entry key="W1" value="1352.573650453097" />
     </decayedShown>
   </component>
   <component name="ProjectColorInfo">{
@@ -516,6 +512,7 @@
     "Application.WorkerWithoutVolatile.executor": "Run",
     "Application.WrongExampl.executor": "Run",
     "Application.WrongExample.executor": "Run",
+    "Application.detectCycleFindtheStartingNodeofCycle.executor": "Run",
     "Application.doubleRevision.ReverseLinkedList.executor": "Run",
     "Application.failFast1.executor": "Run",
     "Application.failFast1Solution.executor": "Run",
@@ -556,7 +553,7 @@
     "project.structure.last.edited": "Artifacts",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "settings.editor.selected.configurable": "editor.preferences.fonts.default",
     "to.speed.mode.migration.done": "true"
   },
   "keyToStringList": {
@@ -565,7 +562,7 @@
     ]
   }
 }]]></component>
-  <component name="RunManager" selected="Application.DetectLinkedListCycle">
+  <component name="RunManager" selected="Application.detectCycleFindtheStartingNodeofCycle">
     <configuration name="DetectLinkedListCycle" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="top100dsa.DetectLinkedListCycle" />
       <module name="Dsa" />
@@ -579,8 +576,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MiddleOfLinkedListUdingJava8" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="top100dsa.MiddleOfLinkedListUdingJava8" />
+    <configuration name="MiddleOfLinkedListUsingFastAndSlowPointer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="top100dsa.MiddleOfLinkedListUsingFastAndSlowPointer" />
       <module name="Dsa" />
       <extension name="coverage">
         <pattern>
@@ -592,8 +589,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MiddleOfLinkedListUsingFastAndSlowPointer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="top100dsa.MiddleOfLinkedListUsingFastAndSlowPointer" />
+    <configuration name="detectCycleFindtheStartingNodeofCycle" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="top100dsa.detectCycleFindtheStartingNodeofCycle" />
       <module name="Dsa" />
       <extension name="coverage">
         <pattern>
@@ -633,11 +630,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.detectCycleFindtheStartingNodeofCycle" />
         <item itemvalue="Application.DetectLinkedListCycle" />
         <item itemvalue="Application.findMiddleIfEvenNode1" />
         <item itemvalue="Application.findMiddleIfEvenNode" />
         <item itemvalue="Application.MiddleOfLinkedListUsingFastAndSlowPointer" />
-        <item itemvalue="Application.MiddleOfLinkedListUdingJava8" />
       </list>
     </recent_temporary>
   </component>
@@ -659,54 +656,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1751545643062</updated>
-    </task>
-    <task id="LOCAL-00829" summary="MergeSortedArraysJava8.java">
-      <option name="closed" value="true" />
-      <created>1788861153751</created>
-      <option name="number" value="00829" />
-      <option name="presentableId" value="LOCAL-00829" />
-      <option name="project" value="LOCAL" />
-      <updated>1788861153751</updated>
-    </task>
-    <task id="LOCAL-00830" summary="MergeSortedArraysJava8.java">
-      <option name="closed" value="true" />
-      <created>1788861159926</created>
-      <option name="number" value="00830" />
-      <option name="presentableId" value="LOCAL-00830" />
-      <option name="project" value="LOCAL" />
-      <updated>1788861159926</updated>
-    </task>
-    <task id="LOCAL-00831" summary="MergeSortedArraysJava8.java">
-      <option name="closed" value="true" />
-      <created>1788861166290</created>
-      <option name="number" value="00831" />
-      <option name="presentableId" value="LOCAL-00831" />
-      <option name="project" value="LOCAL" />
-      <updated>1788861166290</updated>
-    </task>
-    <task id="LOCAL-00832" summary="MergeSortedArraysTwoPointer">
-      <option name="closed" value="true" />
-      <created>1788864765724</created>
-      <option name="number" value="00832" />
-      <option name="presentableId" value="LOCAL-00832" />
-      <option name="project" value="LOCAL" />
-      <updated>1788864765724</updated>
-    </task>
-    <task id="LOCAL-00833" summary="MergeSortedArraysTwoPointer">
-      <option name="closed" value="true" />
-      <created>1788864776475</created>
-      <option name="number" value="00833" />
-      <option name="presentableId" value="LOCAL-00833" />
-      <option name="project" value="LOCAL" />
-      <updated>1788864776475</updated>
-    </task>
-    <task id="LOCAL-00834" summary="TwoSumBruteForce">
-      <option name="closed" value="true" />
-      <created>1788866019667</created>
-      <option name="number" value="00834" />
-      <option name="presentableId" value="LOCAL-00834" />
-      <option name="project" value="LOCAL" />
-      <updated>1788866019667</updated>
     </task>
     <task id="LOCAL-00835" summary="TwoSumJava8">
       <option name="closed" value="true" />
@@ -1052,7 +1001,55 @@
       <option name="project" value="LOCAL" />
       <updated>1789625258012</updated>
     </task>
-    <option name="localTasksCounter" value="878" />
+    <task id="LOCAL-00878" summary="data source">
+      <option name="closed" value="true" />
+      <created>1789969523512</created>
+      <option name="number" value="00878" />
+      <option name="presentableId" value="LOCAL-00878" />
+      <option name="project" value="LOCAL" />
+      <updated>1789969523512</updated>
+    </task>
+    <task id="LOCAL-00879" summary="DetectLinkedListCycle using fast and slow pointer">
+      <option name="closed" value="true" />
+      <created>1789969564025</created>
+      <option name="number" value="00879" />
+      <option name="presentableId" value="LOCAL-00879" />
+      <option name="project" value="LOCAL" />
+      <updated>1789969564025</updated>
+    </task>
+    <task id="LOCAL-00880" summary="MergeSortedLinkedListsUsingTwoPointer">
+      <option name="closed" value="true" />
+      <created>1789969580459</created>
+      <option name="number" value="00880" />
+      <option name="presentableId" value="LOCAL-00880" />
+      <option name="project" value="LOCAL" />
+      <updated>1789969580459</updated>
+    </task>
+    <task id="LOCAL-00881" summary="TwoSumII">
+      <option name="closed" value="true" />
+      <created>1789969596405</created>
+      <option name="number" value="00881" />
+      <option name="presentableId" value="LOCAL-00881" />
+      <option name="project" value="LOCAL" />
+      <updated>1789969596405</updated>
+    </task>
+    <task id="LOCAL-00882" summary="TwoSumIIHashmap">
+      <option name="closed" value="true" />
+      <created>1789969610534</created>
+      <option name="number" value="00882" />
+      <option name="presentableId" value="LOCAL-00882" />
+      <option name="project" value="LOCAL" />
+      <updated>1789969610534</updated>
+    </task>
+    <task id="LOCAL-00883" summary="workspace.xml">
+      <option name="closed" value="true" />
+      <created>1789969623744</created>
+      <option name="number" value="00883" />
+      <option name="presentableId" value="LOCAL-00883" />
+      <option name="project" value="LOCAL" />
+      <updated>1789969623744</updated>
+    </task>
+    <option name="localTasksCounter" value="884" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -1070,10 +1067,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="RemoveDuplicatesBruteForce.java" />
-    <MESSAGE value="A" />
-    <MESSAGE value="blockingqueue" />
-    <MESSAGE value="ValidPalindromeJava8" />
     <MESSAGE value="VirtualThreadBasicDemo" />
     <MESSAGE value="MergeSortedArraysBruteForce" />
     <MESSAGE value="MergeSortedArraysJava8.java" />
@@ -1087,15 +1080,19 @@
     <MESSAGE value="SquaresOfSortedArray" />
     <MESSAGE value="SquaresOfSortedArrayUsingJava8" />
     <MESSAGE value="SquaresOfSortedArrayUsingTwoPointer" />
-    <MESSAGE value="workspace.xml" />
     <MESSAGE value="node" />
-    <MESSAGE value="MergeSortedLinkedListsUsingTwoPointer" />
     <MESSAGE value="MiddleOfLinkedList brute force using middle check" />
     <MESSAGE value="MiddleOfLinkedList brute force using java 8 and taking O(n) , space O(n)" />
     <MESSAGE value="MiddleOfLinkedList brute force using java 8 and taking complexity O(n) , space O(1)" />
     <MESSAGE value="MiddleOfLinkedList brute force using java 8 and taking complexity O(n) , space O(1) if node is even number" />
     <MESSAGE value="MiddleOfLinkedList brute force using java 8 and taking complexity O(n) , space O(1) if node is even number , i want to expect 1st middle number" />
-    <option name="LAST_COMMIT_MESSAGE" value="MiddleOfLinkedList brute force using java 8 and taking complexity O(n) , space O(1) if node is even number , i want to expect 1st middle number" />
+    <MESSAGE value="data source" />
+    <MESSAGE value="DetectLinkedListCycle using fast and slow pointer" />
+    <MESSAGE value="MergeSortedLinkedListsUsingTwoPointer" />
+    <MESSAGE value="TwoSumII" />
+    <MESSAGE value="TwoSumIIHashmap" />
+    <MESSAGE value="workspace.xml" />
+    <option name="LAST_COMMIT_MESSAGE" value="workspace.xml" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
