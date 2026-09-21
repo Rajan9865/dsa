@@ -19,11 +19,11 @@ public class detectCycleFindtheStartingNodeofCycle {
         c.next = d;
         d.next = e;
 //        e.next = c;
-        Node result = detechCycleAndDindFirst(a);
+        Node result = detechCycleAndFindFirst(a);
         System.out.println(result != null ? "cycle start at " + result.data : "no cycle found");
     }
 
-    private static Node detechCycleAndDindFirst(Node head) {
+    private static Node detechCycleAndFindFirst(Node head) {
         Node slow = head;
         Node fast = head;
         while (fast != null && fast.next != null) {
