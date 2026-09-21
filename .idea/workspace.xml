@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ff3856c1-c1ca-4aca-a6ef-fd33bd67f435" name="Changes" comment="workspace.xml">
-      <change afterPath="$PROJECT_DIR$/DataStracture/src/top100dsa/detectCycleFindtheStartingNodeofCycle.java" afterDir="false" />
+    <list default="true" id="ff3856c1-c1ca-4aca-a6ef-fd33bd67f435" name="Changes" comment="detectCycleFindtheStartingNodeofCycle">
+      <change afterPath="$PROJECT_DIR$/DataStracture/src/top100dsa/revision/cycleLength.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -106,61 +106,61 @@
   </component>
   <component name="NextEditCompletionFeaturesState">
     <decayedCancelled>
-      <entry key="MS100" value="1.0798639176326887E-16" />
-      <entry key="MS500" value="6.407281516562307E-4" />
-      <entry key="S2" value="0.15910652496915853" />
-      <entry key="S5" value="0.488114357267102" />
-      <entry key="S10" value="0.785894494299207" />
-      <entry key="S30" value="1.3386008250305217" />
-      <entry key="S60" value="1.6233577268132373" />
-      <entry key="M2" value="2.138002459418632" />
-      <entry key="M5" value="6.148434148747716" />
-      <entry key="M10" value="17.860072951348695" />
-      <entry key="M15" value="32.690300221359735" />
-      <entry key="M30" value="72.35023972490731" />
-      <entry key="H1" value="116.5140258090329" />
-      <entry key="H2" value="150.90305376861855" />
-      <entry key="H4" value="174.17378175175588" />
-      <entry key="D1" value="256.09279358071353" />
-      <entry key="W1" value="674.7744417913127" />
+      <entry key="MS100" value="1.0" />
+      <entry key="MS500" value="1.000000000000141" />
+      <entry key="S2" value="1.0009193193033488" />
+      <entry key="S5" value="1.0924666418738496" />
+      <entry key="S10" value="1.469625726426345" />
+      <entry key="S30" value="3.100671573910727" />
+      <entry key="S60" value="4.914539744786289" />
+      <entry key="M2" value="6.764755488224051" />
+      <entry key="M5" value="8.477145115256743" />
+      <entry key="M10" value="9.193655608433552" />
+      <entry key="M15" value="9.457999981400715" />
+      <entry key="M30" value="10.436935146763686" />
+      <entry key="H1" value="21.374167117207197" />
+      <entry key="H2" value="58.78238716253093" />
+      <entry key="H4" value="112.52077329219405" />
+      <entry key="D1" value="254.7258504453057" />
+      <entry key="W1" value="689.7361812056405" />
     </decayedCancelled>
     <decayedSelected>
-      <entry key="MS100" value="1.0000542506519268" />
-      <entry key="MS500" value="1.1402429350663106" />
-      <entry key="S2" value="1.6120116024729723" />
-      <entry key="S5" value="1.8469642923663887" />
-      <entry key="S10" value="2.1503318242361713" />
-      <entry key="S30" value="3.228819591032681" />
-      <entry key="S60" value="3.924725929870658" />
-      <entry key="M2" value="4.557869962404028" />
-      <entry key="M5" value="6.881577048074235" />
-      <entry key="M10" value="12.871548170526118" />
-      <entry key="M15" value="20.47957763725034" />
-      <entry key="M30" value="41.43231535985639" />
-      <entry key="H1" value="65.30840205605726" />
-      <entry key="H2" value="84.10897412450122" />
-      <entry key="H4" value="97.5362493764767" />
-      <entry key="D1" value="169.00234668020025" />
-      <entry key="W1" value="677.8011524598502" />
+      <entry key="MS100" value="2.2707000405746162E-12" />
+      <entry key="MS500" value="0.004690638388614095" />
+      <entry key="S2" value="0.26170257580987777" />
+      <entry key="S5" value="0.5854955814184467" />
+      <entry key="S10" value="0.7952065475083185" />
+      <entry key="S30" value="1.5449181979114779" />
+      <entry key="S60" value="2.479809541138307" />
+      <entry key="M2" value="3.4188048408727147" />
+      <entry key="M5" value="4.264814712027414" />
+      <entry key="M10" value="4.612531439759713" />
+      <entry key="M15" value="4.739438563467274" />
+      <entry key="M30" value="5.301827781270393" />
+      <entry key="H1" value="11.858923910160282" />
+      <entry key="H2" value="33.867302988622264" />
+      <entry key="H4" value="65.47267429878333" />
+      <entry key="D1" value="170.2022658444475" />
+      <entry key="W1" value="686.7272201748854" />
     </decayedSelected>
     <decayedShown>
-      <entry key="MS100" value="0.005190179945739297" />
-      <entry key="MS500" value="0.3654878764086464" />
-      <entry key="S2" value="1.2742198808558596" />
-      <entry key="S5" value="2.058482142048828" />
-      <entry key="S10" value="2.75252796444451" />
-      <entry key="S30" value="4.455748320679974" />
-      <entry key="S60" value="5.476206149625535" />
-      <entry key="M2" value="6.651106370718069" />
-      <entry key="M5" value="12.996711240695623" />
-      <entry key="M10" value="30.697446021699484" />
-      <entry key="M15" value="53.133173235801316" />
-      <entry key="M30" value="113.74557353429925" />
-      <entry key="H1" value="181.79348092635573" />
-      <entry key="H2" value="234.9934645496677" />
-      <entry key="H4" value="271.69927761101167" />
-      <entry key="D1" value="425.0919466847352" />
-      <entry key="W1" value="1352.573650453097" />
+      <entry key="MS100" value="7.099475182233741E-4" />
+      <entry key="MS500" value="0.23544771265083653" />
+      <entry key="S2" value="0.8693234943811614" />
+      <entry key="S5" value="1.431927478979202" />
+      <entry key="S10" value="2.069877970869813" />
+      <entry key="S30" value="4.495302873029863" />
+      <entry key="S60" value="7.277829162619116" />
+      <entry key="M2" value="10.105538671441908" />
+      <entry key="M5" value="12.703687508993605" />
+      <entry key="M10" value="13.785596781453128" />
+      <entry key="M15" value="14.183349370346223" />
+      <entry key="M30" value="15.731054616062652" />
+      <entry key="H1" value="33.226128544700295" />
+      <entry key="H2" value="92.64119938963893" />
+      <entry key="H4" value="177.98564512703186" />
+      <entry key="D1" value="424.9247959369017" />
+      <entry key="W1" value="1376.4614198660588" />
     </decayedShown>
   </component>
   <component name="ProjectColorInfo">{
@@ -512,6 +512,7 @@
     "Application.WorkerWithoutVolatile.executor": "Run",
     "Application.WrongExampl.executor": "Run",
     "Application.WrongExample.executor": "Run",
+    "Application.cycleLength.executor": "Run",
     "Application.detectCycleFindtheStartingNodeofCycle.executor": "Run",
     "Application.doubleRevision.ReverseLinkedList.executor": "Run",
     "Application.failFast1.executor": "Run",
@@ -562,7 +563,7 @@
     ]
   }
 }]]></component>
-  <component name="RunManager" selected="Application.detectCycleFindtheStartingNodeofCycle">
+  <component name="RunManager" selected="Application.cycleLength">
     <configuration name="DetectLinkedListCycle" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="top100dsa.DetectLinkedListCycle" />
       <module name="Dsa" />
@@ -576,12 +577,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MiddleOfLinkedListUsingFastAndSlowPointer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="top100dsa.MiddleOfLinkedListUsingFastAndSlowPointer" />
+    <configuration name="cycleLength" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="top100dsa.revision.cycleLength" />
       <module name="Dsa" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="top100dsa.*" />
+          <option name="PATTERN" value="top100dsa.revision.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -630,11 +631,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.cycleLength" />
         <item itemvalue="Application.detectCycleFindtheStartingNodeofCycle" />
         <item itemvalue="Application.DetectLinkedListCycle" />
         <item itemvalue="Application.findMiddleIfEvenNode1" />
         <item itemvalue="Application.findMiddleIfEvenNode" />
-        <item itemvalue="Application.MiddleOfLinkedListUsingFastAndSlowPointer" />
       </list>
     </recent_temporary>
   </component>
@@ -656,30 +657,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1751545643062</updated>
-    </task>
-    <task id="LOCAL-00835" summary="TwoSumJava8">
-      <option name="closed" value="true" />
-      <created>1788866099295</created>
-      <option name="number" value="00835" />
-      <option name="presentableId" value="LOCAL-00835" />
-      <option name="project" value="LOCAL" />
-      <updated>1788866099295</updated>
-    </task>
-    <task id="LOCAL-00836" summary="TwoSumHashMap">
-      <option name="closed" value="true" />
-      <created>1788868023139</created>
-      <option name="number" value="00836" />
-      <option name="presentableId" value="LOCAL-00836" />
-      <option name="project" value="LOCAL" />
-      <updated>1788868023139</updated>
-    </task>
-    <task id="LOCAL-00837" summary="TwoSumHashMap">
-      <option name="closed" value="true" />
-      <created>1788868036880</created>
-      <option name="number" value="00837" />
-      <option name="presentableId" value="LOCAL-00837" />
-      <option name="project" value="LOCAL" />
-      <updated>1788868036880</updated>
     </task>
     <task id="LOCAL-00838" summary="TwoSumHashMap">
       <option name="closed" value="true" />
@@ -1049,7 +1026,31 @@
       <option name="project" value="LOCAL" />
       <updated>1789969623744</updated>
     </task>
-    <option name="localTasksCounter" value="884" />
+    <task id="LOCAL-00884" summary="detectCycleFindtheStartingNodeofCycle">
+      <option name="closed" value="true" />
+      <created>1789971967481</created>
+      <option name="number" value="00884" />
+      <option name="presentableId" value="LOCAL-00884" />
+      <option name="project" value="LOCAL" />
+      <updated>1789971967481</updated>
+    </task>
+    <task id="LOCAL-00885" summary="detectCycleFindtheStartingNodeofCycle">
+      <option name="closed" value="true" />
+      <created>1789971973693</created>
+      <option name="number" value="00885" />
+      <option name="presentableId" value="LOCAL-00885" />
+      <option name="project" value="LOCAL" />
+      <updated>1789971973693</updated>
+    </task>
+    <task id="LOCAL-00886" summary="detectCycleFindtheStartingNodeofCycle">
+      <option name="closed" value="true" />
+      <created>1789972010903</created>
+      <option name="number" value="00886" />
+      <option name="presentableId" value="LOCAL-00886" />
+      <option name="project" value="LOCAL" />
+      <updated>1789972010903</updated>
+    </task>
+    <option name="localTasksCounter" value="887" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -1067,7 +1068,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="VirtualThreadBasicDemo" />
     <MESSAGE value="MergeSortedArraysBruteForce" />
     <MESSAGE value="MergeSortedArraysJava8.java" />
     <MESSAGE value="MergeSortedArraysTwoPointer" />
@@ -1092,7 +1092,8 @@
     <MESSAGE value="TwoSumII" />
     <MESSAGE value="TwoSumIIHashmap" />
     <MESSAGE value="workspace.xml" />
-    <option name="LAST_COMMIT_MESSAGE" value="workspace.xml" />
+    <MESSAGE value="detectCycleFindtheStartingNodeofCycle" />
+    <option name="LAST_COMMIT_MESSAGE" value="detectCycleFindtheStartingNodeofCycle" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
