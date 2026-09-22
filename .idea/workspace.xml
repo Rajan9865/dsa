@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ff3856c1-c1ca-4aca-a6ef-fd33bd67f435" name="Changes" comment="cycleLength problem on linkelist">
-      <change afterPath="$PROJECT_DIR$/DataStracture/src/top100dsa/findDuplicate.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DataStracture/src/top100dsa/reverseNumberusingLinkedlist.java" afterDir="false" />
+    <list default="true" id="ff3856c1-c1ca-4aca-a6ef-fd33bd67f435" name="Changes" comment="reverseNumberusingLinkedlist">
+      <change afterPath="$PROJECT_DIR$/DataStracture/src/top100dsa/RemoveLinkedListElements.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -107,61 +106,61 @@
   </component>
   <component name="NextEditCompletionFeaturesState">
     <decayedCancelled>
-      <entry key="MS100" value="9.199331404880588E-13" />
-      <entry key="MS500" value="0.006815610331527404" />
-      <entry key="S2" value="0.48322053186964453" />
-      <entry key="S5" value="1.1331199463992305" />
-      <entry key="S10" value="1.5054034124434885" />
-      <entry key="S30" value="1.8219465446649672" />
-      <entry key="S60" value="2.056056863975357" />
-      <entry key="M2" value="3.113489073333917" />
-      <entry key="M5" value="6.9455849854274465" />
-      <entry key="M10" value="13.285045476451577" />
-      <entry key="M15" value="18.549368610310882" />
-      <entry key="M30" value="28.341309112990675" />
-      <entry key="H1" value="43.14957362441584" />
-      <entry key="H2" value="80.0380340075643" />
-      <entry key="H4" value="135.50252830396136" />
-      <entry key="D1" value="286.02904194398656" />
-      <entry key="W1" value="723.987666871651" />
+      <entry key="MS100" value="1.0009970821540108" />
+      <entry key="MS500" value="1.2510418858098564" />
+      <entry key="S2" value="1.708422421248436" />
+      <entry key="S5" value="1.9216942977494358" />
+      <entry key="S10" value="2.168109439988307" />
+      <entry key="S30" value="3.1064287720005876" />
+      <entry key="S60" value="4.537985329148357" />
+      <entry key="M2" value="7.680541710045019" />
+      <entry key="M5" value="14.829273901300498" />
+      <entry key="M10" value="20.00907328378932" />
+      <entry key="M15" value="22.36736020382789" />
+      <entry key="M30" value="25.35601694540424" />
+      <entry key="H1" value="27.33426978498877" />
+      <entry key="H2" value="28.626519973336887" />
+      <entry key="H4" value="33.403702136355385" />
+      <entry key="D1" value="189.93789094303008" />
+      <entry key="W1" value="696.3529857735078" />
     </decayedCancelled>
     <decayedSelected>
-      <entry key="MS100" value="1.0000000000000013" />
-      <entry key="MS500" value="1.0010583261394967" />
-      <entry key="S2" value="1.1803660858861098" />
-      <entry key="S5" value="1.504096905223851" />
-      <entry key="S10" value="1.7177299373529444" />
-      <entry key="S30" value="2.091836867989063" />
-      <entry key="S60" value="2.4842460099574044" />
-      <entry key="M2" value="3.396115626386013" />
-      <entry key="M5" value="6.3711012018899575" />
-      <entry key="M10" value="11.357644194494043" />
-      <entry key="M15" value="15.290806081917141" />
-      <entry key="M30" value="22.203008125393218" />
-      <entry key="H1" value="31.693251854789292" />
-      <entry key="H2" value="53.787030373989836" />
-      <entry key="H4" value="86.61031751000819" />
-      <entry key="D1" value="196.04399331678076" />
-      <entry key="W1" value="713.9991154746112" />
+      <entry key="MS100" value="1.754561421069742E-68" />
+      <entry key="MS500" value="2.8108244020499154E-14" />
+      <entry key="S2" value="4.0945712370389636E-4" />
+      <entry key="S5" value="0.044168420980478046" />
+      <entry key="S10" value="0.2158418692117146" />
+      <entry key="S30" value="0.9958774592820163" />
+      <entry key="S60" value="2.6611655341413916" />
+      <entry key="M2" value="6.495321975918409" />
+      <entry key="M5" value="13.942570267135395" />
+      <entry key="M10" value="18.840229019614604" />
+      <entry key="M15" value="21.000662981081714" />
+      <entry key="M30" value="23.718154301404613" />
+      <entry key="H1" value="25.528037427172595" />
+      <entry key="H2" value="26.702019548957463" />
+      <entry key="H4" value="29.95284264603689" />
+      <entry key="D1" value="137.5884468709545" />
+      <entry key="W1" value="685.1605695317855" />
     </decayedSelected>
     <decayedShown>
-      <entry key="MS100" value="0.001381067932448985" />
-      <entry key="MS500" value="0.2731815313787623" />
-      <entry key="S2" value="1.3089515261554077" />
-      <entry key="S5" value="2.4366851315005693" />
-      <entry key="S10" value="3.1059426660887834" />
-      <entry key="S30" value="3.8668562460072344" />
-      <entry key="S60" value="4.5105920693399755" />
-      <entry key="M2" value="6.481014207130827" />
-      <entry key="M5" value="13.28596086918592" />
-      <entry key="M10" value="24.612176642671802" />
-      <entry key="M15" value="33.811851289951406" />
-      <entry key="M30" value="50.523017435337295" />
-      <entry key="H1" value="74.82742697458905" />
-      <entry key="H2" value="133.8122119259112" />
-      <entry key="H4" value="222.10268406560928" />
-      <entry key="D1" value="482.0692281261398" />
-      <entry key="W1" value="1437.9847274851616" />
+      <entry key="MS100" value="0.0014946340631173019" />
+      <entry key="MS500" value="0.43864293981498825" />
+      <entry key="S2" value="1.3634805633223732" />
+      <entry key="S5" value="1.8029987317659708" />
+      <entry key="S10" value="2.2845184736040087" />
+      <entry key="S30" value="4.031954335666995" />
+      <entry key="S60" value="7.126988907557303" />
+      <entry key="M2" value="14.099579319337307" />
+      <entry key="M5" value="28.707796260490426" />
+      <entry key="M10" value="38.80567730122965" />
+      <entry key="M15" value="43.335490560014904" />
+      <entry key="M30" value="49.0557693985442" />
+      <entry key="H1" value="52.85242124140833" />
+      <entry key="H2" value="55.323378382534806" />
+      <entry key="H4" value="63.353600412216" />
+      <entry key="D1" value="327.5237598689419" />
+      <entry key="W1" value="1381.511599840683" />
     </decayedShown>
   </component>
   <component name="ProjectColorInfo">{
@@ -403,6 +402,7 @@
     "Application.RemoveElementBruteForce.executor": "Run",
     "Application.RemoveElementJava8.executor": "Run",
     "Application.RemoveElementTwoPointer.executor": "Debug",
+    "Application.RemoveLinkedListElements.executor": "Run",
     "Application.RemoveLoopByMethods.executor": "Run",
     "Application.RemoveLoopFromLinkedList.executor": "Run",
     "Application.RemoveLoopfromLinkedList.executor": "Debug",
@@ -566,9 +566,9 @@
     ]
   }
 }]]></component>
-  <component name="RunManager" selected="Application.reverseNumberusingLinkedlist">
-    <configuration name="DetectLinkedListCycle" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="top100dsa.DetectLinkedListCycle" />
+  <component name="RunManager" selected="Application.RemoveLinkedListElements">
+    <configuration name="RemoveLinkedListElements" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="top100dsa.RemoveLinkedListElements" />
       <module name="Dsa" />
       <extension name="coverage">
         <pattern>
@@ -634,11 +634,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.RemoveLinkedListElements" />
         <item itemvalue="Application.reverseNumberusingLinkedlist" />
         <item itemvalue="Application.findDuplicate" />
         <item itemvalue="Application.cycleLength" />
         <item itemvalue="Application.detectCycleFindtheStartingNodeofCycle" />
-        <item itemvalue="Application.DetectLinkedListCycle" />
       </list>
     </recent_temporary>
   </component>
@@ -660,30 +660,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1751545643062</updated>
-    </task>
-    <task id="LOCAL-00840" summary="PairDifferenceBruteForce">
-      <option name="closed" value="true" />
-      <created>1788933004339</created>
-      <option name="number" value="00840" />
-      <option name="presentableId" value="LOCAL-00840" />
-      <option name="project" value="LOCAL" />
-      <updated>1788933004340</updated>
-    </task>
-    <task id="LOCAL-00841" summary="PairDifferenceBruteForce">
-      <option name="closed" value="true" />
-      <created>1788940063568</created>
-      <option name="number" value="00841" />
-      <option name="presentableId" value="LOCAL-00841" />
-      <option name="project" value="LOCAL" />
-      <updated>1788940063570</updated>
-    </task>
-    <task id="LOCAL-00842" summary="PairDifferenceBruteForce">
-      <option name="closed" value="true" />
-      <created>1788940071815</created>
-      <option name="number" value="00842" />
-      <option name="presentableId" value="LOCAL-00842" />
-      <option name="project" value="LOCAL" />
-      <updated>1788940071815</updated>
     </task>
     <task id="LOCAL-00843" summary="PairDifferenceBruteForce">
       <option name="closed" value="true" />
@@ -1053,7 +1029,31 @@
       <option name="project" value="LOCAL" />
       <updated>1789984561174</updated>
     </task>
-    <option name="localTasksCounter" value="889" />
+    <task id="LOCAL-00889" summary="findDuplicate">
+      <option name="closed" value="true" />
+      <created>1790054864648</created>
+      <option name="number" value="00889" />
+      <option name="presentableId" value="LOCAL-00889" />
+      <option name="project" value="LOCAL" />
+      <updated>1790054864649</updated>
+    </task>
+    <task id="LOCAL-00890" summary="reverseNumberusingLinkedlist">
+      <option name="closed" value="true" />
+      <created>1790054877625</created>
+      <option name="number" value="00890" />
+      <option name="presentableId" value="LOCAL-00890" />
+      <option name="project" value="LOCAL" />
+      <updated>1790054877625</updated>
+    </task>
+    <task id="LOCAL-00891" summary="reverseNumberusingLinkedlist">
+      <option name="closed" value="true" />
+      <created>1790054886352</created>
+      <option name="number" value="00891" />
+      <option name="presentableId" value="LOCAL-00891" />
+      <option name="project" value="LOCAL" />
+      <updated>1790054886352</updated>
+    </task>
+    <option name="localTasksCounter" value="892" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -1071,8 +1071,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="MergeSortedArraysJava8.java" />
-    <MESSAGE value="MergeSortedArraysTwoPointer" />
     <MESSAGE value="TwoSumBruteForce" />
     <MESSAGE value="TwoSumJava8" />
     <MESSAGE value="TwoSumHashMap" />
@@ -1096,7 +1094,9 @@
     <MESSAGE value="workspace.xml" />
     <MESSAGE value="detectCycleFindtheStartingNodeofCycle" />
     <MESSAGE value="cycleLength problem on linkelist" />
-    <option name="LAST_COMMIT_MESSAGE" value="cycleLength problem on linkelist" />
+    <MESSAGE value="findDuplicate" />
+    <MESSAGE value="reverseNumberusingLinkedlist" />
+    <option name="LAST_COMMIT_MESSAGE" value="reverseNumberusingLinkedlist" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1291,6 +1291,11 @@
           <url>file://$PROJECT_DIR$/DataStracture/src/top100dsa/MergeSortedLinkedListsBruteForce.java</url>
           <line>12</line>
           <option name="timeStamp" value="57" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/DataStracture/src/top100dsa/reverseNumberusingLinkedlist.java</url>
+          <line>32</line>
+          <option name="timeStamp" value="58" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/DataStracture/src/linkedList/DeleteWithoutHead.java</url>
