@@ -26,6 +26,7 @@ public class SortColorsUsingJava8 {
         for (int i = 0; i < twos; i++) {
             numbers[index++] = 2;
         }
+        
         for (int i = 0; i < ones; i++) {
             numbers[index++] = 1;
         }
