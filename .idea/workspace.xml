@@ -4,11 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ff3856c1-c1ca-4aca-a6ef-fd33bd67f435" name="Changes" comment="RemoveLinkedListElements problem">
-      <change afterPath="$PROJECT_DIR$/DataStracture/src/leetCode150/LinkedListCycleUsingFastAndSlow.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DataStracture/src/top100dsa/RemoveLinkedListElementsUsingFastAndSlow.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DataStracture/src/top100dsa/revision/RemoveLinkedListElementsUsingFastAndSlow.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="ff3856c1-c1ca-4aca-a6ef-fd33bd67f435" name="Changes" comment="RemoveLinkedListElementsUsingFastAndSlow">
+      <change beforePath="$PROJECT_DIR$/DataStracture/src/leetCode150/LinkedListCycleUsingFastAndSlow.java" beforeDir="false" afterPath="$PROJECT_DIR$/DataStracture/src/leetCode150/LinkedListCycleUsingFastAndSlow.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -108,61 +105,61 @@
   </component>
   <component name="NextEditCompletionFeaturesState">
     <decayedCancelled>
-      <entry key="MS100" value="7.374516962299671E-48" />
-      <entry key="MS500" value="3.745818405775908E-10" />
-      <entry key="S2" value="0.004469577563334389" />
-      <entry key="S5" value="0.14760275680748416" />
-      <entry key="S10" value="0.6392290114047205" />
-      <entry key="S30" value="3.010993824459138" />
-      <entry key="S60" value="5.45249923343238" />
-      <entry key="M2" value="7.643264442859846" />
-      <entry key="M5" value="9.48026757744978" />
-      <entry key="M10" value="10.206859810843794" />
-      <entry key="M15" value="10.468347404781754" />
-      <entry key="M30" value="11.337400478816756" />
-      <entry key="H1" value="18.538479877525695" />
-      <entry key="H2" value="39.306318213509805" />
-      <entry key="H4" value="68.04654758881108" />
-      <entry key="D1" value="248.62316019348924" />
-      <entry key="W1" value="771.7676939516015" />
+      <entry key="MS100" value="3.75407453691061E-10" />
+      <entry key="MS500" value="0.019546200083727566" />
+      <entry key="S2" value="0.6238862710843422" />
+      <entry key="S5" value="1.3351905840778227" />
+      <entry key="S10" value="1.9447918178399008" />
+      <entry key="S30" value="2.945364510235212" />
+      <entry key="S60" value="3.397325412944171" />
+      <entry key="M2" value="3.6763956212696565" />
+      <entry key="M5" value="3.8646978597784036" />
+      <entry key="M10" value="3.931325450382087" />
+      <entry key="M15" value="3.953985921605555" />
+      <entry key="M30" value="3.9768765225910805" />
+      <entry key="H1" value="3.988430783865839" />
+      <entry key="H2" value="4.036826123179837" />
+      <entry key="H4" value="6.238021954538373" />
+      <entry key="D1" value="144.7592573192037" />
+      <entry key="W1" value="715.5277151358599" />
     </decayedCancelled>
     <decayedSelected>
-      <entry key="MS100" value="1.000000000000046" />
-      <entry key="MS500" value="1.0021491769925306" />
-      <entry key="S2" value="1.2179342684473482" />
-      <entry key="S5" value="1.6882040219985637" />
-      <entry key="S10" value="2.40957128833171" />
-      <entry key="S30" value="4.634338371388985" />
-      <entry key="S60" value="6.584504933131783" />
-      <entry key="M2" value="8.314009800483227" />
-      <entry key="M5" value="9.776719828222882" />
-      <entry key="M10" value="10.359968651835578" />
-      <entry key="M15" value="10.570055700436525" />
-      <entry key="M30" value="11.211462015116918" />
-      <entry key="H1" value="16.42260136050448" />
-      <entry key="H2" value="31.655560666338594" />
-      <entry key="H4" value="52.74570320462851" />
-      <entry key="D1" value="179.11268316386813" />
-      <entry key="W1" value="735.1706171372775" />
+      <entry key="MS100" value="1.0" />
+      <entry key="MS500" value="1.0000000001561877" />
+      <entry key="S2" value="1.003546625884898" />
+      <entry key="S5" value="1.1151142711345527" />
+      <entry key="S10" value="1.4260920800831434" />
+      <entry key="S30" value="2.154726430634475" />
+      <entry key="S60" value="2.5128397160994544" />
+      <entry key="M2" value="2.7374693071733285" />
+      <entry key="M5" value="2.890018142252558" />
+      <entry key="M10" value="2.9441427994662" />
+      <entry key="M15" value="2.9625664358938844" />
+      <entry key="M30" value="2.9811847603918755" />
+      <entry key="H1" value="2.9905869419982256" />
+      <entry key="H2" value="3.0296090881596096" />
+      <entry key="H4" value="4.734671393210444" />
+      <entry key="D1" value="104.40550459534863" />
+      <entry key="W1" value="680.7872162208547" />
     </decayedSelected>
     <decayedShown>
-      <entry key="MS100" value="0.0014297711874469788" />
-      <entry key="MS500" value="0.2704098731317644" />
-      <entry key="S2" value="0.882808455068297" />
-      <entry key="S5" value="1.6142934130602105" />
-      <entry key="S10" value="2.8656788368223913" />
-      <entry key="S30" value="7.492871917804444" />
-      <entry key="S60" value="11.911467187870393" />
-      <entry key="M2" value="15.870815221948348" />
-      <entry key="M5" value="19.21406644351476" />
-      <entry key="M10" value="20.543675310962932" />
-      <entry key="M15" value="21.02255966966033" />
-      <entry key="M30" value="22.540366430911686" />
-      <entry key="H1" value="34.95458725832185" />
-      <entry key="H2" value="70.95536027539832" />
-      <entry key="H4" value="120.78672030542269" />
-      <entry key="D1" value="427.7325177085948" />
-      <entry key="W1" value="1506.9362281330298" />
+      <entry key="MS100" value="2.7314338700173468E-5" />
+      <entry key="MS500" value="0.1414825529038" />
+      <entry key="S2" value="1.2150207204720214" />
+      <entry key="S5" value="2.239445600647209" />
+      <entry key="S10" value="3.2322900951323383" />
+      <entry key="S30" value="5.030059019550989" />
+      <entry key="S60" value="5.869345891525098" />
+      <entry key="M2" value="6.39163518557802" />
+      <entry key="M5" value="6.745329447298413" />
+      <entry key="M10" value="6.8706871903133955" />
+      <entry key="M15" value="6.91334506165243" />
+      <entry key="M30" value="6.956447567705059" />
+      <entry key="H1" value="6.9782083236911" />
+      <entry key="H2" value="7.066022807686182" />
+      <entry key="H4" value="10.972308389880173" />
+      <entry key="D1" value="249.1628452486412" />
+      <entry key="W1" value="1396.3130061519423" />
     </decayedShown>
   </component>
   <component name="ProjectColorInfo">{
@@ -666,38 +663,6 @@
       <option name="presentableId" value="Default" />
       <updated>1751545643062</updated>
     </task>
-    <task id="LOCAL-00845" summary="workspace.xml">
-      <option name="closed" value="true" />
-      <created>1789033454034</created>
-      <option name="number" value="00845" />
-      <option name="presentableId" value="LOCAL-00845" />
-      <option name="project" value="LOCAL" />
-      <updated>1789033454034</updated>
-    </task>
-    <task id="LOCAL-00846" summary="ValidPalindromeJava81">
-      <option name="closed" value="true" />
-      <created>1789045133751</created>
-      <option name="number" value="00846" />
-      <option name="presentableId" value="LOCAL-00846" />
-      <option name="project" value="LOCAL" />
-      <updated>1789045133751</updated>
-    </task>
-    <task id="LOCAL-00847" summary="ValidPalindromeJava81">
-      <option name="closed" value="true" />
-      <created>1789045149628</created>
-      <option name="number" value="00847" />
-      <option name="presentableId" value="LOCAL-00847" />
-      <option name="project" value="LOCAL" />
-      <updated>1789045149628</updated>
-    </task>
-    <task id="LOCAL-00848" summary="workspace.xml">
-      <option name="closed" value="true" />
-      <created>1789045173358</created>
-      <option name="number" value="00848" />
-      <option name="presentableId" value="LOCAL-00848" />
-      <option name="project" value="LOCAL" />
-      <updated>1789045173358</updated>
-    </task>
     <task id="LOCAL-00849" summary="workspace.xml">
       <option name="closed" value="true" />
       <created>1789125051248</created>
@@ -1058,7 +1023,39 @@
       <option name="project" value="LOCAL" />
       <updated>1790058952290</updated>
     </task>
-    <option name="localTasksCounter" value="894" />
+    <task id="LOCAL-00894" summary="LinkedListCycleUsingFastAndSlow">
+      <option name="closed" value="true" />
+      <created>1790145418125</created>
+      <option name="number" value="00894" />
+      <option name="presentableId" value="LOCAL-00894" />
+      <option name="project" value="LOCAL" />
+      <updated>1790145418125</updated>
+    </task>
+    <task id="LOCAL-00895" summary="RemoveLinkedListElementsUsingFastAndSlow">
+      <option name="closed" value="true" />
+      <created>1790145432704</created>
+      <option name="number" value="00895" />
+      <option name="presentableId" value="LOCAL-00895" />
+      <option name="project" value="LOCAL" />
+      <updated>1790145432705</updated>
+    </task>
+    <task id="LOCAL-00896" summary="RemoveLinkedListElementsUsingFastAndSlow">
+      <option name="closed" value="true" />
+      <created>1790145448444</created>
+      <option name="number" value="00896" />
+      <option name="presentableId" value="LOCAL-00896" />
+      <option name="project" value="LOCAL" />
+      <updated>1790145448444</updated>
+    </task>
+    <task id="LOCAL-00897" summary="RemoveLinkedListElementsUsingFastAndSlow">
+      <option name="closed" value="true" />
+      <created>1790145458321</created>
+      <option name="number" value="00897" />
+      <option name="presentableId" value="LOCAL-00897" />
+      <option name="project" value="LOCAL" />
+      <updated>1790145458322</updated>
+    </task>
+    <option name="localTasksCounter" value="898" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -1076,8 +1073,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="TwoSumJava8" />
-    <MESSAGE value="TwoSumHashMap" />
     <MESSAGE value="PairDifferenceBruteForce" />
     <MESSAGE value="ValidPalindromeBruteForce1" />
     <MESSAGE value="ValidPalindromeJava81" />
@@ -1101,7 +1096,9 @@
     <MESSAGE value="findDuplicate" />
     <MESSAGE value="reverseNumberusingLinkedlist" />
     <MESSAGE value="RemoveLinkedListElements problem" />
-    <option name="LAST_COMMIT_MESSAGE" value="RemoveLinkedListElements problem" />
+    <MESSAGE value="LinkedListCycleUsingFastAndSlow" />
+    <MESSAGE value="RemoveLinkedListElementsUsingFastAndSlow" />
+    <option name="LAST_COMMIT_MESSAGE" value="RemoveLinkedListElementsUsingFastAndSlow" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
