@@ -21,7 +21,6 @@ public class LinkedListCycleUsingFastAndSlow {
         d.next = c;
         boolean result = hascycle(a);
         System.out.println("has cycle: " + result);
-
     }
 
     private static boolean hascycle(Node head) {
