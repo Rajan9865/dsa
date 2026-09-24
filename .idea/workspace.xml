@@ -5,8 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ff3856c1-c1ca-4aca-a6ef-fd33bd67f435" name="Changes" comment="setColor problem using java 8 approach">
+      <change afterPath="$PROJECT_DIR$/DataStracture/src/top100dsa/RomanToIntegerUsingSwithc.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DataStracture/src/top100dsa/revision/RomanToInteger.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DataStracture/src/top100dsa/romanToInteger.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DataStracture/src/top100dsa/SortColorsUsingJava8.java" beforeDir="false" afterPath="$PROJECT_DIR$/DataStracture/src/top100dsa/SortColorsUsingJava8.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -106,61 +108,61 @@
   </component>
   <component name="NextEditCompletionFeaturesState">
     <decayedCancelled>
-      <entry key="MS100" value="1.0003548708086276" />
-      <entry key="MS500" value="1.2939495259268188" />
-      <entry key="S2" value="2.547693363256551" />
-      <entry key="S5" value="3.5572132555288234" />
-      <entry key="S10" value="5.299603420129509" />
-      <entry key="S30" value="9.733175644492334" />
-      <entry key="S60" value="12.166850578389734" />
-      <entry key="M2" value="14.352453998489311" />
-      <entry key="M5" value="20.724339775532545" />
-      <entry key="M10" value="30.354817635705295" />
-      <entry key="M15" value="36.66542380518268" />
-      <entry key="M30" value="46.122056346921504" />
-      <entry key="H1" value="52.66891033144972" />
-      <entry key="H2" value="56.607697705218996" />
-      <entry key="H4" value="60.68617618422748" />
-      <entry key="D1" value="198.36803626459835" />
-      <entry key="W1" value="770.2845686718715" />
+      <entry key="MS100" value="0.0" />
+      <entry key="MS500" value="1.0225237070027986E-73" />
+      <entry key="S2" value="7.327369533809454E-19" />
+      <entry key="S5" value="8.12265454173857E-8" />
+      <entry key="S10" value="4.1385696231407027E-4" />
+      <entry key="S30" value="0.17196018816714712" />
+      <entry key="S60" value="1.140469853441296" />
+      <entry key="M2" value="4.214082749992346" />
+      <entry key="M5" value="14.130570562477956" />
+      <entry key="M10" value="24.221978725695653" />
+      <entry key="M15" value="29.510517798467994" />
+      <entry key="M30" value="36.27922894609479" />
+      <entry key="H1" value="40.361582260896384" />
+      <entry key="H2" value="42.890696018659064" />
+      <entry key="H4" value="48.93685736387192" />
+      <entry key="D1" value="185.94047753997037" />
+      <entry key="W1" value="800.8905919383923" />
     </decayedCancelled>
     <decayedSelected>
-      <entry key="MS100" value="0.0" />
-      <entry key="MS500" value="1.293969081276073E-114" />
-      <entry key="S2" value="3.4463795028008977E-29" />
-      <entry key="S5" value="4.969872827509747E-12" />
-      <entry key="S10" value="2.9618142323786438E-6" />
-      <entry key="S30" value="0.022452799341055648" />
-      <entry key="S60" value="0.22386268790626976" />
-      <entry key="M2" value="1.1676667154623137" />
-      <entry key="M5" value="7.382450568546473" />
-      <entry key="M10" value="16.74518906915159" />
-      <entry key="M15" value="22.605741929941498" />
-      <entry key="M30" value="31.105756313022688" />
-      <entry key="H1" value="36.83975563901133" />
-      <entry key="H2" value="40.24025663784998" />
-      <entry key="H4" value="43.57758138175484" />
-      <entry key="D1" value="142.91106136887817" />
-      <entry key="W1" value="719.6560908146633" />
+      <entry key="MS100" value="1.0" />
+      <entry key="MS500" value="1.0" />
+      <entry key="S2" value="1.0" />
+      <entry key="S5" value="1.0000000126664759" />
+      <entry key="S10" value="1.000169662778286" />
+      <entry key="S30" value="1.1561134652051201" />
+      <entry key="S60" value="2.154249297397029" />
+      <entry key="M2" value="5.092682719782511" />
+      <entry key="M5" value="12.775722535603988" />
+      <entry key="M10" value="19.651896261917823" />
+      <entry key="M15" value="23.114657866511436" />
+      <entry key="M30" value="27.469755660415192" />
+      <entry key="H1" value="30.067698802699695" />
+      <entry key="H2" value="31.712970511064835" />
+      <entry key="H4" value="36.23289291580076" />
+      <entry key="D1" value="137.34156482728926" />
+      <entry key="W1" value="732.2878076413924" />
     </decayedSelected>
     <decayedShown>
-      <entry key="MS100" value="0.9596092703907158" />
-      <entry key="MS500" value="1.2839167194597405" />
-      <entry key="S2" value="2.5431681408692652" />
-      <entry key="S5" value="3.5546844460589613" />
-      <entry key="S10" value="5.297649581033215" />
-      <entry key="S30" value="9.75313506128375" />
-      <entry key="S60" value="12.383767146592344" />
-      <entry key="M2" value="15.503087397718812" />
-      <entry key="M5" value="28.06071820503467" />
-      <entry key="M10" value="47.04604816216767" />
-      <entry key="M15" value="59.22222365400432" />
-      <entry key="M30" value="77.19403743903064" />
-      <entry key="H1" value="89.48869660238078" />
-      <entry key="H2" value="96.8370702910763" />
-      <entry key="H4" value="104.25791691840176" />
-      <entry key="D1" value="341.2762730081605" />
-      <entry key="W1" value="1489.938603858843" />
+      <entry key="MS100" value="0.00515432777645662" />
+      <entry key="MS500" value="0.34868591658760134" />
+      <entry key="S2" value="0.7684375906440062" />
+      <entry key="S5" value="0.9000020147414582" />
+      <entry key="S10" value="0.9492366203704349" />
+      <entry key="S30" value="1.3038947264254968" />
+      <entry key="S60" value="3.260049884386727" />
+      <entry key="M2" value="9.248510292508838" />
+      <entry key="M5" value="26.826712951443568" />
+      <entry key="M10" value="43.80540744511638" />
+      <entry key="M15" value="52.56954778608261" />
+      <entry key="M30" value="63.71479703524405" />
+      <entry key="H1" value="70.41026858443765" />
+      <entry key="H2" value="74.59357086340701" />
+      <entry key="H4" value="85.16404208703602" />
+      <entry key="D1" value="323.2789987857199" />
+      <entry key="W1" value="1533.1762564250646" />
     </decayedShown>
   </component>
   <component name="ProjectColorInfo">{
@@ -434,6 +436,7 @@
     "Application.ReverseWords.executor": "Run",
     "Application.Reverselinkedlist.executor": "Run",
     "Application.RomanToInteger.executor": "Run",
+    "Application.RomanToIntegerUsingSwithc.executor": "Run",
     "Application.RotateDLL.executor": "Run",
     "Application.RotateLinkedList.executor": "Run",
     "Application.RotateLinkedListLeft.executor": "Debug",
@@ -531,6 +534,7 @@
     "Application.revision.DetectLoopInLinkedList.executor": "Run",
     "Application.revision.LazyMain.executor": "Run",
     "Application.revision.ThreadSafeMain.executor": "Run",
+    "Application.romanToInteger.executor": "Debug",
     "Application.string.Hello.executor": "Run",
     "Application.string.revision.ReverseEachWord.executor": "Run",
     "Application.stringrevision.ReverseWords.executor": "Run",
@@ -571,13 +575,13 @@
     ]
   }
 }]]></component>
-  <component name="RunManager" selected="Application.SortColorsUsingJava8">
-    <configuration name="LinkedListCycleUsingFastAndSlow" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="leetCode150.LinkedListCycleUsingFastAndSlow" />
+  <component name="RunManager" selected="Application.RomanToInteger">
+    <configuration name="RomanToInteger" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="top100dsa.revision.RomanToInteger" />
       <module name="Dsa" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="leetCode150.*" />
+          <option name="PATTERN" value="top100dsa.revision.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -585,8 +589,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RemoveLinkedListElementsUsingFastAndSlow" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="top100dsa.RemoveLinkedListElementsUsingFastAndSlow" />
+    <configuration name="RomanToIntegerUsingSwithc" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="top100dsa.RomanToIntegerUsingSwithc" />
       <module name="Dsa" />
       <extension name="coverage">
         <pattern>
@@ -624,12 +628,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="top100dsa.revision.RemoveLinkedListElementsUsingFastAndSlow" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="top100dsa.revision.RemoveLinkedListElementsUsingFastAndSlow" />
+    <configuration name="romanToInteger" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="top100dsa.romanToInteger" />
       <module name="Dsa" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="top100dsa.revision.*" />
+          <option name="PATTERN" value="top100dsa.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -639,11 +643,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.RomanToInteger" />
+        <item itemvalue="Application.RomanToIntegerUsingSwithc" />
+        <item itemvalue="Application.romanToInteger" />
         <item itemvalue="Application.SortColorsUsingJava8" />
         <item itemvalue="Application.SortColorsBruiteForce" />
-        <item itemvalue="Application.LinkedListCycleUsingFastAndSlow" />
-        <item itemvalue="Application.top100dsa.revision.RemoveLinkedListElementsUsingFastAndSlow" />
-        <item itemvalue="Application.RemoveLinkedListElementsUsingFastAndSlow" />
       </list>
     </recent_temporary>
   </component>
@@ -665,22 +669,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1751545643062</updated>
-    </task>
-    <task id="LOCAL-00853" summary="workspace.xml">
-      <option name="closed" value="true" />
-      <created>1789125088358</created>
-      <option name="number" value="00853" />
-      <option name="presentableId" value="LOCAL-00853" />
-      <option name="project" value="LOCAL" />
-      <updated>1789125088358</updated>
-    </task>
-    <task id="LOCAL-00854" summary="workspace.xml">
-      <option name="closed" value="true" />
-      <created>1789125096120</created>
-      <option name="number" value="00854" />
-      <option name="presentableId" value="LOCAL-00854" />
-      <option name="project" value="LOCAL" />
-      <updated>1789125096120</updated>
     </task>
     <task id="LOCAL-00855" summary="workspace.xml">
       <option name="closed" value="true" />
@@ -1058,7 +1046,23 @@
       <option name="project" value="LOCAL" />
       <updated>1790148134572</updated>
     </task>
-    <option name="localTasksCounter" value="902" />
+    <task id="LOCAL-00902" summary="setColor problem using java 8 approach">
+      <option name="closed" value="true" />
+      <created>1790165402779</created>
+      <option name="number" value="00902" />
+      <option name="presentableId" value="LOCAL-00902" />
+      <option name="project" value="LOCAL" />
+      <updated>1790165402779</updated>
+    </task>
+    <task id="LOCAL-00903" summary="setColor problem using java 8 approach">
+      <option name="closed" value="true" />
+      <created>1790165411097</created>
+      <option name="number" value="00903" />
+      <option name="presentableId" value="LOCAL-00903" />
+      <option name="project" value="LOCAL" />
+      <updated>1790165411097</updated>
+    </task>
+    <option name="localTasksCounter" value="904" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -1306,6 +1310,11 @@
           <url>file://$PROJECT_DIR$/DataStracture/src/top100dsa/RemoveLinkedListElementsUsingFastAndSlow.java</url>
           <line>34</line>
           <option name="timeStamp" value="59" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/DataStracture/src/top100dsa/romanToInteger.java</url>
+          <line>33</line>
+          <option name="timeStamp" value="61" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/DataStracture/src/linkedList/DeleteWithoutHead.java</url>
