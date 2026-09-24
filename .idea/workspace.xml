@@ -4,11 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ff3856c1-c1ca-4aca-a6ef-fd33bd67f435" name="Changes" comment="setColor problem using java 8 approach">
-      <change afterPath="$PROJECT_DIR$/DataStracture/src/top100dsa/RomanToIntegerUsingSwithc.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DataStracture/src/top100dsa/revision/RomanToInteger.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DataStracture/src/top100dsa/romanToInteger.java" afterDir="false" />
+    <list default="true" id="ff3856c1-c1ca-4aca-a6ef-fd33bd67f435" name="Changes" comment="RomanToInteger">
+      <change afterPath="$PROJECT_DIR$/DataStracture/src/revision/firstNonRepeatingCharacter.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataStracture/src/top100dsa/romanToInteger.java" beforeDir="false" afterPath="$PROJECT_DIR$/DataStracture/src/top100dsa/romanToInteger.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -108,61 +107,61 @@
   </component>
   <component name="NextEditCompletionFeaturesState">
     <decayedCancelled>
-      <entry key="MS100" value="0.0" />
-      <entry key="MS500" value="1.0225237070027986E-73" />
-      <entry key="S2" value="7.327369533809454E-19" />
-      <entry key="S5" value="8.12265454173857E-8" />
-      <entry key="S10" value="4.1385696231407027E-4" />
-      <entry key="S30" value="0.17196018816714712" />
-      <entry key="S60" value="1.140469853441296" />
-      <entry key="M2" value="4.214082749992346" />
-      <entry key="M5" value="14.130570562477956" />
-      <entry key="M10" value="24.221978725695653" />
-      <entry key="M15" value="29.510517798467994" />
-      <entry key="M30" value="36.27922894609479" />
-      <entry key="H1" value="40.361582260896384" />
-      <entry key="H2" value="42.890696018659064" />
-      <entry key="H4" value="48.93685736387192" />
-      <entry key="D1" value="185.94047753997037" />
-      <entry key="W1" value="800.8905919383923" />
+      <entry key="MS100" value="2.677915526594581E-68" />
+      <entry key="MS500" value="3.0588584103946814E-14" />
+      <entry key="S2" value="4.1820747542177625E-4" />
+      <entry key="S5" value="0.044922046360079605" />
+      <entry key="S10" value="0.2381261579310229" />
+      <entry key="S30" value="1.1995873066020735" />
+      <entry key="S60" value="2.675771550195653" />
+      <entry key="M2" value="5.203060204694187" />
+      <entry key="M5" value="10.498991493047763" />
+      <entry key="M10" value="15.51247035361745" />
+      <entry key="M15" value="18.364131133904593" />
+      <entry key="M30" value="22.547520726522873" />
+      <entry key="H1" value="27.215246458243044" />
+      <entry key="H2" value="37.52574973129634" />
+      <entry key="H4" value="54.780450665501796" />
+      <entry key="D1" value="201.65427715773492" />
+      <entry key="W1" value="826.6288788210229" />
     </decayedCancelled>
     <decayedSelected>
-      <entry key="MS100" value="1.0" />
-      <entry key="MS500" value="1.0" />
-      <entry key="S2" value="1.0" />
-      <entry key="S5" value="1.0000000126664759" />
-      <entry key="S10" value="1.000169662778286" />
-      <entry key="S30" value="1.1561134652051201" />
-      <entry key="S60" value="2.154249297397029" />
-      <entry key="M2" value="5.092682719782511" />
-      <entry key="M5" value="12.775722535603988" />
-      <entry key="M10" value="19.651896261917823" />
-      <entry key="M15" value="23.114657866511436" />
-      <entry key="M30" value="27.469755660415192" />
-      <entry key="H1" value="30.067698802699695" />
-      <entry key="H2" value="31.712970511064835" />
-      <entry key="H4" value="36.23289291580076" />
-      <entry key="D1" value="137.34156482728926" />
-      <entry key="W1" value="732.2878076413924" />
+      <entry key="MS100" value="1.0000000000007387" />
+      <entry key="MS500" value="1.0037471254661143" />
+      <entry key="S2" value="1.2474150374843627" />
+      <entry key="S5" value="1.5765323636037378" />
+      <entry key="S10" value="1.8571007411679323" />
+      <entry key="S30" value="3.2612200907934015" />
+      <entry key="S60" value="5.852540380910097" />
+      <entry key="M2" value="10.264650945331333" />
+      <entry key="M5" value="18.310082383011075" />
+      <entry key="M10" value="24.926829280752784" />
+      <entry key="M15" value="28.399081858704854" />
+      <entry key="M30" value="33.1610882116606" />
+      <entry key="H1" value="37.689243024597154" />
+      <entry key="H2" value="46.22227939040849" />
+      <entry key="H4" value="59.8704169672858" />
+      <entry key="D1" value="169.57825302571766" />
+      <entry key="W1" value="769.4146407068625" />
     </decayedSelected>
     <decayedShown>
-      <entry key="MS100" value="0.00515432777645662" />
-      <entry key="MS500" value="0.34868591658760134" />
-      <entry key="S2" value="0.7684375906440062" />
-      <entry key="S5" value="0.9000020147414582" />
-      <entry key="S10" value="0.9492366203704349" />
-      <entry key="S30" value="1.3038947264254968" />
-      <entry key="S60" value="3.260049884386727" />
-      <entry key="M2" value="9.248510292508838" />
-      <entry key="M5" value="26.826712951443568" />
-      <entry key="M10" value="43.80540744511638" />
-      <entry key="M15" value="52.56954778608261" />
-      <entry key="M30" value="63.71479703524405" />
-      <entry key="H1" value="70.41026858443765" />
-      <entry key="H2" value="74.59357086340701" />
-      <entry key="H4" value="85.16404208703602" />
-      <entry key="D1" value="323.2789987857199" />
-      <entry key="W1" value="1533.1762564250646" />
+      <entry key="MS100" value="6.180452118995509E-4" />
+      <entry key="MS500" value="0.2282688027910696" />
+      <entry key="S2" value="0.7976122547032293" />
+      <entry key="S5" value="1.3102938363831793" />
+      <entry key="S10" value="1.867564718609012" />
+      <entry key="S30" value="4.268286569871688" />
+      <entry key="S60" value="8.328560473554996" />
+      <entry key="M2" value="15.284680224309183" />
+      <entry key="M5" value="28.677415922631592" />
+      <entry key="M10" value="40.3481287324032" />
+      <entry key="M15" value="46.69306448197094" />
+      <entry key="M30" value="55.66683801263369" />
+      <entry key="H1" value="64.88054101891917" />
+      <entry key="H2" value="83.73346250858384" />
+      <entry key="H4" value="114.64158176715863" />
+      <entry key="D1" value="371.2286342443184" />
+      <entry key="W1" value="1596.041236397358" />
     </decayedShown>
   </component>
   <component name="ProjectColorInfo">{
@@ -528,13 +527,14 @@
     "Application.findDuplicate.executor": "Run",
     "Application.findMiddleIfEvenNode.executor": "Run",
     "Application.findMiddleIfEvenNode1.executor": "Run",
+    "Application.firstNonRepeatingCharacter.executor": "Run",
     "Application.linkedList.PalindromeLinkedList.executor": "Run",
     "Application.partitionLinkedListGivenData.executor": "Run",
     "Application.reverseNumberusingLinkedlist.executor": "Run",
     "Application.revision.DetectLoopInLinkedList.executor": "Run",
     "Application.revision.LazyMain.executor": "Run",
     "Application.revision.ThreadSafeMain.executor": "Run",
-    "Application.romanToInteger.executor": "Debug",
+    "Application.romanToInteger.executor": "Run",
     "Application.string.Hello.executor": "Run",
     "Application.string.revision.ReverseEachWord.executor": "Run",
     "Application.stringrevision.ReverseWords.executor": "Run",
@@ -575,7 +575,7 @@
     ]
   }
 }]]></component>
-  <component name="RunManager" selected="Application.RomanToInteger">
+  <component name="RunManager" selected="Application.firstNonRepeatingCharacter">
     <configuration name="RomanToInteger" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="top100dsa.revision.RomanToInteger" />
       <module name="Dsa" />
@@ -602,8 +602,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SortColorsBruiteForce" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="top100dsa.SortColorsBruiteForce" />
+    <configuration name="SortColorsUsingJava8" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="top100dsa.SortColorsUsingJava8" />
       <module name="Dsa" />
       <extension name="coverage">
         <pattern>
@@ -615,12 +615,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SortColorsUsingJava8" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="top100dsa.SortColorsUsingJava8" />
+    <configuration name="firstNonRepeatingCharacter" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="revision.firstNonRepeatingCharacter" />
       <module name="Dsa" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="top100dsa.*" />
+          <option name="PATTERN" value="revision.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -643,11 +643,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.firstNonRepeatingCharacter" />
+        <item itemvalue="Application.romanToInteger" />
         <item itemvalue="Application.RomanToInteger" />
         <item itemvalue="Application.RomanToIntegerUsingSwithc" />
-        <item itemvalue="Application.romanToInteger" />
         <item itemvalue="Application.SortColorsUsingJava8" />
-        <item itemvalue="Application.SortColorsBruiteForce" />
       </list>
     </recent_temporary>
   </component>
@@ -669,38 +669,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1751545643062</updated>
-    </task>
-    <task id="LOCAL-00855" summary="workspace.xml">
-      <option name="closed" value="true" />
-      <created>1789125103290</created>
-      <option name="number" value="00855" />
-      <option name="presentableId" value="LOCAL-00855" />
-      <option name="project" value="LOCAL" />
-      <updated>1789125103290</updated>
-    </task>
-    <task id="LOCAL-00856" summary="workspace.xml">
-      <option name="closed" value="true" />
-      <created>1789125113704</created>
-      <option name="number" value="00856" />
-      <option name="presentableId" value="LOCAL-00856" />
-      <option name="project" value="LOCAL" />
-      <updated>1789125113704</updated>
-    </task>
-    <task id="LOCAL-00857" summary="workspace.xml">
-      <option name="closed" value="true" />
-      <created>1789125124620</created>
-      <option name="number" value="00857" />
-      <option name="presentableId" value="LOCAL-00857" />
-      <option name="project" value="LOCAL" />
-      <updated>1789125124620</updated>
-    </task>
-    <task id="LOCAL-00858" summary="workspace.xml">
-      <option name="closed" value="true" />
-      <created>1789125132510</created>
-      <option name="number" value="00858" />
-      <option name="presentableId" value="LOCAL-00858" />
-      <option name="project" value="LOCAL" />
-      <updated>1789125132510</updated>
     </task>
     <task id="LOCAL-00859" summary="workspace.xml">
       <option name="closed" value="true" />
@@ -1062,7 +1030,39 @@
       <option name="project" value="LOCAL" />
       <updated>1790165411097</updated>
     </task>
-    <option name="localTasksCounter" value="904" />
+    <task id="LOCAL-00904" summary="RomanToInteger">
+      <option name="closed" value="true" />
+      <created>1790226994122</created>
+      <option name="number" value="00904" />
+      <option name="presentableId" value="LOCAL-00904" />
+      <option name="project" value="LOCAL" />
+      <updated>1790226994122</updated>
+    </task>
+    <task id="LOCAL-00905" summary="RomanToInteger">
+      <option name="closed" value="true" />
+      <created>1790227002577</created>
+      <option name="number" value="00905" />
+      <option name="presentableId" value="LOCAL-00905" />
+      <option name="project" value="LOCAL" />
+      <updated>1790227002577</updated>
+    </task>
+    <task id="LOCAL-00906" summary="RomanToInteger">
+      <option name="closed" value="true" />
+      <created>1790227014152</created>
+      <option name="number" value="00906" />
+      <option name="presentableId" value="LOCAL-00906" />
+      <option name="project" value="LOCAL" />
+      <updated>1790227014152</updated>
+    </task>
+    <task id="LOCAL-00907" summary="RomanToInteger">
+      <option name="closed" value="true" />
+      <created>1790227021126</created>
+      <option name="number" value="00907" />
+      <option name="presentableId" value="LOCAL-00907" />
+      <option name="project" value="LOCAL" />
+      <updated>1790227021126</updated>
+    </task>
+    <option name="localTasksCounter" value="908" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -1080,7 +1080,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="ValidPalindromeJava81" />
     <MESSAGE value="SquaresOfSortedArray" />
     <MESSAGE value="SquaresOfSortedArrayUsingJava8" />
     <MESSAGE value="SquaresOfSortedArrayUsingTwoPointer" />
@@ -1105,7 +1104,8 @@
     <MESSAGE value="RemoveLinkedListElementsUsingFastAndSlow" />
     <MESSAGE value="setColor problem using brute force code" />
     <MESSAGE value="setColor problem using java 8 approach" />
-    <option name="LAST_COMMIT_MESSAGE" value="setColor problem using java 8 approach" />
+    <MESSAGE value="RomanToInteger" />
+    <option name="LAST_COMMIT_MESSAGE" value="RomanToInteger" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1310,11 +1310,6 @@
           <url>file://$PROJECT_DIR$/DataStracture/src/top100dsa/RemoveLinkedListElementsUsingFastAndSlow.java</url>
           <line>34</line>
           <option name="timeStamp" value="59" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/DataStracture/src/top100dsa/romanToInteger.java</url>
-          <line>33</line>
-          <option name="timeStamp" value="61" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/DataStracture/src/linkedList/DeleteWithoutHead.java</url>
