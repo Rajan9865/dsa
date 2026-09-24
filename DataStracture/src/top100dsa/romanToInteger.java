@@ -11,9 +11,7 @@ import java.util.Map;
  */
 public class romanToInteger {
     static void main() {
-//        String[] str={}
-//        java.lang.String ={"|||", "IV", "CM"};
-        String[] str = {"III", "IV", "CM"};
+        String[] str = {"III", "IV", "CM", "IX"};
         for (String s : str) {
             int result = romanToIntegers(s);
             System.out.println(s + "->" + result);
