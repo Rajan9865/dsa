@@ -1,5 +1,7 @@
 package playground.interviewBase;
 
+import java.util.LinkedHashSet;
+import java.util.Set;
 import java.util.stream.Collectors;
 
 /**
@@ -11,8 +13,21 @@ import java.util.stream.Collectors;
 public class RemoveDuplicateCharacters {
     static void main() {
         String str = "programming";
-        String result = removeDuplicateCharacter(str);
+//        String result = removeDuplicateCharacter(str);
+        String result = removeDuplicateCharacterUsingTraditionalApproach(str);
         System.out.println(result);
+    }
+
+    private static String removeDuplicateCharacterUsingTraditionalApproach(String str) {
+        Set<Character> set = new LinkedHashSet<>();
+        for (char ch : str.toCharArray()) {
+            set.add(ch);
+        }
+        StringBuilder sb = new StringBuilder();
+        for (char ch : set) {
+            sb.append(ch);
+        }
+        return sb.toString();
     }
 
     private static String removeDuplicateCharacter(String str) {
