@@ -4,10 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ff3856c1-c1ca-4aca-a6ef-fd33bd67f435" name="Changes" comment="RomanToInteger">
-      <change afterPath="$PROJECT_DIR$/DataStracture/src/revision/firstNonRepeatingCharacter.java" afterDir="false" />
+    <list default="true" id="ff3856c1-c1ca-4aca-a6ef-fd33bd67f435" name="Changes" comment="FirstRepeatingCharacter">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DataStracture/src/top100dsa/romanToInteger.java" beforeDir="false" afterPath="$PROJECT_DIR$/DataStracture/src/top100dsa/romanToInteger.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,7 +45,7 @@
     </selectedModels>
   </component>
   <component name="EmbeddingIndexingInfo">
-    <option name="cachedIndexableFilesCount" value="358" />
+    <option name="cachedIndexableFilesCount" value="420" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -107,61 +105,61 @@
   </component>
   <component name="NextEditCompletionFeaturesState">
     <decayedCancelled>
-      <entry key="MS100" value="2.677915526594581E-68" />
-      <entry key="MS500" value="3.0588584103946814E-14" />
-      <entry key="S2" value="4.1820747542177625E-4" />
-      <entry key="S5" value="0.044922046360079605" />
-      <entry key="S10" value="0.2381261579310229" />
-      <entry key="S30" value="1.1995873066020735" />
-      <entry key="S60" value="2.675771550195653" />
-      <entry key="M2" value="5.203060204694187" />
-      <entry key="M5" value="10.498991493047763" />
-      <entry key="M10" value="15.51247035361745" />
-      <entry key="M15" value="18.364131133904593" />
-      <entry key="M30" value="22.547520726522873" />
-      <entry key="H1" value="27.215246458243044" />
-      <entry key="H2" value="37.52574973129634" />
-      <entry key="H4" value="54.780450665501796" />
-      <entry key="D1" value="201.65427715773492" />
-      <entry key="W1" value="826.6288788210229" />
+      <entry key="MS100" value="3.7203149464774466E-8" />
+      <entry key="MS500" value="0.032667503131415754" />
+      <entry key="S2" value="0.42539389198991134" />
+      <entry key="S5" value="0.7468813493647815" />
+      <entry key="S10" value="1.0341553304945426" />
+      <entry key="S30" value="1.5208623538007349" />
+      <entry key="S60" value="1.7313131392640309" />
+      <entry key="M2" value="1.9152093329674351" />
+      <entry key="M5" value="4.333885502043801" />
+      <entry key="M10" value="12.888964408620197" />
+      <entry key="M15" value="21.997300178234138" />
+      <entry key="M30" value="43.66984251622638" />
+      <entry key="H1" value="68.06482690295053" />
+      <entry key="H2" value="92.88716601602063" />
+      <entry key="H4" value="119.82971360140844" />
+      <entry key="D1" value="276.93744479001305" />
+      <entry key="W1" value="906.0820906096635" />
     </decayedCancelled>
     <decayedSelected>
-      <entry key="MS100" value="1.0000000000007387" />
-      <entry key="MS500" value="1.0037471254661143" />
-      <entry key="S2" value="1.2474150374843627" />
-      <entry key="S5" value="1.5765323636037378" />
-      <entry key="S10" value="1.8571007411679323" />
-      <entry key="S30" value="3.2612200907934015" />
-      <entry key="S60" value="5.852540380910097" />
-      <entry key="M2" value="10.264650945331333" />
-      <entry key="M5" value="18.310082383011075" />
-      <entry key="M10" value="24.926829280752784" />
-      <entry key="M15" value="28.399081858704854" />
-      <entry key="M30" value="33.1610882116606" />
-      <entry key="H1" value="37.689243024597154" />
-      <entry key="H2" value="46.22227939040849" />
-      <entry key="H4" value="59.8704169672858" />
-      <entry key="D1" value="169.57825302571766" />
-      <entry key="W1" value="769.4146407068625" />
+      <entry key="MS100" value="1.0" />
+      <entry key="MS500" value="1.000000000000096" />
+      <entry key="S2" value="1.0005566507954713" />
+      <entry key="S5" value="1.0507981990220183" />
+      <entry key="S10" value="1.2531440126383095" />
+      <entry key="S30" value="1.916578285157216" />
+      <entry key="S60" value="2.3393259163032223" />
+      <entry key="M2" value="2.82724223492054" />
+      <entry key="M5" value="7.082750833495635" />
+      <entry key="M10" value="19.182957878316603" />
+      <entry key="M15" value="32.32342034645262" />
+      <entry key="M30" value="65.53976941577243" />
+      <entry key="H1" value="103.50751111598974" />
+      <entry key="H2" value="138.0638564562136" />
+      <entry key="H4" value="168.7770201090989" />
+      <entry key="D1" value="295.9352225336685" />
+      <entry key="W1" value="900.0114061188629" />
     </decayedSelected>
     <decayedShown>
-      <entry key="MS100" value="6.180452118995509E-4" />
-      <entry key="MS500" value="0.2282688027910696" />
-      <entry key="S2" value="0.7976122547032293" />
-      <entry key="S5" value="1.3102938363831793" />
-      <entry key="S10" value="1.867564718609012" />
-      <entry key="S30" value="4.268286569871688" />
-      <entry key="S60" value="8.328560473554996" />
-      <entry key="M2" value="15.284680224309183" />
-      <entry key="M5" value="28.677415922631592" />
-      <entry key="M10" value="40.3481287324032" />
-      <entry key="M15" value="46.69306448197094" />
-      <entry key="M30" value="55.66683801263369" />
-      <entry key="H1" value="64.88054101891917" />
-      <entry key="H2" value="83.73346250858384" />
-      <entry key="H4" value="114.64158176715863" />
-      <entry key="D1" value="371.2286342443184" />
-      <entry key="W1" value="1596.041236397358" />
+      <entry key="MS100" value="2.824302637951593E-4" />
+      <entry key="MS500" value="0.22745827945030808" />
+      <entry key="S2" value="1.0894116616025977" />
+      <entry key="S5" value="1.6365383011215382" />
+      <entry key="S10" value="2.1819784103195743" />
+      <entry key="S30" value="3.3747675554670953" />
+      <entry key="S60" value="4.0300628549421464" />
+      <entry key="M2" value="4.715658924379197" />
+      <entry key="M5" value="11.37183413005155" />
+      <entry key="M10" value="31.999313806721588" />
+      <entry key="M15" value="54.23709787324457" />
+      <entry key="M30" value="109.12494173225093" />
+      <entry key="H1" value="171.5060951347429" />
+      <entry key="H2" value="230.90720305482628" />
+      <entry key="H4" value="288.5801670395524" />
+      <entry key="D1" value="572.8654294348958" />
+      <entry key="W1" value="1806.0907203135819" />
     </decayedShown>
   </component>
   <component name="ProjectColorInfo">{
@@ -294,8 +292,10 @@
     "Application.FindDuplicatesWithoutGroupingBy.executor": "Run",
     "Application.FindFirstNode.executor": "Run",
     "Application.FindlengthofLoop.executor": "Run",
+    "Application.FirstNonRepatingCharacter.executor": "Run",
     "Application.FirstNonRepeatedChar.executor": "Run",
     "Application.FirstNonRepeatingCharacter.executor": "Run",
+    "Application.FirstRepeatingCharacter.executor": "Run",
     "Application.FlatMapExample.executor": "Run",
     "Application.FlattenFilterSort.executor": "Run",
     "Application.FlattenList.executor": "Run",
@@ -566,7 +566,7 @@
     "project.structure.last.edited": "Artifacts",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "editor.preferences.fonts.default",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
     "to.speed.mode.migration.done": "true"
   },
   "keyToStringList": {
@@ -575,39 +575,39 @@
     ]
   }
 }]]></component>
-  <component name="RunManager" selected="Application.firstNonRepeatingCharacter">
+  <component name="RunManager" selected="Application.FirstRepeatingCharacter">
+    <configuration name="FirstNonRepatingCharacter" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="playground.FirstNonRepatingCharacter" />
+      <module name="Dsa" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="playground.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FirstRepeatingCharacter" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="playground.interviewBase.FirstRepeatingCharacter" />
+      <module name="Dsa" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="playground.interviewBase.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="RomanToInteger" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="top100dsa.revision.RomanToInteger" />
       <module name="Dsa" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="top100dsa.revision.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="RomanToIntegerUsingSwithc" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="top100dsa.RomanToIntegerUsingSwithc" />
-      <module name="Dsa" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="top100dsa.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SortColorsUsingJava8" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="top100dsa.SortColorsUsingJava8" />
-      <module name="Dsa" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="top100dsa.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -643,11 +643,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.FirstRepeatingCharacter" />
+        <item itemvalue="Application.FirstNonRepatingCharacter" />
         <item itemvalue="Application.firstNonRepeatingCharacter" />
         <item itemvalue="Application.romanToInteger" />
         <item itemvalue="Application.RomanToInteger" />
-        <item itemvalue="Application.RomanToIntegerUsingSwithc" />
-        <item itemvalue="Application.SortColorsUsingJava8" />
       </list>
     </recent_temporary>
   </component>
@@ -669,54 +669,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1751545643062</updated>
-    </task>
-    <task id="LOCAL-00859" summary="workspace.xml">
-      <option name="closed" value="true" />
-      <created>1789125140074</created>
-      <option name="number" value="00859" />
-      <option name="presentableId" value="LOCAL-00859" />
-      <option name="project" value="LOCAL" />
-      <updated>1789125140074</updated>
-    </task>
-    <task id="LOCAL-00860" summary="workspace.xml">
-      <option name="closed" value="true" />
-      <created>1789125149290</created>
-      <option name="number" value="00860" />
-      <option name="presentableId" value="LOCAL-00860" />
-      <option name="project" value="LOCAL" />
-      <updated>1789125149290</updated>
-    </task>
-    <task id="LOCAL-00861" summary="workspace.xml">
-      <option name="closed" value="true" />
-      <created>1789125157467</created>
-      <option name="number" value="00861" />
-      <option name="presentableId" value="LOCAL-00861" />
-      <option name="project" value="LOCAL" />
-      <updated>1789125157468</updated>
-    </task>
-    <task id="LOCAL-00862" summary="workspace.xml">
-      <option name="closed" value="true" />
-      <created>1789125166012</created>
-      <option name="number" value="00862" />
-      <option name="presentableId" value="LOCAL-00862" />
-      <option name="project" value="LOCAL" />
-      <updated>1789125166012</updated>
-    </task>
-    <task id="LOCAL-00863" summary="workspace.xml">
-      <option name="closed" value="true" />
-      <created>1789361568467</created>
-      <option name="number" value="00863" />
-      <option name="presentableId" value="LOCAL-00863" />
-      <option name="project" value="LOCAL" />
-      <updated>1789361568467</updated>
-    </task>
-    <task id="LOCAL-00864" summary="workspace.xml">
-      <option name="closed" value="true" />
-      <created>1789377630759</created>
-      <option name="number" value="00864" />
-      <option name="presentableId" value="LOCAL-00864" />
-      <option name="project" value="LOCAL" />
-      <updated>1789377630759</updated>
     </task>
     <task id="LOCAL-00865" summary="SquaresOfSortedArray">
       <option name="closed" value="true" />
@@ -1062,7 +1014,55 @@
       <option name="project" value="LOCAL" />
       <updated>1790227021126</updated>
     </task>
-    <option name="localTasksCounter" value="908" />
+    <task id="LOCAL-00908" summary="RomanToInteger">
+      <option name="closed" value="true" />
+      <created>1790244461262</created>
+      <option name="number" value="00908" />
+      <option name="presentableId" value="LOCAL-00908" />
+      <option name="project" value="LOCAL" />
+      <updated>1790244461263</updated>
+    </task>
+    <task id="LOCAL-00909" summary="RomanToInteger">
+      <option name="closed" value="true" />
+      <created>1790244474183</created>
+      <option name="number" value="00909" />
+      <option name="presentableId" value="LOCAL-00909" />
+      <option name="project" value="LOCAL" />
+      <updated>1790244474183</updated>
+    </task>
+    <task id="LOCAL-00910" summary="RomanToInteger">
+      <option name="closed" value="true" />
+      <created>1790244481696</created>
+      <option name="number" value="00910" />
+      <option name="presentableId" value="LOCAL-00910" />
+      <option name="project" value="LOCAL" />
+      <updated>1790244481696</updated>
+    </task>
+    <task id="LOCAL-00911" summary="FirstNonRepatingCharacter">
+      <option name="closed" value="true" />
+      <created>1790257884165</created>
+      <option name="number" value="00911" />
+      <option name="presentableId" value="LOCAL-00911" />
+      <option name="project" value="LOCAL" />
+      <updated>1790257884166</updated>
+    </task>
+    <task id="LOCAL-00912" summary="FirstNonRepatingCharacter">
+      <option name="closed" value="true" />
+      <created>1790257892279</created>
+      <option name="number" value="00912" />
+      <option name="presentableId" value="LOCAL-00912" />
+      <option name="project" value="LOCAL" />
+      <updated>1790257892279</updated>
+    </task>
+    <task id="LOCAL-00913" summary="FirstRepeatingCharacter">
+      <option name="closed" value="true" />
+      <created>1790257907447</created>
+      <option name="number" value="00913" />
+      <option name="presentableId" value="LOCAL-00913" />
+      <option name="project" value="LOCAL" />
+      <updated>1790257907447</updated>
+    </task>
+    <option name="localTasksCounter" value="914" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -1080,8 +1080,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="SquaresOfSortedArray" />
-    <MESSAGE value="SquaresOfSortedArrayUsingJava8" />
     <MESSAGE value="SquaresOfSortedArrayUsingTwoPointer" />
     <MESSAGE value="node" />
     <MESSAGE value="MiddleOfLinkedList brute force using middle check" />
@@ -1105,7 +1103,9 @@
     <MESSAGE value="setColor problem using brute force code" />
     <MESSAGE value="setColor problem using java 8 approach" />
     <MESSAGE value="RomanToInteger" />
-    <option name="LAST_COMMIT_MESSAGE" value="RomanToInteger" />
+    <MESSAGE value="FirstNonRepatingCharacter" />
+    <MESSAGE value="FirstRepeatingCharacter" />
+    <option name="LAST_COMMIT_MESSAGE" value="FirstRepeatingCharacter" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
