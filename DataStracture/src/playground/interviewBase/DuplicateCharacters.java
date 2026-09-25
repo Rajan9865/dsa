@@ -1,8 +1,6 @@
 package playground.interviewBase;
 
-import java.util.LinkedHashMap;
-import java.util.List;
-import java.util.Map;
+import java.util.*;
 import java.util.function.Function;
 import java.util.stream.Collectors;
 
@@ -15,10 +13,20 @@ import java.util.stream.Collectors;
 public class DuplicateCharacters {
     static void main() {
         String str = "programming";
-        List<Character> result = findDuplicateCharacter(str);
+//        List<Character> result = findDuplicateCharacter(str);
         List<Character> result = findDuplicateCharacterUsingTradinationalApproach(str);
         System.out.println("duplicate characters: " + result);
+    }
 
+    private static List<Character> findDuplicateCharacterUsingTradinationalApproach(String str) {
+        Set<Character> seen = new HashSet<>();
+        Set<Character> duplicates = new HashSet<>();
+        for (char ch : str.toCharArray()) {
+            if (!seen.add(ch)) {
+                duplicates.add(ch);
+            }
+        }
+        return new ArrayList<>(duplicates);
     }
 
     private static List<Character> findDuplicateCharacter(String str) {
