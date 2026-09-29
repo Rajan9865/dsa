@@ -4,9 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ff3856c1-c1ca-4aca-a6ef-fd33bd67f435" name="Changes" comment="workspace.xml">
-      <change afterPath="$PROJECT_DIR$/DataStracture/src/playground/interviewBase/CharacterFrequency.java" afterDir="false" />
+    <list default="true" id="ff3856c1-c1ca-4aca-a6ef-fd33bd67f435" name="Changes" comment="CountVowels">
+      <change afterPath="$PROJECT_DIR$/DataStracture/src/playground/interviewBase/countConsonantsUsingJava8.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataStracture/src/playground/interviewBase/LeastFrequentCharacterUsingJava8.java" beforeDir="false" afterPath="$PROJECT_DIR$/DataStracture/src/playground/interviewBase/LeastFrequentCharacterUsingJava8.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,7 +47,7 @@
     </selectedModels>
   </component>
   <component name="EmbeddingIndexingInfo">
-    <option name="cachedIndexableFilesCount" value="420" />
+    <option name="cachedIndexableFilesCount" value="427" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -106,61 +107,61 @@
   </component>
   <component name="NextEditCompletionFeaturesState">
     <decayedCancelled>
-      <entry key="MS100" value="1.0" />
-      <entry key="MS500" value="1.0" />
-      <entry key="S2" value="1.0000631653476775" />
-      <entry key="S5" value="1.0370534145105652" />
-      <entry key="S10" value="1.331236754963925" />
-      <entry key="S30" value="2.668331246781033" />
-      <entry key="S60" value="4.102818017185546" />
-      <entry key="M2" value="6.8116991307051" />
-      <entry key="M5" value="12.538843822156178" />
-      <entry key="M10" value="16.623376390124882" />
-      <entry key="M15" value="18.43601678017758" />
-      <entry key="M30" value="20.543597861222448" />
-      <entry key="H1" value="21.72581145149945" />
-      <entry key="H2" value="22.7666431802901" />
-      <entry key="H4" value="30.698434329501836" />
-      <entry key="D1" value="199.4307393367893" />
-      <entry key="W1" value="872.5919980129472" />
+      <entry key="MS100" value="5.164659042667042E-7" />
+      <entry key="MS500" value="0.07316901794501328" />
+      <entry key="S2" value="0.8507074953098209" />
+      <entry key="S5" value="1.4174363051349135" />
+      <entry key="S10" value="1.6830437736857882" />
+      <entry key="S30" value="1.9157999115184996" />
+      <entry key="S60" value="2.3949537603877027" />
+      <entry key="M2" value="4.311969933426212" />
+      <entry key="M5" value="10.996788383460881" />
+      <entry key="M10" value="18.23689381754685" />
+      <entry key="M15" value="22.224151698348674" />
+      <entry key="M30" value="29.666177679868976" />
+      <entry key="H1" value="47.421855201198284" />
+      <entry key="H2" value="81.25068797870878" />
+      <entry key="H4" value="122.02149130695396" />
+      <entry key="D1" value="326.5937360939528" />
+      <entry key="W1" value="1017.0229258740251" />
     </decayedCancelled>
     <decayedSelected>
-      <entry key="MS100" value="9.87059558572707E-12" />
-      <entry key="MS500" value="0.006293985177102567" />
-      <entry key="S2" value="0.32341534949528555" />
-      <entry key="S5" value="1.1601249508449483" />
-      <entry key="S10" value="2.508629581997464" />
-      <entry key="S30" value="5.953615816643077" />
-      <entry key="S60" value="9.214439491568394" />
-      <entry key="M2" value="14.910628805521204" />
-      <entry key="M5" value="25.474303464819595" />
-      <entry key="M10" value="32.483358201448915" />
-      <entry key="M15" value="35.51562010243067" />
-      <entry key="M30" value="38.99562299412712" />
-      <entry key="H1" value="40.92903237750883" />
-      <entry key="H2" value="42.56451231416068" />
-      <entry key="H4" value="53.77314735443471" />
-      <entry key="D1" value="231.5033763420712" />
-      <entry key="W1" value="886.8948475246265" />
+      <entry key="MS100" value="1.0" />
+      <entry key="MS500" value="1.0000004561463156" />
+      <entry key="S2" value="1.0259881905742159" />
+      <entry key="S5" value="1.2322257729817123" />
+      <entry key="S10" value="1.4819000006739163" />
+      <entry key="S30" value="1.8146323765054424" />
+      <entry key="S60" value="2.3699131185882365" />
+      <entry key="M2" value="4.527382729908066" />
+      <entry key="M5" value="11.83702560192984" />
+      <entry key="M10" value="19.335488597888997" />
+      <entry key="M15" value="23.430830329774125" />
+      <entry key="M30" value="32.4882695748766" />
+      <entry key="H1" value="57.12989589141343" />
+      <entry key="H2" value="103.01151457784671" />
+      <entry key="H4" value="157.59948422780906" />
+      <entry key="D1" value="387.962839056896" />
+      <entry key="W1" value="1065.7792250584284" />
     </decayedSelected>
     <decayedShown>
-      <entry key="MS100" value="7.51430916348216E-5" />
-      <entry key="MS500" value="0.14983466278887128" />
-      <entry key="S2" value="0.7564493569623981" />
-      <entry key="S5" value="1.679748306261399" />
-      <entry key="S10" value="3.3188511953276425" />
-      <entry key="S30" value="8.226367395487818" />
-      <entry key="S60" value="13.027852894121844" />
-      <entry key="M2" value="21.500843574392917" />
-      <entry key="M5" value="37.866386428277465" />
-      <entry key="M10" value="49.01378072294489" />
-      <entry key="M15" value="53.88399680526495" />
-      <entry key="M30" value="59.50213984226056" />
-      <entry key="H1" value="62.635395785177565" />
-      <entry key="H2" value="65.32099651198024" />
-      <entry key="H4" value="84.4647595745915" />
-      <entry key="D1" value="430.92865404139013" />
-      <entry key="W1" value="1759.4841206815765" />
+      <entry key="MS100" value="9.176788845090698E-4" />
+      <entry key="MS500" value="0.30895653545543633" />
+      <entry key="S2" value="1.5441968655025236" />
+      <entry key="S5" value="2.4607561957372646" />
+      <entry key="S10" value="3.042673287478909" />
+      <entry key="S30" value="3.6769537470217526" />
+      <entry key="S60" value="4.721169850397557" />
+      <entry key="M2" value="8.775775906711885" />
+      <entry key="M5" value="22.74040295246756" />
+      <entry key="M10" value="37.48735407170766" />
+      <entry key="M15" value="45.58408180208158" />
+      <entry key="M30" value="62.10546338209733" />
+      <entry key="H1" value="104.51230375167522" />
+      <entry key="H2" value="184.2292487450368" />
+      <entry key="H4" value="279.5966627916162" />
+      <entry key="D1" value="714.546964247336" />
+      <entry key="W1" value="2082.798751308379" />
     </decayedShown>
   </component>
   <component name="ProjectColorInfo">{
@@ -234,6 +235,7 @@
     &quot;Application.CountLongProductsPerCategory.executor&quot;: &quot;Run&quot;,
     &quot;Application.CountOccurrences.executor&quot;: &quot;Run&quot;,
     &quot;Application.CountPairs.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.CountVowels.executor&quot;: &quot;Run&quot;,
     &quot;Application.Countwordoccurrences.executor&quot;: &quot;Run&quot;,
     &quot;Application.CsvToDatabase.executor&quot;: &quot;Run&quot;,
     &quot;Application.CurryingExample.executor&quot;: &quot;Run&quot;,
@@ -324,6 +326,7 @@
     &quot;Application.LambdaFinalExample.executor&quot;: &quot;Run&quot;,
     &quot;Application.LatchExample.executor&quot;: &quot;Run&quot;,
     &quot;Application.LazyMain.executor&quot;: &quot;Run&quot;,
+    &quot;Application.LeastFrequentCharacterUsingJava8.executor&quot;: &quot;Run&quot;,
     &quot;Application.LimitedAccessExample.executor&quot;: &quot;Run&quot;,
     &quot;Application.LinkedListCycleUsingFastAndSlow.executor&quot;: &quot;Run&quot;,
     &quot;Application.ListBasedExample.executor&quot;: &quot;Run&quot;,
@@ -353,6 +356,7 @@
     &quot;Application.MiddleOfLinkedListUdingJava8.executor&quot;: &quot;Run&quot;,
     &quot;Application.MiddleOfLinkedListUsingFastAndSlowPointer.executor&quot;: &quot;Run&quot;,
     &quot;Application.MiddleofLinkedList.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.MostFrequentCharacter.executor&quot;: &quot;Run&quot;,
     &quot;Application.MostFrequentElement.executor&quot;: &quot;Run&quot;,
     &quot;Application.MostFrequentProducts.executor&quot;: &quot;Run&quot;,
     &quot;Application.MoveLastToFront.executor&quot;: &quot;Run&quot;,
@@ -395,6 +399,7 @@
     &quot;Application.Rearrange.executor&quot;: &quot;Run&quot;,
     &quot;Application.ReentrantExample.executor&quot;: &quot;Run&quot;,
     &quot;Application.RemoveAllDuplicates.executor&quot;: &quot;Run&quot;,
+    &quot;Application.RemoveDuplicateCharacters.executor&quot;: &quot;Run&quot;,
     &quot;Application.RemoveDuplicateVendors.executor&quot;: &quot;Run&quot;,
     &quot;Application.RemoveDuplicates.executor&quot;: &quot;Run&quot;,
     &quot;Application.RemoveDuplicatesArrayList.executor&quot;: &quot;Run&quot;,
@@ -576,9 +581,9 @@
     ]
   }
 }</component>
-  <component name="RunManager" selected="Application.CharacterFrequency">
-    <configuration name="CharacterFrequency" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="playground.interviewBase.CharacterFrequency" />
+  <component name="RunManager" selected="Application.CountVowels">
+    <configuration name="CountVowels" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="playground.interviewBase.CountVowels" />
       <module name="Dsa" />
       <extension name="coverage">
         <pattern>
@@ -590,21 +595,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FirstNonRepatingCharacter" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="playground.FirstNonRepatingCharacter" />
-      <module name="Dsa" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="playground.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="FirstRepeatingCharacter" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="playground.interviewBase.FirstRepeatingCharacter" />
+    <configuration name="DuplicateCharacters" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="playground.interviewBase.DuplicateCharacters" />
       <module name="Dsa" />
       <extension name="coverage">
         <pattern>
@@ -616,12 +608,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="firstNonRepeatingCharacter" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="revision.firstNonRepeatingCharacter" />
+    <configuration name="LeastFrequentCharacterUsingJava8" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="playground.interviewBase.LeastFrequentCharacterUsingJava8" />
       <module name="Dsa" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="revision.*" />
+          <option name="PATTERN" value="playground.interviewBase.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -629,12 +621,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="romanToInteger" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="top100dsa.romanToInteger" />
+    <configuration name="MostFrequentCharacter" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="playground.interviewBase.MostFrequentCharacter" />
       <module name="Dsa" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="top100dsa.*" />
+          <option name="PATTERN" value="playground.interviewBase.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RemoveDuplicateCharacters" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="playground.interviewBase.RemoveDuplicateCharacters" />
+      <module name="Dsa" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="playground.interviewBase.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -644,11 +649,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.CharacterFrequency" />
-        <item itemvalue="Application.FirstRepeatingCharacter" />
-        <item itemvalue="Application.FirstNonRepatingCharacter" />
-        <item itemvalue="Application.firstNonRepeatingCharacter" />
-        <item itemvalue="Application.romanToInteger" />
+        <item itemvalue="Application.CountVowels" />
+        <item itemvalue="Application.RemoveDuplicateCharacters" />
+        <item itemvalue="Application.MostFrequentCharacter" />
+        <item itemvalue="Application.LeastFrequentCharacterUsingJava8" />
+        <item itemvalue="Application.DuplicateCharacters" />
       </list>
     </recent_temporary>
   </component>
@@ -670,78 +675,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1751545643062</updated>
-    </task>
-    <task id="LOCAL-00866" summary="SquaresOfSortedArrayUsingJava8">
-      <option name="closed" value="true" />
-      <created>1789537383493</created>
-      <option name="number" value="00866" />
-      <option name="presentableId" value="LOCAL-00866" />
-      <option name="project" value="LOCAL" />
-      <updated>1789537383493</updated>
-    </task>
-    <task id="LOCAL-00867" summary="SquaresOfSortedArrayUsingTwoPointer">
-      <option name="closed" value="true" />
-      <created>1789537400907</created>
-      <option name="number" value="00867" />
-      <option name="presentableId" value="LOCAL-00867" />
-      <option name="project" value="LOCAL" />
-      <updated>1789537400907</updated>
-    </task>
-    <task id="LOCAL-00868" summary="workspace.xml">
-      <option name="closed" value="true" />
-      <created>1789537418875</created>
-      <option name="number" value="00868" />
-      <option name="presentableId" value="LOCAL-00868" />
-      <option name="project" value="LOCAL" />
-      <updated>1789537418875</updated>
-    </task>
-    <task id="LOCAL-00869" summary="node">
-      <option name="closed" value="true" />
-      <created>1789537733889</created>
-      <option name="number" value="00869" />
-      <option name="presentableId" value="LOCAL-00869" />
-      <option name="project" value="LOCAL" />
-      <updated>1789537733889</updated>
-    </task>
-    <task id="LOCAL-00870" summary="MergeSortedLinkedListsUsingTwoPointer">
-      <option name="closed" value="true" />
-      <created>1789541803482</created>
-      <option name="number" value="00870" />
-      <option name="presentableId" value="LOCAL-00870" />
-      <option name="project" value="LOCAL" />
-      <updated>1789541803482</updated>
-    </task>
-    <task id="LOCAL-00871" summary="MergeSortedLinkedListsUsingTwoPointer">
-      <option name="closed" value="true" />
-      <created>1789620406296</created>
-      <option name="number" value="00871" />
-      <option name="presentableId" value="LOCAL-00871" />
-      <option name="project" value="LOCAL" />
-      <updated>1789620406296</updated>
-    </task>
-    <task id="LOCAL-00872" summary="MergeSortedLinkedListsUsingTwoPointer">
-      <option name="closed" value="true" />
-      <created>1789620414656</created>
-      <option name="number" value="00872" />
-      <option name="presentableId" value="LOCAL-00872" />
-      <option name="project" value="LOCAL" />
-      <updated>1789620414656</updated>
-    </task>
-    <task id="LOCAL-00873" summary="MiddleOfLinkedList brute force using middle check">
-      <option name="closed" value="true" />
-      <created>1789623212029</created>
-      <option name="number" value="00873" />
-      <option name="presentableId" value="LOCAL-00873" />
-      <option name="project" value="LOCAL" />
-      <updated>1789623212029</updated>
-    </task>
-    <task id="LOCAL-00874" summary="MiddleOfLinkedList brute force using java 8 and taking O(n) , space O(n)">
-      <option name="closed" value="true" />
-      <created>1789623909752</created>
-      <option name="number" value="00874" />
-      <option name="presentableId" value="LOCAL-00874" />
-      <option name="project" value="LOCAL" />
-      <updated>1789623909752</updated>
     </task>
     <task id="LOCAL-00875" summary="MiddleOfLinkedList brute force using java 8 and taking complexity O(n) , space O(1)">
       <option name="closed" value="true" />
@@ -1063,7 +996,79 @@
       <option name="project" value="LOCAL" />
       <updated>1790313522503</updated>
     </task>
-    <option name="localTasksCounter" value="915" />
+    <task id="LOCAL-00915" summary="frequency count problem">
+      <option name="closed" value="true" />
+      <created>1790316023836</created>
+      <option name="number" value="00915" />
+      <option name="presentableId" value="LOCAL-00915" />
+      <option name="project" value="LOCAL" />
+      <updated>1790316023837</updated>
+    </task>
+    <task id="LOCAL-00916" summary="workspace.xml">
+      <option name="closed" value="true" />
+      <created>1790316037621</created>
+      <option name="number" value="00916" />
+      <option name="presentableId" value="LOCAL-00916" />
+      <option name="project" value="LOCAL" />
+      <updated>1790316037621</updated>
+    </task>
+    <task id="LOCAL-00917" summary="find DuplicateCharacters using java 8 approach">
+      <option name="closed" value="true" />
+      <created>1790317100966</created>
+      <option name="number" value="00917" />
+      <option name="presentableId" value="LOCAL-00917" />
+      <option name="project" value="LOCAL" />
+      <updated>1790317100966</updated>
+    </task>
+    <task id="LOCAL-00918" summary="find DuplicateCharacters using java traditional approach">
+      <option name="closed" value="true" />
+      <created>1790320115285</created>
+      <option name="number" value="00918" />
+      <option name="presentableId" value="LOCAL-00918" />
+      <option name="project" value="LOCAL" />
+      <updated>1790320115285</updated>
+    </task>
+    <task id="LOCAL-00919" summary="RemoveDuplicateCharacters using java 8 methods">
+      <option name="closed" value="true" />
+      <created>1790320510945</created>
+      <option name="number" value="00919" />
+      <option name="presentableId" value="LOCAL-00919" />
+      <option name="project" value="LOCAL" />
+      <updated>1790320510945</updated>
+    </task>
+    <task id="LOCAL-00920" summary="using linkedhashset">
+      <option name="closed" value="true" />
+      <created>1790320797138</created>
+      <option name="number" value="00920" />
+      <option name="presentableId" value="LOCAL-00920" />
+      <option name="project" value="LOCAL" />
+      <updated>1790320797138</updated>
+    </task>
+    <task id="LOCAL-00921" summary="MostFrequentCharacter">
+      <option name="closed" value="true" />
+      <created>1790322713124</created>
+      <option name="number" value="00921" />
+      <option name="presentableId" value="LOCAL-00921" />
+      <option name="project" value="LOCAL" />
+      <updated>1790322713124</updated>
+    </task>
+    <task id="LOCAL-00922" summary="LeastFrequentCharacterUsingJava8">
+      <option name="closed" value="true" />
+      <created>1790323069763</created>
+      <option name="number" value="00922" />
+      <option name="presentableId" value="LOCAL-00922" />
+      <option name="project" value="LOCAL" />
+      <updated>1790323069763</updated>
+    </task>
+    <task id="LOCAL-00923" summary="CountVowels">
+      <option name="closed" value="true" />
+      <created>1790658782311</created>
+      <option name="number" value="00923" />
+      <option name="presentableId" value="LOCAL-00923" />
+      <option name="project" value="LOCAL" />
+      <updated>1790658782311</updated>
+    </task>
+    <option name="localTasksCounter" value="924" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -1081,14 +1086,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="SquaresOfSortedArrayUsingTwoPointer" />
-    <MESSAGE value="node" />
-    <MESSAGE value="MiddleOfLinkedList brute force using middle check" />
-    <MESSAGE value="MiddleOfLinkedList brute force using java 8 and taking O(n) , space O(n)" />
-    <MESSAGE value="MiddleOfLinkedList brute force using java 8 and taking complexity O(n) , space O(1)" />
-    <MESSAGE value="MiddleOfLinkedList brute force using java 8 and taking complexity O(n) , space O(1) if node is even number" />
-    <MESSAGE value="MiddleOfLinkedList brute force using java 8 and taking complexity O(n) , space O(1) if node is even number , i want to expect 1st middle number" />
-    <MESSAGE value="data source" />
     <MESSAGE value="DetectLinkedListCycle using fast and slow pointer" />
     <MESSAGE value="MergeSortedLinkedListsUsingTwoPointer" />
     <MESSAGE value="TwoSumII" />
@@ -1105,8 +1102,16 @@
     <MESSAGE value="RomanToInteger" />
     <MESSAGE value="FirstNonRepatingCharacter" />
     <MESSAGE value="FirstRepeatingCharacter" />
+    <MESSAGE value="frequency count problem" />
     <MESSAGE value="workspace.xml" />
-    <option name="LAST_COMMIT_MESSAGE" value="workspace.xml" />
+    <MESSAGE value="find DuplicateCharacters using java 8 approach" />
+    <MESSAGE value="find DuplicateCharacters using java traditional approach" />
+    <MESSAGE value="RemoveDuplicateCharacters using java 8 methods" />
+    <MESSAGE value="using linkedhashset" />
+    <MESSAGE value="MostFrequentCharacter" />
+    <MESSAGE value="LeastFrequentCharacterUsingJava8" />
+    <MESSAGE value="CountVowels" />
+    <option name="LAST_COMMIT_MESSAGE" value="CountVowels" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
