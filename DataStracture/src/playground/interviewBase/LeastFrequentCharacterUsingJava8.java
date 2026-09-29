@@ -26,6 +26,5 @@ public class LeastFrequentCharacterUsingJava8 {
                 .min(Map.Entry.comparingByValue())
                 .map(Map.Entry::getKey)
                 .orElse(null);
-
     }
 }
