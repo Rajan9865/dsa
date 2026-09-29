@@ -13,8 +13,8 @@ import java.util.Set;
 public class CountVowels {
     static void main() {
         String str = "programming";
-//        Long result = countVowels(str);
-        Long result = countVowels2ndApproach(str);
+        Long result = countVowels(str);
+//        Long result = countVowels2ndApproach(str);
         System.out.println("countVowels :" + result);
     }
 
