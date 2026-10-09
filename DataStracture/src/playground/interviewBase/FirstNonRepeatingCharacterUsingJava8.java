@@ -16,8 +16,13 @@ public class FirstNonRepeatingCharacterUsingJava8 {
     static void main() {
         String str = "swwiss";
 //        Character result = firstNonRepeatingCharacter(str);
-        Character result = firstNonRepeatingCharacterUsingTraditional(str);
+//        Character result = firstNonRepeatingCharacterUsingTraditional(str);
+        Character result = firstNonRepeatingCharacterUsingTraditionalTraditional(str);
         System.out.println(" first non-repeating character: " + result);
+    }
+
+    private static Character firstNonRepeatingCharacterUsingTraditionalTraditional(String str) {
+        return null;
     }
 
     private static Character firstNonRepeatingCharacterUsingTraditional(String str) {
