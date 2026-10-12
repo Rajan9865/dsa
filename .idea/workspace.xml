@@ -4,11 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ff3856c1-c1ca-4aca-a6ef-fd33bd67f435" name="Changes" comment="firstNonRepeatingCharacterUsing Traditional methods">
-      <change afterPath="$PROJECT_DIR$/DataStracture/src/playground/interviewBase/FrequencyCountAndMaintainTheAscendingOrder.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DataStracture/src/playground/interviewBase/FirstNonRepeatingCharacterUsingJava8.java" beforeDir="false" afterPath="$PROJECT_DIR$/DataStracture/src/playground/interviewBase/FirstNonRepeatingCharacterUsingJava8.java" afterDir="false" />
-    </list>
+    <list default="true" id="ff3856c1-c1ca-4aca-a6ef-fd33bd67f435" name="Changes" comment="firstNonRepeatingCharacterUsing Traditional methods" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -680,30 +676,6 @@
       <option name="presentableId" value="Default" />
       <updated>1751545643062</updated>
     </task>
-    <task id="LOCAL-00884" summary="detectCycleFindtheStartingNodeofCycle">
-      <option name="closed" value="true" />
-      <created>1789971967481</created>
-      <option name="number" value="00884" />
-      <option name="presentableId" value="LOCAL-00884" />
-      <option name="project" value="LOCAL" />
-      <updated>1789971967481</updated>
-    </task>
-    <task id="LOCAL-00885" summary="detectCycleFindtheStartingNodeofCycle">
-      <option name="closed" value="true" />
-      <created>1789971973693</created>
-      <option name="number" value="00885" />
-      <option name="presentableId" value="LOCAL-00885" />
-      <option name="project" value="LOCAL" />
-      <updated>1789971973693</updated>
-    </task>
-    <task id="LOCAL-00886" summary="detectCycleFindtheStartingNodeofCycle">
-      <option name="closed" value="true" />
-      <created>1789972010903</created>
-      <option name="number" value="00886" />
-      <option name="presentableId" value="LOCAL-00886" />
-      <option name="project" value="LOCAL" />
-      <updated>1789972010903</updated>
-    </task>
     <task id="LOCAL-00887" summary="cycleLength problem on linkelist">
       <option name="closed" value="true" />
       <created>1789984554714</created>
@@ -1072,7 +1044,31 @@
       <option name="project" value="LOCAL" />
       <updated>1790751437641</updated>
     </task>
-    <option name="localTasksCounter" value="933" />
+    <task id="LOCAL-00933" summary="firstNonRepeatingCharacterUsing Traditional methods">
+      <option name="closed" value="true" />
+      <created>1791523600319</created>
+      <option name="number" value="00933" />
+      <option name="presentableId" value="LOCAL-00933" />
+      <option name="project" value="LOCAL" />
+      <updated>1791523600320</updated>
+    </task>
+    <task id="LOCAL-00934" summary="firstNonRepeatingCharacterUsing Traditional methods">
+      <option name="closed" value="true" />
+      <created>1791523614387</created>
+      <option name="number" value="00934" />
+      <option name="presentableId" value="LOCAL-00934" />
+      <option name="project" value="LOCAL" />
+      <updated>1791523614387</updated>
+    </task>
+    <task id="LOCAL-00935" summary="firstNonRepeatingCharacterUsing Traditional methods">
+      <option name="closed" value="true" />
+      <created>1791523623293</created>
+      <option name="number" value="00935" />
+      <option name="presentableId" value="LOCAL-00935" />
+      <option name="project" value="LOCAL" />
+      <updated>1791523623293</updated>
+    </task>
+    <option name="localTasksCounter" value="936" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
