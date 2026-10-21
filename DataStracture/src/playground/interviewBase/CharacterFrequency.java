@@ -15,11 +15,11 @@ import java.util.stream.Collectors;
 public class CharacterFrequency {
     static void main() {
         String str = "programming";
-        Map<Character, Integer> result = countFrequancy(str);
-//        Map<Character, Long> result1 = countFrequancyUsingJava8(str);
-        Map<Character, Long> result1 = countFrequancyUsingJava81(str);
+//        Map<Character, Integer> result = countFrequancy(str);
+        Map<Character, Long> result1 = countFrequancyUsingJava8(str);
+//        Map<Character, Long> result1 = countFrequancyUsingJava81(str);
         System.out.println("frequency of programming using java 8 " + result1);
-        System.out.println("frequency of programming: " + result);
+//        System.out.println("frequency of programming: " + result);
     }
 
     private static Map<Character, Long> countFrequancyUsingJava81(String str) {
